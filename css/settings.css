@@ -1,0 +1,14 @@
+/* SETTINGS  ("variables" in our case) */
+html {
+	--black: #111111;
+	--white: #FFFFFF;
+   --heading-blue: #277da1;
+   --dark: #281e3d;
+   --light: #b0a8b9 ;
+   --site-red:  #f14144;
+   --site-orange:  #f38824;
+
+   --gradient-1: linear-gradient(90deg, rgba(var(--primary),1) 0%, rgba(var(--secondary),1) 100%);
+}
+
+
