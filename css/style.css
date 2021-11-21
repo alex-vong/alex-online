@@ -66,6 +66,7 @@ h1 {
 
 p + p {
    margin-top:  15px;
+
 }
 
 h2 {
@@ -121,45 +122,45 @@ h2 {
 
 
 .project-card:nth-of-type(1) {
-   background: url(../../aol-images/30day.svg) no-repeat center center / cover;
+   background: url(../aol-images/30day.svg) no-repeat center center / cover;
    position: relative;
 }
 
 .project-card:nth-of-type(2) {
-   background: url(../../aol-images/poke.svg) no-repeat center center / cover;
+   background: url(../aol-images/poke.svg) no-repeat center center / cover;
    position: relative;
 }
 
 .project-card:nth-of-type(3) {
-   background: url(../../aol-images/pokedex2.svg) no-repeat center center / cover;
+   background: url(../aol-images/pokedex2.svg) no-repeat center center / cover;
    position: relative;
 }
 
 .project-card:nth-of-type(4) {
-   background: url(../../aol-images/aol.svg) no-repeat center center / cover;
+   background: url(../aol-images/aol.svg) no-repeat center center / cover;
    position: relative;
 }
 
 .project-card:nth-of-type(5) {
-   background: url(../../aol-images/tip.svg) no-repeat center center / cover;
+   background: url(../aol-images/tip.svg) no-repeat center center / cover;
    position: relative;
 }
 
 .project-card:nth-of-type(6) {
-   background: url(../../aol-images/pawsitive.svg) no-repeat center center / cover;
+   background: url(../aol-images/pawsitive.svg) no-repeat center center / cover;
    position: relative;
 }
 
 .project-card:nth-of-type(7) {
-   background: url(../../aol-images/theme-challenge.svg) no-repeat center center / cover;
+   background: url(../aol-images/theme-challenge.svg) no-repeat center center / cover;
    position: relative;
 }
 .project-card:nth-of-type(8) {
-   background: url(../../aol-images/ipw.svg) no-repeat center center / cover;
+   background: url(../aol-images/ipw.svg) no-repeat center center / cover;
    position: relative;
 }
 .project-card:nth-of-type(9) {
-   background: url(../../aol-images/monster.svg) no-repeat center center / cover;
+   background: url(../aol-images/monster.svg) no-repeat center center / cover;
    position: relative;
 }
 
