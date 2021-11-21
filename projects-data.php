@@ -7,7 +7,7 @@
  	[
  		"project-name" => "30-Day Responsive Layout",
  		"project-link" => "https://peprojects.dev/alpha-1/alexvong/30day-responsive-layout-challenge/",
- 		"project-description" => "Recreated one responsive components from a website I came across for 30 days ",
+ 		"project-description" => "Recreated one responsive components from a website I came across for 30 days using HTML, CSS, and PHP",
  		"project-img" => "aol-images/30day.svg",
  	],
 
@@ -15,7 +15,7 @@
 
 	 	"project-name" => "Pokedex",
 		"project-link" => "https://peprojects.dev/alpha-1/alexvong/pokedex/",
-		"project-description" => "A pokedex project after learning about Flexbox",
+		"project-description" => "A pokedex project after learning about Flexbox.",
  		"project-img" => "aol-images/poke.svg",
 
  	],
@@ -24,7 +24,7 @@
 
  	 "project-name" => "Pokedex v.2",
 	"project-link" => "https://peprojects.dev/alpha-1/alexvong/poke-dex/",
-	"project-description" => "An update to the pokedex after learning about PHP routing and JSON files",
+	"project-description" => "An update to the Pokedex project after learning about PHP routing and JSON files",
  	"project-img" => "aol-images/pokedex2.svg",
 
  	],
@@ -57,16 +57,16 @@
  	[
 	"project-name" => "Theme Layout Challenge",
 	"project-link" => "https://peprojects.dev/alpha-1/alexvong/theme-layout-challenge/",
-	"project-description" => "A website using repsonsible modules and components",
+	"project-description" => "An HTML, CSS, and PHP website using reuseable modules and components",
  		"project-img" => "aol-images/theme-challenge.svg",
 
  	],
 
  	[
 
- 	"project-name" => "Intergalactice Plant World",
+ 	"project-name" => "Intergalactic Plant World",
 	"project-link" => "https://peprojects.dev/alpha-1/alexvong/IPW/",
-	"project-description" => "Small Business website built for a 3 guys all named Jim",
+	"project-description" => "A Small Business website built for a 3 guys all named Jim using HTML and CSS",
  	"project-img" => "aol-images/ipw.svg",
 
  	],
@@ -75,7 +75,7 @@
  	 "project-name" => "Monster Adoption Agency",
 	"project-link" => "
  	https://peprojects.dev/alpha-1/alexvong/php-projects/monster/",
-	"project-description" => "First project using PHP. Learned to loop through an associative array to render content in a reusable component",
+	"project-description" => "First project using PHP. Learned to loop through an associative array to render content in reusable components",
  		"project-img" => "aol-images/monster.svg",
 
  	],
