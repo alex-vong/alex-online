@@ -20,7 +20,7 @@ body {
 
 .intro-voice	{
    font-family: montserrat, serif; 
-	font-size: clamp(18px, 2vw, 20px);
+	font-size: 18px;
    font-weight: 500;
    line-height: 1.5;
 
@@ -29,7 +29,8 @@ body {
 @media (min-width: 768px) {
    .intro-voice{
       width: 80%;
-      margin: auto;
+      margin-left: auto;
+      margin-right:  auto;
    }
 }
 
@@ -41,7 +42,7 @@ body {
 
 .stout-voice {
    font-family: montserrat, serif; 
-   font-size: clamp(25px, 2vw, 30px);
+   font-size: clamp(25px, 2.5vw, 35px);
    font-weight: 500;
    line-height: 1.5;
 
@@ -49,7 +50,7 @@ body {
 
 .calm-voice {
    font-family: lato, serif;
-	font-size: clamp(18px, 1.5vw, 20px);
+	font-size: 16px;
    line-height: 1.5;
 }
 
