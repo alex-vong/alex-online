@@ -15,7 +15,7 @@ a {
 
 p a {
 	display: inline;
-	color: blue;
+	color: var(--orchid);
 	text-decoration: underline;
 }
 

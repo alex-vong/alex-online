@@ -11,60 +11,72 @@ body {
 
 
 .loud-voice	{
-   font-family: 'Montserrat', sans-serif;
-	font-size: clamp(25px, 5vw, 40px);
-   font-weight: 700;
+   font-family: montserrat, serif; 
+	font-size: clamp(40px, 10vw, 60px);
+   font-weight: 600;
 
 
 }
 
 .intro-voice	{
-   font-family: 'Montserrat', sans-serif;
-	font-size: 40px;
+   font-family: montserrat, serif; 
+	font-size: clamp(18px, 2vw, 20px);
+   font-weight: 500;
+   line-height: 1.5;
+
+}
+
+@media (min-width: 768px) {
+   .intro-voice{
+      width: 80%;
+      margin: auto;
+   }
 }
 
 .attention-voice	{
-   font-family: 'Lato', serif;
-	font-size: clamp(25px, 5vw, 40px);
-   font-weight: 700;
+   font-family: montserrat, serif;
+	font-size: clamp(30px, 5vw, 40px);
+   font-weight: 600;
+}
+
+.stout-voice {
+   font-family: montserrat, serif; 
+   font-size: clamp(25px, 2vw, 30px);
+   font-weight: 500;
+   line-height: 1.5;
+
 }
 
 .calm-voice {
-   font-family: 'Lato', serif;
-	font-size: 16px;
-   line-height: 1.4;
+   font-family: lato, serif;
+	font-size: clamp(18px, 1.5vw, 20px);
+   line-height: 1.5;
 }
 
 .quiet-voice {
-    font-family: 'Montserrat', sans-serif;
-   font-size:  clamp(12px, 1vw, 14px);
-   line-height: 1.4;
+     font-family: lato, serif; 
+   font-size:  clamp(14px, 1vw, 16px);
+   line-height: 1.5;
 
 
 }
 
-/* these would be scoped to section or to an article element */
-/* this is just a loose setting for now */
-p + p {
-	margin-top: 14px;
+.projects a.calm-voice {
+  border:  1px solid white;
+  padding:  10px 15px;
+  align-self: center;
 }
 
-h1 + p {
-	margin-top: 20px;
+
+.intro-voice a {
+   display:  inline-block;
+   color:  var(--heading-blue);
+   text-decoration: underline;
 }
 
-h2 + p {
-	margin-top: 20px;
-}
 
-h2 + h3 {
-   margin:  20px 0;
-}
 
- div + p, div + h2, h2 + div, picture + p {
-   margin: 5px 0;
-}
 
-section + section {
-   margin:  15px 0;
-} 
+
+
+

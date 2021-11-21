@@ -2,16 +2,13 @@
 body {
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh; /* for the footer */
+	min-height: 100vh; 
    background-color: var(--white);
-   color:  var(--heading-blue);
-   overflow-x: hidden;
+   color:  var(--dark);
 
-   line-height: 1.5;
-   list-style: 0.5px;
-} 
+}
 
-/* explained here: https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer */
+
 
 main {
 	flex-grow:  1; /* push the footer down */
@@ -19,7 +16,7 @@ main {
 
 inner-column {
 	display:  block;
-	width: min(100%, 1100px); /* could be a variable in settings */
+	width: min(95%, 1100px); 
 	margin-right: auto;
 	margin-left: auto;
 	/*padding: 30px 14px; /* a default */*/
