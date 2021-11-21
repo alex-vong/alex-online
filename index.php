@@ -5,14 +5,13 @@
    <meta charset="UTF-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <title>AOL - Alex OnLine</title>
-   <meta name="description" content="Hi, my name is Alex. I am a Web Designer and Developer. I don't exactly know what I will design and build next, but I promise it won't be boring.">
+   <meta name="description" content="Hi, my name is Alex. I am an aspiring Web Designer and Developer.">
 
    <meta property="og:title" content="Alex On-Line" />
    <meta property="og:type" content="">
    <meta property="og:url" content="">
 
-   <meta property='og:url' content="https://peprojects.dev/alpha-1/alexvong/index.html">
-   <meta property='og:image' content="https://peprojects.dev/alpha-1/alexvong/images/alex-online.jpg">
+   <meta property='og:image' content="https://peprojects.dev/alpha-1/alexvong/aol-images/meta-image.png">
 
    <link rel='stylesheet' href='css/style.css'>
 </head>
@@ -39,7 +38,7 @@
             <p class="intro-voice">
             Hello, my name is <span>Alex</span>! Welcome to my website! I am currenlty a Student at Perpetual Education's 
             <a href="">"Design for the Web"</a>
-            Mentorship. This was one of the first websites I ever built and it will be where I keep all my projects and contact information while I work on my personal site.
+            Mentorship. This was one of the first websites I ever built and it will be where I keep all my projects and contact information while I work on my featured personal portfolio site. Stay tuned!
             </p>
 
             <p class="intro-voice">I also enjoy writing from time to time. If you are interested in reading some of my articles, here is a link to my <a href="https://alexvong.substack.com/">Substack</a></p>
