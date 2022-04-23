@@ -1,0 +1,127 @@
+
+<svg width="100%" height="100%" viewBox="0 0 300 204" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-4808.7,-1346.87)">
+        <g transform="matrix(1.01919,0,0,3.49152,2812.6,1.30385e-12)">
+            <g transform="matrix(0.360598,0,0,0.761374,537.065,-1199.9)">
+                <g transform="matrix(1.62608,0,0,0.218666,-4605.19,1722.42)">
+                    <rect x="5256.26" y="1647.31" width="501.995" height="350.083" style="fill:rgb(112,64,244);"/>
+                </g>
+                <g id="pokedex" transform="matrix(0.713667,0,0,0.0990953,3938.86,2089.34)">
+                    <g id="poke-dex">
+                        <path id="arms" d="M206,175L419,175C419,175 426,174 434,165L460,132C460,132 471,116 492,119L593,118L711,118C711,118 726,119 733,129L768,171C768,171 770,172 804,172L989,172L989,605L224,605L206,175Z" style="fill:rgb(232,72,72);stroke:black;stroke-width:11.41px;"/>
+                        <g id="base" transform="matrix(1.02089,0,0,1.02504,-19.5326,-11.0519)">
+                            <path d="M600,60.399C600,50.244 591.686,42 581.446,42L235.554,42C225.314,42 217,50.244 217,60.399L217,582.601C217,592.756 225.314,601 235.554,601L581.446,601C591.686,601 600,592.756 600,582.601L600,60.399Z" style="fill:rgb(232,72,72);stroke:black;stroke-width:11.16px;"/>
+                        </g>
+                    </g>
+                    <g id="panel">
+                        <g>
+                            <rect x="688" y="447" width="97" height="39" style="fill:rgb(230,230,230);stroke:black;stroke-width:5.71px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                        <path d="M736.5,447L736.5,486" style="fill:none;stroke:black;stroke-width:5.71px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                    </g>
+                    <g id="yellow-arm-btn" transform="matrix(1.125,0,0,1.125,-121.5,-63.375)">
+                        <ellipse cx="916" cy="471" rx="16" ry="15" style="fill:rgb(249,238,105);stroke:black;stroke-width:6.76px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                    </g>
+                    <g id="arm-bottom-btns">
+                        <g transform="matrix(0.959677,0,0,1,27.7419,-2)">
+                            <path d="M812,524.5C812,518.153 806.607,513 799.965,513L700.035,513C693.393,513 688,518.153 688,524.5L688,547.5C688,553.847 693.393,559 700.035,559L799.965,559C806.607,559 812,553.847 812,547.5L812,524.5Z" style="fill:rgb(102,102,102);stroke:black;stroke-width:5.82px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                        <g transform="matrix(0.637097,0,0,1,409.677,-2)">
+                            <path d="M812,524.5C812,518.153 803.877,513 793.871,513L706.129,513C696.123,513 688,518.153 688,524.5L688,547.5C688,553.847 696.123,559 706.129,559L793.871,559C803.877,559 812,553.847 812,547.5L812,524.5Z" style="fill:rgb(102,102,102);stroke:black;stroke-width:6.8px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                    </g>
+                    <g id="controller">
+                        <path id="joy-stick" d="M468.926,504.5L451.5,504.5C447.637,504.5 444.5,507.637 444.5,511.5L444.5,525.5C444.5,529.363 447.637,532.5 451.5,532.5L469.074,532.5L469.166,550.073C469.187,553.937 472.34,557.057 476.203,557.036L490.203,556.963C494.066,556.942 497.186,553.789 497.166,549.926L497.074,532.5L514.5,532.5C518.363,532.5 521.5,529.363 521.5,525.5L521.5,511.5C521.5,507.637 518.363,504.5 514.5,504.5L496.926,504.5L496.834,486.927C496.813,483.063 493.66,479.943 489.797,479.964L475.797,480.037C471.934,480.058 468.814,483.211 468.834,487.074L468.926,504.5Z" style="fill:rgb(77,77,77);stroke:black;stroke-width:5.71px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        <g id="hole-cross" transform="matrix(1.46154,0,0,1.46154,-223.154,-239.105)">
+                            <ellipse cx="483.5" cy="518.06" rx="6.5" ry="6.06" style="fill:rgb(77,77,77);stroke:black;stroke-width:3.9px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                    </g>
+                    <g id="gray-btns">
+                        <g id="left-grey-button" transform="matrix(1,0,0,1,-3,-1)">
+                            <path d="M873,412.5C873,411.12 871.875,410 870.489,410L832.511,410C831.125,410 830,411.12 830,412.5L830,417.5C830,418.88 831.125,420 832.511,420L870.489,420C871.875,420 873,418.88 873,417.5L873,412.5Z" style="fill:rgb(77,77,77);stroke:black;stroke-width:5.71px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                        <g id="right-gray-btn" transform="matrix(1,0,0,1,54,-1)">
+                            <path d="M873,412.5C873,411.12 871.875,410 870.489,410L832.511,410C831.125,410 830,411.12 830,412.5L830,417.5C830,418.88 831.125,420 832.511,420L870.489,420C871.875,420 873,418.88 873,417.5L873,412.5Z" style="fill:rgb(77,77,77);stroke:black;stroke-width:5.71px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                    </g>
+                    <g id="line-details">
+                        <path d="M689,582L649,582C649,582 639.659,584 639.659,565L639.659,287" style="fill:none;stroke:black;stroke-width:7.61px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        <path d="M737,327.233L736,385" style="fill:none;stroke:black;stroke-width:7.61px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        <g transform="matrix(1,0,0,1,141,0)">
+                            <path d="M737,327.233L736,385" style="fill:none;stroke:black;stroke-width:7.61px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                        <g transform="matrix(1,0,0,1,94,0)">
+                            <path d="M737,327.233L736,385" style="fill:none;stroke:black;stroke-width:7.61px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                        <g transform="matrix(1,0,0,1,47,0.883652)">
+                            <path d="M737,327.233L736,385" style="fill:none;stroke:black;stroke-width:7.61px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                        <path d="M898,190L970,190L970,573C970,573 971.499,586.75 956.25,586.75L719,586.75" style="fill:none;stroke:black;stroke-width:7.61px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        <path d="M639.659,225L639.659,136L712,136C712,136 746,189 769,188" style="fill:none;stroke:black;stroke-width:7.61px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        <path d="M556,322L556,474" style="fill:none;stroke:black;stroke-width:7.61px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        <path d="M221,190L416,190C416,190 431,191 442,178L473,144C473,144 480,136 486,136L556,136L556,279" style="fill:none;stroke:black;stroke-width:7.61px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        <path d="M232,585L539,585C539,585 555,587 558,569L558,504.81" style="fill:none;stroke:black;stroke-width:7.61px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        <g transform="matrix(1,0,0,0.991803,0,4.95902)">
+                            <path d="M573,117L573,605" style="fill:none;stroke:black;stroke-width:7.64px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                        <path d="M620,119L620,603" style="fill:none;stroke:black;stroke-width:7.61px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                    </g>
+                    <g id="arm-screen" transform="matrix(1.01271,0,0,1,-11.7585,0)">
+                        <rect x="689" y="225" width="236" height="71" style="fill:rgb(102,102,102);stroke:black;stroke-width:7.56px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                    </g>
+                    <rect x="689" y="322" width="236" height="70" style="fill:rgb(81,174,199);stroke:black;stroke-width:7.61px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                    <path d="M697,357L917,357" style="fill:none;stroke:black;stroke-width:11.41px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                    <g id="screen">
+                        <path id="screen-panel" d="M254,225L522,225L522,436L276,436L254,398L254,225Z" style="fill:rgb(230,230,230);stroke:black;stroke-width:11.41px;"/>
+                        <rect id="screen1" serif:id="screen" x="290" y="264" width="198" height="126" style="fill:rgb(102,102,102);stroke:black;stroke-width:11.41px;"/>
+                        <g transform="matrix(1,0,0,1,3.91098,21.6259)">
+                            <path d="M484,400.5C484,400.224 483.775,400 483.498,400L464.502,400C464.225,400 464,400.224 464,400.5L464,401.5C464,401.776 464.225,402 464.502,402L483.498,402C483.775,402 484,401.776 484,401.5L484,400.5Z" style="fill:none;stroke:black;stroke-width:3.8px;"/>
+                        </g>
+                        <g transform="matrix(1,0,0,1,3.91098,12.813)">
+                            <path d="M484,400.5C484,400.224 483.775,400 483.498,400L464.502,400C464.225,400 464,400.224 464,400.5L464,401.5C464,401.776 464.225,402 464.502,402L483.498,402C483.775,402 484,401.776 484,401.5L484,400.5Z" style="fill:none;stroke:black;stroke-width:3.8px;stroke-linejoin:miter;"/>
+                        </g>
+                        <g transform="matrix(1,0,0,1,4,4)">
+                            <path d="M484,400.5C484,400.224 483.775,400 483.498,400L464.502,400C464.225,400 464,400.224 464,400.5L464,401.5C464,401.776 464.225,402 464.502,402L483.498,402C483.775,402 484,401.776 484,401.5L484,400.5Z" style="fill:none;stroke:black;stroke-width:3.8px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                        <g transform="matrix(1,0,0,1,45,0)">
+                            <ellipse cx="366" cy="247.5" rx="5" ry="4.5" style="fill:none;stroke:black;stroke-width:5.71px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                        <g transform="matrix(1,0,0,1,0,-5)">
+                            <ellipse cx="302" cy="417" rx="9" ry="8" style="fill:rgb(232,72,72);stroke:black;stroke-width:5.71px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                        <g transform="matrix(1,0,0,1,-2,0)">
+                            <ellipse cx="366" cy="247.5" rx="5" ry="4.5" style="fill:none;stroke:black;stroke-width:5.71px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                    </g>
+                    <g>
+                        <path id="red-btn" d="M364,482.75C364,481.232 362.762,480 361.238,480L326.762,480C325.238,480 324,481.232 324,482.75L324,488.25C324,489.768 325.238,491 326.762,491L361.238,491C362.762,491 364,489.768 364,488.25L364,482.75Z" style="fill:rgb(232,72,72);stroke:black;stroke-width:5.71px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        <g id="blue-btn" transform="matrix(1,0,0,1,56.0693,0.380371)">
+                            <path d="M364,482.75C364,481.232 362.762,480 361.238,480L326.762,480C325.238,480 324,481.232 324,482.75L324,488.25C324,489.768 325.238,491 326.762,491L361.238,491C362.762,491 364,489.768 364,488.25L364,482.75Z" style="fill:rgb(81,174,199);stroke:black;stroke-width:5.71px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                        <path id="gren-btn" d="M400.069,524.58C400.069,521.5 397.558,519 394.465,519L329.604,519C326.511,519 324,521.5 324,524.58L324,553.42C324,556.5 326.511,559 329.604,559L394.465,559C397.558,559 400.069,556.5 400.069,553.42L400.069,524.58Z" style="fill:rgb(81,178,150);stroke:black;stroke-width:5.71px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        <g id="joy" transform="matrix(1,0,0,1,-4,-5.88037)">
+                            <ellipse cx="280.5" cy="510.69" rx="20.5" ry="19.31" style="fill:rgb(77,77,77);stroke:black;stroke-width:5.71px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                        <g id="joy-bg" transform="matrix(1.07143,0,0,1.02122,-26.7143,-11.1232)">
+                            <ellipse cx="283" cy="500.56" rx="21" ry="23.56" style="fill:none;stroke:black;stroke-width:7.27px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                    </g>
+                    <g id="top-pokedex">
+                        <g id="red" transform="matrix(1,0,0,1,7,7)">
+                            <circle cx="328" cy="61" r="8" style="fill:rgb(232,72,72);stroke:black;stroke-width:5.71px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                        <g id="yellow" transform="matrix(1,0,0,1,41,7)">
+                            <circle cx="328" cy="61" r="8" style="fill:rgb(249,238,105);stroke:black;stroke-width:5.71px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                        <g id="green" transform="matrix(1,0,0,1,73,7)">
+                            <circle cx="328" cy="61" r="8" style="fill:rgb(79,174,147);stroke:black;stroke-width:5.71px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                        <g id="blue-bulb" transform="matrix(1.11765,0,0,1.09615,-39.4118,-15.3077)">
+                            <ellipse cx="275.5" cy="102" rx="25.5" ry="26" style="fill:rgb(81,174,199);stroke:black;stroke-width:10.31px;stroke-linejoin:miter;stroke-miterlimit:2.5;"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
