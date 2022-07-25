@@ -1,0 +1,74 @@
+
+.resume inner-column {
+   padding: 40px 30px;
+   border:  1px solid var(--color);
+   /*box-shadow: 1px 1px 1px 1px black;*/
+}
+
+
+.experience-container {
+   display: flex;
+   flex-direction: column;
+   gap:  20px;
+}
+
+job-container, aside, education {
+   display:  flex;
+   flex-direction: column;
+
+
+}  
+
+.resume .experience .intro-voice {
+   color:  var(--color);
+}
+
+job-card-container, aside skills-cards {
+   display: flex;
+   flex-direction: column;
+   gap:  20px;
+}
+
+job-container, aside, education {
+   gap:  10px;
+}
+
+
+ .resume li.body-copy {
+   width:  90%;
+ }
+
+ h3.intro-voice > span::before {
+   content:  '- ';
+ }
+
+
+
+ .top {
+   padding:  10px 0;
+ }
+
+
+
+
+@media   (min-width:  768px) {
+   .top {
+      display:  flex;
+      /*gap:  15px;*/
+ }
+
+ .top job-container {
+   width: 70%;
+
+ }
+
+ .top aside {
+
+   width:  30%;
+
+ }
+
+
+
+
+}

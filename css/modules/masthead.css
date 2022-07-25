@@ -1,0 +1,88 @@
+masthead .desktop {
+   display:  none;
+}
+
+header {
+   background-color: var(--background);
+   margin-top:  5px;
+   border: 0px;
+   border-bottom: 2px solid;
+
+   border-image: var(--gradient);
+   border-image-slice: 1;
+   color: var(--pen);
+   text-decoration: none;
+}
+
+
+masthead {
+   display:  flex;
+   flex-direction:  row;
+   justify-content:  space-between;
+   align-items: center;
+
+
+   position:  relative;
+   padding: 10px 0;
+}
+
+masthead .intro-voice {
+   font-size: 22px;
+   font-weight: 700;
+   color: var(--color);
+}
+
+
+
+
+masthead nav {
+   display:  flex;
+   align-items: center;
+
+}
+
+masthead nav a {
+   padding:  8px;
+}
+
+
+
+
+switcher {
+   display:  flex;
+   flex-direction: row;
+   gap:  5px;
+
+}
+
+switcher button {
+
+   font-family: 'Inter Regular', sans-serif;
+   font-size:  100px;
+   padding:  5px 8px;
+}
+
+
+@media (min-width: 768px) {
+
+   masthead .desktop {
+      display:  block;
+   }
+
+   masthead .mobile {
+      display:  none;
+   }
+   masthead nav {
+      flex-direction: row;
+      gap:  10px;
+      align-items: center;
+   }
+
+
+   switcher {
+      flex-direction: row;
+
+   }
+}
+
+

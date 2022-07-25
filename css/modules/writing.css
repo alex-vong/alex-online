@@ -1,0 +1,19 @@
+
+.article-grid {
+   display:  flex;
+   flex-direction: column;
+   gap:  15px;
+
+   margin-top: 10px;
+}
+
+
+
+
+.writing .blog {
+   margin-top: 2rem;
+}
+
+.article-grid .article-card .body-copy {
+   line-height: 1.2;
+}

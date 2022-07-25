@@ -1,0 +1,103 @@
+
+.style-guide {
+   background-color: #red;
+}
+
+
+.style-guide ul {
+   display:  grid;
+   grid-template-columns: 1fr 1fr;
+   gap:  5px;
+   margin-top: 5px;
+}
+
+.style-guide li {
+   border:  1px solid black;
+   padding:  10px;
+}
+
+
+
+.style-guide p{
+   color:  var(--alternate);
+
+
+}
+
+.style-guide p span{
+   text-transform: uppercase;
+   color:  var(--alternate);
+}
+
+.style-guide p + p {
+   margin-top: 15px;
+}
+
+
+.inter > *:not(.inter h3) {
+   font-family: 'Inter Regular', sans-serif;
+}
+
+
+.style-guide section {
+   margin:  50px 0 80px;
+   padding-top: 20px;
+
+   border-top:  1px solid var(--gray);
+}
+
+@media (max-width:  300px ) {
+   .style-guide ul {
+      grid-template-columns: 1fr;
+   }
+}
+
+
+@media (min-width: 600px){
+   .style-guide project-card {
+       max-width:  90%;
+ 
+   }
+
+}
+
+@media (min-width: 700px){
+   .style-guide project-card {
+       max-width:  50%;
+   }
+
+   .style-guide ul {
+      grid-template-columns: repeat(3, 1fr);
+   }
+
+}
+
+@media (min-width: 800px){
+   .style-guide project-card {
+       max-width:  40%;
+   }
+
+}
+
+
+
+
+.style-guide project-card picture {
+   border:  1px solid var(--alternate);
+   padding:  30px;
+}
+
+
+.style-guide div:not(.article-grid div, project-card div) {
+   margin: 25px 0;
+}
+
+
+.style-guide .sg-animations .body-copy:not(.card-details .body-copy) {
+   font-weight: 700;
+   text-transform: uppercase;
+   margin-bottom: 5px;
+}
+
+
+

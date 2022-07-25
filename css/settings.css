@@ -1,15 +1,54 @@
-/* SETTINGS  ("variables" in our case) */
-html {
-	--black: #111111;
-	--white: #FFFFFF;
-   --heading-blue: #277da1;
-   --dark: #281e3d;
-   --light: #b0a8b9 ;
-   --site-red:  #f14144;
-   --site-orange:  #f38824;
-   --orchid:  mediumorchid;
+/*
+body {
+   --black: #111111;
+   --white: #FFFFFF;
 
-   --gradient-1: linear-gradient(90deg, rgba(var(--primary),1) 0%, rgba(var(--secondary),1) 100%);
+   --color: #6D40F4;
+   --color:  #494141;
+   --foreground: #233742;
+
+   --gray:  #F2F2F2;
+   --alternate: #2D4881;
+
+}*/
+
+
+
+@media( prefers-color-scheme: dark ) {
+   body {
+      --background: #111;
+      --color: #F2F2F2;
+      --bg-color: #2e2e2e;
+      --bg-card:  #191919;
+      --ink:  #eaeaea;
+      --pen:  #b1b1b1;
+      --border: #242424;
+      --gradient: linear-gradient(to right, #E39600, #EA4C89, #8F48EB, #1DA1F2);
+
+   }
+
+} n 
+
+@media( prefers-color-scheme: light ) {
+   body {
+      --background: #fff;
+      /*--background:  rgb(250,250, 250);*/
+      --color:   #191919;
+      --bg-color: #F3F3F3;
+      --bg-card:  #F3F3F3;  
+      --ink:   #191919;
+      --pen:  #2e2e2e;
+      --border: #e3e3e3;
+      /*--gradient: linear-gradient(to right top, #111111, #131313, #141414, #161616, #171717, #191919, #1c1c1c, #1e1e1e, #222222, #262626, #2a2a2a, #2e2e2e);*/
+      --gradient: linear-gradient(to right, #E39600, #EA4C89, #8F48EB, #1DA1F2);
+   }
+ 
+
+   }
+
+
 }
+
+
 
 

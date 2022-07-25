@@ -8,3 +8,17 @@ Using what I have learned throughout this mentorship (goal driven design, typogr
 
 # Link to Project
 [Alex-OnLine](https://peprojects.dev/alpha-1/alexvong/personal-website)
+
+
+
+
+
+<!-- 
+#### To DO:
+
+* [ ] Add alt to images
+* [ ] change footer h1 to h2
+* [ ] change landing h1 intro voice to h2
+ -->
+
+

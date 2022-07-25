@@ -1,0 +1,208 @@
+
+/*What's Hot Projects*/
+
+.whats-hot {
+   display: flex;
+   flex-direction: column;
+
+}
+
+
+.whats-hot .wh-intro{
+margin:  25px 0;
+}
+
+.whats-hot h4.card-heading{
+   margin-bottom: 15px;  
+}
+
+
+
+
+
+projects-grid {
+display:  flex;
+flex-direction: column;
+gap:  30px;
+margin-top: 30px;
+
+}
+
+projects-grid > * {
+   flex-basis:  100%;
+}
+
+project-card {
+   display:  flex;
+}
+
+
+project-card .card-details {
+   display:  flex;
+   flex-direction: column;
+   gap: 5px;
+}
+
+project-card, .bits-grid  {
+   display:  flex;
+   flex-direction: column;
+   gap:  20px;
+}
+
+.background {
+   border:  2px solid var(--border);
+   background-color:  var(--bg-card);
+   padding:  1.5rem;
+}
+
+
+.view-all-link {
+   margin: 60px 0 75px;
+}
+
+.view-all-link  p.body-copy span {
+   color:  var(--ink);
+}
+
+
+
+blog-card {
+   display: flex;
+   flex-direction: column;
+   gap:  5px;
+}
+
+
+
+project-card p.body-copy {
+   margin-top:  0.3125rem;
+}
+
+project-card .third-level-heading {
+   margin-top: 10px;
+   font-weight: 500;
+   color:  var(--color);
+
+}
+
+project-card a, .bit-card a {
+   color:  var(--color);
+
+   
+}
+
+
+project-card ul {
+   display:  flex;
+   gap: 10px;
+}
+
+
+
+
+blogs-grid {
+   display: flex;
+   flex-direction: column;
+
+   gap:  20px;
+
+}
+
+
+
+
+@media (min-width:  768px) {
+
+   projects-grid {
+      display:  grid;
+ /*     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
+   }
+
+   projects-grid project-card img {
+      max-height:  170px;
+   }
+
+   projects-grid project-card {
+      flex-direction: row;
+
+   }
+
+   projects-grid project-card .card-details {
+      flex-basis: 100%;
+   }
+
+   project-card p.body-copy {
+      /*max-width:  45ch;*/
+
+   }
+
+   projects-grid {
+      gap:  20px;
+   }
+
+
+}
+
+.bits {
+   margin-top: 80px;
+}
+
+
+.bits-grid {
+   gap:  40px;
+   margin-top: 10px;
+}
+
+
+.bit-card p.body-copy {
+   margin:  5px 0 10px;
+}
+
+.bit-card .second-level-heading {
+   color: var(--alternate);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
