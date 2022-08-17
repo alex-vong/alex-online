@@ -1,4 +1,4 @@
-<div class="bit-card">
+<!-- <div class="bit-card">
 
 
 		<h3 class="fourth-level-heading"><?=$bit["name"]?></h3>
@@ -28,3 +28,4 @@
 
 
 </div> 
+ -->

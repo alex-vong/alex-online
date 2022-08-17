@@ -8,7 +8,7 @@
 	I like to write sometimes. 
 </p>
 
-<div class="article-grid">
+<!-- <div class="article-grid">
 	<?php include("modules/projects-data.php") ?>
 
 		<?php foreach ($latestBlog as $blog) { 
@@ -25,4 +25,4 @@
 	<p class="body-copy">
 		<span>View More Blogs</span>
 	</p>
-</a>
+</a> -->

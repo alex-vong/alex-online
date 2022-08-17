@@ -20,12 +20,12 @@
 
 	</projects-grid>
 </div>
-
+<!-- 
 <a href="?page=projects" class="animated-line view-all-link">
 	<p class="body-copy">
 		<span >View All Projects</span>
 	</p>
 </a>
-
+ -->
 
 

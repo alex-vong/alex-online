@@ -2,8 +2,8 @@
 	<inner-column>
 		<masthead>
 			<a href="?page=home">
-				<h1 class="intro-voice desktop">Alex On-Line</h1>
-				<h1 class="intro-voice mobile">AOL</h1>
+				<h1 class="intro-voice desktop">Alex Vong</h1>
+				<h1 class="intro-voice mobile">AV</h1>
 			</a>
 
 			<nav class="nav-bar">
