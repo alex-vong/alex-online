@@ -1,17 +1,18 @@
 <head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Alex On-Line || <?=ucfirst($page)?></title>
+		<title>Alex Vong || <?=ucfirst($page)?></title>
 		<meta
 			name="og:description"
 			content="Turning Coffee into Code Since 2021"
 		/>
 	
-		<meta property="og:title" content="The Official Site of Alex Vong" />
+		<meta property="og:title" content="The Personal Site of Alex Vong" />
 		<meta property="og:type" content="">
 		<meta property="og:url" content="">
 
-		<meta property="og:image" content=[[]] />
+		<meta property="og:image" content="https://alexvong.dev/images/alex-vong-meta.png"  />
+		<meta property="og:image:type" content="https://alexvong.dev/images/alex-vong-meta.png" />
 		<link rel="shortcut icon" type="image/jpg" href=[[]] />
 
 		<link rel='stylesheet' href='css/style.css'>

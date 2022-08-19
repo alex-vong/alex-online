@@ -4,7 +4,7 @@
 
 		<div class="footer-logo">
 			<a href="?page=home">
-				<h2 class="second-level-heading mobile">AOL</h2>
+				<h2 class="second-level-heading mobile">AV</h2>
 			</a>
 		</div>
 
