@@ -12,13 +12,13 @@ footer {
    padding:  20px 0;
    /*min-height: 10vh;*/
 
-   background-color: var(--background);
+   /*background-color: var(--background);
    margin-top:  5px;
    border: 0px;
    border-top: 2px solid;
    border-image: var(--gradient);
    border-image-slice: 1;
-   color: white;
+   color: white;*/
    text-decoration: none;
 
 }
