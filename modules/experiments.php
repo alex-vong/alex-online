@@ -1,4 +1,4 @@
-<!-- <section class="experiments">
+<section class="experiments">
 	<inner-column>
 		<h2 class="section-heading top-level-heading">Random Bits</h2>
 
@@ -34,4 +34,3 @@
 
 	</inner-column>
 </section>
- -->

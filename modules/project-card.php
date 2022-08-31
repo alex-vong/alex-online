@@ -1,4 +1,4 @@
-<!-- <project-card class="background">
+<project-card class="background">
 	<a href="<?=$project["project-link"]?>" target="_blank">
 		<picture>
 			<img src="<?=$project["image"]?>" alt="">
@@ -29,4 +29,4 @@
 	
 
 
-</project-card> -->
+</project-card>

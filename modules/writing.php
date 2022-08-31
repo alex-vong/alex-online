@@ -26,7 +26,7 @@
 				<h3 class="third-level-heading">Featured Articles</h3>
 			<?php include("projects-data.php") ?>
 
-<!-- 			<div class="article-grid">
+			<div class="article-grid">
 
 				<?php foreach ($latestBlog as $blog) { 
 
@@ -43,7 +43,7 @@
 				<span>View All Blogs on My Substack</span>
 			</p>
 		</a>
-		</div> -->
+		</div> 
 
 </section>
 
