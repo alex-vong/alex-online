@@ -1,4 +1,4 @@
-<section class="projects">
+<section class="projects container">
 
 
 	<section>
@@ -22,22 +22,22 @@
 
 </section>
 
-	<div class="bits">
+	<section class="bits">
 
 		<h3 class="section-heading third-level-heading">Experiments</h3>
 		<p class="body-copy">Random Snippets of Code and Experimental Bits</p>	
 
 
-		 <div class="bits-grid background">
+		 <section class="bits-grid background">
 		 	<?php include("projects-data.php") ?> 
 
 			<?php foreach ($bits as $bit) { 
 				include("experiments-grid.php");
 		 	 } ?>
 		 	
-		 </div>
+		 </section>
 
-	</div>
+	</section>
 	
 	
 </section>
