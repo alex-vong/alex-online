@@ -8,12 +8,12 @@
 .container {
    display:  flex;
    flex-direction:  column;
-   gap:  20px;
+   /*gap:  20px;*/
 
 }
 
 
-section:not(section:last-child)  {
+section:not(section.container, section.bits-grid) {
 
    border: 0px;
    border-bottom: 2px solid;
@@ -24,7 +24,7 @@ section:not(section:last-child)  {
 }
 
 
-section:not(.contact-me, goals-list .goals){
+section:not(.contact-me, goals-list .goals, .container){
    margin-bottom:  75px;
    
 }
