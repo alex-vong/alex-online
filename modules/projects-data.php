@@ -161,9 +161,9 @@ $latestBlog = [
 	],
 
 		[
-		"title" => "The Confidence I Needed to Pursue Web Development",
-		"link" => "https://community.codenewbie.org/alexv0ng/the-confidence-i-needed-to-pursue-web-development-2hh3",
-		"description" => "It is not easy trying to become a web developer when you have absolutely no experience. But finding the right guidance can help you accomplish your goals and set you down the right path.",
+		"title" => "A Brief Intro to the CSS Box Model",
+		"link" => "https://codepen.io/Alexv0ng/full/dyNdRgr",
+		"description" => "A CodePen article teaching the basics of the CSS Box Model with the help of Jack Skellington.",
 		"demo" => false,
 		"front-page" => true,
 	],
