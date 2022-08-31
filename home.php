@@ -1,6 +1,6 @@
-<section class="home">
+<section class="home container">
 
-		<section class="landing container">
+		<section class="landing">
 
 			
 			<h1 class="section-heading top-level-heading">Web Developer creating responsive, intuitive websites</h1>
