@@ -3,7 +3,7 @@
 		<masthead>
 			<a href="?page=home">
 				<h1 class="intro-voice desktop">Alex Vong</h1>
-				<!-- <h1 class="intro-voice mobile">Alexvong</h1> -->
+				<!-- <h1 class="intro-voice mobile">AlexVOng</h1> -->
 			</a>
 
 			<nav class="nav-bar">
@@ -12,13 +12,13 @@
 					<a href="?page=about" class="quiet-voice animated-line <?php if ($page == "about") { echo "active"; } ?>"><span>About</span></a>	
 					<a href="?page=projects" class="quiet-voice animated-line <?php if ($page == "projects") { echo "active"; } ?>"><span>Projects</span></a>
 					<a href="?page=writing" class="quiet-voice animated-line <?php if ($page == "writing") { echo "active"; } ?>"><span>Writing</span></a>
-<!-- 					<a href="?page=resume" class="animated-line <?php if ($page == "resume") { echo "active"; } ?>"><span>Resume</span></a> -->
-<!-- 				<switcher>
+					<a href="?page=resume" class="animated-line <?php if ($page == "resume") { echo "active"; } ?>"><span>Resume</span></a> 
+<!--  				<switcher>
 					<button data-scheme='day'>Light 🌕</button>
 					<button data-scheme='dark'>Dark 🌑</button>
 					<button data-scheme='nightmare'>Nightmare</button>
 					<button data-scheme='PE'>PE</button>
-				</switcher>	 -->
+				</switcher>	  -->
 			</nav>
 		</masthead>
 

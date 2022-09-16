@@ -1,4 +1,4 @@
-/*
+
 body {
    --black: #111111;
    --white: #FFFFFF;
@@ -10,13 +10,14 @@ body {
    --gray:  #F2F2F2;
    --alternate: #2D4881;
 
-}*/
+}
 
 
 
 @media( prefers-color-scheme: dark ) {
    body {
       --background: #111;
+      --bg:  #000;
       --color: #F2F2F2;
       --bg-color: #2e2e2e;
       --bg-card:  #191919;
@@ -27,7 +28,9 @@ body {
 
    }
 
-} n 
+
+
+} 
 
 @media( prefers-color-scheme: light ) {
    body {
