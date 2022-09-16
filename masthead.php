@@ -12,7 +12,7 @@
 					<a href="?page=about" class="quiet-voice animated-line <?php if ($page == "about") { echo "active"; } ?>"><span>About</span></a>	
 					<a href="?page=projects" class="quiet-voice animated-line <?php if ($page == "projects") { echo "active"; } ?>"><span>Projects</span></a>
 					<a href="?page=writing" class="quiet-voice animated-line <?php if ($page == "writing") { echo "active"; } ?>"><span>Writing</span></a>
-					<a href="?page=resume" class="animated-line <?php if ($page == "resume") { echo "active"; } ?>"><span>Resume</span></a> 
+<!-- 					<a href="?page=resume" class="animated-line <?php if ($page == "resume") { echo "active"; } ?>"><span>Resume</span></a>  -->
 <!--  				<switcher>
 					<button data-scheme='day'>Light 🌕</button>
 					<button data-scheme='dark'>Dark 🌑</button>
