@@ -1,5 +1,7 @@
 
 	<inner-column>
+
+		<div class="blur"></div>
 		<masthead>
 			<a href="?page=home">
 				<h1 class="intro-voice desktop">Alex Vong</h1>
