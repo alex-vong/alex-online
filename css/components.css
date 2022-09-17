@@ -100,7 +100,6 @@ p.body-copy + p.body-copy {
 .contact-me .email-btn {
    padding:  10px 15px;
    background-color: var(--bg-color);
-   border-radius:  15px;
 }
 
 .contact-me .email-btn a {
