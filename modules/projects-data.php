@@ -9,7 +9,7 @@ $projects = [
 		"case-study" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
 		"image" => "images/project-sg.svg",
 		"hot" => false,
-		"demo" => true,
+		"demo" => true, 
 	],
 
 	[
@@ -20,7 +20,7 @@ $projects = [
 		"image" => "images/rlc-2.svg",
 		"hot" => true,
 		"demo" => false,
-		"languages" => ['HTML', "CSS", "PHP"],
+		"languages" => ['html', 'css', 'php'],
 	],
 	[
 		"name" => "PokeDex",
@@ -31,7 +31,7 @@ $projects = [
 
 		"hot" => true,
 		"demo" => false,
-		"languages" => ['HTML', "CSS", "PHP"],
+		"languages" => ['html', 'css', 'php'],
 	],
 
 	[
@@ -43,7 +43,7 @@ $projects = [
 
 		"hot" => false,
 		"demo" => false,
-		"languages" => ['HTML', "CSS", "PHP"],
+		"languages" => ['html', 'css', 'php'],
 	],
 
 		[
@@ -55,7 +55,7 @@ $projects = [
 
 		"hot" => false,
 		"demo" => false,
-		"languages" => ['HTML', "CSS", "PHP"],
+		"languages" => ['html', 'css', 'php'],
 	],
 
 
