@@ -12,6 +12,16 @@ header {
    border-image-slice: 1;
    color: var(--pen);
    text-decoration: none;
+
+       position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background-color: rgba(17, 17, 17, .65);
+    backdrop-filter: blur(5px);
+    z-index: 9999;
 }
 
 
@@ -22,8 +32,7 @@ masthead {
    justify-content:  space-between;
    align-items: center;
 
-
-   position:  relative;
+   /*position:  relative;*/
    padding: 10px 0;
 }
 
