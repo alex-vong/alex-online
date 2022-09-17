@@ -26,9 +26,12 @@ body {
       --border: #242424;
       --gradient: linear-gradient(to right, #E39600, #EA4C89, #8F48EB, #1DA1F2);
 
+      --html: #E39600;
+      --css: #1DA1F2;
+      --php: #8F48EB;
+      --js: #d6be00;
+
    }
-
-
 
 } 
 
