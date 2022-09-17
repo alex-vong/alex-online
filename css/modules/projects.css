@@ -108,6 +108,26 @@ blogs-grid {
 
 }
 
+.html, .css, .php, .js {
+   padding: 2px 4px;
+
+}
+
+.html {
+   background-color: var(--html);
+}
+
+.css {
+   background-color: var(--css);
+}
+
+.php {
+   background-color: var(--php);
+}
+
+.js {
+   background-color: var(--js);
+}
 
 
 
