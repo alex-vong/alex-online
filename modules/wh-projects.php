@@ -4,7 +4,7 @@
 	Featured Projects
 </h2>
  <p class="body-copy"> 
- 	A collection of some of the projects I am currently working on
+ 	Some projects I built on my web development journey. This will always be a work in progress so be sure to come back to see my latest designs and creations.
 </p>
 
 
