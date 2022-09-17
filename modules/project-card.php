@@ -17,7 +17,7 @@
 
 		<ul>
 			<?php foreach ($project['languages'] as $language) { ?>
-				<li class="quiet-voice"><?=$language?></li>
+				<li class="quiet-voice <?=$language?>"><?=strtoupper($language)?></li>
 
 			<?php } ?>
 
