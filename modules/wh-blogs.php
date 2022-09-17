@@ -5,7 +5,7 @@
 	Featured Blogs
 </h2>
 <p class="section-heading body-copy">
-	I like to write sometimes. 
+	I like to write sometimes. Here are some of those times.
 </p>
 
 <div class="article-grid">
