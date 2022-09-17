@@ -1,98 +1,124 @@
 masthead .desktop {
-   /*display:  none;*/
+    /*display:  none;*/
 }
 
 header {
-   background-color: var(--background);
-   margin-top:  5px;
-   border: 0px;
-   border-bottom: 2px solid;
+    background-color: var(--background);
+    margin-top: 5px;
+    border: 0px;
+    border-bottom: 2px solid;
 
-   border-image: var(--gradient);
-   border-image-slice: 1;
-   color: var(--pen);
-   text-decoration: none;
+    border-image: var(--gradient);
+    border-image-slice: 1;
+    color: var(--pen);
+    text-decoration: none;
 
-       position: sticky;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
-    border-radius: 5px;
+    /*box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);*/
     background-color: rgba(17, 17, 17, .65);
-    backdrop-filter: blur(5px);
+    /*backdrop-filter:  blur(5px);*/
     z-index: 9999;
+
 }
 
 
 masthead {
-   display:  flex;
-   flex-direction:  row;
-   grid-gap: 20px;
-   justify-content:  space-between;
-   align-items: center;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
 
-   /*position:  relative;*/
-   padding: 10px 0;
+    /*position:  relative;*/
+    padding: 10px 0;
+
+    /*position: absolute;*/
 }
 
+.blur {
+   background: inherit;
+}
+
+.blur:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 1px;
+    background-color: rgba(17, 17, 17, .35);
+   background-color: rgba(17, 17, 17, .35);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    filter: blur(5px);
+    z-index: -1;
+
+  
+}
+
+
+
+
+
 masthead .intro-voice {
-   font-size: 22px;
-   font-weight: 700;
-   color: var(--color);
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--color);
 }
 
 
 
 
 masthead nav {
-   display:  flex;
-   align-items: center;
+    display: flex;
+    align-items: center;
 
 }
 
 masthead nav a {
-   padding:  8px;
+    padding: 8px;
 }
 
 
 
 
 switcher {
-   display:  flex;
-   flex-direction: row;
-   gap:  5px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 
 }
 
 switcher button {
 
-   font-family: 'Inter Regular', sans-serif;
-   font-size:  100px;
-   padding:  5px 8px;
+    font-family: 'Inter Regular', sans-serif;
+    font-size: 100px;
+    padding: 5px 8px;
 }
 
 
 @media (min-width: 768px) {
 
-   masthead .desktop {
-      display:  block;
-   }
+    masthead .desktop {
+        display: block;
+    }
 
-   masthead .mobile {
-      display:  none;
-   }
-   masthead nav {
-      flex-direction: row;
-      gap:  10px;
-      align-items: center;
-   }
+    masthead .mobile {
+        display: none;
+    }
+
+    masthead nav {
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+    }
 
 
-   switcher {
-      flex-direction: row;
+    switcher {
+        flex-direction: row;
 
-   }
+    }
 }
-
-
