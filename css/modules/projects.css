@@ -34,6 +34,10 @@ projects-grid > * {
 
 project-card {
    display:  flex;
+   align-items: center;
+   border:  2px solid var(--border);
+   background-color:  var(--bg-card);
+   padding:  1.5rem;
 }
 
 
@@ -50,9 +54,7 @@ project-card, .bits-grid  {
 }
 
 .background {
-   border:  2px solid var(--border);
-   background-color:  var(--bg-card);
-   padding:  1.5rem;
+
 }
 
 
@@ -129,6 +131,12 @@ blogs-grid {
    background-color: var(--js);
 }
 
+   projects-grid project-card a picture img {
+      max-height:  170px;
+      min-height: 170px;
+  
+   }
+
 
 
 @media (min-width:  768px) {
@@ -138,9 +146,7 @@ blogs-grid {
  /*     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
    }
 
-   projects-grid project-card img {
-      max-height:  170px;
-   }
+
 
    projects-grid project-card {
       flex-direction: row;
