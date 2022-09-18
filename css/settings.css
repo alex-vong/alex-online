@@ -21,7 +21,7 @@ body {
 @media(prefers-color-scheme: dark) {
     body {
         --background: #111;
-        --bg-rgb: (17, 17, 17);
+        --bg-rgb: 11, 11, 11;
         --bg: #000;
         --color: #F2F2F2;
         --bg-color: #2e2e2e;
@@ -39,9 +39,9 @@ body {
 
 @media(prefers-color-scheme: light) {
     body {
-        --background: #fff;
+        --background: #f4f4f4;
         /*--background:  rgb(255,127,);*/
-        --bg-rgba: (11, 11, 11);
+        --bg-rgb: 244, 244, 244;
         --color: #191919;
         --bg-color: #F3F3F3;
         --bg-card: #F3F3F3;
