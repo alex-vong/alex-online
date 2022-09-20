@@ -39,7 +39,7 @@ section:not(.contact-me, goals-list .goals, .container){
 }
 
 h2 + p.body-copy, h3 + p.body-copy {
-   margin-top: 10px;
+   margin-top: 15px;
 }
 
 
