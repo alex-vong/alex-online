@@ -181,7 +181,7 @@ p.body-copy + p.body-copy {
    background-repeat: no-repeat;
    background-size: 0% 2px;
    transition: .4s;
-   padding-bottom: 5px;
+   /*padding-bottom: 5px;*/
 }
 .footer-links .animated-line span {
    background-image: var(--gradient);   
