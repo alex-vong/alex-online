@@ -17,6 +17,11 @@ margin:  25px 0;
 }
 
 
+.wh-projects {
+   margin-top: 30px;
+}
+
+
 
 
 
@@ -24,7 +29,6 @@ projects-grid {
 display:  flex;
 flex-direction: column;
 gap:  30px;
-margin-top: 30px;
 
 }
 
@@ -37,7 +41,7 @@ project-card {
    align-items: center;
    border:  2px solid var(--border);
    background-color:  var(--bg-card);
-   padding:  1.5rem;
+   padding:  1.25rem;
 }
 
 
