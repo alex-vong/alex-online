@@ -81,8 +81,9 @@ blog-card {
 
 
 project-card p.body-copy {
+/*project-card p.body-copy {
    margin-top:  0.3125rem;
-}
+}*/
 
 project-card .third-level-heading {
    margin-top: 10px;
