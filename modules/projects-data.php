@@ -14,7 +14,7 @@ $projects = [
 
 	[
 		"name" => "Responsive Layouts Garden",
-		"description" => "To expand my knowledge and skillset of responsive design and layouts, I recreated some responsive compontents found in the wild",
+		"description" => "Constantly trying to improve my knowledge of responsive design so I created a collection of responsive components I found in the world with new components added over time.",
 		"project-link" => "https://peprojects.dev/alpha-1/alexvong/responsive-layout-collection/",
 		"case-study" => "https://peprojects.dev/alpha-1/alexvong/30day-responsive-layout-challenge/",
 		"image" => "images/rlc-2.svg",
@@ -24,7 +24,7 @@ $projects = [
 	],
 	[
 		"name" => "PokeDex",
-		"description" => "A responsive Pokedex created using HTML, CSS, PHP, and PHP Routing.",
+		"description" => "I like Pokemon so I created my own PokeDex featuring the original 151 pocket monsters.",
 		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
 		"case-study" =>false,
 		"image" => "images/pokedex-2.svg",
