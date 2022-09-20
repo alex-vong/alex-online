@@ -144,7 +144,12 @@ blogs-grid {
       /*width: auto;*/
   
    }
+projects-grid project-card a picture img {
+    /*max-height:  170px;*/
+    min-height: 150px;
+    /*width: auto;*/
 
+}
 
 
 @media (min-width:  768px) {
