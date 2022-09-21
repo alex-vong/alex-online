@@ -52,7 +52,7 @@ p.body-copy + p.body-copy {
 }
 
  a + .body-copy {
-   margin-top: 8px;
+   /*margin-top: 8px;*/
  }
 
 
