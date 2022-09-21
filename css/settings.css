@@ -28,8 +28,10 @@ body {
         --bg-card: #191919;
         --ink: #eaeaea;
         --pen: #b1b1b1;
-        --border: #242424;
+        --border: #242424; 
         --gradient: linear-gradient(to right, #E39600, #EA4C89, #8F48EB, #1DA1F2);
+        --reverse-gradient: linear-gradient(to right, #1DA1F2, #8F48EB, #EA4C89, #E39600);
+
 
 
 
