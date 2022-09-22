@@ -144,29 +144,7 @@ $bits = [
 
 
 $latestBlog = [
-
 	[
-		"title" => "Dark Mode: Prefers-Color-Scheme",
-		"month" => "July",
-		"day" => 13,
-		"year" => 2022,
-		"link" => "https://alexvong.substack.com/p/dark-mode-prefers-color-scheme",
-		"description" => "This article aims to briefly introduce the CSS prefers-color-scheme media feature and how to implement it in your code.",
-		"demo" => false,
-		"front-page" => true,
-	],
-	[
-		"title" => "The Code Behind an SVG",
-		"month" => "June",
-		"day" => 17,
-		"year" => 2022,
-		"link" => "https://alexvong.substack.com/p/the-code-behind-svgs",
-		"description" => "Ever wonder what is under the hood of an SVG and what makes it so different than the other image formats?",
-		"demo" => false,
-		"front-page" => true,
-	],
-
-		[
 		"title" => "The CSS Box Model - I'll Explain Everything",
 		"month" => "September",
 		"day" => 23,
@@ -176,6 +154,29 @@ $latestBlog = [
 		"demo" => false,
 		"front-page" => true,
 	],
+
+	[
+		"title" => "Dark Mode: Prefers-Color-Scheme",
+		"month" => "August",
+		"day" => 22,
+		"year" => 2022,
+		"link" => "https://alextalk.substack.com/p/dark-mode-prefers-color-scheme",
+		"description" => "This article aims to briefly introduce the CSS prefers-color-scheme media feature and how to implement it in your code.",
+		"demo" => false,
+		"front-page" => true,
+	],
+	[
+		"title" => "The Code Behind an SVG",
+		"month" => "August",
+		"day" => 6,
+		"year" => 2022,
+		"link" => "https://alextalk.substack.com/p/the-code-behind-an-svg",
+		"description" => "Ever wonder what is under the hood of an SVG and what makes it so different than the other image formats?",
+		"demo" => false,
+		"front-page" => true,
+	],
+
+
 
 	[
 		"title" => "A Brief Intro to CSS Box Model",
@@ -188,114 +189,38 @@ $latestBlog = [
 		"demo" => true,
 		"front-page" => false,
 	],
-
-	[
-		"title" => "Title of Article",
-		"month" => "September",
-		"day" => 23,
-		"year" => 2022,
-		"link" => "https://alexvong.substack.com/p/the-code-behind-svgs",
-		"description" => "Here is a brief description or intro text that captivates the user and makes them want to click this link to read the full article",
-		"demo" => true,
-			"front-page" => false,
-	],
-	[
-		"title" => "Title of Another Awesome Article",
-		"month" => "September",
-		"day" => 23,
-		"year" => 2022,
-		"link" => "https://alexvong.substack.com/p/the-code-behind-svgs",
-		"description" => "Here is a brief description or intro text that captivates the user and makes them want to click this link to read the full article",
-		"demo" => true,
-			"front-page" => false,
-	],
-	[
-		"title" => "Why Not One More Article But This Time With a Longer Title",
-		"month" => "September",
-		"day" => 23,
-		"year" => 2022,
-		"link" => "https://alexvong.substack.com/p/the-code-behind-svgs",
-		"description" => "Here is a brief description or intro text that captivates the user and makes them want to click this link to read the full article",
-		"demo" => true,
-			"front-page" => false,
-	],
-
-	[
-		"title" => "30 Day Responsive Layout Challenge",
-		"month" => "September",
-		"day" => 23,
-		"year" => 2022,
-		"link" => "https://alexvong.substack.com/p/30-day-responsive-layout-challenge",
-		"description" => "I decided to do a responsive layout challenge to expand my knowledge and skill of responsive design.",
-		"demo" => false,
-			"front-page" => false,
-	],
-
-	[
-		"title" => "Working with My First Client",
-		"month" => "September",
-		"day" => 23,
-		"year" => 2022,
-		"link" => "https://alexvong.substack.com/p/working-with-my-first-client-an-intro",
-		"description" => 'A series documenting my experience working with my first "real" client. The excitment, the angst, the frustration, the joy, the fear, and the code. It is all there.',
-		"demo" => false,
-			"front-page" => false,
-	],
-	[
-		"title" => 'The New and "Improved" AOL',
-		"month" => "September",
-		"day" => 23,
-		"year" => 2022,
-		"link" => "https://alexvong.substack.com/p/the-new-and-improved-aol",
-		"description" => "I built my first website ever and uploaded it to our class server using an FTP. Come read all about it!",
-		"demo" => false,
-			"front-page" => false,
-	],
-
-	[
-		"title" => "AOL Wasn't the Internet?",
-		"month" => "July",
-		"day" => 13,
-		"year" => 2022,
-		"link" => "https://alexvong.substack.com/p/a-brief-intro-to-css-box-model",
-		"description" => "Let's take a time machine back to the late 90s/early 2000s to explore what made American Online so amazing and how it set the foundation of what the internet is today!",
-		"demo" => false,
-			"front-page" => false,
-	],		
-		
-
-				
+			
 
 ];
 
 
-$favoriteBlog = [
-	[
-		"title" => "30 Day Responsive Layout Challenge",
-		"link" => "https://alexvong.substack.com/p/30-day-responsive-layout-challenge",
-		"date" => "October 25, 2021",
-		"hot" => true,
-	],
-	[
-		"title" => "The Condifence I Needed to Pursue Web Development",
-		"link" => "https://community.codenewbie.org/alexv0ng/the-confidence-i-needed-to-pursue-web-development-2hh3",
-		"date" => "August 24, 2021",
-		"hot" => true,
-	],
-	[
-		"title" => "Working with My First Client",
-		"link" => "https://alexvong.substack.com/p/working-with-my-first-client-an-intro",
-		"date" => "May 26, 2021",
-		"hot" => false,
-	],
-	[
-		"title" => "A Brief Intro to CSS Box Model",
-		"link" => "https://alexvong.substack.com/p/a-brief-intro-to-css-box-model",
-		"date" => "April 12, 2021",
-		"hot" => true,
-	],		
+// $favoriteBlog = [
+// 	[
+// 		"title" => "30 Day Responsive Layout Challenge",
+// 		"link" => "https://alexvong.substack.com/p/30-day-responsive-layout-challenge",
+// 		"date" => "October 25, 2021",
+// 		"hot" => true,
+// 	],
+// 	[
+// 		"title" => "The Condifence I Needed to Pursue Web Development",
+// 		"link" => "https://community.codenewbie.org/alexv0ng/the-confidence-i-needed-to-pursue-web-development-2hh3",
+// 		"date" => "August 24, 2021",
+// 		"hot" => true,
+// 	],
+// 	[
+// 		"title" => "Working with My First Client",
+// 		"link" => "https://alexvong.substack.com/p/working-with-my-first-client-an-intro",
+// 		"date" => "May 26, 2021",
+// 		"hot" => false,
+// 	],
+// 	[
+// 		"title" => "A Brief Intro to CSS Box Model",
+// 		"link" => "https://alexvong.substack.com/p/a-brief-intro-to-css-box-model",
+// 		"date" => "April 12, 2021",
+// 		"hot" => true,
+// 	],		
 
-];
+// ];
 
 
 
