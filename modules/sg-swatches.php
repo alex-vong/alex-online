@@ -5,12 +5,12 @@
 <div class="light">
 	<h3 class="intro-voice">Light Theme</h3>
 	<ul>
-		<li class="body-copy">--black #111111;</li>
-		<li class="body-copy">--white: #FFFFFF;</li>
-		<li class="body-copy">--body-copy: #6D40F4;</li>
-		<li class="body-copy">--headings:  #233742;</li>
-		<li class="body-copy">--gray:  #F2F2F2;</li>
-		<!-- <li class="body-copy">--background: #2D4881;</li> -->
+		<li class="body-copy">--black #191919;</li>
+		<li class="body-copy">--white: #F4F4F4;</li>
+		<li class="body-copy">--border: #E3E3E3;</li>
+		<li class="body-copy">--pen: #2E2E2E;</li>
+		<li class="body-copy">--highlight: #191919;</li>
+		<li class="body-copy">--gradient: var(--gradient);</li>
 	</ul>
 </div>
 
@@ -18,11 +18,12 @@
 	<h3 class="intro-voice">Dark Theme</h3>
 	<ul>
 		<li class="body-copy">--black #111111;</li>
-		<li class="body-copy">--white: #FFFFFF;</li>
-		<li class="body-copy">--footer: #233742;</li>
-		<li class="body-copy">--body-copy: #F2F2F2;</li>
-		<li class="body-copy">--background: #2D4881;</li>
-		<li class="body-copy">--headings: #da6339;</li>
+		<li class="body-copy">--white: #F2F2F2;</li>
+		<li class="body-copy">--border: #242424;</li>
+		<li class="body-copy">--pen: #B1B1B1;</li>
+		<li class="body-copy">--highlight: #EAEAEA;</li>
+		<li class="body-copy">--gradient: var(--gradient);</li>
+
 
 
 	</ul>
