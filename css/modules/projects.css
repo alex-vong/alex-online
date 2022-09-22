@@ -17,7 +17,7 @@ margin:  25px 0;
 }
 
 
-.wh-projects, .article-grid {
+.article-grid, projects-grid, .bits {
    margin-top: 45px;
 }
 
@@ -50,6 +50,8 @@ project-card .card-details {
    flex-direction: column;
    gap: 5px;
 }
+
+
 
 project-card, .bits-grid  {
    display:  flex;
