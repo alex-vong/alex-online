@@ -6,21 +6,21 @@
 		<h2 class="section-heading second-level-heading"><?=ucfirst($page)?></h2>
 		<p class="body-copy">I love building responsive and intuitive websites and am always working on something. Here is a small collection of some of my recent projects and experiences.</p>
 
-	<projects-grid>
+		<projects-grid>
 
-		<?php include("projects-data.php") ?>
-		<?php foreach ($projects as $project) {
+			<?php include("projects-data.php") ?>
+			<?php foreach ($projects as $project) {
 
-			if(!$project["demo"]) { 
-			include('project-card.php');
-			}
+				if(!$project["demo"]) { 
+				include('project-card.php');
+				}
 
-		} ?>
-	</projects-grid>
+			} ?>
+		</projects-grid>
 
-	<?php include("contact-me.php") ?> 
+		<?php include("contact-me.php") ?> 
 
-</section>
+	</section>
 
 	<section class="bits">
 
@@ -36,6 +36,11 @@
 		 	 } ?>
 		 	
 		 </section>
+		 		<a href="https://alexvong.substack.com/" class="animated-line view-all-link" target="_blank">
+			<p class="body-copy">
+				<!-- <span>View All Blogs on My Substack</span> -->
+			</p>
+		</a>
 
 	</section>
 	
