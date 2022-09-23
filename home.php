@@ -3,7 +3,7 @@
 		<section class="landing">
 
 			
-			<h1 class="section-heading top-level-heading">Web Developer creating responsive & intuitive websites</h1>
+			<h1 class="section-heading top-level-heading"><span class='occupation'>Web Developer</span> creating <span class='occupation'>responsive</span> & <span class='occupation'>intuitive</span> websites</h1>
 
 
 			
@@ -12,7 +12,7 @@
 			</p> -->
 
 			<p class="body-copy intro">
-				Hi, I’m <span>Alex</span>. I design and build websites for other people that are goal-driven & oriented, responsive & scalable across all platforms, and simple to use & user-friendly.
+				Hi, I’m <span class='name'>Alex</span>. I design and build websites for other people that are goal-driven & oriented, responsive & scalable across all platforms, and simple to use & user-friendly.
 			</p>
 
 <!-- 			<p class="body-copy intro">
@@ -26,7 +26,7 @@
 
 
 			<p class="body-copy intro">
-				Currently open to employment as a <span>Front-End Web Developer</span>. 
+				Currently open to employment as a <span class='occupation'>Front-End Web Developer</span>. 
 			</p>
 			
 
