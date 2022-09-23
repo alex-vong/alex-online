@@ -1,24 +1,25 @@
-
 /*What's Hot Projects*/
 
 .whats-hot {
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
 }
 
 
-.whats-hot .wh-intro{
-margin:  25px 0;
+.whats-hot .wh-intro {
+    margin: 25px 0;
 }
 
-.whats-hot h4.card-heading{
-   margin-bottom: 15px;  
+.whats-hot h4.card-heading {
+    margin-bottom: 15px;
 }
 
 
-.article-grid, projects-grid, .bits {
-   margin-top: 45px;
+.article-grid,
+projects-grid,
+.bits {
+    margin-top: 45px;
 }
 
 
@@ -26,55 +27,86 @@ margin:  25px 0;
 
 
 projects-grid {
-display:  flex;
-flex-direction: column;
-gap:  30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 
 }
 
-projects-grid > * {
-   flex-basis:  100%;
+projects-grid>* {
+    flex-basis: 100%;
 }
+
+
+.stuff {
+    position: relative;
+    padding: 5px;
+}
+
+/*.stuff:hover {
+    background: linear-gradient(to right, #E39600, #EA4C89, #8F48EB, #1DA1F2);
+
+
+}
+*/
 
 project-card {
-   display:  flex;
-   align-items: center;
-   border:  2px solid var(--border);
-   background-color:  var(--bg-card);
-   padding:  1.25rem;
+    display: flex;
+    align-items: center;
+    /*border:  2px solid var(--border);*/
+    /*background-color:  var(--bg-card);*/
+    background-image: var(--bg-gradient);
+/*    width: fit-content;
+    border-width: 4px;
+    border-top-style: solid;
+    border-image: var(--reverse-gradient) 1;*/
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+
+project-card:hover {
+    /*outline:  4px solid rebeccapurple;*/
+        width: fit-content;
+    border-width: 4px;
+    border-style: solid;
+    border-image: var(--reverse-gradient) 1;
+    transition: .35s ease-in-out;
+
 }
 
 
 project-card .card-details {
-   display:  flex;
-   flex-direction: column;
-   gap: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 
 
-project-card, .bits-grid  {
-   display:  flex;
-   flex-direction: column;
-   gap:  20px;
+project-card,
+.bits-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 
 
 .view-all-link {
-   margin: 60px 0 120px;
+    margin: 60px 0 120px;
 }
 
-.view-all-link  p.body-copy span {
-   color:  var(--ink);
+.view-all-link p.body-copy span {
+    color: var(--ink);
 }
 
 
 
 blog-card {
-   display: flex;
-   flex-direction: column;
-   gap:  5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 
@@ -84,54 +116,58 @@ blog-card {
 }*/
 
 project-card .third-level-heading {
-   margin-top: 10px;
-   font-weight: 500;
-   color:  var(--color);
+    margin-top: 10px;
+    font-weight: 500;
+    color: var(--color);
 
 }
 
-project-card a, .bit-card a {
-   color:  var(--color);
- 
+project-card a,
+.bit-card a {
+    color: var(--color);
+
 }
 
 project-card ul {
-   display:  flex;
-   gap: 10px;
-   order: 3;
-   margin-top: 8px;
+    display: flex;
+    gap: 10px;
+    order: 3;
+    margin-top: 8px;
 }
 
 
 
 
 blogs-grid {
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
-   gap:  20px;
+    gap: 20px;
 
 }
 
-.html, .css, .php, .js {
-   padding: 2px 4px;
+.html,
+.css,
+.php,
+.js {
+    padding: 2px 4px;
 
 }
 
 .html {
-   background-color: var(--html);
+    background-color: var(--html);
 }
 
 .css {
-   background-color: var(--css);
+    background-color: var(--css);
 }
 
 .php {
-   background-color: var(--php);
+    background-color: var(--php);
 }
 
 .js {
-   background-color: var(--js);
+    background-color: var(--js);
 }
 
 projects-grid project-card a picture img {
@@ -142,32 +178,32 @@ projects-grid project-card a picture img {
 }
 
 
-@media (min-width:  768px) {
+@media (min-width: 768px) {
 
-   projects-grid {
-      display:  grid;
- /*     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
-   }
+    projects-grid {
+        display: grid;
+        /*     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
+    }
 
 
 
-   projects-grid project-card {
-      flex-direction: row;
+    projects-grid project-card {
+        flex-direction: row;
 
-   }
+    }
 
-   projects-grid project-card .card-details {
-      flex-basis: 100%;
-   }
+    projects-grid project-card .card-details {
+        flex-basis: 100%;
+    }
 
-   project-card p.body-copy {
-      /*max-width:  45ch;*/
+    project-card p.body-copy {
+        /*max-width:  45ch;*/
 
-   }
+    }
 
-   projects-grid {
-      gap:  20px;
-   }
+    projects-grid {
+        gap: 20px;
+    }
 
 
 }
@@ -178,60 +214,15 @@ projects-grid project-card a picture img {
 */
 
 .bits-grid {
-   gap:  40px;
-   margin-top: 10px;
+    gap: 40px;
+    margin-top: 10px;
 }
 
 
 .bit-card p.body-copy {
-   margin:  5px 0 10px;
+    margin: 5px 0 10px;
 }
 
 .bit-card .second-level-heading {
-   color: var(--alternate);
+    color: var(--alternate);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
