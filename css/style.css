@@ -69,7 +69,22 @@ main {
    /*margin-bottom: 150px;*/
 }
 
+span.name {
+   color: var(--orange);
+   font-weight: 700;
+}
 
+span.occupation {
+   color: var(--purple);
+   font-weight: 700;
+}
+
+.second-level-heading {
+   color: var(--orange);
+}
+.fourth-level-heading span{
+   color: var(--purple);
+}
 
 
 .contact-me .quiet-voice a {
