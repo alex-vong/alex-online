@@ -10,6 +10,7 @@
 
 <div class="wh-projects">
 	<projects-grid>
+		
 		<?php include("modules/projects-data.php") ?>
 		<?php foreach ($projects as $project) {
 
