@@ -1,6 +1,18 @@
 
-.style-guide {
-   background-color: #red;
+.style-guide section {
+   margin-bottom: 60px;
+}
+
+.style-guide section div:last-child {
+   margin-bottom: 50px;
+}
+
+.style-guide .body-copy a {
+   display: inline-block;
+}
+
+.style-guide .sg-intro {
+   margin-top: 15px;
 }
 
 
@@ -12,17 +24,14 @@
 }
 
 .style-guide li {
-   border:  1px solid black;
+   /*border:  1px solid var(--white);*/
    padding:  10px;
-}
-
-
-
-.style-guide p{
-   color:  var(--alternate);
-
+   color: var(--black);
 
 }
+
+
+
 
 .style-guide p span{
    text-transform: uppercase;
@@ -34,17 +43,9 @@
 }
 
 
-.inter > *:not(.inter h3) {
-   font-family: 'Inter Regular', sans-serif;
-}
+/*swatches*/
 
 
-.style-guide section {
-   margin:  50px 0 80px;
-   padding-top: 20px;
-
-   border-top:  1px solid var(--gray);
-}
 
 @media (max-width:  300px ) {
    .style-guide ul {
@@ -88,16 +89,136 @@
 }
 
 
-.style-guide div:not(.article-grid div, project-card div) {
-   margin: 25px 0;
-}
-
 
 .style-guide .sg-animations .body-copy:not(.card-details .body-copy) {
    font-weight: 700;
    text-transform: uppercase;
    margin-bottom: 5px;
 }
+
+
+
+
+
+
+/*colors for universal theme*/
+.style-guide .universal .orange {
+   background-color: var(--orange);
+}
+
+.style-guide .universal .pink {
+   background-color: var(--pink);
+}
+
+.style-guide .universal .purple, button.night {
+   background-color: var(--purple);
+}
+
+.style-guide .universal .blue {
+   background-color: var(--blue);
+}
+
+.style-guide .universal .gradient {
+   background-image: var(--gradient);
+}
+
+.style-guide .universal .reverse-gradient {
+   background-image: var(--reverse-gradient);
+}
+
+
+
+/*colors for dark theme*/
+
+.style-guide .dark .body-copy:not(.white, .marker, .pen) {
+   color: var(--white);
+}
+
+.style-guide .dark .black {
+   background-color: var(--black);
+}
+
+.style-guide .dark .white {
+   background-color: var(--white);
+}
+
+.style-guide .dark .background {
+   background-color: var(--background);
+}
+
+.style-guide .dark .link-bg {
+   background-color: #242424;
+}
+
+.style-guide .dark .marker {
+   background-color: #eaeaea;
+}
+
+.style-guide .dark .pen {
+   background-color: #b1b1b1;
+}
+
+
+/*colors for light theme*/
+
+.style-guide .light .body-copy:not(.link-bg, .white, .background) {
+   color: var(--white);
+}
+
+.style-guide .light .black {
+   background-color: var(--alt-black);
+
+}
+
+.style-guide .light .white {
+   background-color: var(--alt-white);
+}
+
+.style-guide .light .background {
+   background-color: #f1f1f1;
+}
+
+.style-guide .light .link-bg {
+   background-color: #b1b1b1;
+   color: var(--black);
+}
+
+.style-guide .light .marker {
+   background-color: #191919;
+
+
+}
+
+.style-guide .light .pen {
+   background-color:  #2e2e2e;
+
+
+}
+
+.style-guide .dark .background {
+   background-color: #111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
