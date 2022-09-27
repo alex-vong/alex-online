@@ -3,7 +3,7 @@
    margin-bottom: 60px;
 }
 
-.style-guide section div:last-child {
+.style-guide section div:last-child:not(.swatches, .card-details, .article-grid) {
    margin-bottom: 50px;
 }
 
@@ -35,7 +35,7 @@
 
 .style-guide p span{
    text-transform: uppercase;
-   color:  var(--alternate);
+  /* color:  var(--alternate);*/
 }
 
 .style-guide p + p {
@@ -45,7 +45,73 @@
 
 /*swatches*/
 
+.style-guide .sg-colors, .style-guide .sg-font {
+   display: flex;
+   flex-direction: column;
+   gap:  15px;
+}
 
+.style-guide .swatches {
+   display:  flex;
+   flex-direction: column;
+   grid-gap: 30px;
+
+}
+
+
+
+.sg-font .fonts {
+   display:  flex;
+   flex-direction: column;
+   gap: 30px;
+}
+
+
+/*.sg-font div {
+   display: flex;
+   flex-direction: column;
+   gap:  5px;
+}*/
+
+
+/*voices*/
+
+
+.sg-voice-types {
+   display: flex;
+   flex-direction: column;
+   gap:  15px;
+
+}
+.sg-voice-types .voices {
+   display: flex;
+   flex-direction: column;
+   gap:  30px;
+}
+
+.demo-project-card{
+   display: flex;
+   flex-direction: column;
+}
+
+.demo-project-card picture img, .sg-animations picture img  {
+   max-height: 150px;
+   width: auto;
+}
+
+.sg-animations {
+   border-bottom: none;
+}
+
+.sg-project-card, .sg-blogs, .sg-animations  {
+      display: flex;
+   flex-direction: column;
+   gap:  15px;
+}
+
+.sg-blogs .article-grid {
+   margin: 0;
+}
 
 @media (max-width:  300px ) {
    .style-guide ul {
@@ -55,16 +121,20 @@
 
 
 @media (min-width: 600px){
-   .style-guide project-card {
+/*   .style-guide project-card {
        max-width:  90%;
  
-   }
+   }*/
 
 }
 
 @media (min-width: 700px){
    .style-guide project-card {
-       max-width:  50%;
+       flex-direction: row;
+   }
+
+   .style-guide project-card .card-details {
+      flex-basis: 100%;
    }
 
    .style-guide ul {
@@ -74,19 +144,12 @@
 }
 
 @media (min-width: 800px){
-   .style-guide project-card {
+/*   .style-guide project-card {
        max-width:  40%;
    }
-
+*/
 }
 
-
-
-
-.style-guide project-card picture {
-   border:  1px solid var(--alternate);
-   padding:  30px;
-}
 
 
 
