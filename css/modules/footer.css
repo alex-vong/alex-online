@@ -37,7 +37,7 @@ footer {
 
 
 .footer-container h2 {
-    /*color:  var(--pen);*/
+    color:  var(--marker);
     font-weight: 700;
 }
 
