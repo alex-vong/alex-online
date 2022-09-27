@@ -13,7 +13,7 @@
 }
 
 
-section:not(section.container, section.bits-grid) {
+section:not(section.container, section.bits-grid, section.sg-animations) {
 
     border: 0px;
     border-bottom: 2px solid;
@@ -37,11 +37,9 @@ section:is(.landing, .whats-hot) {
     justify-content: space-between;
     color: var(--marker);
 
-}
-
-.contact-me:not(footer .contact-me) {
     margin: 50px 0 120px;
-    
+
+
 }
 
 .landing .contact-me {
@@ -49,7 +47,12 @@ section:is(.landing, .whats-hot) {
     width: 100%;
 }
 
-h2+p.body-copy,
+footer .contact-me {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2+p.body-copy:not(.voices h2+p.body-copy),
 h3+p.body-copy {
     margin-top: 15px;
 }
