@@ -34,19 +34,12 @@
 
 		</section>
 
-		<section class="headings">
-				<h3 class="intro-voice">Headings</h3>
-				<h2 class="second-level-heading">This will be the layout and style of headings throughout the site</h2>	
-		</section>
-
-
 		<section class="sg-project-card">
 
-			<h3 class="intro-voice">Projects</h3>
-			<h2 class="second-level-heading">This will be the project card</h2>	
-		
-			<projects-grid>
-				<?php include("modules/projects-data.php") ?>
+			<h3 class="second-level-heading">Projects</h3>
+			<h2 class="body-copy">This will be the project card</h2>	
+			<div class="demo-project-card">
+								<?php include("modules/projects-data.php") ?>
 				<?php foreach ($projects as $project) {
 
 					if($project["demo"]) { 
@@ -54,15 +47,14 @@
 					}
 
 				} ?>
-
-			</projects-grid>
+			</div>
 
 		</section>
 
 		<section class="sg-blogs">
 
-			<h3 class="intro-voice">Blogs</h3>
-			<h2 class="second-level-heading">Layout for articles</h2>	
+			<h3 class="second-level-heading">Blogs</h3>
+			<h2 class="body-copy">Layout for articles</h2>	
 		
 			<div class="article-grid">
 				<?php include("modules/projects-data.php") ?>
@@ -81,8 +73,7 @@
 
 		<section class="sg-animations">
 
-			<h3 class="intro-voice">Animations</h3>
-			<h2 class="second-level-heading">Cool Animation Stuffs</h2>	
+			<h3 class="second-level-heading">Animations</h3>
 
 
 			<div class="hover-state">
@@ -93,7 +84,7 @@
 				</a>
 			</div>
 
-			<p class="body-copy">Hover Scale Over Cards:</p>
+			<p class="body-copy">Hover gradient border over project cards:</p>
 	
 				<?php include("modules/projects-data.php") ?>
 				<?php foreach ($projects as $project) {
