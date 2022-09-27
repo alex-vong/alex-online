@@ -9,7 +9,9 @@
 		</div>
 
 		<div class="footer-links">
-			<?php include('modules/social-media.php') ?>
+			<div class="contact-me">
+				<?php include('modules/social-media.php') ?>
+			</div>
 			<div>
 <!-- 				<a href="?page=goals" class="animated-line">
 					<p class="body-copy">
