@@ -85,6 +85,8 @@ body {
 
     font-size: clamp(13px, 1vw, 14px);
     line-height: 1.35;
+    color: var(--pen);
+    
 
 
 }
