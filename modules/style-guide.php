@@ -3,7 +3,22 @@
 <section class="style-guide">
 	<inner-column>
 
-		<h1 class="section-heading top-level-heading"> Style Guide</h1>
+		<section class="headline">
+			<h1 class="section-heading top-level-heading"> Style Guide</h1>
+			<div>
+				<p class="sg-intro body-copy">
+				This style guide page will serve as a resource template for all the design elements, choices, and rules for <a href="https://alexvong.dev" target="_blank">alexvong.dev</a>
+				</p>
+			</div>
+<!-- 		<div class="theme-switcher">
+			<switcher>
+				<a href="?page=style-guide" class="quiet-voice <?php if ($page == "style-guide") { echo "active"; } ?>"><button data-scheme='day' class="quiet-voice day">Day </button></a>
+				<a href="?page=style-guide" class="quiet-voice <?php if ($page == "style-guide") { echo "active"; } ?>"><button data-scheme='night' class="quiet-voice night">Night</button></a> 
+				
+				 <button data-scheme='night' class="quiet-voice night">Dark </button>
+			</switcher>	 
+		</div>  -->
+		</section>
 
 		<section class="sg-colors">
 			<?php include('sg-swatches.php') ?>
