@@ -33,10 +33,15 @@ section:is(.landing, .whats-hot) {
 
 .contact-me {
     display: flex;
-    margin: 50px 0 120px;
     align-items: center;
     justify-content: space-between;
+    color: var(--marker);
 
+}
+
+.contact-me:not(footer .contact-me) {
+    margin: 50px 0 120px;
+    
 }
 
 .landing .contact-me {
@@ -109,7 +114,7 @@ a+.body-copy {
 
 .contact-me .email-btn {
     padding: 10px 15px;
-    background-color: var(--bg-color);
+    background-color: var(--link-bg);
 }
 
 .contact-me .email-btn a {
