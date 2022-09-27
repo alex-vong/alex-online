@@ -7,7 +7,7 @@ $projects = [
 		"description" => "Description of the project, what it is and what was the goal",
 		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
 		"case-study" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
-		"image" => "images/project-sg.svg",
+		"image" => "https://peprojects.dev/images/square.jpg",
 		"hot" => false,
 		"demo" => true, 
 	],
