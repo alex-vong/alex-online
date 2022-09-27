@@ -1,38 +1,29 @@
-<h3 class="section-heading intro-voice">
+<h3 class="section-heading second-level-heading">
 Fonts/Typefaces
 </h3>
-<h2 class="second-level-heading">Rubik and Inter</h2>	
 
-<div class="rubik">
-		<h3 class="section-heading intro-voice">
-		Headings
-		</h3>
-		<h2 class="second-level-heading">Rubik</h2>	
 
-		<p class="second-level-heading">	
-			<span>abcdefghijklmn
-			opqrstuvwxyz</span>
-			abcdefghijklmno
-			pqrstuvwxyz
-			!@#$%^&*()_+[]{}: “ ” <>'?,.\/:;
-			1 2 3 4 5 6 7 8 9 10
-		</p>
+<div class="fonts">
+	<div class="monolisa-bold">
+			<h3 class="section-heading body-copy">
+			Headings
+			</h3>
+			<h2 class="third-level-heading">Monolisa Bold</h2>	
 
-</div>
+			<p class="top-level-heading">	
+				All headings will be in MonoLisa Bold. Sizes of course will vary depending on the type of heading it is.
+			</p>
 
-<div class="inter">
-		<h3 class="section-heading intro-voice">
-		Body Copy
-		</h3>		
-		<h2 class="second-level-heading">Inter</h2>
-		<p class="second-level-heading">	
-			<span>abcdefghijklmn
-			opqrstuvwxyz</span>
-			abcdefghijklmn
-			opqrstuvwxyz
-			!@#$%^&*()_+[]{}: “ ” <>'?,.\/:;
-			1 2 3 4 5 6 7 8 9 10
-		</p>
+	</div>
+
+	<div class="monolisa-med">
+			<h3 class="section-heading body-copy">
+			Body Copy
+			</h3>		
+			<h2 class="third-level-heading">Monolisa Medium</h2>
+			<p class="fourth-level-heading">	
+				All body copy text will be in MonoLisa Medium. Like headings there will be different sizes of body copy text.
+			</p>
 	</div>
 
 </div>
