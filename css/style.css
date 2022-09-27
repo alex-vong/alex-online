@@ -82,7 +82,11 @@ span.occupation {
 .second-level-heading {
    color: var(--orange);
 }
-.fourth-level-heading span{
+
+.third-level-heading {
+   color: var(--blue);
+}
+.fourth-level-heading {
    color: var(--purple);
 }
 
