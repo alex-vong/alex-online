@@ -68,7 +68,7 @@ masthead {
 masthead .intro-voice {
     font-size: 22px;
     font-weight: 700;
-    color: var(--color);
+    color: var(--marker);
 }
 
 
@@ -96,10 +96,10 @@ switcher {
 
 switcher button {
 
-    font-family: 'Inter Regular', sans-serif;
-    font-size: 100px;
     padding: 5px 8px;
+    border: none;
 }
+
 
 
 @media (min-width: 768px) {
