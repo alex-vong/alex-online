@@ -79,6 +79,7 @@
 			<div class="demo-project-card">
 								<?php include("modules/projects-data.php") ?>
 				<?php foreach ($projects as $project) {
+
 					if($project["demo"]) { 
 					include('project-card.php');
 					}
