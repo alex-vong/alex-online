@@ -52,8 +52,8 @@ footer .contact-me {
     margin-bottom: 10px;
 }
 
-h2+p.body-copy:not(.voices h2+p.body-copy),
-h3+p.body-copy {
+h2+p.body-copy:not(.voices h2+p.body-copy, .heading-logo h2+p.body-copy),
+h3+p.body-copy:not(.logos h3+p.body-copy) {
     margin-top: 15px;
 }
 
@@ -116,7 +116,7 @@ a+.body-copy {
 }
 
 .contact-me .email-btn {
-    padding: 10px 15px;
+    padding: 0.75rem 1.5rem;
     background-color: var(--link-bg);
 }
 
