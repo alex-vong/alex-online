@@ -45,6 +45,7 @@ footer {
 .footer-links {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
 }
 
 
@@ -56,7 +57,7 @@ footer .social-media {
 
 }
 
-.footer-links div {
+.footer-links :is(div, ul) {
     display: flex;
     align-self: flex-end;
 }
