@@ -55,6 +55,23 @@
 
 		</section>
 
+		<section class="buttons">
+				<h3 class="second-level-heading">Buttons</h3>
+
+				<div class="button-talk">
+					<p class="body-copy">I also do not have many buttons on my personal site, I mainly allow the user to clock directly on links (although I may change that and add some actual buttons on my CTAs later), but it is important to address the specific styles of buttons on a website.</p>
+					<p class="body-copy">The I would normally tackle buttons is to have 2-3 max buttons designs that are very similar to one another to maintain consistency. I would also use a 1 to 2 padding top/bottom to left/right ratio for spacing.</p>
+				</div>
+
+				<div class="button-examples">
+					<a class="body-copy btn btn-swipe-left btn-swipe-left--purple" href="#"><span class='btn'> Click me </span></a>
+					<a class="body-copy btn btn-swipe-up btn-swipe-up--purple" href="#"><span class='btn'> Click me </span></a>
+
+				</div>
+
+
+		</section>
+
 		<section class="sg-project-card">
 
 			<h3 class="second-level-heading">Projects</h3>
