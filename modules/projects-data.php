@@ -144,6 +144,18 @@ $bits = [
 
 
 $latestBlog = [
+
+	[
+		"title" => "Style Guides:101",
+		"month" => "September",
+		"day" => 27,
+		"year" => 2022,
+		"link" => "https://alextalk.substack.com/publish/post/75332782",
+		"description" => "On today's episode we talk about Web Style Guides, what they are, why they are important, and just how to make our own. Stay tuned!",
+		"demo" => false,
+		"front-page" => true,
+	],
+
 	[
 		"title" => "The CSS Box Model - I'll Explain Everything",
 		"month" => "September",
@@ -176,20 +188,6 @@ $latestBlog = [
 		"front-page" => true,
 	],
 
-
-
-	[
-		"title" => "A Brief Intro to CSS Box Model",
-		"month" => "September",
-		"day" => 23,
-		"year" => 2022,
-		"link" => "https://alexvong.substack.com/p/a-brief-intro-to-css-box-model",
-		"description" => "This is a thing called an html element. The whole 
-		thing starts with a box!",
-		"demo" => true,
-		"front-page" => false,
-	],
-			
 
 ];
 
