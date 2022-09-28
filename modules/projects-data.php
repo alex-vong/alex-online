@@ -66,35 +66,35 @@ $projects = [
 $bits = [
 	[
 		"name" => "Intergalactic Plant World",
-		"description" => "This was my first real client project. I was in charge with creating a website for a local small business plant shop.",
+		"description" => "Goal was to create a psychedelic and far out website for a local plant shop. Just plain simple fun and experimenting.",
 		"project-link" => "https://peprojects.dev/alpha-1/alexvong/IPW/",
 		"has-project-site" => true,
 
 	],
-	[
-		"name" => "Exercises for Programmers",
-		"description" => "This is a collection of exercises from 'Exercises for Programmers'. I did these mostly in PHP",
-		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
-		"has-project-site" => true,
+	// [
+	// 	"name" => "Exercises for Programmers",
+	// 	"description" => "This is a collection of exercises from 'Exercises for Programmers'. I did these mostly in PHP",
+	// 	"project-link" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
+	// 	"has-project-site" => true,
 	
-	],
+	// ],
 	[
 		"name" => "Pet Adoption Site",
-		"description" => "This was my first website using responsive design. The goal was to make eveyr component scale on all device sizes.",
+		"description" => "My FIRST ever attempt at building a responsive website. This site will forever be archived and never changed or touched upon but used for personal research purposes.",
 		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/pawsitive-pets/",
 		"has-project-site" => true,
 	
 	],
 
-	[
-		"name" => "Super Responsive Layout Challenge",
-		"description" => "This project was focused on creating a super responsive layout that scaled across all sizes as well as build and reuse components.",
-		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/theme-layout-challenge/",
-		"has-project-site" => true,
+	// [
+	// 	"name" => "Super Responsive Layout Challenge",
+	// 	"description" => "This project was focused on creating a super responsive layout that scaled across all sizes as well as build and reuse components.",
+	// 	"project-link" =>"https://peprojects.dev/alpha-1/alexvong/theme-layout-challenge/",
+	// 	"has-project-site" => true,
 	
-	],
+	// ],
 
-			[
+	[
 		"name" => "CSS Positioning in Action",
 		"description" => "A quick demo showing all the different CSS positionings.",
 		"project-link" =>"https://codepen.io/Alexv0ng/pen/oNZxOoP",
@@ -104,17 +104,17 @@ $bits = [
 
 	[
 		"name" => "Apple Site",
-		"description" => "A HTML and CSS Challenge I was given at Perpetual Education. GOal was to recreate a website as much as possible in an one hour time box",
+		"description" => "Challenge was to recreate a website in only one hour. Can I do it?",
 		"project-link" =>"https://codepen.io/Alexv0ng/pen/abpRozV",
 		"has-project-site" => false,
 	],
 
-	[
-		"name" => "Intro to CSS Box Model",
-		"description" => "An article written to give a basic and simple introduction to the CSS Box Model.",
-		"project-link" =>"https://codepen.io/Alexv0ng/pen/dyNdRgr",
-		"has-project-site" => false,
-	],
+	// [
+	// 	"name" => "Intro to CSS Box Model",
+	// 	"description" => "An article written to give a basic and simple introduction to the CSS Box Model.",
+	// 	"project-link" =>"https://codepen.io/Alexv0ng/pen/dyNdRgr",
+	// 	"has-project-site" => false,
+	// ],
 
 
 	[
@@ -124,18 +124,18 @@ $bits = [
 		"has-project-site" => false,
 	],
 
-	[
-		"name" => "Responsive Layout",
-		"description" => "A Template for a fully responsive website layout",
-		"project-link" =>"https://codepen.io/Alexv0ng/pen/gOmbOwb",
-		"has-project-site" => false,
-	],
-	[
-		"name" => "Responsive Layout",
-		"description" => "A Template for a fully responsive website layout.",
-		"project-link" =>"https://codepen.io/Alexv0ng/pen/gOmbOwb",
-		"has-project-site" => false,
-	],
+	// [
+	// 	"name" => "Responsive Layout",
+	// 	"description" => "A Template for a fully responsive website layout",
+	// 	"project-link" =>"https://codepen.io/Alexv0ng/pen/gOmbOwb",
+	// 	"has-project-site" => false,
+	// ],
+	// [
+	// 	"name" => "Responsive Layout",
+	// 	"description" => "A Template for a fully responsive website layout.",
+	// 	"project-link" =>"https://codepen.io/Alexv0ng/pen/gOmbOwb",
+	// 	"has-project-site" => false,
+	// ],
 
 
 ];
