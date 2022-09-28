@@ -57,19 +57,3 @@ footer .social-media {
 
 }
 
-.footer-links :is(div, ul) {
-    display: flex;
-    align-self: flex-end;
-}
-
-
-
-/*@media (min-width:  768px) {
-   .footer-links {
-      flex-direction: row;
-      gap:  20px;
-      justify-content: space-between;
-      align-items: flex-end;
-
-   }
-}*/
