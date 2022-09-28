@@ -93,7 +93,7 @@ a+.body-copy {
         max-width: 50ch;
     }
 
-    .contact-me:not(.projects .contact-me) {
+    .contact-me:not(.projects .contact-me, footer .contact-me) {
         width: 653px;
     }
 
