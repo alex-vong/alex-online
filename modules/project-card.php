@@ -7,7 +7,6 @@
 			</picture>
 		</a>
 
-
 		<div class="card-details">
 			<a href="<?=$project["project-link"]?>" target="_blank">
 					<h3 class="fourth-level-heading animated-line">
