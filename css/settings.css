@@ -20,22 +20,24 @@ body {
 @media(prefers-color-scheme: dark) {
     body {
         --background: #111;
-        --black:  #191919;
-        --white:  #f2f2f2;
+        --black: #191919;
+        --white: #f2f2f2;
         --bg-card: #191919;
         --marker: #eaeaea;
         --pen: #b1b1b1;
-        --link-bg: #242424; 
+        --link-bg: #242424;
         --gradient: linear-gradient(to right, #E39600, #EA4C89, #8F48EB, #1DA1F2);
         --reverse-gradient: linear-gradient(35deg, #1DA1F2, #8F48EB, #EA4C89, #E39600);
 
-        --bg-gradient: linear-gradient(35deg,var(--bg-card),var(--background));
+        --purple-gradient:  linear-gradient(to right, #a065ec, #9d60ec, #9a5bec, #9655eb, #9350eb, #904beb, #8e47eb, #8b42eb, #883deb, #8538ea, #8233ea, #7f2ee9);;
+
+        --bg-gradient: linear-gradient(35deg, var(--bg-card), var(--background));
+        --button-gradient:  linear-gradient(to right, #191919, #171717, #151515, #131313, #111111);
         --theme-bg: #E39600;
-/*        --theme-bg-inactive: #8F48EB;*/
 
         --orange: #E39600;
         --pink: #EA4C89;
-        --purple:  #8F48EB;
+        --purple: #8F48EB;
         --blue: #1DA1F2;
 
         --alt-background: #f1f1f1;
@@ -48,8 +50,8 @@ body {
 
     }
 
-        .style-guide li {
-        border:  1px solid var(--pen);
+    .style-guide li {
+        border: 1px solid var(--pen);
     }
 
 }
@@ -57,26 +59,28 @@ body {
 @media(prefers-color-scheme: light) {
     body {
         --alt-background: #111;
-        --alt-black:  #191919;
-        --alt-white:  #f2f2f2;
+        --alt-black: #191919;
+        --alt-white: #f2f2f2;
         --alt-bg-card: #191919;
         --alt-marker: #eaeaea;
         --alt-pen: #b1b1b1;
-        --alt-link-bg: #242424; 
+        --alt-link-bg: #242424;
         --gradient: linear-gradient(to right, #E39600, #EA4C89, #8F48EB, #1DA1F2);
         --reverse-gradient: linear-gradient(35deg, #1DA1F2, #8F48EB, #EA4C89, #E39600);
 
-        --bg-gradient: linear-gradient(35deg,var(--bg-card),var(--background));
+        --bg-gradient: linear-gradient(35deg, var(--bg-card), var(--background));
         --theme-bg: #E39600;
-/*        --theme-bg-inactive: #8F48EB;*/
+        /*        --theme-bg-inactive: #8F48EB;*/
+        --purple-gradient:  linear-gradient(35deg, #a065ec, #9d60ec, #9a5bec, #9655eb, #9350eb, #904beb, #8e47eb, #8b42eb, #883deb, #8538ea, #8233ea, #7f2ee9);;
+        --button-gradient:  linear-gradient(to right, #f2f2f2, #f0f0f0, #eeeeee, #ececec, #eaeaea);
 
         --orange: #E39600;
         --pink: #EA4C89;
-        --purple:  #8F48EB;
+        --purple: #8F48EB;
         --blue: #1DA1F2;
 
         --background: #f1f1f1;
-        --background:  #f1f1f1;
+        --background: #f1f1f1;
         --black: #191919;
         --white: #f2f2f2;
         --bg-card: #F3F3F3;
@@ -87,7 +91,7 @@ body {
     }
 
     .style-guide li {
-        border:  1px solid var(--alt-black);
+        border: 1px solid var(--alt-black);
     }
 
 
