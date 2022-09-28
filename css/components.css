@@ -93,7 +93,7 @@ a+.body-copy {
         max-width: 50ch;
     }
 
-    .landing .contact-me {
+    .contact-me:not(.projects .contact-me) {
         width: 653px;
     }
 
