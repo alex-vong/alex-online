@@ -151,6 +151,7 @@ blogs-grid {
 .php,
 .js {
     padding: 2px 4px;
+    color: var(--white);
 
 }
 
@@ -172,10 +173,14 @@ blogs-grid {
 
 projects-grid project-card a picture img {
     /*max-height:  170px;*/
-    min-height: 150px;
-    /*width: auto;*/
-
+    min-height: 200px;
+    width: auto;
 }
+
+/*projects-grid project-card a picture img:hover {
+    transform: scale(1.1);
+}*/
+
 
 
 @media (min-width: 768px) {
@@ -189,6 +194,7 @@ projects-grid project-card a picture img {
 
     projects-grid project-card {
         flex-direction: row;
+        gap: 40px;
 
     }
 
