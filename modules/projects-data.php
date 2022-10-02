@@ -15,9 +15,9 @@ $projects = [
 	[
 		"name" => "Responsive Layouts Garden",
 		"description" => "Constantly trying to improve my knowledge of responsive design so I created a collection of responsive components I found in the world with new components added over time.",
-		"project-link" => "https://peprojects.dev/alpha-1/alexvong/responsive-layout-collection/",
+		"project-link" => "https://alexvong.dev/modules/responsive-layout-collection/",
 		"case-study" => "https://peprojects.dev/alpha-1/alexvong/30day-responsive-layout-challenge/",
-		"image" => "images/rlc-2.svg",
+		"image" => "images/rlc-img.svg",
 		"hot" => true,
 		"demo" => false,
 		"languages" => ['html', 'css', 'php'],
@@ -27,9 +27,20 @@ $projects = [
 		"description" => "I like Pokemon so I created my own PokeDex featuring the original 151 pocket monsters.",
 		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
 		"case-study" =>false,
-		"image" => "images/pokedex-2.svg",
-
+		"image" => "images/poke-dex.svg",
 		"hot" => true,
+		"demo" => false,
+		"languages" => ['html', 'css', 'php'],
+	],
+	
+	[
+		"name" => "Huddle",
+		"description" => "A responsive website challenge from Front End Mentor",
+		"project-link" =>"https://alexvong.dev/modules/huddle/",
+		"case-study" =>false,
+		"image" => "images/huddle-img.svg",
+
+		"hot" => false,
 		"demo" => false,
 		"languages" => ['html', 'css', 'php'],
 	],
@@ -66,7 +77,7 @@ $projects = [
 $bits = [
 	[
 		"name" => "Intergalactic Plant World",
-		"description" => "Goal was to create a psychedelic and far out website for a local plant shop. Just plain simple fun and experimenting.",
+		"description" => "Goal was to create a psychedelic and far out website for a local plant shop. Just plain simple fun and",
 		"project-link" => "https://peprojects.dev/alpha-1/alexvong/IPW/",
 		"has-project-site" => true,
 
