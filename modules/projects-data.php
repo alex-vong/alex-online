@@ -17,7 +17,7 @@ $projects = [
 		"description" => "Constantly trying to improve my knowledge of responsive design so I created a collection of responsive components I found in the world with new components added over time.",
 		"project-link" => "https://alexvong.dev/modules/responsive-layout-collection/",
 		"case-study" => "https://peprojects.dev/alpha-1/alexvong/30day-responsive-layout-challenge/",
-		"image" => "images/rlc-img.svg",
+		"image" => "images/rlc-3.svg",
 		"hot" => true,
 		"demo" => false,
 		"languages" => ['html', 'css', 'php'],
@@ -45,24 +45,26 @@ $projects = [
 		"languages" => ['html', 'css', 'php'],
 	],
 
+
+
 	[
-		"name" => "MOAA - Museum of Alex Arts",
-		"description" => "A Gallery of skecthes I made on Affinity Designer",
-		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/a-thing-a-day",
+		"name" => "Buy a Home - Super Responsive Layout Challenge",
+		"description" => "Created a responsive website template and styled it with a real estate theme",
+		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/tiny-homes",
 		"case-study" =>false,
-		"image" => "images/moaa2.svg",
+		"image" => "images/tiny-homes.svg",
 
 		"hot" => false,
 		"demo" => false,
 		"languages" => ['html', 'css', 'php'],
 	],
 
-		[
-		"name" => "Buy a Home - Super Responsive Layout Challenge",
-		"description" => "Created a responsive website template and styled it with a real estate theme",
-		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/tiny-homes",
+	[
+		"name" => "MOAA - Museum of Alex Arts",
+		"description" => "A Gallery of skecthes I made on Affinity Designer",
+		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/a-thing-a-day",
 		"case-study" =>false,
-		"image" => "images/tiny-homes.svg",
+		"image" => "images/moaa2.svg",
 
 		"hot" => false,
 		"demo" => false,
