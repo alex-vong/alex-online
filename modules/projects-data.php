@@ -50,7 +50,7 @@ $projects = [
 		"description" => "A Gallery of skecthes I made on Affinity Designer",
 		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/a-thing-a-day",
 		"case-study" =>false,
-		"image" => "images/moaa2.svg",
+		"image" => "images/athingaday.svg",
 
 		"hot" => false,
 		"demo" => false,
