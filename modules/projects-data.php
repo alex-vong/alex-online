@@ -159,6 +159,17 @@ $bits = [
 $latestBlog = [
 
 	[
+		"title" => "Website Design: 101",
+		"month" => "October",
+		"day" => 9,
+		"year" => 2022,
+		"link" => "	https://alextalk.substack.com/p/literally-every-responsive-layout",
+		"description" => "Designing a website is easy. Just follow the same blueprint that basically every other website out there uses and then, CHA-CHING, you're rich!",
+		"demo" => false,
+		"front-page" => true,
+	],
+
+	[
 		"title" => "Style Guides:101",
 		"month" => "September",
 		"day" => 27,
