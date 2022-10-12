@@ -198,7 +198,7 @@ $latestBlog = [
 		"link" => "https://codepen.io/Alexv0ng/full/dyNdRgr",
 		"description" => "A CodePen article teaching the basics of the CSS Box Model with the help of Jack Skellington.",
 		"demo" => false,
-		"front-page" => true,
+		"front-page" => false,
 	],
 
 	[
@@ -209,7 +209,7 @@ $latestBlog = [
 		"link" => "https://alextalk.substack.com/p/dark-mode-prefers-color-scheme",
 		"description" => "This article aims to briefly introduce the CSS prefers-color-scheme media feature and how to implement it in your code.",
 		"demo" => false,
-		"front-page" => true,
+		"front-page" => false,
 	],
 	[
 		"title" => "The Code Behind an SVG",
@@ -219,7 +219,7 @@ $latestBlog = [
 		"link" => "https://alextalk.substack.com/p/the-code-behind-an-svg",
 		"description" => "Ever wonder what is under the hood of an SVG and what makes it so different than the other image formats?",
 		"demo" => false,
-		"front-page" => true,
+		"front-page" => false,
 	],
 
 
