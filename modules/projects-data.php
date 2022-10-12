@@ -180,7 +180,7 @@ $latestBlog = [
 	],
 
 	[
-		"title" => "Style Guides:101",
+		"title" => "Style Guides: 101",
 		"month" => "September",
 		"day" => 27,
 		"year" => 2022,
