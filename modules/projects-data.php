@@ -160,7 +160,7 @@ $latestBlog = [
 	[
 		"title" => "JavaScript Things -  for Loops: 101",
 		"month" => "October",
-		"day" => 12,
+		"day" => "12th",
 		"year" => 2022,
 		"link" => "https://alextalk.substack.com/p/javascript-things-for-loops-101",
 		"description" => "Loops! What are they good FOR? Absolutely incrementing! Loop it again!",
@@ -171,7 +171,7 @@ $latestBlog = [
 	[
 		"title" => "Website Design: 101",
 		"month" => "October",
-		"day" => 9,
+		"day" => "9th",
 		"year" => 2022,
 		"link" => "https://alextalk.substack.com/p/literally-every-responsive-layout",
 		"description" => "Designing a website is easy. Just follow the same blueprint that basically every other website out there uses and then, CHA-CHING, you're rich!",
@@ -182,7 +182,7 @@ $latestBlog = [
 	[
 		"title" => "Style Guides: 101",
 		"month" => "September",
-		"day" => 27,
+		"day" => "27th",
 		"year" => 2022,
 		"link" => "https://alextalk.substack.com/p/style-guide-101",
 		"description" => "On today's episode we talk about Web Style Guides, what they are, why they are important, and just how to make our own. Stay tuned!",
@@ -193,7 +193,7 @@ $latestBlog = [
 	[
 		"title" => "The CSS Box Model - I'll Explain Everything",
 		"month" => "September",
-		"day" => 23,
+		"day" => "23rd",
 		"year" => 2022,
 		"link" => "https://codepen.io/Alexv0ng/full/dyNdRgr",
 		"description" => "A CodePen article teaching the basics of the CSS Box Model with the help of Jack Skellington.",
@@ -204,7 +204,7 @@ $latestBlog = [
 	[
 		"title" => "Dark Mode: Prefers-Color-Scheme",
 		"month" => "August",
-		"day" => 22,
+		"day" => "22nd",
 		"year" => 2022,
 		"link" => "https://alextalk.substack.com/p/dark-mode-prefers-color-scheme",
 		"description" => "This article aims to briefly introduce the CSS prefers-color-scheme media feature and how to implement it in your code.",
@@ -214,7 +214,7 @@ $latestBlog = [
 	[
 		"title" => "The Code Behind an SVG",
 		"month" => "August",
-		"day" => 6,
+		"day" => "6th",
 		"year" => 2022,
 		"link" => "https://alextalk.substack.com/p/the-code-behind-an-svg",
 		"description" => "Ever wonder what is under the hood of an SVG and what makes it so different than the other image formats?",
