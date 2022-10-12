@@ -157,13 +157,23 @@ $bits = [
 
 
 $latestBlog = [
+	[
+		"title" => "JavaScript Things -  for Loops: 101",
+		"month" => "October",
+		"day" => 12,
+		"year" => 2022,
+		"link" => "https://alextalk.substack.com/p/javascript-things-for-loops-101",
+		"description" => "Loops! What are they good FOR? Absolutely incrementing! Loop it again!",
+		"demo" => false,
+		"front-page" => true,
+	],
 
 	[
 		"title" => "Website Design: 101",
 		"month" => "October",
 		"day" => 9,
 		"year" => 2022,
-		"link" => "	https://alextalk.substack.com/p/literally-every-responsive-layout",
+		"link" => "https://alextalk.substack.com/p/literally-every-responsive-layout",
 		"description" => "Designing a website is easy. Just follow the same blueprint that basically every other website out there uses and then, CHA-CHING, you're rich!",
 		"demo" => false,
 		"front-page" => true,
