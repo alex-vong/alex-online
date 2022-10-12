@@ -39,8 +39,7 @@ $projects = [
 		"project-link" =>"https://alexvong.dev/modules/huddle/",
 		"case-study" =>false,
 		"image" => "images/huddle-img.svg",
-
-		"hot" => false,
+		"hot" => true,
 		"demo" => false,
 		"languages" => ['html', 'css', 'php'],
 	],
