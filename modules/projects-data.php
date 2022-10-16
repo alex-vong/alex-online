@@ -46,7 +46,7 @@ $projects = [
 	[
 		"name" => "Sign Up Page",
 		"description" => "I learned about event handlers, functions, and Regular Expressions so I figured I'd make a responsive sign-up page.",
-		"project-link" =>"https://alexvong.dev/modules/js-sign-up/",
+		"project-link" =>"https://alexvong.dev/modules/js-signup-page/",
 		"case-study" =>false,
 		"image" => "images/signup.svg",
 		"hot" => true,
