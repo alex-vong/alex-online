@@ -173,7 +173,7 @@ blogs-grid {
 
 projects-grid project-card a picture img {
     /*max-height:  170px;*/
-    min-width: 275px;
+    min-width: 285px;
     /*width: auto;*/
 }
 
