@@ -8,7 +8,7 @@ body {
    overflow-x: hidden;
 
    -webkit-font-smoothing: antialiased;
-   list-style: 0.5px;
+   list-style: none;
 } 
 
 
