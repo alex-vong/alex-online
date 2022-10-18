@@ -51,7 +51,7 @@ $projects = [
 		"image" => "images/signup.svg",
 		"hot" => true,
 		"demo" => false,
-		"languages" => ['html', 'css', 'php'],
+		"languages" => ['html', 'css', 'php', 'js'],
 	],
 
 
@@ -167,7 +167,18 @@ $bits = [
 
 $latestBlog = [
 	[
-		"title" => "JavaScript Things -  for Loops: 101",
+		"title" => "JS Things - Primitive vs Reference Types: 101",
+		"month" => "October",
+		"day" => "18th",
+		"year" => 2022,
+		"link" => "https://alextalk.substack.com/p/javascript-things-primitive-vs-reference",
+		"description" => "Learn about how Primitive and Reference Data Types are stored and updated.",
+		"demo" => false,
+		"front-page" => true,
+	],
+
+	[
+		"title" => "JS Things -  for Loops: 101",
 		"month" => "October",
 		"day" => "12th",
 		"year" => 2022,
