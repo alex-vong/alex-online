@@ -21,7 +21,7 @@
 </div>
 
 
-<a href="?page=writings" class="animated-line view-all-link">
+<a href="?page=writing" class="animated-line view-all-link">
 	<p class="body-copy">
 		<span>View More Blogs</span>
 	</p>
