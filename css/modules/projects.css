@@ -152,6 +152,7 @@ blogs-grid {
 .js {
     padding: 2px 4px;
     color: var(--white);
+    font-weight: 700;
 
 }
 
