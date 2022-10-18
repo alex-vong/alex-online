@@ -56,7 +56,7 @@ project-card {
     /*border:  2px solid var(--border);*/
     /*background-color:  var(--bg-card);*/
     background-image: var(--bg-gradient);
-/*    width: fit-content;
+    /*    width: fit-content;
     border-width: 4px;
     border-top-style: solid;
     border-image: var(--reverse-gradient) 1;*/
@@ -67,7 +67,7 @@ project-card {
 
 project-card:hover {
     /*outline:  4px solid rebeccapurple;*/
-        width: fit-content;
+    width: fit-content;
     border-width: 4px;
     border-style: solid;
     border-image: var(--reverse-gradient) 1;
@@ -177,10 +177,6 @@ projects-grid project-card a picture img {
     min-width: 285px;
     /*width: auto;*/
 }
-
-/*projects-grid project-card a picture img:hover {
-    transform: scale(1.1);
-}*/
 
 
 
