@@ -25,7 +25,7 @@ section:not(section.container, section.bits-grid, section.sg-animations) {
 
 
 section:is(.landing, .whats-hot) {
-    margin-bottom: 120px;
+    margin-bottom: 150px;
 
 }
 
