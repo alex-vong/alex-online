@@ -12,8 +12,8 @@
 			<a href="<?=$blog["link"]?>" class="animated-line" target="_blank">
 				<h3 class="fourth-level-heading"><span class="animated-line"><?=$blog["title"]?></span></h3>
 			</a>
-			<p class="body-copy"><?=$blog["headline"]?></p>
-			<p class="intro quiet-voice"><?=$blog['intro']?></p>
+			<p class="body-copy headline"><?=$blog["headline"]?></p>
+			<p class="intro quiet-voice"> <?=$blog['intro']?></p>
 		</div>
 	</div>
 </a>
