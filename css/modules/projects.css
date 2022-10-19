@@ -53,17 +53,17 @@ projects-grid>* {
 project-card {
     display: flex;
     align-items: center;
-    /*border:  2px solid var(--border);*/
-    /*background-color:  var(--bg-card);*/
     background-image: var(--bg-gradient);
-    /*    width: fit-content;
-    border-width: 4px;
-    border-top-style: solid;
-    border-image: var(--reverse-gradient) 1;*/
-    padding: 2rem;
+
+    padding: 30px 20px;
     border-radius: 0.5rem;
 }
 
+@media (min-width: 1000px) {
+    project-card {
+        padding: 2rem;
+    }
+}
 
 project-card:hover {
     /*outline:  4px solid rebeccapurple;*/
@@ -96,6 +96,12 @@ project-card,
 .view-all-link {
     margin: 60px 0 120px;
 }
+
+.whats-hot-blogs .view-all-link {
+    margin: 82.5px 0 120px;
+}
+
+
 
 .view-all-link p.body-copy span {
     color: var(--ink);
