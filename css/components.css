@@ -25,7 +25,15 @@ section:not(section.container, section.bits-grid, section.sg-animations) {
 
 
 section:is(.landing, .whats-hot) {
-    margin-bottom: 150px;
+    margin-bottom: 120px;
+
+}
+
+@media (min-width: 1000px) {
+    section.landing {
+        margin-bottom: 150px;
+
+    }
 
 }
 
@@ -43,7 +51,7 @@ section:is(.landing, .whats-hot) {
 }
 
 .landing .contact-me {
-    margin-top: 10px;
+    margin-top: 15px;
     width: 100%;
 }
 
