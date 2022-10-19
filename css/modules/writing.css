@@ -1,29 +1,33 @@
 .article-grid {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-
-    margin-top: 45px;
-
-    /*    border: 2px solid var(--border);
-    background-color: var(--bg-card);
-    padding: 30px 20px;
-*/
+    gap: 60px;
 
 
 }
 
+@media (min-width: 700px) {
+    .article-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 60px 30px;
 
-.article-date {
-    /*       width: fit-content;
-  border-width: 1px;
-  border-style: solid;
-  border-left:  none;
-  border-right: none;
-  border-image: var(--gradient) 1;
-    padding: 2px 0;*/
+    }
 
 }
+
+.whats-hot-blogs .second-level-heading {
+    color: var(--purple);
+}
+
+.article-card .third-level-heading {
+    color: var(--orange);
+}
+
+.article-card {
+    position: relative;
+}
+
 
 .article-card .article-content {
     display: flex;
@@ -37,6 +41,8 @@
     border-image: var(--reverse-gradient) 1;
     background-color: var(--alt-black);
     padding: 15px 20px 40px;
+    width: 100%;
+
 
 }
 
@@ -70,30 +76,31 @@
 }
 
 
-.article-content .intro {
-    background-image: linear-gradient(180deg, var(--marker), var(--white), var(--pen), rgba(250, 250, 250, 0.01));
+.article-content .preview {
+    /*background-image: linear-gradient(180deg, var(--marker), var(--white), var(--pen), rgba(250, 250, 250, 0.01));*/
+    background-image: linear-gradient(180deg, var(--marker), var(--white), rgba(174, 174, 174, 0.6), rgba(250, 250, 250, 0.01));
     background-size: 100%;
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
+    line-height: 1.5;
+}
 
+@media (max-width: 400px) {
+    .article-content .preview {
+        width: 36ch;
+    }
 }
 
 
+.article-card picture img {
+    width: clamp(45px, 4vw, 50px);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 50%);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
