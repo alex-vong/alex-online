@@ -93,13 +93,7 @@ $bits = [
 		"has-project-site" => true,
 
 	],
-	// [
-	// 	"name" => "Exercises for Programmers",
-	// 	"description" => "This is a collection of exercises from 'Exercises for Programmers'. I did these mostly in PHP",
-	// 	"project-link" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
-	// 	"has-project-site" => true,
-	
-	// ],
+
 	[
 		"name" => "Pet Adoption Site",
 		"description" => "My FIRST ever attempt at building a responsive website. This site will forever be archived and never changed or touched upon but used for personal research purposes.",
@@ -107,14 +101,6 @@ $bits = [
 		"has-project-site" => true,
 	
 	],
-
-	// [
-	// 	"name" => "Super Responsive Layout Challenge",
-	// 	"description" => "This project was focused on creating a super responsive layout that scaled across all sizes as well as build and reuse components.",
-	// 	"project-link" =>"https://peprojects.dev/alpha-1/alexvong/theme-layout-challenge/",
-	// 	"has-project-site" => true,
-	
-	// ],
 
 	[
 		"name" => "CSS Positioning in Action",
@@ -131,12 +117,7 @@ $bits = [
 		"has-project-site" => false,
 	],
 
-	// [
-	// 	"name" => "Intro to CSS Box Model",
-	// 	"description" => "An article written to give a basic and simple introduction to the CSS Box Model.",
-	// 	"project-link" =>"https://codepen.io/Alexv0ng/pen/dyNdRgr",
-	// 	"has-project-site" => false,
-	// ],
+
 
 
 	[
@@ -146,19 +127,6 @@ $bits = [
 		"has-project-site" => false,
 	],
 
-	// [
-	// 	"name" => "Responsive Layout",
-	// 	"description" => "A Template for a fully responsive website layout",
-	// 	"project-link" =>"https://codepen.io/Alexv0ng/pen/gOmbOwb",
-	// 	"has-project-site" => false,
-	// ],
-	// [
-	// 	"name" => "Responsive Layout",
-	// 	"description" => "A Template for a fully responsive website layout.",
-	// 	"project-link" =>"https://codepen.io/Alexv0ng/pen/gOmbOwb",
-	// 	"has-project-site" => false,
-	// ],
-
 
 ];
 
@@ -167,26 +135,26 @@ $bits = [
 
 $latestBlog = [
 	[
-		"title" => "JS Things - Primitive vs Reference Types: 101",
+		"title" => "JavaScript 101 - Prim vs Ref Types",
 		"month" => "Oct",
 		"day" => "18th",
 		"year" => 2022,
 		"link" => "https://alextalk.substack.com/p/javascript-things-primitive-vs-reference",
 		"headline" => "Learn about how Primitive and Reference Data Types are stored and updated.",
-		"intro" => "On your JavasScript journey, you’ve come across Primitive Data Types and Reference Data Types. You probably learned that the main difference between the two is “how they are stored in memory” where primitive data types are often assigned a new value while reference data types are given a new reference to that memory. In this article, I will go further in detail on the two data types and hope my explanation ...",
+		"preview" => "On your JavasScript journey, you’ve come across Primitive Data Types and Reference Data Types. You probably learned that the main difference between the two is “how they are stored in memory” where primitive data types are often assigned a new value while reference data types are given a new reference to that memory. In this article, I will go further in detail on the two data types and hope my explanation...",
 		"read-time" => 5,
 		"demo" => false,
 		"front-page" => true,
 	],
 
 	[
-		"title" => "JS Things -  for Loops: 101",
+		"title" => "JavaScript 101: For Loops",
 		"month" => "Oct",
 		"day" => "12th",
 		"year" => 2022,
 		"link" => "https://alextalk.substack.com/p/javascript-things-for-loops-101",
 		"headline" => "Loops! What are they good FOR? Absolutely incrementing! Loop it again!",
-		"intro" => "Today on my journey to learn JavaScript, I came across the for loop. It seems nowadays that the for loop is not used as often. It is used so...",
+		"preview" => "Today on my journey to learn JavaScript, I came across the for loop. It seems nowadays that the for loop is not used as often. It is used so.infrequently in fact, that almost all of the JS tutorials I’ve watched merely introduce the concept and then quickly move on without really explaining exactly how it works (and trust me, I watched A LOT of JS tutorials on this). In this article I aim to further break down the for loop with real ...",
 		"read-time" => 5,
 		"demo" => false,
 		"front-page" => true,
@@ -199,7 +167,7 @@ $latestBlog = [
 		"year" => 2022,
 		"link" => "https://alextalk.substack.com/p/literally-every-responsive-layout",
 		"headline" => "Designing a website is easy. Just follow the same blueprint that basically every other website out there uses and then, CHA-CHING, you're rich!",
-		"intro" => "One of the coolest things about web design, and websites in general, are that those designs are all unique to the individual business. From color...",
+		"preview" => "One of the coolest things about web design, and websites in general, are that those designs are all unique to the individual business. From color palettes to typography to layout and spacing, there are infinite ways to design a website and because of that, it is difficult to find two websites that share the same design. But what we can find, if we look underneath the hood, is that majority of the websites contain the same reusebale components...",
 		"read-time" => 4,
 		"demo" => false,
 		"front-page" => true,
@@ -213,7 +181,7 @@ $latestBlog = [
 		"link" => "https://alextalk.substack.com/p/style-guide-101",
 		"headline" => "On today's episode we talk about Web Style Guides, what they are, why they are important, and just how to make our own. Stay tuned!",
 		"read-time" => 5,
-		"intro" => "A website style guide outlines a comprehensive set of standards for a company for its brand identity and how those identities are expressed on its website...",
+		"preview" => "A website style guide outlines a comprehensive set of standards for a company for its brand identity and how those identities are expressed on its website. Within those standards are a set of rules or guidelines for how its visual elements should be used throughout its site. These rules or guidelines are typically used as references for anyone who works on the website so that there will be a clear understanding for the page design...",
 		"demo" => false,
 		"front-page" => true,
 	],
@@ -225,7 +193,7 @@ $latestBlog = [
 		"year" => 2022,
 		"link" => "https://codepen.io/Alexv0ng/full/dyNdRgr",
 		"headline" => "A CodePen article teaching the basics of the CSS Box Model with the help of Jack Skellington.",
-		"intro" => "The CSS Box Model is a tale as old as time (or well since the 90s anyways), and true as it can be. It is a crucial concept that all Front-End Developers...",
+		"preview" => "The CSS Box Model is a tale as old as time (or well since the 90s anyways), and true as it can be. It is a crucial concept that all Front-End Developers must understand if they wish to build and design successful webpages. In this article I will try and explain the basic core principals of the CSS Box Model as I understand...",
 		"read-time" => 8,
 		"demo" => false,
 		"front-page" => false,
@@ -238,7 +206,7 @@ $latestBlog = [
 		"year" => 2022,
 		"link" => "https://alextalk.substack.com/p/dark-mode-prefers-color-scheme",
 		"headline" => "This article aims to briefly introduce the CSS prefers-color-scheme media feature and how to implement it in your code.",
-		"intro" => "Dark mode is a fairly new feature that has seem to become stable across all devices nowadays. Most, if not all, smartphones, tablets, and computers...",
+		"preview" => "Dark mode is a fairly new feature that has seem to become stable across all devices nowadays. Most, if not all, smartphones, tablets, and computers all come with an added dark mode as the feature aims to enhance visual ergonomics by reducing eye strain, facilitating screens to adjust according to current light conditions, and...",
 		"demo" => false,
 		"read-time" => 3,
 		"front-page" => false,
@@ -250,7 +218,7 @@ $latestBlog = [
 		"year" => 2022,
 		"link" => "https://alextalk.substack.com/p/the-code-behind-an-svg",
 		"headline" => "Ever wonder what is under the hood of an SVG and what makes it so different than the other image formats?",
-		"intro" => "A Scalable Vector Graphic, or SVG for short, is an image defined by geometric shapes (numbers) as opposed to bitmap images. Unlike JPG and PNG (which are made up of little squares), a vector graphic can be sized up infinitely without degrading in quality...",
+		"preview" => "A Scalable Vector Graphic, or SVG for short, is an image defined by geometric shapes (numbers) as opposed to bitmap images. Unlike JPG and PNG (which are made up of little squares), a vector graphic can be sized up infinitely without degrading in quality Or in simple terms, it means an image that DOES NOT lose any quality when it is super zoomed in. To elaborate more on SVGs...",
 		"read-time" => 4,
 		"demo" => false,
 		"front-page" => false,
