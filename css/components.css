@@ -105,6 +105,10 @@ a+.body-copy {
         width: 653px;
     }
 
+    .writing .intro, .about .intro {
+        max-width: initial;
+    } 
+
 
 }
 
