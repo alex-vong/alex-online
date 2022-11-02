@@ -160,7 +160,19 @@ $bits = [
 
 $latestBlog = [
 	[
-		"title" => "JavaScript 101 - Prim vs Ref Types",
+		"title" => "SignUp Form Case Study",
+		"month" => "Nov",
+		"day" => "2nd",
+		"year" => 2022,
+		"link" => "https://alextalk.substack.com/p/case-study-signup-form",
+		"headline" => "My first every JavaScript Project. Featuring event handlers and Regular Expressions. Read all about it.",
+		"preview" => "Sign up forms are all too common these days with virtually every website you find on the web incorporating it. And of course, it makes complete sense. Businesses want you to sign up so they have your information. I’ve been learning more about inputs, functions, event listeners, and forms and figured making my own fully functional and responsive sign up form would be a great way to improve my knowledge of those subjects...",
+		"read-time" => 6,
+		"demo" => false,
+		"front-page" => true,
+	],
+	[
+		"title" => "Prim vs Ref Data Types",
 		"month" => "Oct",
 		"day" => "18th",
 		"year" => 2022,
@@ -173,7 +185,7 @@ $latestBlog = [
 	],
 
 	[
-		"title" => "JavaScript 101: For Loops",
+		"title" => "For Loops: The Basics",
 		"month" => "Oct",
 		"day" => "12th",
 		"year" => 2022,
@@ -199,7 +211,7 @@ $latestBlog = [
 	],
 
 	[
-		"title" => "Style Guides: 101",
+		"title" => "Making a Styles-Guide",
 		"month" => "Sep",
 		"day" => "27th",
 		"year" => 2022,
@@ -208,11 +220,11 @@ $latestBlog = [
 		"read-time" => 5,
 		"preview" => "A website style guide outlines a comprehensive set of standards for a company for its brand identity and how those identities are expressed on its website. Within those standards are a set of rules or guidelines for how its visual elements should be used throughout its site. These rules or guidelines are typically used as references for anyone who works on the website so that there will be a clear understanding for the page design...",
 		"demo" => false,
-		"front-page" => true,
+		"front-page" => false,
 	],
 
 	[
-		"title" => "The CSS Box Model - I'll Explain Everything",
+		"title" => "The CSS Box Model",
 		"month" => "Sep",
 		"day" => "23rd",
 		"year" => 2022,
@@ -225,7 +237,7 @@ $latestBlog = [
 	],
 
 	[
-		"title" => "Dark Mode: Prefers-Color-Scheme",
+		"title" => "Dark Side of the Web",
 		"month" => "Aug",
 		"day" => "22nd",
 		"year" => 2022,
