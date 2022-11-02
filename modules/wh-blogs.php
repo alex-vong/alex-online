@@ -2,7 +2,7 @@
 
 
 <h2 class="second-level-heading">
-	Featured Blogs
+	Featured Articles
 </h2>
 <p class="section-heading body-copy">
 	I like to write sometimes. Here are some of those times.
@@ -23,6 +23,6 @@
 
 <a href="?page=writing" class="animated-line view-all-link">
 	<p class="body-copy">
-		<span>View More Blogs</span>
+		<span>View All Articles</span>
 	</p>
 </a> 
