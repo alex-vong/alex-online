@@ -11,7 +11,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 60px 30px;
-        padding: 0 20px;
+
 
     }
 
@@ -41,7 +41,7 @@
 
     border-image: var(--reverse-gradient) 1;
     background-color: var(--alt-black);
-    padding: 15px 25px 40px;
+    padding: 15px 25px 50px;
     width: 100%;
 
 
@@ -86,7 +86,12 @@
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
-    line-height: 1.5;
+    line-height: 2;
+
+    display: -webkit-box;
+    -webkit-box-orient:  vertical;
+    -webkit-line-clamp:  8;
+    overflow: hidden;
 }
 
 @media (max-width: 400px) {
