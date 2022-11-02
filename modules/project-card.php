@@ -3,7 +3,7 @@
 	<project-card class="background">
 		<a href="<?=$project["project-link"]?>" target="_blank">
 			<picture>
-				<img src="<?=$project["image"]?>" alt="">
+				<img src="<?=$project["image"]?>" alt="<?=$project["alt-text"]?>">
 			</picture>
 		</a>
 
