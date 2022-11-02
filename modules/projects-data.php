@@ -21,6 +21,7 @@ $projects = [
 		"hot" => true,
 		"demo" => false,
 		"languages" => ['html', 'css', 'php'],
+		"alt-text" => "image for RLG project card"
 	],
 	[
 		"name" => "PokeDex",
@@ -31,6 +32,8 @@ $projects = [
 		"hot" => false,
 		"demo" => false,
 		"languages" => ['html', 'css', 'php'],
+		"alt-text" => "image for Pokedex project card"
+
 	],
 	
 	[
@@ -39,10 +42,25 @@ $projects = [
 		"project-link" =>"https://alexvong.dev/modules/huddle/",
 		"case-study" =>false,
 		"image" => "images/huddle.svg",
-		"hot" => true,
+		"hot" => false,
 		"demo" => false,
 		"languages" => ['html', 'css', 'php'],
+		"alt-text" => "image for Huddle project card"
+
 	],
+	[
+		"name" => "Weather App",
+		"description" => "Asyncronous JavaScript, Call back functions, and APIs. Oh my...",
+		"project-link" =>"https://alexvong.dev/modules/js-weather-app/",
+		"case-study" =>false,
+		"image" => "images/weather-app-img.svg",
+		"hot" => true,
+		"demo" => false,
+		"languages" => ['html', 'css', 'php', 'js'],
+		"alt-text" => "image for Weather App project card credit to artist @rawpixel.com via https://www.freepik.com/author/rawpixel-com"
+
+	],
+
 	[
 		"name" => "Sign Up Page",
 		"description" => "I learned about event handlers, functions, and Regular Expressions so I figured I'd make a responsive sign-up page.",
@@ -52,6 +70,9 @@ $projects = [
 		"hot" => true,
 		"demo" => false,
 		"languages" => ['html', 'css', 'php', 'js'],
+		"alt-text" => "image for Sign Up Form project"
+
+
 	],
 
 
@@ -66,6 +87,8 @@ $projects = [
 		"hot" => false,
 		"demo" => false,
 		"languages" => ['html', 'css', 'php'],
+		"alt-text" => "image for Home project card"
+
 	],
 
 	[
@@ -78,6 +101,8 @@ $projects = [
 		"hot" => false,
 		"demo" => false,
 		"languages" => ['html', 'css', 'php'],
+		"alt-text" => "image for MOAA project card"
+
 	],
 
 
