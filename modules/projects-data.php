@@ -75,8 +75,6 @@ $projects = [
 
 	],
 
-
-
 	[
 		"name" => "Buy a Home - Super Responsive Layout Challenge",
 		"description" => "Created a responsive website template and styled it with a real estate theme",
@@ -118,7 +116,6 @@ $bits = [
 		"has-project-site" => true,
 
 	],
-
 	[
 		"name" => "Pet Adoption Site",
 		"description" => "My FIRST ever attempt at building a responsive website. This site will forever be archived and never changed or touched upon but used for personal research purposes.",
@@ -133,17 +130,12 @@ $bits = [
 		"project-link" =>"https://codepen.io/Alexv0ng/pen/oNZxOoP",
 		"has-project-site" => false,
 	],
-
-
 	[
 		"name" => "Apple Site",
 		"description" => "Challenge was to recreate a website in only one hour. Can I do it?",
 		"project-link" =>"https://codepen.io/Alexv0ng/pen/abpRozV",
 		"has-project-site" => false,
 	],
-
-
-
 
 	[
 		"name" => "SVG Creations",
@@ -154,9 +146,6 @@ $bits = [
 
 
 ];
-
-
-
 
 $latestBlog = [
 	[
