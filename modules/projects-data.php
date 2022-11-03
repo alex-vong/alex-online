@@ -208,7 +208,7 @@ $latestBlog = [
 		"preview" => "One of the coolest things about web design, and websites in general, are that those designs are all unique to the individual business. From color palettes to typography to layout and spacing, there are infinite ways to design a website and because of that, it is difficult to find two websites that share the same design. But what we can find, if we look underneath the hood, is that majority of the websites contain the same reusebale components...",
 		"read-time" => 4,
 		"demo" => false,
-		"front-page" => true,
+		"front-page" => false,
 	],
 
 	[
