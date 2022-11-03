@@ -160,6 +160,18 @@ $bits = [
 
 $latestBlog = [
 	[
+		"title" => "Weather App Case Study",
+		"month" => "Nov",
+		"day" => "3rd",
+		"year" => 2022,
+		"link" => "https://alextalk.substack.com/p/case-study-api-weather-app",
+		"headline" => "My first every JavaScript Project. Featuring event handlers and Regular Expressions. Read all about it.",
+		"preview" => "Asynchronous JavaScript is a fairly difficult concept to fully grasp, especially for someone as new to JS as I am. I understand that it allows your program to continue running while waiting for for certain task and not having to wait on them. Application Programming Interface (API) is another topic that will take some time for me to fully comprehend and get comfortable with. I can see the benefits of APIs however and the power it holds in allowing programmers to “fetch” large amounts of information they need so they can filter through them and grab what they need and dynamically add those data to the DOM. Mind blown....",
+		"read-time" => 5,
+		"demo" => false,
+		"front-page" => true,
+	],
+	[
 		"title" => "SignUp Form Case Study",
 		"month" => "Nov",
 		"day" => "2nd",
