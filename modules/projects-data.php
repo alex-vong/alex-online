@@ -60,6 +60,19 @@ $projects = [
 		"alt-text" => "image for Weather App project card credit to artist @rawpixel.com via https://www.freepik.com/author/rawpixel-com"
 
 	],
+	[
+		"name" => "Todo App",
+		"description" => "CRUD - If you can make it here, you can make it anywhere. A todo application implementing the CRUD process",
+		"project-link" =>"https://alexvong.dev/modules/js-signup-page/",
+		"case-study" =>false,
+		"image" => "images/todo-app-img.svg",
+		"hot" => true,
+		"demo" => false,
+		"languages" => ['html', 'css', 'php', 'js'],
+		"alt-text" => "image for Sign Up Form project"
+
+
+	],
 
 	[
 		"name" => "Sign Up Page",
@@ -67,7 +80,7 @@ $projects = [
 		"project-link" =>"https://alexvong.dev/modules/js-signup-page/",
 		"case-study" =>false,
 		"image" => "images/signup.svg",
-		"hot" => true,
+		"hot" => false,
 		"demo" => false,
 		"languages" => ['html', 'css', 'php', 'js'],
 		"alt-text" => "image for Sign Up Form project"
