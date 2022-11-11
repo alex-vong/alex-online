@@ -63,13 +63,13 @@ $projects = [
 	[
 		"name" => "Todo App",
 		"description" => "CRUD - If you can make it here, you can make it anywhere. A todo application implementing the CRUD process",
-		"project-link" =>"https://alexvong.dev/modules/js-signup-page/",
+		"project-link" =>"https://alexvong.dev/modules/js-todo-list/",
 		"case-study" =>false,
 		"image" => "images/todo-app-img.svg",
 		"hot" => true,
 		"demo" => false,
 		"languages" => ['html', 'css', 'php', 'js'],
-		"alt-text" => "image for Sign Up Form project"
+		"alt-text" => "image for todo list project"
 
 
 	],
