@@ -47,7 +47,9 @@
    margin-bottom:  40px;
 }
 
-
+.yt-video {
+   max-height 600px;
+}
 
 
 
@@ -80,7 +82,7 @@ span.occupation {
 }
 
 .second-level-heading {
-   color: var(--orange);
+   color: var(--marker);
 }
 
 .third-level-heading {
