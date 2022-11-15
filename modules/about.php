@@ -26,5 +26,4 @@
 
 		<?php include('goals.php') ?>
 
-
 </section>
