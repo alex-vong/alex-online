@@ -24,17 +24,29 @@
 
 			if ($page === 'home') {
 					include($page . '.php');
-			} else if ($page === 'about' ||$page === 'writing' || $page === 'projects' || $page === 'goals' || $page === 'style-guide' || $page === 'case-study' || $page === 'resume' ) {
-					include('modules/' . $page . '.php');
+			} else if ($page === 'about' ||
+					   $page === 'writing' || 
+					   $page === 'projects' || 
+					   $page === 'goals' || 
+					   $page === 'style-guide' || 
+					   $page === 'case-study' || 
+					   $page === 'resume' ) 
+			{ 
+				include('modules/' . $page . '.php');
+			} else if ($page === 'weather-app-cs' ||
+					   $page === 'todo-app-cs' ||
+					   $page === 'signup-cs' ) 
+			{
+				include('modules/case-studies/' . $page . '.php');
 			} else { 
-					include('modules/error.php');
+				include('modules/error.php');
 			}
 		}
 	 ?>
 
 
 <html lang="en">
-	<?php include('head.php') ?>
+
 
 
 	<body class="<?=$themeClass?>-theme">
@@ -44,6 +56,8 @@
 
 		<main>
 			<inner-column>
+					<?php include('head.php') ?>
+
 
 				<?php 
 					getTemplate($page);
