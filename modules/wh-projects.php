@@ -6,7 +6,7 @@
  <p class="body-copy"> 
  	Some projects I built on my web development journey. This will always be a work in progress so be sure to come back to see my latest designs and creations.
 </p>
-
+	<?php include('head.php') ?>
 
 <div class="wh-projects">
 	<projects-grid>
