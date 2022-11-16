@@ -8,18 +8,13 @@
 
 
 <!doctype html>
-
-
 	<?php 
-
 		$page = null;  //setting page to null
 		if ( isset ($_GET['page']) ) {  //checking to see if page has been set (url?page=string)
 			$page = ($_GET['page']); //setting that query string to variable $page
 		} else {
 			$page = 'home'; //default to 'home'
 		}
-
-
 		function getTemplate($page) {
 
 			if ($page === 'home') {
@@ -43,39 +38,29 @@
 			}
 		}
 	 ?>
-
-
 <html lang="en">
 
+<?php include('head.php') ?>
 
+<body class="<?=$themeClass?>-theme">
+	<header>
+		<?php include('masthead.php') ?>
+	</header>
 
-	<body class="<?=$themeClass?>-theme">
-		<header>
-			<?php include('masthead.php') ?>
-		</header>
+	<main>
+		<inner-column>
+			<?php 
+				getTemplate($page);
+			?>
+		</inner-column>
+	</main>
 
-		<main>
-			<inner-column>
-					<?php include('head.php') ?>
+	<footer>
+		<?php include('footer.php') ?>
+	</footer>
 
+	<script src="script.js"></script>
 
-				<?php 
-					getTemplate($page);
-				?>
-			</inner-column>
-			
-	
-		</main>
-
-		<footer>
-			<?php include('footer.php') ?>
-		</footer>
-
-
-		<script src="script.js"></script>
-
-
-	</body>
-	
+</body>
 
 </html>
