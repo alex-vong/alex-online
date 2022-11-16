@@ -25,7 +25,7 @@
 				
 			</div>
 
-			<div>
+			<div class="intro">
 				<h2 class="third-level-heading">
 					#Everyones-Got-One
 				</h2>
@@ -37,6 +37,15 @@
 
 				<p class="body-copy">So what better way to show employers that I understand (or at least have dabbled with) sign up forms than creating my own fully-ish functioning form.</p>
 				
+			</div>
+
+			<div class="design">
+				<figure>
+				    <blockquote>
+				        <p class="body-copy">Making every page or screen self-evident is like having good lighting in a store: it just makes everything seem better..</p>
+				    </blockquote>
+				    <figcaption class="body-copy">—Steve Krug, <cite>Don't Make Me Think</cite></figcaption>
+				</figure>
 			</div>
 
 
