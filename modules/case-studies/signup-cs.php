@@ -29,7 +29,13 @@
 				<h2 class="third-level-heading">
 					#Everyones-Got-One
 				</h2>
-				<p class="body-copy">Sign up forms are all too common these days with virtually every website you find on the web incorporating it. And of course, it makes complete sense. Businesses want you to sign up so they have your information. Take a look at some of those businesses such as <span><a href="https://dashboard.stripe.com/register">Stripe</a></span> and <span><a href="https://identity.getpostman.com/signup">Postman</a></span></p>
+				<p class="body-copy">Sign up forms are all too common these days with virtually every website you find on the web incorporating it. And of course, it makes complete sense. Businesses want you to sign up so they have your information. Take a look at some of those businesses such as <span><a href="https://dashboard.stripe.com/register">Stripe</a></span>,<span><a href="https://identity.getpostman.com/signup"> Postman</a></span>, and <span><a href="https://www.espn.com/"> ESPN</a></span>.</p>
+
+				<picture>
+					<img src="../images/signup-examples.svg" alt="example signup forms from Stripe, Postman, and ESPN">
+				</picture>
+
+				<p class="body-copy">So what better way to show employers that I understand (or at least have dabbled with) sign up forms than creating my own fully-ish functioning form.</p>
 				
 			</div>
 
