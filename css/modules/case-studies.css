@@ -29,9 +29,11 @@
 }
 
 
-
-
 .case-study .container .body-copy span a {
 	color: var(--marker);
 }
 
+.case-study .container img {
+	max-width: 90%;
+	margin:  auto;
+}
