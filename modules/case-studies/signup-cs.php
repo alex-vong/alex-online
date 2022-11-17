@@ -67,6 +67,18 @@
 					<li>Submit Button that provided feedback for success or error</li>
 					<li>Site to be fully responsive</li>	
 				</ul>
+
+				<p class="body-copy">I usually start every design mockup the same way our forefathers did: with good ol’ pen and paper.</p>
+
+				<picture>
+					<img src="../images/signup-mockup.png" alt="Initial mock up for signup form in pen and paper">
+				</picture>
+
+				<picture>
+					<img src="../images/signup-affinity.svg" alt="Signup form design on Affinity Designer">
+				</picture>
+
+
 			</div>
 
 
