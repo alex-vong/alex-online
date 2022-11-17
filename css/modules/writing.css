@@ -17,12 +17,8 @@
 
 }
 
-.whats-hot-blogs .second-level-heading {
-    color: var(--purple);
-}
-
 .article-card .third-level-heading {
-    color: var(--orange);
+    color: var(--purple);
     font-size: clamp(20px, 2vw, 22px);
     letter-spacing: -0.5px;
 }
