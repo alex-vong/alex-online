@@ -12,7 +12,7 @@
 
 .case-study .container  p.body-copy {
 	margin-top: 0 !important;
-	max-width: 80ch;
+	max-width: 80ch ;
 }
 
 
@@ -29,8 +29,32 @@
 .case-study ul.tools {
 	flex-direction: row;
 	flex-wrap: wrap;
-	grid-gap: 5px 40px;
+	grid-gap: 5px 26px;
 }
+
+.case-study ul.what-we-need {
+	display:  flex;
+	flex-direction: column;
+	gap:  5px;
+}
+
+.case-study ul.what-we-need li::before {
+	 font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054";
+	 padding-right: 5px;
+ }
+
+.case-study ul.what-we-need li {
+	margin-left: 15px;
+
+}
+
+.case-study ul.what-we-need li ul li {
+	margin-left: 20px;
+}
+.case-study ul.what-we-need li ul li::before {
+      font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f101";
+      padding-right: 5px;	
+ }
 
 
 .case-study .container .body-copy span a {
