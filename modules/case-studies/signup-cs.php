@@ -40,6 +40,9 @@
 			</div>
 
 			<div class="design">
+				<h2 class="third-level-heading">
+					#Design
+				</h2>
 				<figure>
 				    <blockquote>
 				        <p class="body-copy">Making every page or screen self-evident is like having good lighting in a store: it just makes everything seem better..</p>
@@ -49,6 +52,21 @@
 
 				<p class="body-copy">
 					Design plays a key role in any project. After all, the design and look of any project is the first thing the user sees after the page loads. The user need to be able to tell instantly that this is a sign up page based on the layout and look and instinctively know what to do. Navigating through the site needs to be effortless and seamless and the user should not have to think at all. Oh and the site has to also be completely responsive so it can view it on any device.
+				</p>
+
+				<h3 class="fourth-level-heading">##What-We-Need</h3>
+				<ul class="what-we-need body-copy">
+					<li>Inputs with easy distinctions for:
+						<ul>
+							<li>First Name</li>
+							<li>Last Name</li>
+							<li>Email Address</li>
+							<li>Password</li>
+						</ul>
+					</li>
+					<li>Submit Button that provided feedback for success or error</li>
+					<li>Site to be fully responsive</li>	
+				</ul>
 			</div>
 
 
