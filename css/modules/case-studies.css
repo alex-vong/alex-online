@@ -12,6 +12,7 @@
 
 .case-study .container  p.body-copy {
 	margin-top: 0 !important;
+	max-width: 80ch;
 }
 
 
@@ -20,6 +21,9 @@
 	background-color: var(--black);
 }*/
 
+.case-study .container .cs-heading {
+
+}
 
 
 .case-study ul.tools {
@@ -36,4 +40,19 @@
 .case-study .container img {
 	max-width: 90%;
 	margin:  auto;
+}
+
+.case-study .container p span.block {
+	display: block;
+	margin: 15px 0;
+}
+
+.case-study .container p span.red {
+	background: red;
+	color: var(--marker);
+}
+
+.case-study .container p span.green {
+	background: green;
+	color: var(--marker);
 }
