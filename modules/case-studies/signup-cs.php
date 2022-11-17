@@ -46,6 +46,9 @@
 				    </blockquote>
 				    <figcaption class="body-copy">—Steve Krug, <cite>Don't Make Me Think</cite></figcaption>
 				</figure>
+
+				<p class="body-copy">
+					Design plays a key role in any project. After all, the design and look of any project is the first thing the user sees after the page loads. The user need to be able to tell instantly that this is a sign up page based on the layout and look and instinctively know what to do. Navigating through the site needs to be effortless and seamless and the user should not have to think at all. Oh and the site has to also be completely responsive so it can view it on any device.
 			</div>
 
 
