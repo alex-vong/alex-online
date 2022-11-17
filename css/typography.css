@@ -112,7 +112,7 @@ masthead nav a.active {
     }
 
     .second-level-heading {
-        font-size: var(--fluid-2);
+        font-size: var(--fluid-3);
     }
 
     .home .second-level-heading {
