@@ -1,8 +1,6 @@
 .case-study .container, .case-study .container div, .case-study ul.tools  {
 	display:  flex;
 	flex-direction: column;
-	gap:  30px;
-	
 }
 
 .case-study .container {
@@ -10,7 +8,6 @@
 }
 
 .case-study .container div {
-	gap:  10px;
 	gap:  15px;
 }
 
@@ -23,19 +20,22 @@
 	max-width: 80ch ;
 }
 
+
 /*.case-study .project-goals {
 	padding: 25px;
 	background-color: var(--black);
 }*/
 
 .case-study .container .cs-heading {
+
 }
 
 
 .case-study ul.tools {
 	flex-direction: row;
 	flex-wrap: wrap;
-	grid-gap: 5px 26px;}
+	grid-gap: 5px 26px;
+}
 
 .case-study ul.what-we-need {
 	display:  flex;
@@ -46,6 +46,7 @@
 .case-study ul.what-we-need li::before {
 	 font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054";
 	 padding-right: 5px;
+	 color: var(--blue);
  }
 
 .case-study ul.what-we-need li {
@@ -59,6 +60,7 @@
 .case-study ul.what-we-need li ul li::before {
       font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f101";
       padding-right: 5px;	
+      color:  var(--orange);
  }
 
 
@@ -85,3 +87,43 @@
 	background: green;
 	color: var(--marker);
 }
+
+
+figure {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	background-color: var(--black);
+	color: var(--marker);
+	margin: 0 15px;
+	padding: 30px;
+	border-radius: 0.5rem;
+}
+
+figure figcaption {
+	align-self: end;
+}
+
+figure figcaption cite {
+	font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
