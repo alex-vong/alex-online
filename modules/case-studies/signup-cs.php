@@ -38,7 +38,7 @@
 						<li>AWS</li>
 						<li>FileZilla</li>
 						<li>MDN Docs</li>
-						<li><a href="https://regex101.com/"></a>RegEx101</li>
+						<li><a href="https://regex101.com/"></a>RegEx101.com</li>
 						<li>Affinity Designer</li>
 						<li><a href="https://www.opengraph.xyz/"></a>OpenGraph.xyz</li>
 					</ul>
@@ -114,19 +114,21 @@
 				    <figcaption class="body-copy">— Same Guy From Above (He's pretty good),<cite> Don't Make Me Think</cite></figcaption>
 				</figure>
 
-				<h3 class="fourth-level-heading">##What-We-Need</h3>
-				<p class="body-copy">Before starting the code for this project I first wanted to understand how this application even works. I attempted to break down each component to its most simplest form.
+				<div class="what-we-need-container">
+					<h3 class="fourth-level-heading">##What-We-Need</h3>
+					<p class="body-copy">Before starting the code for this project I first wanted to understand how this application even works. I attempted to break down each component to its most simplest form.
 
-				<span class="block">To tackle this, I went onto Whimsical and created a Mind Map breaking down each and every step and the results that I can think of.</span>
-				</p>
+					<span class="block">To tackle this, I went onto Whimsical and created a Mind Map breaking down each and every step and the results that I can think of.</span>
+					</p>
 
-				<picture>
-					<img src="../images/signup-flow1.svg" alt="Signup flow chart">
-				</picture>
+					<picture>
+						<img src="../images/signup-flow1.svg" alt="Signup flow chart">
+					</picture>
 
-				<picture>
-					<img src="../images/signup-flow2.svg" alt="Signup flow chart">
-				</picture>
+					<picture>
+						<img src="../images/signup-flow2.svg" alt="Signup flow chart">
+					</picture>
+				</div>
 			</div>
 
 			<div class="overcoming-challenges">
