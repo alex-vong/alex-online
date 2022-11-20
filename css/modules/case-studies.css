@@ -14,6 +14,8 @@
 	gap:  15px;
 }
 
+.case-study .container div.tools-resources {
+	gap:  5px;
 }
 
 .case-study .container  p.body-copy {
@@ -33,8 +35,7 @@
 .case-study ul.tools {
 	flex-direction: row;
 	flex-wrap: wrap;
-	grid-gap: 5px 26px;
-}
+	grid-gap: 5px 26px;}
 
 .case-study ul.what-we-need {
 	display:  flex;
