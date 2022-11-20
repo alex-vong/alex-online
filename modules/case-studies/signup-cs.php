@@ -21,28 +21,29 @@
 			            allowFullScreen>
 			        </iframe>
 			    </div>
+
+			    <div class="tools-resources">
+						<h4 class="fourth-level-heading">##Tools and Resources Used:</h4>
+						<ul class="tools body-copy"> 
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JavaScript</li>
+							<li>GitHub</li>
+							<li>Tower</li>
+							<li>AWS</li>
+							<li>FileZilla</li>
+							<li>MDN Docs</li>
+							<li><a href="https://regex101.com/"></a>RegEx101.com</li>
+							<li>Affinity Designer</li>
+							<li><a href="https://www.opengraph.xyz/"></a>OpenGraph.xyz</li>
+						</ul>
+					</div>
 			</div>
 
 			<div class="project-goals">
 				<h2 class="third-level-heading">#Project-Goals</h2>
 				<p class="body-copy">Create a sign up form to better understand how forms work after user clicks submit, the use of Javascript event handler’s role with them, and implementing Regular Expressions and functions to test form inputs.</p>
 
-				<div class="tools-resources">
-					<h4 class="fourth-level-heading">##Tools and Resources Used:</h4>
-					<ul class="tools body-copy"> 
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>JavaScript</li>
-						<li>GitHub</li>
-						<li>Tower</li>
-						<li>AWS</li>
-						<li>FileZilla</li>
-						<li>MDN Docs</li>
-						<li><a href="https://regex101.com/"></a>RegEx101.com</li>
-						<li>Affinity Designer</li>
-						<li><a href="https://www.opengraph.xyz/"></a>OpenGraph.xyz</li>
-					</ul>
-				</div>
 			</div>
 
 			<div class="intro">
