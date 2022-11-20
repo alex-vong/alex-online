@@ -20,6 +20,10 @@ inner-column {
 	margin-left: auto;
 }
 
+h1 {
+	word-spacing: -10px;
+}
+
 
 /*@media (min-width:  768px) {
    inner-column {
