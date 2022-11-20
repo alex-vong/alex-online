@@ -27,20 +27,22 @@
 				<h2 class="third-level-heading">#Project-Goals</h2>
 				<p class="body-copy">Create a sign up form to better understand how forms work after user clicks submit, the use of Javascript event handler’s role with them, and implementing Regular Expressions and functions to test form inputs.</p>
 
-				<h4 class="fourth-level-heading">##Tools and Resources Used:</h4>
-				<ul class="tools body-copy"> 
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>JavaScript</li>
-					<li>MDN Documentations</li>
-					<li><a href="https://regex101.com/"></a>RegEx101</li>
-					<li>Affinity Designer</li>
-					<li><a href="https://www.opengraph.xyz/"></a>OpenGraph.xyz</li>
-				</ul>
-			</div>
-
-			<div class="project-overview">
-				
+				<div class="tools-resources">
+					<h4 class="fourth-level-heading">##Tools and Resources Used:</h4>
+					<ul class="tools body-copy"> 
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>GitHub</li>
+						<li>Tower</li>
+						<li>AWS</li>
+						<li>FileZilla</li>
+						<li>MDN Docs</li>
+						<li><a href="https://regex101.com/"></a>RegEx101</li>
+						<li>Affinity Designer</li>
+						<li><a href="https://www.opengraph.xyz/"></a>OpenGraph.xyz</li>
+					</ul>
+				</div>
 			</div>
 
 			<div class="intro">
@@ -72,19 +74,21 @@
 					Design plays a key role in any project. After all, the design and look of any project is the first thing the user sees after the page loads. The user need to be able to tell instantly that this is a sign up page based on the layout and look and instinctively know what to do. Navigating through the site needs to be effortless and seamless and the user should not have to think at all. Oh and the site has to also be completely responsive so it can view it on any device.
 				</p>
 
-				<h3 class="fourth-level-heading">##What-We-Need</h3>
-				<ul class="what-we-need body-copy">
-					<li>Inputs with easy distinctions for:
-						<ul>
-							<li>First Name</li>
-							<li>Last Name</li>
-							<li>Email Address</li>
-							<li>Password</li>
-						</ul>
-					</li>
-					<li>Submit Button that provided feedback for success or error</li>
-					<li>Site to be fully responsive</li>	
-				</ul>
+				<div class="what-we-need-container">
+					<h3 class="fourth-level-heading">##What-We-Need</h3>
+					<ul class="what-we-need body-copy">
+						<li>Inputs with easy distinctions for:
+							<ul>
+								<li>First Name</li>
+								<li>Last Name</li>
+								<li>Email Address</li>
+								<li>Password</li>
+							</ul>
+						</li>
+						<li>Submit Button that provided feedback for success or error</li>
+						<li>Site to be fully responsive</li>	
+					</ul>
+				</div>
 
 				<p class="body-copy">I usually start every design mockup the same way our forefathers did: with good ol’ pen and paper.</p>
 
@@ -102,12 +106,12 @@
 			</div>
 
 			<div class="functionality">
-				<h3 class="fourth-level-heading">#Functionality</h3>
+				<h2 class="third-level-heading"> #Functionality </h2>
 				<figure>
 				    <blockquote>
 				        <p class="body-copy">"If something requires a large investment of time — or looks like it will — it’s less likely to be used."</p>
 				    </blockquote>
-				    <figcaption class="body-copy">— Same Guy From Above (He's pretty good) <cite>Don't Make Me Think</cite></figcaption>
+				    <figcaption class="body-copy">— Same Guy From Above (He's pretty good),<cite> Don't Make Me Think</cite></figcaption>
 				</figure>
 
 				<h3 class="fourth-level-heading">##What-We-Need</h3>
