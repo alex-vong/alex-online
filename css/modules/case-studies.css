@@ -21,26 +21,27 @@
 }
 
 
-/*.case-study .project-goals {
-	padding: 25px;
-	background-color: var(--black);
-}*/
-
-.case-study .container .cs-heading {
-
-}
 
 
 .case-study ul.tools {
 	flex-direction: row;
 	flex-wrap: wrap;
 	grid-gap: 5px 26px;
+	color: var(--marker);
 }
 
 .case-study ul.what-we-need {
 	display:  flex;
 	flex-direction: column;
 	gap:  5px;
+}
+
+.case-study .container .what-we-need-container {
+	gap: 5px;
+}
+
+picture + picture {
+	margin-top: 10px;
 }
 
 .case-study ul.what-we-need li::before {
@@ -108,7 +109,9 @@ figure figcaption cite {
 	font-style: italic;
 }
 
-
+.conclusion {
+	margin-bottom: 60px;
+}
 
 
 
