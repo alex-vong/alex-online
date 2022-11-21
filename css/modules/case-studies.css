@@ -68,7 +68,7 @@
 }
 
 .case-study .container .what-we-need-container {
-	gap: 5px;
+	/*gap: 5px;*/
 }
 
 .case-study .container picture + picture {
@@ -136,7 +136,7 @@ figure figcaption {
 	align-self: end;
 }
 
-figure figcaption cite {
+figure figcaption cite, .case-study .container em {
 	font-style: italic;
 }
 
