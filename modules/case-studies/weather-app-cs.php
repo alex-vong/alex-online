@@ -38,7 +38,7 @@
 							<li>Affinity Designer</li>
 							<li>OpenGraph.xyz</li>
 						</ul>
-					</div>
+				</div>
 			</div>
 
 			<div class="project-goals">
@@ -57,56 +57,76 @@
 				
 			</div>
 
-				<div class="what-we-need-container">
-					<h3 class="fourth-level-heading">##API-Key</h3>
-					<p class="body-copy">
-						First things first was to set up an account on AccuWeather and create an “app” with them so I can get an API key</p>
-					</p>
-									
-
+			<div class="what-we-need-container">
+				<h3 class="fourth-level-heading">##API-Key</h3>
+				<p class="body-copy">
+					I decided to use the AccuWeather API because it was pretty easy to understand. 
+					After perusing through the AccuWeather API reference I found a Locations API where it allowed me to use a city text search which returns information for an array of cities that match the search text. It required the resource URL, API key, and a query.
+					<span class="block">
+					After familiarizing myself with the site, I set up an account on AccuWeather and create an “app” with them so I can get an API key.
+					</span>
+				</p>
+								
 				<picture>
 					<img src="../images/api-key.svg" alt="image of api key">
 				</picture>
-
 				
+				<p class="body-copy">I also found a <strong>Locations API</strong> where it allowed me to use a city text search which returns information for an array of cities that match the search text. It required the <strong>resource URL, API key,</strong> and a <strong>query</strong>.</p>
 
 				<picture>
-					<img src="../images/signup-mockup.svg" alt="Initial mock up for signup form in pen and paper">
-				</picture>
-
-				<p class="body-copy">
-					Personally it is easier to get the layout and structure down this way as you are not distracted with all the features and options of a design editor.
-				</p>
-
-				<picture>
-					<img src="../images/signup-affinity.svg" alt="Signup form design on Affinity Designer">
+					<img src="../images/city-search.svg" alt="image of city search endpoint from AccuWeather API">
 				</picture>
 			</div>
 
-			<div class="functionality">
-				<h2 class="third-level-heading"> #Functionality </h2>
-				<figure>
-				    <blockquote>
-				        <p class="body-copy">"If something requires a large investment of time — or looks like it will — it’s less likely to be used."</p>
-				    </blockquote>
-				    <figcaption class="body-copy">— Same Guy From Above (He's pretty good),<cite> Don't Make Me Think</cite></figcaption>
-				</figure>
+			<div class="what-we-need-container">
+				<h3 class="fourth-level-heading">##API-Testing-Hard-Code</h3>
+				<p class="body-copy">
+				I first tested this API endpoint request by manually inputting it the URL request, apikey, and the value of “Houston” into <strong>Postman</strong> and seeing what results I would get.
+				</p>
 
-				<div class="what-we-need-container">
-					<h3 class="fourth-level-heading">##What-We-Need</h3>
-					<p class="body-copy">Before starting the code for this project I first wanted to understand how this application even works. I attempted to break down each component to its most simplest form.
+				<picture>
+					<img src="../images/postman-resp.svg" alt="postman response of city search">
+				</picture>
 
-					<span class="block">To tackle this, I went onto Whimsical and created a Mind Map breaking down each and every step and the results that I can think of.</span>
-					</p>
+				<p class="body-copy">The image above does not capture the entire JSON response but the request was successful and the response was an array of all “Houston” cities in the world. While doing this project I learned that there is a Houston, B.C. Who knew?! Now that I know the url request and endpoints work via Postman, I need to test it out on my project.</p>
+								
+			</div>
 
-					<picture>
-						<img src="../images/signup-flow1.svg" alt="Signup flow chart">
-					</picture>
+			<div class="what-we-need-container">
+				<h3 class="fourth-level-heading">##API-TestingCode</h3>
+				<p class="body-copy">
+				I first tested this API endpoint request by manually inputting it the URL request, apikey, and the value of “Houston” into <strong>Postman</strong> and seeing what results I would get.
 
-					<picture>
-						<img src="../images/signup-flow2.svg" alt="Signup flow chart">
-					</picture>
-				</div>
+				<span class="block">This method was to see if I followed the endpoint request correctly and what would the response be.</span>
+				</p>
+
+				<picture>
+					<img src="../images/postman-resp.svg" alt="postman response of city search">
+				</picture>
+
+				<p class="body-copy">The image above does not capture the entire JSON response but the request was successful and the response was an array of all “Houston” cities in the world. While doing this project I learned that there is a Houston, B.C. Who knew?! Now that I know the url request and endpoints work via Postman, I need to test it out on my project.
+
+				<span class="block">Now that I know the url request and endpoints work via Postman, I need to test it out on my project with some actual code.</span>
+				</p>
+
+				<picture>
+					<img src="../images/api-test.svg" alt="image of first steps of api code">
+				</picture>
+
+				<p class="body-copy">This time I tested the results on the Mozilla Firefox Developer Edition Browser’s console (what a mouth full).</p>
+
+				<picture>
+					<img src="../images/moz-api-response.svg" alt="image of api testing on mozilla">
+				</picture>
+
+				<p class="body-copy">And it works! We get an array of cities and they include data such as city name, state, a unique key, etc.
+				<span class="block">
+					I do not need the entire array and just need the 0 index since that is the most common city and the rest are just small towns no one has heard of. I will go back to <code>line 10</code> above and <code>return data[0]</code>. <em>Also if the user did want the weather information for Houston, B.C, they can just type that in to get the results for that city</em>.
+					</span>
+				</p>
+
+
+								
 			</div>
 
 			<div class="overcoming-challenges">
