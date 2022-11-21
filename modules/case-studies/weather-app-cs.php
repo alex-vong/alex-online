@@ -3,6 +3,9 @@
 			<div class="cs-heading">
 				<h1 class="second-level-heading">Weather App Case Study</h1>
 				<p class="body-copy">This week on my journey to learn Javascript, I encountered functions and event handlers. To improve my knowledge and as a challenge to myself, I wanted to build my own sign up page and try and mimic the ones you see everyday in the wild.
+				<p class="body-copy">Asynchronous JavaScript is a fairly difficult concept to fully grasp, especially for someone as new to JS as I am. I understand that it allows your program to continue running while waiting for for certain task and not having to wait on them.
+
+				<span class="block">With that I know, or think I know, a Weather App seemed like a good first API project to do. So without further ado, here we go.</span>
 
 				<span class="block">
 					If you do not care to read this case study and would like to see the live project site, you can click on this link <a href="https://alexvong.dev/modules/js-signup-page/" target="_blank">JS-Signup-Page</a>
