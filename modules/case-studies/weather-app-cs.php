@@ -49,50 +49,26 @@
 
 			<div class="intro">
 				<h2 class="third-level-heading">
-					#Everyones-Got-One
+					#Intro-to-APIs
 				</h2>
-				<p class="body-copy">Sign up forms are all too common these days with virtually every website you find on the web incorporating it. And of course, it makes complete sense. Businesses want you to sign up so they have your information. Take a look at some of those businesses such as <span><a href="https://dashboard.stripe.com/register">Stripe</a></span>,<span><a href="https://identity.getpostman.com/signup"> Postman</a></span>, and <span><a href="https://www.espn.com/"> ESPN</a></span>.</p>
+				<p class="body-copy">No, it is not a type of alcoholic beverage (like you haven’t heard that one before…). <strong>Application Programming Interface (API)</strong> are ways two softeware components talk to one another and how request and responses are made. 
 
-				<picture>
-					<img src="../images/signup-examples.svg" alt="example signup forms from Stripe, Postman, and ESPN">
-				</picture>
-
-				<p class="body-copy">So what better way to show employers that I understand (or at least have dabbled with) sign up forms than creating my own fully-ish functioning form.</p>
+				<span class="block"> It is another topic that will take some time for me to fully comprehend and get comfortable with. I can see the benefits of APIs however and the power it holds in allowing programmers to “fetch” large amounts of information they need so they can filter through them and grab what they need and dynamically add those data to the DOM. <em>Mind blown.</em></span>
 				
 			</div>
 
-			<div class="design">
-				<h2 class="third-level-heading">
-					#Design
-				</h2>
-				<figure>
-				    <blockquote>
-				        <p class="body-copy">"Making every page or screen self-evident is like having good lighting in a store: it just makes everything seem better."</p>
-				    </blockquote>
-				    <figcaption class="body-copy">— Steve Krug, <cite>Don't Make Me Think</cite></figcaption>
-				</figure>
-
-				<p class="body-copy">
-					Design plays a key role in any project. After all, the design and look of any project is the first thing the user sees after the page loads. The user need to be able to tell instantly that this is a sign up page based on the layout and look and instinctively know what to do. Navigating through the site needs to be effortless and seamless and the user should not have to think at all. Oh and the site has to also be completely responsive so it can view it on any device.
-				</p>
-
 				<div class="what-we-need-container">
-					<h3 class="fourth-level-heading">##What-We-Need</h3>
-					<ul class="what-we-need body-copy">
-						<li>Inputs with easy distinctions for:
-							<ul>
-								<li>First Name</li>
-								<li>Last Name</li>
-								<li>Email Address</li>
-								<li>Password</li>
-							</ul>
-						</li>
-						<li>Submit Button that provided feedback for success or error</li>
-						<li>Site to be fully responsive</li>	
-					</ul>
-				</div>
+					<h3 class="fourth-level-heading">##API-Key</h3>
+					<p class="body-copy">
+						First things first was to set up an account on AccuWeather and create an “app” with them so I can get an API key</p>
+					</p>
+									
 
-				<p class="body-copy">I usually start every design mockup the same way our forefathers did: with good ol’ pen and paper.</p>
+				<picture>
+					<img src="../images/api-key.svg" alt="image of api key">
+				</picture>
+
+				
 
 				<picture>
 					<img src="../images/signup-mockup.svg" alt="Initial mock up for signup form in pen and paper">
