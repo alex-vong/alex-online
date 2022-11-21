@@ -27,25 +27,25 @@
 	gap:  5px;
 }
 
-.project-goals h2.third-level-heading {
+.case-study .container .project-goals h2.third-level-heading {
 	color: var(--blue);
 }
 
-.project-goals p.body-copy {
+.case-study .container .project-goals p.body-copy {
 	color: var(--marker);
 }
 
 
 
 
-.case-study ul.tools {
+.case-study .container ul.tools {
 	flex-direction: row;
 	flex-wrap: wrap;
 	grid-gap: 5px 26px;
 	color: var(--marker);
 }
 
-.case-study ul.what-we-need {
+.case-study .container ul.what-we-need {
 	display:  flex;
 	flex-direction: column;
 	gap:  5px;
@@ -55,7 +55,7 @@
 	gap: 5px;
 }
 
-picture + picture {
+.case-study .container picture + picture {
 	margin-top: 10px;
 }
 
@@ -70,10 +70,10 @@ picture + picture {
 
 }
 
-.case-study ul.what-we-need li ul li {
+.case-study .container ul.what-we-need li ul li {
 	margin-left: 20px;
 }
-.case-study ul.what-we-need li ul li::before {
+.case-study .container ul.what-we-need li ul li::before {
       font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f101";
       padding-right: 5px;	
       color:  var(--orange);
