@@ -2,15 +2,13 @@
 		<section class="container">
 			<div class="cs-heading">
 				<h1 class="second-level-heading">Weather App Case Study</h1>
-				<p class="body-copy">Asynchronous JavaScript is a fairly difficult concept to fully grasp, especially for someone as new to JS as I am. I understand that it allows your program to continue running while waiting for for certain task and not having to wait on them.
+				<p class="body-copy"><strong>Asynchronous JavaScript</strong> is a <strike>fairly</strike> difficult concept to fully grasp, especially for someone as new to JS as I am. I understand that it allows your program to continue running while waiting for for certain task and not having to wait on them.
 
 				<span class="block">With that I know, or think I know, a Weather App seemed like a good first API project to do. So without further ado, here we go.</span>
 
 				<span class="block">
-					If you do not care to read this case study and would like to see the live project site, you can click on this link <a href="https://alexvong.dev/modules/js-weather-app/" target="_blank">JS-Weather-App</a>
+					If you'd like to go straigt to the live project site, you can click on this link <a href="https://alexvong.dev/modules/js-weather-app/" target="_blank">JS-Weather-App</a> or view a live demo of the project below:
 				</span>
-
-				<span class="block">You can also view a live demo of the project below:</span>
 				</p>
 
 			   <div style="height: 0px; overflow: hidden; padding-top: 56.25%; position: relative; width: 100%;">
@@ -30,14 +28,15 @@
 							<li>HTML</li>
 							<li>CSS</li>
 							<li>JavaScript</li>
+							<li>AccuWeather API</li>
+							<li>MDN Docs</li>
+							<li>PostMan/Hoppscotch.io</li>
 							<li>GitHub</li>
 							<li>Tower</li>
 							<li>AWS</li>
 							<li>FileZilla</li>
-							<li>MDN Docs</li>
-							<li><a href="https://regex101.com/"></a>RegEx101.com</li>
 							<li>Affinity Designer</li>
-							<li><a href="https://www.opengraph.xyz/"></a>OpenGraph.xyz</li>
+							<li>OpenGraph.xyz</li>
 						</ul>
 					</div>
 			</div>
