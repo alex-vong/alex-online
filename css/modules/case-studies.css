@@ -3,6 +3,13 @@
 	color: var(--marker);
 	font-weight: bold;
 
+
+}
+
+.case-study .container code {
+	background-color: var(--pen);
+	color: var(--black);
+	padding: 2px;
 }
 
 
