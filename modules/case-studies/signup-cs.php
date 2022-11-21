@@ -5,10 +5,8 @@
 				<p class="body-copy">This week on my journey to learn Javascript, I encountered functions and event handlers. To improve my knowledge and as a challenge to myself, I wanted to build my own sign up page and try and mimic the ones you see everyday in the wild.
 
 				<span class="block">
-					If you do not care to read this case study and would like to see the live project site, you can click on this link <a href="https://alexvong.dev/modules/js-signup-page/" target="_blank">JS-Signup-Page</a>
+					If you'd like to go straigt to the live project site, you can click on this link <a href="https://alexvong.dev/modules/js-weather-app/" target="_blank">JS-Weather-App</a> or view a live demo of the project below:
 				</span>
-
-				<span class="block">You can also view a live demo of the project below:</span>
 				</p>
 
 			   <div style="height: 0px; overflow: hidden; padding-top: 56.25%; position: relative; width: 100%;">
