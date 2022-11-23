@@ -141,12 +141,14 @@
 
 				<picture>
 					<img src="../images/reg-variables.svg" alt="image of regex variable code">
+					<img src="../images/fetch-calls.svg" alt="image of fetch calls">
 				</picture>
 
 				<p class="body-copy">Next, I tested each one by one starting with the input for first name:</p>
 
 				<picture>
 					<img src="../images/reg-test.svg" alt="image of regex variable testing code">
+					<img src="../images/get-weather.svg" alt="image of get weatjer function">
 				</picture>
 
 				<p class="body-copy">
@@ -157,6 +159,7 @@
 
 				<picture>
 					<img src="../images/signup-fail.svg" alt="sign up fail example">
+					<img src="../images/fetch-json.svg" alt="image of fetch response">
 				</picture>
 
 				<p class="body-copy">If the user deletes the initial input, the <code>.error</code> class and error message will then need to be removed so user can start with a clean slate. If user next inputs a value that passes the RegEx test, a class of <code>.success</code> will be added onto the input which this time places a <span class="green">green border</span> around it signifying the user that his input is valid and he can move onto the next input field.</p>
