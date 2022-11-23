@@ -135,6 +135,8 @@
 				<span class="block">But now comes the tricky part: Javascript. Being my first actual project using the language, I knew I was in for some anguish and headaches.</span>
 				<span class="block">To overcome this I had to learn about Regular Expressions (RegEx). After what seemed like hours and hours of reading MDN docs, watching tutorial after tutorial, and reading articles after articles, I applied my newfound knowledge into action.</span>
 				<span class="block">I first created a RegEx test for each input and assigned/created a path in memory to them onto a variable. </span>
+			<div class="tie-it-all-together">
+				<p class="body-copy">So now that we have a rough idea of how fetch API request and response works and was successfully able to an async function to make a request to the AccuWeather API and get some information and turn it into JSON, we just need to finish the rest of the application with what we already know how to do. And if things go wrong, we do more testing and find solutions!.
 				</p>
 
 				<picture>
