@@ -213,9 +213,7 @@
 
 			<div class="conclusion">
 				<h2 class="third-level-heading">#Conclusion</h2>
-				<p class="body-copy">There is still so much I need to learn about JavaScript and even more that I do not know or grasp. But all in all, I enjoyed this project and at the end of the day, deem it as a success. I was able to learn more about event handlers, forms, logics, and gain valuable JavaScript experience.
-
-				<span class="block">All that there is left to do is to continue learning more and more. I do aim to come back to this project from time to time and maybe even add some new functionality and things I learn on my JavaScript and Web Development journey.</span>
+				<p class="body-copy">This project was extremely challenging but a lot of fun and provided me with an immeasurable amount of experience and knowledge regarding fetch APIs, call back functions, asynchronous JavaScript, and so much more. .
 				</p>
 				
 			</div>
