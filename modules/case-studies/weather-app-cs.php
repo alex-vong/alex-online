@@ -184,6 +184,18 @@
 				
 			</div>
 
+			<div class="over-coming-challenges">
+				<h2 class="third-level-heading">#Overcoming-Challenges</h2>
+				<div class="challenge challenge-1">
+					<h3 class="fourth-level-heading">##API-Key-Limits</h3>
+					<p class="body-copy">During this project I kept running into fetch issues and could not get data from the AccuWeather API. At first I was baffled because everything was working just find prior and I was able to request data and receive a response.After taking a look in the Network tab I saw my url request has a status code of 401 which according to MDN meant “response status code indicates that the client request has not been completed because it lacks valid authentication credentials for the requested resource.”
+					</p>
+					<picture>
+						<img src="../images/api-key-error.svg" alt="api key error">
+					</picture>
+
+					<p class="body-copy">After a while of researching, Googleing, Stack Overflow-ing, and Reddit-ing, I learned that AccuWeather give you only 50 request per “app” so I had to delete and recreate “apps” to get new API keys. I had to replicate this process whenever I used up my 50 request per key.</p>
+				</div>
 			<div class="conclusion">
 				<h2 class="third-level-heading">#Conclusion</h2>
 				<p class="body-copy">There is still so much I need to learn about JavaScript and even more that I do not know or grasp. But all in all, I enjoyed this project and at the end of the day, deem it as a success. I was able to learn more about event handlers, forms, logics, and gain valuable JavaScript experience.
