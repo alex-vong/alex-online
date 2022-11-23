@@ -129,23 +129,15 @@
 								
 			</div>
 
-			<div class="overcoming-challenges">
-				<h2 class="third-level-heading">#Time-To-Code</h2>
-				<p class="body-copy">The HTML and CSS were pretty straight forward. Create a form with a bunch of inputs nested inside and have a button someone obvious that the user can click on to submit the form. All the components surrounding it was also fully responsive and can resize based on the device it was on.
-				<span class="block">But now comes the tricky part: Javascript. Being my first actual project using the language, I knew I was in for some anguish and headaches.</span>
-				<span class="block">To overcome this I had to learn about Regular Expressions (RegEx). After what seemed like hours and hours of reading MDN docs, watching tutorial after tutorial, and reading articles after articles, I applied my newfound knowledge into action.</span>
-				<span class="block">I first created a RegEx test for each input and assigned/created a path in memory to them onto a variable. </span>
 			<div class="tie-it-all-together">
 				<h2 class="third-level-heading">#Tie-it-all-Together</h2>
 				<p class="body-copy">So now that we have a rough idea of how fetch API request and response works and was successfully able to an async function to make a request to the AccuWeather API and get some information and turn it into JSON, we just need to finish the rest of the application with what we already know how to do. And if things go wrong, we do more testing and find solutions!.
 				</p>
 
 				<picture>
-					<img src="../images/reg-variables.svg" alt="image of regex variable code">
 					<img src="../images/fetch-calls.svg" alt="image of fetch calls">
 				</picture>
 
-				<p class="body-copy">Next, I tested each one by one starting with the input for first name:</p>
 				<p class="body-copy">Above we add an <strong>event listener</strong> to the input and once the user submits, the <code>getCity</code> function from above will be called and the value/city will be passed into it. <code>getCity</code> will the zero index from that array of cities (as mentioned above).
 
 				<span class="block">
@@ -154,23 +146,17 @@
 				</p>
 
 				<picture>
-					<img src="../images/reg-test.svg" alt="image of regex variable testing code">
 					<img src="../images/get-weather.svg" alt="image of get weatjer function">
 				</picture>
 
 				<p class="body-copy">
-					Here is a breakdown of the logic behind the code:
-
-					<span class="block">When user types something into the <code>input</code> field, the <code>value</code> is tested against the RegEx test I created. If/once the input fails the test, a class of <code>.error</code> will be added onto the input which places a <span class="red">red border</span> around the input and props an error message up to notifying the user that an error has occurred.</span>
 					When we run this we get the weather conditions for the input.
 				</p>
 
 				<picture>
-					<img src="../images/signup-fail.svg" alt="sign up fail example">
 					<img src="../images/fetch-json.svg" alt="image of fetch response">
 				</picture>
 
-				<p class="body-copy">If the user deletes the initial input, the <code>.error</code> class and error message will then need to be removed so user can start with a clean slate. If user next inputs a value that passes the RegEx test, a class of <code>.success</code> will be added onto the input which this time places a <span class="green">green border</span> around it signifying the user that his input is valid and he can move onto the next input field.</p>
 				<p class="body-copy">Finally we can sift through the returned JSON file and update the DOM with whatever information we want from it. </p>
 
 				<picture>
