@@ -196,6 +196,21 @@
 
 					<p class="body-copy">After a while of researching, Googleing, Stack Overflow-ing, and Reddit-ing, I learned that AccuWeather give you only 50 request per “app” so I had to delete and recreate “apps” to get new API keys. I had to replicate this process whenever I used up my 50 request per key.</p>
 				</div>
+				
+				<div class="challenge challenge-2">
+					<h3 class="fourth-level-heading">##Secure-Network-Error</h3>
+					<p class="body-copy">I came across some issues with the fetch api request after deploying this project on my portfolio site. The error was thrown every time I tried to search a city. Initially I thought I just needed a new API key but after some further digging in the Network tab and console I discovered the error was with the url request link provided by AccuWeather.
+					</p>
+					<picture>
+						<img src="../images/s-error.svg" alt="http error">
+					</picture>
+
+					<p class="body-copy">The URL request given by AccuWeather was not a secure and because of that I was unable to make a proper request. I went back to the URL request in my project and added an ‘s’ to the ‘http’ request and that seemed to have done the trick. .</p>
+				</div>
+
+				
+			</div>
+
 			<div class="conclusion">
 				<h2 class="third-level-heading">#Conclusion</h2>
 				<p class="body-copy">There is still so much I need to learn about JavaScript and even more that I do not know or grasp. But all in all, I enjoyed this project and at the end of the day, deem it as a success. I was able to learn more about event handlers, forms, logics, and gain valuable JavaScript experience.
