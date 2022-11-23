@@ -159,18 +159,9 @@
 
 				<p class="body-copy">Finally we can sift through the returned JSON file and update the DOM with whatever information we want from it. </p>
 
-				<picture>
-					<img src="../images/signup-pass.svg" alt="sign up pass example">
-				</picture>
-
-				<p class="body-copy">I continue to use to formula for the rest of the inputs. Each input will continue to test the user’s inputs against their specific RegEx test and will throw errors as long as the inputs fail.</p>
-
-				<picture>
-					<img src="../images/sign-up-side-by-side.svg" alt="sign up side by side example">
-				</picture>
 				<div >
 					<p class="body-copy">I decided to grab:</p>
-					<ul class="tools"> 
+					<ul class="body-copy"> 
 						<li>City Name and State</li>
 						<li>Day of the Week</li>
 						<li>Current Temperature in Fahrenheit</li>
@@ -180,7 +171,17 @@
 					</ul>
 				</div>
 
-				<p class="body-copy">The same method is applied to the Submit button. Once clicked, the function will run to make sure all the inputs have successfully passed their RegEx test, and if true is returned, a notification will pop up letting the user now their inputs are successful.</p>
+				<p class="body-copy">Put them all together, add a little pixie dust and vanilla Javascript with DOM manipulation and CSS Styles and I was able to get this:</p>
+
+				<picture>
+					<img src="../images/weather-app-mobile.svg" alt="weather app in mobile view" class="mobile">
+				</picture>
+				<picture>
+					<img src="../images/weather-app-desktop.svg" alt="weather app in desktop view">
+				</picture>
+
+				<p class="body-copy">With the main challenge solved, all that is left seeing if there are any other information I would want to be shown on the browser and some finishing touches to styling and making sure the project is full responsive. </p>
+				
 			</div>
 
 			<div class="conclusion">

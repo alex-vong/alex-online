@@ -12,6 +12,11 @@
 	padding: 2px;
 }
 
+.case-study .container .mobile {
+	max-height: 700px;
+	width: auto;
+}
+
 
 .case-study .container, .case-study .container div, .case-study ul.tools  {
 	display:  flex;
@@ -67,9 +72,7 @@
 	gap:  5px;
 }
 
-.case-study .container .what-we-need-container {
-	/*gap: 5px;*/
-}
+
 
 .case-study .container picture + picture {
 	margin-top: 10px;
