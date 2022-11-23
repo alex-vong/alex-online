@@ -168,6 +168,17 @@
 				<picture>
 					<img src="../images/sign-up-side-by-side.svg" alt="sign up side by side example">
 				</picture>
+				<div >
+					<p class="body-copy">I decided to grab:</p>
+					<ul class="tools"> 
+						<li>City Name and State</li>
+						<li>Day of the Week</li>
+						<li>Current Temperature in Fahrenheit</li>
+						<li>High and Lows for the day</li>
+						<li>Weather Condition</li>
+						<li>Condition Icon</li>
+					</ul>
+				</div>
 
 				<p class="body-copy">The same method is applied to the Submit button. Once clicked, the function will run to make sure all the inputs have successfully passed their RegEx test, and if true is returned, a notification will pop up letting the user now their inputs are successful.</p>
 			</div>
