@@ -137,7 +137,6 @@ project-card a,
 project-card ul {
     display: flex;
     gap: 10px;
-    order: 3;
     margin-top: 8px;
 }
 
