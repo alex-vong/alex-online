@@ -24,8 +24,11 @@
 
 				<?php } ?>
 			</ul>
-			<a href="<?=$project["case-study"]?>" class="body-copy" target="_blank">Case Study</a>
-			<a href="<?=$project["project-link"]?>" class="body-copy" target="_blank">View Project</a>
+
+			<div class="project-card-links">
+				<a href="<?=$project["case-study"]?>" class="body-copy" target="_blank">Case Study</a>
+				<a href="<?=$project["project-link"]?>" class="body-copy" target="_blank">View Project</a>
+			</div>
 		</div>
 		
 

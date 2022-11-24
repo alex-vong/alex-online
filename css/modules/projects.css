@@ -141,7 +141,12 @@ project-card ul {
 }
 
 
-
+project-card .project-card-links {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
 
 blogs-grid {
     display: flex;
