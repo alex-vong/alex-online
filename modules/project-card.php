@@ -15,17 +15,17 @@
 						</span>
 					</h3>
 			</a>
+			<p class="body-copy inside-part"><?=$project["description"]?></p>
+
 
 			<ul>
 				<?php foreach ($project['languages'] as $language) { ?>
 					<li class="quiet-voice <?=$language?>">#<?=strtoupper($language)?></li>
 
 				<?php } ?>
-
 			</ul>
-
-
-				<p class="body-copy inside-part"><?=$project["description"]?></p>
+			<a href="<?=$project["case-study"]?>" class="body-copy" target="_blank">Case Study</a>
+			<a href="<?=$project["project-link"]?>" class="body-copy" target="_blank">View Project</a>
 		</div>
 		
 
