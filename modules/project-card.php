@@ -1,11 +1,18 @@
 <div class="stuff">
 
 	<project-card class="background">
-		<a href="<?=$project["project-link"]?>" target="_blank">
-			<picture>
-				<img src="<?=$project["image"]?>" alt="<?=$project["alt-text"]?>">
-			</picture>
-		</a>
+
+		<div class="preview-section">
+			<a href="<?=$project["project-link"]?>" target="_blank">
+				<picture>
+					<img src="<?=$project["image"]?>" alt="<?=$project["alt-text"]?>">
+				</picture>
+			</a>
+			<div class="project-card-links">
+					<a href="<?=$project["case-study"]?>" class="body-copy" target="_blank">Case Study</a>
+					<a href="<?=$project["project-link"]?>" class="body-copy" target="_blank">View Project</a>
+			</div>
+		</div>
 
 		<div class="card-details">
 			<a href="<?=$project["project-link"]?>" target="_blank">
@@ -25,10 +32,6 @@
 				<?php } ?>
 			</ul>
 
-			<div class="project-card-links">
-				<a href="<?=$project["case-study"]?>" class="body-copy" target="_blank">Case Study</a>
-				<a href="<?=$project["project-link"]?>" class="body-copy" target="_blank">View Project</a>
-			</div>
 		</div>
 		
 
