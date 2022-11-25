@@ -80,7 +80,7 @@ $projects = [
 		"project-link" =>"https://alexvong.dev/modules/js-signup-page/",
 		"case-study" =>"?page=signup-cs",
 		"image" => "images/signup.svg",
-		"hot" => false,
+		"hot" => true,
 		"demo" => false,
 		"languages" => ['html', 'css', 'php', 'js'],
 		"alt-text" => "image for Sign Up Form project"
