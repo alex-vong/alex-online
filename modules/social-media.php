@@ -17,11 +17,11 @@
 		</a>
 	</li>
 
-	<li>
+<!-- 	<li>
 		<a href="https://twitter.com/alexv0ng">
 			<i class="fa-brands fa-twitter" target="_blank"></i>
 		</a>
-	</li>
+	</li> -->
 
 	<li>
 		<a href="mailto: avong003@gmail.com">
