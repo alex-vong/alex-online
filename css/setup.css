@@ -94,7 +94,7 @@ svg {
   --fluid-1: calc(((var(--fluid-min-size-1) * 1rem) + (var(--fluid-max-size-1) - var(--fluid-min-size-1)) * var(--fluid-bp)));
   --fluid-2: calc(((var(--fluid-min-size-2) * 1rem) + (var(--fluid-max-size-2) - var(--fluid-min-size-2)) * var(--fluid-bp)));
   --fluid-3: calc(((var(--fluid-min-size-3) * 1rem) + (var(--fluid-max-size-3) - var(--fluid-min-size-3)) * var(--fluid-bp)));
-  --fluid-4: calc(((var(--fluid-min-size-4) * 1.2rem) + (var(--fluid-max-size-4) - var(--fluid-min-size-4)) * var(--fluid-bp)));
+  --fluid-4: calc(((var(--fluid-min-size-4) * 1.05rem) + (var(--fluid-max-size-4) - var(--fluid-min-size-4)) * var(--fluid-bp)));
 
 
 }
