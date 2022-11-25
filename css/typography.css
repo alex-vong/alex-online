@@ -107,7 +107,7 @@ masthead nav a.active {
 
 @media (min-width: 768px) {
     .top-level-heading {
-        font-size: var(--fluid-3);
+        /*font-size: var(--fluid-3);*/
         width: 20ch;
     }
 
