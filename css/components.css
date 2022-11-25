@@ -81,7 +81,7 @@ a+.body-copy {
     }
 
     .body-copy {
-        max-width: 61ch;
+        /*max-width: 61ch;*/
 
     }
 
@@ -94,7 +94,7 @@ a+.body-copy {
 @media (min-width: 1000px) {
 
     .body-copy {
-        max-width: 69ch;
+        /*max-width: 69ch;*/
     }
 
     .inside-part {
