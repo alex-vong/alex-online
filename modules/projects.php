@@ -36,10 +36,6 @@
 		 	 } ?>
 		 	
 		 </section>
-		 		<a href="https://alexvong.substack.com/" class="animated-line view-all-link" target="_blank">
-			<p class="body-copy">
-				<!-- <span>View All Blogs on My Substack</span> -->
-			</p>
 		</a>
 
 	</section>
