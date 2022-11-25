@@ -9,8 +9,9 @@
 				</picture>
 			</a>
 			<div class="project-card-links">
-					<a href="<?=$project["case-study"]?>" class="body-copy" target="_blank">Case Study</a>
-					<a href="<?=$project["project-link"]?>" class="body-copy" target="_blank">View Project</a>
+					<a href="<?=$project["case-study"]?>" class="body-copy animated-line" target="_blank"><span>Case Study</span></a>
+
+					<a href="<?=$project["project-link"]?>" class="body-copy animated-line" target="_blank"><span>View Project</span></a>
 			</div>
 		</div>
 
