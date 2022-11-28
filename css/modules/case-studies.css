@@ -1,3 +1,16 @@
+.case-study .languages {
+	display:  flex;
+	gap: 10px;
+	/*font-family: 'Inter', sans-serif;*/
+}
+
+.case-study .languages li {
+	padding: 3px 10px;
+	border: 1px solid var(--marker);
+	border-radius: 0.1rem;
+
+}
+
 
 .case-study .container strong {
 	color: var(--marker);
@@ -28,6 +41,10 @@
 }
 
 .case-study .container div {
+	gap:  20px;
+}
+
+.case-study .container .cs-heading{
 	gap:  15px;
 }
 
@@ -41,8 +58,9 @@
 }
 
 .case-study .container .project-goals {
-	padding: 40px;
+	padding: 20px 40px;
 	background-color: var(--black);
+	border-left: 2px solid var(--blue);
 	color: var(--marker);
 	gap:  5px;
 }
@@ -58,13 +76,7 @@
 
 
 
-.case-study .container ul.tools {
-	flex-direction: row;
-	flex-wrap: wrap;
-	grid-gap: 5px 26px;
-	color: var(--marker);
-	max-width: initial;
-}
+
 
 .case-study .container ul.list {
 	display:  flex;
@@ -143,8 +155,22 @@ figure figcaption cite, .case-study .container em {
 	font-style: italic;
 }
 
-.conclusion {
+
+.case-study .container ul.tools {
+	flex-direction: row;
+	flex-wrap: wrap;
+	grid-gap: 10px 26px;
+	color: var(--marker);
+	max-width: initial;
+}
+
+.tools-resources {
 	margin-bottom: 60px;
+}
+
+.tools-resources li {
+	/*padding-bottom: 1px;*/
+	border-bottom: 1px solid var(--marker);
 }
 
 
