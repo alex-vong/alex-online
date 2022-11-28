@@ -26,12 +26,12 @@
 			<p class="body-copy inside-part"><?=$project["description"]?></p>
 
 
-			<ul>
+			<!-- <ul>
 				<?php foreach ($project['languages'] as $language) { ?>
 					<li class="quiet-voice <?=$language?>">#<?=strtoupper($language)?></li>
 
 				<?php } ?>
-			</ul>
+			</ul> -->
 
 		</div>
 		
