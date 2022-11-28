@@ -66,7 +66,7 @@
 	max-width: initial;
 }
 
-.case-study .container ul.what-we-need {
+.case-study .container ul.list {
 	display:  flex;
 	flex-direction: column;
 	gap:  5px;
@@ -78,21 +78,21 @@
 	margin-top: 10px;
 }
 
-.case-study ul.what-we-need li::before {
+.case-study ul.list li::before {
 	 font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054";
 	 padding-right: 5px;
 	 color: var(--blue);
  }
 
-.case-study ul.what-we-need li {
+.case-study ul.list li {
 	margin-left: 15px;
 
 }
 
-.case-study .container ul.what-we-need li ul li {
+.case-study .container ul.list li ul li {
 	margin-left: 20px;
 }
-.case-study .container ul.what-we-need li ul li::before {
+.case-study .container ul.list li ul li::before {
       font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f101";
       padding-right: 5px;	
       color:  var(--orange);

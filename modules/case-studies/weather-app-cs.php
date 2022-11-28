@@ -161,7 +161,7 @@
 
 				<div >
 					<p class="body-copy">I decided to grab:</p>
-					<ul class=" what-we-need body-copy"> 
+					<ul class="list body-copy"> 
 						<li>City Name and State</li>
 						<li>Day of the Week</li>
 						<li>Current Temperature in Fahrenheit</li>

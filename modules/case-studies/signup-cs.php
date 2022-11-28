@@ -75,7 +75,7 @@
 
 				<div class="what-we-need-container">
 					<h3 class="fourth-level-heading">##What-We-Need</h3>
-					<ul class="what-we-need body-copy">
+					<ul class="list body-copy">
 						<li>Inputs with easy distinctions for:
 							<ul>
 								<li>First Name</li>
