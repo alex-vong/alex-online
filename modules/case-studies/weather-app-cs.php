@@ -1,7 +1,28 @@
  <section class="weather-app case-study">
 		<section class="container">
 			<div class="cs-heading">
-				<h1 class="second-level-heading">Weather App Case Study</h1>
+				<ul class="body-copy languages">
+					<li class='html'>HTML</li>
+					<li class='css'>CSS</li>
+					<li class='js'>JavaScript</li>
+				</ul>
+		
+				<h1 class="second-level-heading">A JavaScript Weather App that shows real time weather data for any inputted city.</h1>
+
+				<h2 class="body-copy">Weather App Case Study</h2>
+					
+			
+			</div>
+
+			<div class="cs-intro">
+
+				<div class="project-goals">
+					<h2 class="third-level-heading">#Project-Goals</h2>
+					<p class="body-copy">Enhance my knowledge of fetch APIs, call back functions, and Asynchronous JavaScript by utilizing AccuWeather's API to get weather information on a city that the user types in.</p>
+
+				</div>
+
+
 				<p class="body-copy"><strong>Asynchronous JavaScript</strong> is a <strike>fairly</strike> difficult concept to fully grasp, especially for someone as new to JS as I am. I understand that it allows your program to continue running while waiting for for certain task and not having to wait on them.
 
 				<span class="block">With that I know, or think I know, a Weather App seemed like a good first API project to do. So without further ado, here we go.</span>
@@ -22,30 +43,10 @@
 			        </iframe>
 			    </div>
 
-			    <div class="tools-resources">
-						<h4 class="fourth-level-heading">##Tools and Resources Used:</h4>
-						<ul class="tools body-copy"> 
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>JavaScript</li>
-							<li>AccuWeather API</li>
-							<li>MDN Docs</li>
-							<li>PostMan/Hoppscotch.io</li>
-							<li>GitHub</li>
-							<li>Tower</li>
-							<li>AWS</li>
-							<li>FileZilla</li>
-							<li>Affinity Designer</li>
-							<li>OpenGraph.xyz</li>
-						</ul>
-				</div>
+			    
 			</div>
 
-			<div class="project-goals">
-				<h2 class="third-level-heading">#Project-Goals</h2>
-				<p class="body-copy">Enhance my knowledge of fetch APIs, call back functions, and Asynchronous JavaScript by utilizing AccuWeather's API to get weather information on a city that the user types in.</p>
 
-			</div>
 
 			<div class="intro">
 				<h2 class="third-level-heading">
@@ -217,6 +218,24 @@
 				</p>
 				
 			</div>
+
+			<div class="tools-resources">
+						<h4 class="fourth-level-heading">##Tools and Resources Used:</h4>
+						<ul class="tools body-copy"> 
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JavaScript</li>
+							<li>AccuWeather API</li>
+							<li>MDN Docs</li>
+							<li>PostMan/Hoppscotch.io</li>
+							<li>GitHub</li>
+							<li>Tower</li>
+							<li>AWS</li>
+							<li>FileZilla</li>
+							<li>Affinity Designer</li>
+							<li>OpenGraph.xyz</li>
+						</ul>
+				</div>
 
 
 
