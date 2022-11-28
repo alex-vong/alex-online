@@ -1,7 +1,24 @@
  <section class="signup-cs case-study">
 		<section class="container">
 			<div class="cs-heading">
-				<h1 class="second-level-heading">Signup Form Case Study</h1>
+				<ul class="body-copy languages inter">
+					<li class='html'>HTML</li>
+					<li class='css'>CSS</li>
+					<li class='js'>JavaScript</li>
+				</ul>
+		
+				<h1 class="second-level-heading">An interactive and fully responsive signup form incorporating JS Event Handlers and RegEx testing </h1>
+				<h2 class="body-copy inter">JS Signup Form Case Study</h2>
+			</div>
+
+			<div class="cs-intro">
+
+				<div class="project-goals">
+					<h2 class="third-level-heading">#Project-Goals</h2>
+					<p class="body-copy">Create a sign up form to better understand how forms work after user clicks submit, the use of Javascript event handler’s role with them, and implementing Regular Expressions and functions to test form inputs.</p>
+
+				</div>
+
 				<p class="body-copy">This week on my journey to learn Javascript, I encountered functions and event handlers. To improve my knowledge and as a challenge to myself, I wanted to build my own sign up page and try and mimic the ones you see everyday in the wild.
 
 				<span class="block">
@@ -20,29 +37,10 @@
 			        </iframe>
 			    </div>
 
-			    <div class="tools-resources">
-						<h4 class="fourth-level-heading">##Tools and Resources Used:</h4>
-						<ul class="tools body-copy"> 
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>JavaScript</li>
-							<li>GitHub</li>
-							<li>Tower</li>
-							<li>AWS</li>
-							<li>FileZilla</li>
-							<li>MDN Docs</li>
-							<li><a href="https://regex101.com/"></a>RegEx101.com</li>
-							<li>Affinity Designer</li>
-							<li><a href="https://www.opengraph.xyz/"></a>OpenGraph.xyz</li>
-						</ul>
-					</div>
-			</div>
-
-			<div class="project-goals">
-				<h2 class="third-level-heading">#Project-Goals</h2>
-				<p class="body-copy">Create a sign up form to better understand how forms work after user clicks submit, the use of Javascript event handler’s role with them, and implementing Regular Expressions and functions to test form inputs.</p>
 
 			</div>
+
+
 
 			<div class="intro">
 				<h2 class="third-level-heading">
@@ -180,6 +178,23 @@
 				<span class="block">All that there is left to do is to continue learning more and more. I do aim to come back to this project from time to time and maybe even add some new functionality and things I learn on my JavaScript and Web Development journey.</span>
 				</p>
 				
+			</div>
+
+		    <div class="tools-resources">
+				<h4 class="fourth-level-heading">##Tools and Resources Used:</h4>
+				<ul class="tools body-copy"> 
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>GitHub</li>
+					<li>Tower</li>
+					<li>AWS</li>
+					<li>FileZilla</li>
+					<li>MDN Docs</li>
+					<li><a href="https://regex101.com/"></a>RegEx101.com</li>
+					<li>Affinity Designer</li>
+					<li><a href="https://www.opengraph.xyz/"></a>OpenGraph.xyz</li>
+				</ul>
 			</div>
 
 
