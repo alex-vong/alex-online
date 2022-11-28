@@ -169,7 +169,7 @@ blogs-grid {
 
 }
 
-.html,
+/*.html,
 .css,
 .php,
 .js {
@@ -178,8 +178,8 @@ blogs-grid {
     font-weight: 700;
 
 }
-
-.html {
+*/
+/*.html {
     background-color: var(--html);
 }
 
@@ -193,7 +193,7 @@ blogs-grid {
 
 .js {
     background-color: var(--js);
-}
+}*/
 
 projects-grid project-card a picture img {
     /*max-height:  170px;*/
