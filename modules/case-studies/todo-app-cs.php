@@ -26,14 +26,6 @@
 
 				</div>
 
-
-				<p class="body-copy"><strong>Asynchronous JavaScript</strong> is a <strike>fairly</strike> difficult concept to fully grasp, especially for someone as new to JS as I am. I understand that it allows your program to continue running while waiting for for certain task and not having to wait on them.
-
-				<span class="block">With that I know, or think I know, a Weather App seemed like a good first API project to do. So without further ado, here we go.</span>
-
-				<span class="block">
-					If you'd like to go straigt to the live project site, you can click on this link <a href="https://alexvong.dev/modules/js-weather-app/" target="_blank">JS-Weather-App</a> or view a live demo of the project below:
-				</span>
 				<p class="body-copy">
 					If you'd like to go straigt to the live project site, you can click on this link <span><a href="https://alexvong.dev/modules/js-weather-app/" target="_blank">JS-Weather-App</a></span> or view a live demo of the project below:
 				</p>
@@ -56,22 +48,32 @@
 
 			<div class="intro">
 				<h2 class="third-level-heading">
-					#Intro-to-APIs
+					#What-The-CRUD
 				</h2>
-				<p class="body-copy">No, it is not a type of alcoholic beverage (like you haven’t heard that one before…). <strong>Application Programming Interface (API)</strong> are ways two softeware components talk to one another and how request and responses are made. 
+				<p class="body-copy"><strong>CRUD</strong> is an acronym that stands for Create, Read, Update and Delete. Think of it as a simple concept that represents the four basic functions that applications should be able to do and are considered necessary to implement a persistent storage application. Or in simpler terms, it represents the four basic operations you can do on any data. You can <em>create</em> something new, <em>read</em> or view the newly created data, <em>update</em> (or edit) the data, and finally be able to <em>delete</em> it.
 
-				<span class="block"> It is another topic that will take some time for me to fully comprehend and get comfortable with. I can see the benefits of APIs however and the power it holds in allowing programmers to “fetch” large amounts of information they need so they can filter through them and grab what they need and dynamically add those data to the DOM. <em>Mind blown.</em></span>
-				
+				<span class="block">To read more on CRUD operations you can view the <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD Wikipedia Page</a></span>
+				</p>
+			</div>
+			<div class="project-intro">
+				<h2 class="third-level-heading">
+					#Project-Intro
+				</h2>
+				<p class="body-copy">To understand and work with CRUD operations, I decided to make a <strong>Todo List Application</strong>. Not only is a Todo List a perfect project to incorporate the CRUD operations but it is also an application that I can use ad benefit from on my web development journey. 
+				</p>
 			</div>
 
 			<div class="what-we-need-container">
-				<h3 class="fourth-level-heading">##API-Key</h3>
+				<h3 class="fourth-level-heading">##What-We-Need</h3>
 				<p class="body-copy">
-					I decided to use the AccuWeather API because it was pretty easy to understand. 
-					After perusing through the AccuWeather API reference I found a Locations API where it allowed me to use a city text search which returns information for an array of cities that match the search text. It required the resource URL, API key, and a query.
-					<span class="block">
-					After familiarizing myself with the site, I set up an account on AccuWeather and create an “app” with them so I can get an API key.
-					</span>
+					To make this a real CRUD application we need to implement the 4 principals:
+					
+					<ul class="list body-copy">
+						<li><span class="bold-italic">Create</span> - user can create new todo tasks</li>
+						<li><span class="bold-italic">Read</span> - user should be able to read/view the task(s) they created</li>
+						<li><span class="bold-italic">Update</span> - user should be able to update or edit the task(s)</li>
+						<li><span class="bold-italic">Delete</span> - user should be able to delete task(s)</li>
+					</ul>
 				</p>
 								
 				<picture>
