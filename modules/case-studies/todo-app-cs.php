@@ -77,36 +77,47 @@
 				</p>
 								
 				<picture>
-					<img src="../images/api-key.svg" alt="image of api key">
+					<img src="../images/crud-intro-img.svg" alt="crud intro paragraph image">
 				</picture>
 				
-				<p class="body-copy">I also found a <strong>Locations API</strong> where it allowed me to use a city text search which returns information for an array of cities that match the search text. It required the <strong>resource URL, API key,</strong> and a <strong>query</strong>.</p>
-
-				<picture>
-					<img src="../images/city-search.svg" alt="image of city search endpoint from AccuWeather API">
-				</picture>
-			</div>
-
 			<div class="what-we-need-container">
-				<h3 class="fourth-level-heading">##API-Testing-Hard-Code</h3>
+				<h3 class="fourth-level-heading">##Design</h3>
 				<p class="body-copy">
-				I first tested this API endpoint request by manually inputting it the URL request, apikey, and the value of “Houston” into <strong>Postman</strong> and seeing what results I would get.
+				Like I do with all my projects, I first mock up it up on pen and paper and try to map out the project in my head and sketch it down. 
+
+				<span class="block">After having a rough sketch of the application I mock up a render of it on Figma</span>
 				</p>
 
-				<picture>
-					<img src="../images/postman-resp.svg" alt="postman response of city search">
-				</picture>
+				<div class="design-images">
+					<picture>
+						<img src="../images/todo-sketch.svg" alt="sketch of todo app on pen and paper">
+					</picture>
 
-				<p class="body-copy">The image above does not capture the entire JSON response but the request was successful and the response was an array of all “Houston” cities in the world. While doing this project I learned that there is a Houston, B.C. Who knew?! Now that I know the url request and endpoints work via Postman, I need to test it out on my project.</p>
+					<picture>
+						<img src="../images/todo-mockup.svg" alt="mockup of todo app on figma">
+					</picture>
+				</div>
+
+				<p class="body-copy">With the sketch and mock up done, I can now build the project <code>HTML</code> skeleton.</p>
+
+				<picture>
+					<img src="../images/todo-skeleton.svg" alt="mockup of todo app on figma">
+				</picture>
 								
+
+				
+
+
 			</div>
 
 			<div class="what-we-need-container">
-				<h3 class="fourth-level-heading">##API-TestingCode</h3>
+				<h2 class="third-level-heading">
+					#Create
+				</h2>
 				<p class="body-copy">
-				I first tested this API endpoint request by manually inputting it the URL request, apikey, and the value of “Houston” into <strong>Postman</strong> and seeing what results I would get.
+				The first step of this Todo List Application was to figure out a way for the user to input or <em>create</em> something and take the user's input and do something with it. 
 
-				<span class="block">This method was to see if I followed the endpoint request correctly and what would the response be.</span>
+				<span class="block">To do this I created a form with a text input. I then targeted that form and attached an event listener to it. </span>
 				</p>
 
 				<picture>
