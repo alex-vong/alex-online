@@ -161,13 +161,26 @@ $bits = [
 ];
 
 $latestBlog = [
+		[
+		"title" => "Todo List App Case Study",
+		"month" => "Nov",
+		"day" => "25th",
+		"year" => 2022,
+		"link" => "https://alextalk.substack.com/p/todo-list-application-case-study",
+		"headline" => "A Todo List Application incorporating the fundamentals of the CRUD operations",
+		"preview" => "Asynchronous JavaScript is a fairly difficult concept to fully grasp, especially for someone as new to JS as I am. I understand that it allows your program to continue running while waiting for for certain task and not having to wait on them. Application Programming Interface (API) is another topic that will take some time for me to fully comprehend and get comfortable with. I can see the benefits of APIs however and the power it holds in allowing programmers to “fetch” large amounts of information they need so they can filter through them and grab what they need and dynamically add those data to the DOM. Mind blown....",
+		"read-time" => 5,
+		"demo" => false,
+		"front-page" => true,
+	],
+
 	[
 		"title" => "Weather App Case Study",
 		"month" => "Nov",
 		"day" => "3rd",
 		"year" => 2022,
 		"link" => "https://alextalk.substack.com/p/case-study-api-weather-app",
-		"headline" => "My first every JavaScript Project. Featuring event handlers and Regular Expressions. Read all about it.",
+		"headline" => "A JavaScript Weather App that shows real time weather data for any inputted city",
 		"preview" => "Asynchronous JavaScript is a fairly difficult concept to fully grasp, especially for someone as new to JS as I am. I understand that it allows your program to continue running while waiting for for certain task and not having to wait on them. Application Programming Interface (API) is another topic that will take some time for me to fully comprehend and get comfortable with. I can see the benefits of APIs however and the power it holds in allowing programmers to “fetch” large amounts of information they need so they can filter through them and grab what they need and dynamically add those data to the DOM. Mind blown....",
 		"read-time" => 5,
 		"demo" => false,
@@ -179,7 +192,7 @@ $latestBlog = [
 		"day" => "2nd",
 		"year" => 2022,
 		"link" => "https://alextalk.substack.com/p/case-study-signup-form",
-		"headline" => "My first every JavaScript Project. Featuring event handlers and Regular Expressions. Read all about it.",
+		"headline" => "An interactive and fully responsive signup form incorporating JS Event Handlers and RegEx testing",
 		"preview" => "Sign up forms are all too common these days with virtually every website you find on the web incorporating it. And of course, it makes complete sense. Businesses want you to sign up so they have your information. I’ve been learning more about inputs, functions, event listeners, and forms and figured making my own fully functional and responsive sign up form would be a great way to improve my knowledge of those subjects...",
 		"read-time" => 6,
 		"demo" => false,
