@@ -1,7 +1,6 @@
 .case-study .languages {
 	display:  flex;
 	gap: 10px;
-	/*font-family: 'Inter', sans-serif;*/
 }
 
 .case-study .languages li {
@@ -111,11 +110,11 @@
  }
 
 
-.case-study .container .body-copy span a {
+.case-study .body-copy span a {
 	color: var(--marker);
 }
 
-.case-study .container img {
+.case-study .container img:not(img.main-img) {
 	max-width: 90%;
 	margin:  auto;
 }
