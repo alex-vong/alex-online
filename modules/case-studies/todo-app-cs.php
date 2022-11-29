@@ -34,6 +34,8 @@
 				<span class="block">
 					If you'd like to go straigt to the live project site, you can click on this link <a href="https://alexvong.dev/modules/js-weather-app/" target="_blank">JS-Weather-App</a> or view a live demo of the project below:
 				</span>
+				<p class="body-copy">
+					If you'd like to go straigt to the live project site, you can click on this link <span><a href="https://alexvong.dev/modules/js-weather-app/" target="_blank">JS-Weather-App</a></span> or view a live demo of the project below:
 				</p>
 
 			   <div style="height: 0px; overflow: hidden; padding-top: 56.25%; position: relative; width: 100%;">
