@@ -49,6 +49,12 @@ h2.inter::before {
 
 }
 
+span.bold-italic {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: italic;
+}
+
 
 
 
