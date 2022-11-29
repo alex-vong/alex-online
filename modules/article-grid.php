@@ -13,7 +13,7 @@
 			<h3 class="third-level-heading"><span class="animated-line"><?=$blog["title"]?></span></h3>
 		</a>
 		<p class="body-copy headline"><?=$blog["headline"]?></p>
-		<p class="preview quiet-voice"> <?=$blog['preview']?></p>
+		
 	</div>
 
 	<a href="<?=$blog["link"]?>" target="_blank">
