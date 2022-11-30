@@ -1,7 +1,6 @@
  <section class="todo-app case-study">
 		<section class="container">
 			<div class="cs-heading">
-				<ul class="body-copy languages">
 				<ul class="body-copy languages inter">
 					<li class='html'>HTML</li>
 					<li class='css'>CSS</li>
@@ -10,7 +9,6 @@
 		
 				<h1 class="second-level-heading">A Todo List Application incorporating the fundamentals of the CRUD operations</h1>
 
-				<h2 class="body-copy">Todo List Application Case Study</h2>
 				<h2 class="body-copy inter">Todo List Application Case Study</h2>
 
 				<picture>
@@ -29,13 +27,13 @@
 				</div>
 
 				<p class="body-copy">
-					If you'd like to go straigt to the live project site, you can click on this link <span><a href="https://alexvong.dev/modules/js-weather-app/" target="_blank">JS-Weather-App</a></span> or view a live demo of the project below:
+					If you'd like to go straigt to the live project site, you can click on this link <span><a href="https://alexvong.dev/modules/js-todo-list/" target="_blank">JS-ToDo-List</a></span> or view a live demo of the project below:
 				</p>
 
 			   <div style="height: 0px; overflow: hidden; padding-top: 56.25%; position: relative; width: 100%;">
 			        <iframe
 			            style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"
-			            src="https://tube.rvere.com/embed?v=owDb4glpdnk"
+			            src="https://tube.rvere.com/embed?v=TJsmnVwyw-g"
 			            title="YouTube video player"
 			            frameBorder="0"
 			            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -81,8 +79,9 @@
 				<picture>
 					<img src="../images/crud-intro-img.svg" alt="crud intro paragraph image">
 				</picture>
+			</div>
 				
-			<div class="what-we-need-container">
+			<div class="design-section">
 				<h3 class="fourth-level-heading">##Design</h3>
 				<p class="body-copy">
 				Like I do with all my projects, I first mock up it up on pen and paper and try to map out the project in my head and sketch it down. 
@@ -106,13 +105,9 @@
 					<img src="../images/todo-skeleton.svg" alt="mockup of todo app on figma">
 				</picture>
 								
-
-				
-
-
 			</div>
 
-			<div class="what-we-need-container">
+			<div class="create-section">
 				<h2 class="third-level-heading">
 					#Create
 				</h2>
@@ -123,121 +118,159 @@
 				</p>
 
 				<picture>
-					<img src="../images/postman-resp.svg" alt="postman response of city search">
+					<img src="../images/create-index.png" alt="create index html image">
 				</picture>
 
-				<p class="body-copy">The image above does not capture the entire JSON response but the request was successful and the response was an array of all “Houston” cities in the world. While doing this project I learned that there is a Houston, B.C. Who knew?! Now that I know the url request and endpoints work via Postman, I need to test it out on my project.
-
-				<span class="block">Now that I know the url request and endpoints work via Postman, I need to test it out on my project with some actual code.</span>
+				<p class="body-copy">I next took the <code>value</code> of the user’s <code>input</code> and assigned it to a variable <code>task</code>. I then logged the variable to the console to see if I was successfully able to get the value or if there was some error instead.
 				</p>
 
 				<picture>
-					<img src="../images/api-test.svg" alt="image of first steps of api code">
+					<img src="../images/create-test.jpg" alt="image of testing create in console">
 				</picture>
 
-				<p class="body-copy">This time I tested the results on the Mozilla Firefox Developer Edition Browser’s console (what a mouth full).</p>
+				<p class="body-copy">Huzzah! I was able to successfully get the user’s input!</p>
+			
+			</div>
 
-				<picture>
-					<img src="../images/moz-api-response.svg" alt="image of api testing on mozilla">
-				</picture>
+			<div class="read-section">
+				<h2 class="third-level-heading">#Read</h2>
 
-				<p class="body-copy">And it works! We get an array of cities and they include data such as city name, state, a unique key, etc.
-				<span class="block">
-					I do not need the entire array and just need the 0 index since that is the most common city and the rest are just small towns no one has heard of. I will go back to <code>line 10</code> above and <code>return data[0]</code>. <em>Also if the user did want the weather information for Houston, B.C, they can just type that in to get the results for that city</em>.
-					</span>
+				<div class="read">
+					<p class="body-copy">Next up, I had to render the data on the <code>DOM</code> so the user can <em>read</em> or view it. I created an empty array and assigned it to a <code>todos</code> global variable. Then back in my user input <code>addTodo</code> code block, I created a <code>if statement</code> that runs if the user input value is greater than 1 character. If it passes then the user’s value will be pushed into the <code>todos</code> array. This way the user can submit multiple tasks and they will all be added to an array.
+
+					<span class="block">But before the <code>todos</code> array gets updated and after the user submits an individual task, the <code>renderOnDom</code> function is called on <code>line 31</code> and the function runs on <code>line 10</code></span>
+					</p>
+
+					<picture>
+						<img src="../images/render-on-dom.jpg" alt="image of rendering task on DOM">
+					</picture>
+
+					<p class="body-copy">The renderOnDom function essentially takes the todos array and created a list item with each item in the array. I added a ul to the HTML and then updated the innerHTML with each li..
+					</p>
+
+					<video autoplay loop muted playsinline>
+					    <source src="../images/create.webm" type="video/webm">
+					</video>
+				</div>
+				
+				<div class="over-coming-challenges">
+					<h3 class="fourth-level-heading">##Overcoming-Challenges</h3>
+					
+						<p class="body-copy">One issue I quickly stumbled upon after being able to render the user’s task inputs was that they would dissapear once the browser refreshes. The reason for this is because inputs were not being saved anywhere. 
+
+						<span class="block">I researched ways to save the data in this Todo List App and came across the <code>Window.localStorage</code> property. <code>localStorage</code> is a property that allows JavaScript sites and apps to save key-value pairs in a web browser with no expiration date. This means the data stored in the browser will persist even after the browser window is closed. Since I am not dealing with large amounts of data, this property is just what I need versues a large database.</span>
+
+						<span class="block">I started in my <code>addTodo</code> event handler code block. Instead of pushing the user’s <code>input</code> into an array, I now took the data, <code>JSON.stringify</code>-ed it to convert it to a <strong>JSON string</strong>, and set it to the <code>localStorage</code> via <code>setItem</code> under the key <code>todo-list</code>. I also gave each task a new key:value pairing of <code>taskName:newTodo</code>.</span>
+						</p>
+						<picture>
+							<img src="../images/set-local-storage.png" alt="image of code setting todo to local storage">
+						</picture>
+
+						<p class="body-copy">I was able to successfully set the user’s input into the window’s local storage and created an <code>if statement</code> that would run when the browser refreshes. It checked to see if todos has any data (or if it’s truthy) and then takes the data, <code>JSON.parse</code> it so it becomes a JS Object, and then calls the <code>renderOnDom</code> function to display the data.</p>
+
+						<picture>
+							<img src="../images/local-storage-console.jpg" alt="image of code setting todo to local storage">
+						</picture>
+				
+				</div>
+
+			</div>
+
+			
+			<div class="update-section">
+				<h2 class="third-level-heading">#Update</h2>
+				<p class="body-copy">The update portion was another major challenge of this Todo List Application. I had to figure out a way for the user to edit the input they submitted and get the new input onto the DOM and I was not completely sure how to even begin.
+
+				<span class="block">So…I began with what I did know. I knew there had to be something the user can click on to start the update process. With that said I added an edit click handler on each task input so the user can click on it which will lead to them being able to edit tasks.</span>
 				</p>
 
+				<div class="over-coming-challenges">
+					<h3 class="fourth-level-heading">##Overcoming-Challenges</h3>
+					
+						<p class="body-copy">Now comes the challenging part of allowing the user to edit task that were already submitted and being shown on the DOM. I knew that I would have to somehow target whatever task was clicked on and then call another function to do something. 
+
+						<span class="block">In this instance, and for the sake of change, I decided to add and onClick event handler directly on my edit button. When it is clicked, I took the ID of the current todo along with its taskName and passed it into and call a new editTask function</span>
+						</p>
+						<picture>
+							<img src="../images/edit-task.png" alt="image of edit task code">
+						</picture>
+
+						<p class="body-copy">The editTask function takes the current taskName, and pends it back to the addTodos input field, when it is submitted the new value is then added to the todos object and rendered onto the DOM. I then used a .slice method to remove the original task from the list since we no longer need it.</p>
+
+					<video autoplay loop muted playsinline>
+					    <source src="../images/edit.webm" type="video/webm">
+					</video>
+				
+				</div>
+
+				<div class="psa">
+					<p class="body-copy">I do realize that the approach I used to edit the task is not the best. First off, I am not truly editing the task but instead just creating a new one and deleting the old one. The way I am doing it is not true editing. At the time of writing this case study and working in this application, I do not have another solution. I do not want to get fixated on trying to solve this issue but rather try and finish the applicastion and this case tudy. I will be sure to come back at a later time to find a better solution and update this case study.</p>
+				</div>
+
+				<div class="update-from-the-future">
+					<h3 class="fourth-level-heading">##Update-From-The-Future</h3>
+					
+						<p class="body-copy">After playing around with the code and looking up possible solutions on <strong>Stack Overflow</strong>, I was able to find another approach to edit task. This new approach changed the selected task rather than just create and push a new one and deleting the old one.
+
+						<span class="block">This new approach is explained in the code below:</span>
+						</p>
+						<picture>
+							<img src="../images/edit-update.png" alt="image of edit task code">
+						</picture>
+
+						<p class="body-copy">By setting an isEdited state on the selected value and grabbing it's ID, I was able to then target it's index based on the ID and change it's value to whatever the new value is.</p>
+
+					<video autoplay loop muted playsinline>
+					    <source src="../images/update-edit.webm" type="video/webm">
+					</video>
+				
+				</div>
+				
+			</div>
+
+			<div class="delete-section">
+				<h2 class="third-level-heading">
+					#Delete
+				</h2>
+				<p class="body-copy">
+					We are at the final leg of this <strong>CRUD Application</strong> and all that is left is to find a way to allow the user to <em>delete</em> task. Just like the <em>edit</em> process, I began with creating something the user can click to run a function that will do what I need it to do. I created a delete click handler next to the edit button which will pass the current task id into and call the function <code>deleteTask</code>. 
+					</p>
+
+				<picture>
+					<img src="../images/delete.png" alt="image of delete code function">
+				</picture>
+
+				<p class="body-copy">The <code>deleteTask</code> function takes the current task id and removed it from the todo object via <code>.slice()</code>. The <code>todo</code> object is then set to <code>localStorage</code> to be updated and finally <code>renderOnDom</code> is called yet again to show changed on the <code>DOM</code>.
+				</p>
+
+				<video autoplay loop muted playsinline>
+					    <source src="../images/delete.webm" type="video/webm">
+				</video>
 
 								
 			</div>
 
-			<div class="tie-it-all-together">
-				<h2 class="third-level-heading">#Tie-it-all-Together</h2>
-				<p class="body-copy">So now that we have a rough idea of how fetch API request and response works and was successfully able to an async function to make a request to the AccuWeather API and get some information and turn it into JSON, we just need to finish the rest of the application with what we already know how to do. And if things go wrong, we do more testing and find solutions!.
-				</p>
-
-				<picture>
-					<img src="../images/fetch-calls.svg" alt="image of fetch calls">
-				</picture>
-
-				<p class="body-copy">Above we add an <strong>event listener</strong> to the input and once the user submits, the <code>getCity</code> function from above will be called and the value/city will be passed into it. <code>getCity</code> will the zero index from that array of cities (as mentioned above).
-
+			<div class="Conclusion">
+				<h2 class="third-level-heading">
+					#Conclusion
+				</h2>
+				<p class="body-copy">
+					This was by far one of the most frustrating, eye gouging, head smashing, and rewarding projects I have done so far. I feel I was able to get a better understanding of not only the CRUD operations but insight on how to make one and the awareness that there are hunfreds of ways to accomplish it. 
+				
 				<span class="block">
-					Next we will call a new function called <code>getWeather</code> (that is extremely similar to <code>getCity</code>) except we will use it to get the weather forecast. Essentially the same steps occur as in <code>getCity</code> and weather conditions for the city are returned. 
+					There are many updates I want to and will be doing to this CRUD application in the future such as:
 				</span>
 				</p>
 
-				<picture>
-					<img src="../images/get-weather.svg" alt="image of get weatjer function">
-				</picture>
+				<ul class="list body-copy">
+					<li>Finding a better way to edit task then the way I currently have it</li>
+					<li>Getting and setting current date</li>
+					<li>Allow users to check off task they completed as well as uncheck task</li>
+					<li>Feature a completed section with all completes task</li>
+				</ul>
+			
+				<p class="body-copy">So stay tuned boys and girls and make sure to come back to this article to see the changes I have made.</p>
 
-				<p class="body-copy">
-					When we run this we get the weather conditions for the input.
-				</p>
-
-				<picture>
-					<img src="../images/fetch-json.svg" alt="image of fetch response">
-				</picture>
-
-				<p class="body-copy">Finally we can sift through the returned JSON file and update the DOM with whatever information we want from it. </p>
-
-				<div >
-					<p class="body-copy">I decided to grab:</p>
-					<ul class="list body-copy"> 
-						<li>City Name and State</li>
-						<li>Day of the Week</li>
-						<li>Current Temperature in Fahrenheit</li>
-						<li>High and Lows for the day</li>
-						<li>Weather Condition</li>
-						<li>Condition Icon</li>
-					</ul>
-				</div>
-
-				<p class="body-copy">Put them all together, add a little pixie dust and vanilla Javascript with DOM manipulation and CSS Styles and I was able to get this:</p>
-
-				<picture>
-					<img src="../images/weather-app-mobile.svg" alt="weather app in mobile view" class="mobile">
-				</picture>
-				<picture>
-					<img src="../images/weather-app-desktop.svg" alt="weather app in desktop view">
-				</picture>
-
-				<p class="body-copy">With the main challenge solved, all that is left seeing if there are any other information I would want to be shown on the browser and some finishing touches to styling and making sure the project is full responsive. </p>
-				
-			</div>
-
-			<div class="over-coming-challenges">
-				<h2 class="third-level-heading">#Overcoming-Challenges</h2>
-				<div class="challenge challenge-1">
-					<h3 class="fourth-level-heading">##API-Key-Limits</h3>
-					<p class="body-copy">During this project I kept running into fetch issues and could not get data from the AccuWeather API. At first I was baffled because everything was working just find prior and I was able to request data and receive a response.After taking a look in the Network tab I saw my url request has a status code of 401 which according to MDN meant “response status code indicates that the client request has not been completed because it lacks valid authentication credentials for the requested resource.”
-					</p>
-					<picture>
-						<img src="../images/api-key-error.svg" alt="api key error">
-					</picture>
-
-					<p class="body-copy">After a while of researching, Googleing, Stack Overflow-ing, and Reddit-ing, I learned that AccuWeather give you only 50 request per “app” so I had to delete and recreate “apps” to get new API keys. I had to replicate this process whenever I used up my 50 request per key.</p>
-				</div>
-				
-				<div class="challenge challenge-2">
-					<h3 class="fourth-level-heading">##Secure-Network-Error</h3>
-					<p class="body-copy">I came across some issues with the fetch api request after deploying this project on my portfolio site. The error was thrown every time I tried to search a city. Initially I thought I just needed a new API key but after some further digging in the Network tab and console I discovered the error was with the url request link provided by AccuWeather.
-					</p>
-					<picture>
-						<img src="../images/s-error.svg" alt="http error">
-					</picture>
-
-					<p class="body-copy">The URL request given by AccuWeather was not a secure and because of that I was unable to make a proper request. I went back to the URL request in my project and added an ‘s’ to the ‘http’ request and that seemed to have done the trick. .</p>
-				</div>
-
-				
-			</div>
-
-			<div class="conclusion">
-				<h2 class="third-level-heading">#Conclusion</h2>
-				<p class="body-copy">This project was extremely challenging but a lot of fun and provided me with an immeasurable amount of experience and knowledge regarding fetch APIs, call back functions, asynchronous JavaScript, and so much more. .
-				</p>
-				
 			</div>
 
 			<div class="tools-resources">
@@ -246,7 +279,7 @@
 							<li>HTML</li>
 							<li>CSS</li>
 							<li>JavaScript</li>
-							<li>AccuWeather API</li>
+							<li>Window localStorage</li>
 							<li>MDN Docs</li>
 							<li>PostMan/Hoppscotch.io</li>
 							<li>GitHub</li>
