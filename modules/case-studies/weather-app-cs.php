@@ -1,7 +1,7 @@
  <section class="weather-app case-study">
 		<section class="container">
 			<div class="cs-heading">
-				<ul class="body-copy languages">
+				<ul class="body-copy languages inter">
 					<li class='html'>HTML</li>
 					<li class='css'>CSS</li>
 					<li class='js'>JavaScript</li>
@@ -9,7 +9,7 @@
 		
 				<h1 class="second-level-heading">A JavaScript Weather App that shows real time weather data for any inputted city.</h1>
 
-				<h2 class="body-copy">Weather App Case Study</h2>
+				<h2 class="body-copy inter">Weather App Case Study</h2>
 					
 			
 			</div>

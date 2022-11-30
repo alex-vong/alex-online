@@ -2,6 +2,7 @@
 		<section class="container">
 			<div class="cs-heading">
 				<ul class="body-copy languages">
+				<ul class="body-copy languages inter">
 					<li class='html'>HTML</li>
 					<li class='css'>CSS</li>
 					<li class='js'>JavaScript</li>
@@ -10,6 +11,7 @@
 				<h1 class="second-level-heading">A Todo List Application incorporating the fundamentals of the CRUD operations</h1>
 
 				<h2 class="body-copy">Todo List Application Case Study</h2>
+				<h2 class="body-copy inter">Todo List Application Case Study</h2>
 
 				<picture>
 					<img src="../images/crud-main-img.svg" class="main-img"alt="main image for crud case study">
