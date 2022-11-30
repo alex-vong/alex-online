@@ -1,75 +1,110 @@
+.case-study .container h2 + p.body-copy, .case-study .container h3 + p.body-copy {
+	margin-top: 0 !important;
+
+}
+
+
 .case-study .languages {
-	display:  flex;
-	gap: 10px;
+    display: flex;
+    gap: 10px;
 }
 
 .case-study .languages li {
-	padding: 3px 10px;
-	border: 1px solid var(--marker);
-	border-radius: 0.1rem;
+    padding: 3px 10px;
+    border: 1px solid var(--marker);
+    border-radius: 0.1rem;
 
 }
 
 
 .case-study .container strong {
-	color: var(--marker);
-	font-weight: bold;
+    color: var(--marker);
+    font-weight: bold;
 
 
 }
 
 .case-study .container code {
-	background-color: var(--pen);
-	color: var(--black);
-	padding: 2px;
+    background-color: var(--pen);
+    color: var(--black);
+    padding: 2px;
 }
 
 .case-study .container .mobile {
-	max-height: 700px;
-	width: auto;
+    max-height: 700px;
+    width: auto;
 }
 
 
-.case-study .container, .case-study .container div, .case-study ul.tools  {
-	display:  flex;
-	flex-direction: column;
+.case-study .container,
+.case-study .container div,
+.case-study ul.tools {
+    display: flex;
+    flex-direction: column;
 }
 
 .case-study .container {
-	gap: 60px;
+    gap: 60px;
 }
 
 .case-study .container div {
-	gap:  20px;
+    gap: 10px;
 }
 
-.case-study .container .cs-heading{
-	gap:  15px;
+ picture + p.body-copy {
+ 	margin: 5px 0;
+ }
+
+
+.case-study .container .cs-heading,
+.case-study .container .cs-intro,
+.case-study .container .update-from-the-future {
+    gap: 15px;
 }
 
 .case-study .container div.tools-resources {
-	gap:  5px;
+    gap: 5px;
 }
 
-.case-study .container  p.body-copy {
-	margin-top: 0 !important;
-	max-width: 80ch ;
+/*.case-study .container p.body-copy {
+    margin-top: 0 !important;
+    max-width: 80ch;
+}*/
+
+
+:is(.project-goals, .psa, .update-from-the-future) {
+    padding: 20px 40px;
+    margin: 10px 0;
+    background-color: var(--black);
+    border-left: 2px solid var(--blue);
+    color: var(--marker);
+    gap: 5px;
 }
 
-.case-study .container .project-goals {
+.case-study .container .update-from-the-future {
+    gap: 15px;
+    border-left: none;
+
+
+}
+
+/*.case-study .container .project-goals, .case-study .container .psa, .case-study .container .update-from-the-future {
 	padding: 20px 40px;
+	margin: 10px 0;
 	background-color: var(--black);
 	border-left: 2px solid var(--blue);
 	color: var(--marker);
 	gap:  5px;
-}
+}*/
+
+
 
 .case-study .container .project-goals h2.third-level-heading {
-	color: var(--blue);
+    color: var(--blue);
 }
 
 .case-study .container .project-goals p.body-copy {
-	color: var(--marker);
+    color: var(--marker);
 }
 
 
@@ -78,114 +113,122 @@
 
 
 .case-study .container ul.list {
-	display:  flex;
-	flex-direction: column;
-	gap:  5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 
 
-.case-study .container picture + picture {
-	margin-top: 10px;
+.case-study .container picture+picture:not(.todo-app .container picture + picture) {
+    margin-top: 10px;
 }
 
 .case-study ul.list li::before {
-	 font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054";
-	 padding-right: 5px;
-	 color: var(--blue);
- }
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f054";
+    padding-right: 5px;
+    color: var(--blue);
+}
 
 .case-study ul.list li {
-	margin-left: 15px;
+    margin-left: 15px;
 
 }
 
 .case-study .container ul.list li ul li {
-	margin-left: 20px;
+    margin-left: 20px;
 }
+
 .case-study .container ul.list li ul li::before {
-      font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f101";
-      padding-right: 5px;	
-      color:  var(--orange);
- }
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f101";
+    padding-right: 5px;
+    color: var(--orange);
+}
 
 
 .case-study .body-copy span a {
-	color: var(--marker);
+    color: var(--marker);
 }
 
-.case-study .container img:not(img.main-img) {
-	max-width: 90%;
-	margin:  auto;
+.case-study .container img:not(img.main-img, .todo-app .design-images img) {
+    max-width: 90%;
+    margin: auto;
 }
 
 .case-study .container p span.block {
-	display: block;
-	margin: 15px 0;
+    display: block;
+    margin: 15px 0;
 }
 
 .case-study .container p span.red {
-	background: red;
-	color: var(--marker);
+    background: red;
+    color: var(--marker);
 }
 
 .case-study .container p span.green {
-	background: green;
-	color: var(--marker);
+    background: green;
+    color: var(--marker);
 }
 
 
 figure {
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-	background-color: var(--black);
-	color: var(--marker);
-	margin: 0 15px;
-	padding: 30px;
-	border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: var(--black);
+    color: var(--marker);
+    margin: 15px;
+    padding: 30px;
+    border-radius: 0.5rem;
 }
 
 figure figcaption {
-	align-self: end;
+    align-self: end;
 }
 
-figure figcaption cite, .case-study .container em {
-	font-style: italic;
+figure figcaption cite,
+.case-study .container em {
+    font-style: italic;
 }
 
 
 .case-study .container ul.tools {
-	flex-direction: row;
-	flex-wrap: wrap;
-	grid-gap: 10px 26px;
-	color: var(--marker);
-	max-width: initial;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 10px 26px;
+    color: var(--marker);
+    max-width: initial;
 }
 
 .tools-resources {
-	margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .tools-resources li {
-	/*padding-bottom: 1px;*/
-	border-bottom: 1px solid var(--marker);
+    /*padding-bottom: 1px;*/
+    border-bottom: 1px solid var(--marker);
 }
 
 
 
+/*todo casestudy*/
 
+.case-study .design-section .design-images {
+    flex-direction: row;
+    justify-content: center;
+    grid-gap: 30px;
+}
 
+.case-study .design-images img {
+    height: 500px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.todo-app .over-coming-challenges {
+	margin-top: 30px;
+}
 
 
