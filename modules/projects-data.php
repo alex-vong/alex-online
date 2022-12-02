@@ -13,17 +13,6 @@ $projects = [
 	],
 
 	[
-		"name" => "Responsive Layouts Garden",
-		"description" => "Constantly trying to improve my knowledge of responsive design so I created a collection of responsive components I found in the world with new components added over time.",
-		"project-link" => "https://alexvong.dev/modules/responsive-layout-collection/",
-		"case-study" => "https://peprojects.dev/alpha-1/alexvong/30day-responsive-layout-challenge/",
-		"image" => "images/layoutgarden.svg",
-		"hot" => true,
-		"demo" => false,
-		"languages" => ['html', 'css', 'php'],
-		"alt-text" => "image for RLG project card"
-	],
-	[
 		"name" => "PokeDex",
 		"description" => "I like Pokemon so I created my own PokeDex featuring the original 151 pocket monsters.",
 		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
@@ -50,7 +39,6 @@ $projects = [
 	],
 	[
 		"name" => "Weather App",
-		"description" => "Asyncronous JavaScript, Call back functions, and APIs. Oh my...",
 		"description" => "A JavaScript Weather App that shows real time weather data for any inputted city using AccuWeather API",
 		"project-link" =>"https://alexvong.dev/modules/js-weather-app/",
 		"case-study" => "?page=weather-app-cs",
@@ -63,7 +51,6 @@ $projects = [
 	],
 	[
 		"name" => "Todo App",
-		"description" => "CRUD - If you can make it here, you can make it anywhere. A todo application implementing the CRUD process",
 		"description" => "A Todo List Application implementing the fundamentals of the CRUD operations (Create, Read, Update, and Delete)",
 		"project-link" =>"https://alexvong.dev/modules/js-todo-list/",
 		"case-study" =>"?page=todo-app-cs",
@@ -78,7 +65,6 @@ $projects = [
 
 	[
 		"name" => "Sign Up Page",
-		"description" => "I learned about event handlers, functions, and Regular Expressions so I figured I'd make a responsive sign-up page.",
 		"description" => "An interactive and fully responsive signup form incorporating JS Event Handlers and Regular Expression testing",
 		"project-link" =>"https://alexvong.dev/modules/js-signup-page/",
 		"case-study" =>"?page=signup-cs",
