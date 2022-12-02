@@ -90,6 +90,17 @@ $projects = [
 
 
 	],
+	[
+		"name" => "Responsive Layouts Garden",
+		"description" => "A collection of responsive components found on various websites in the wild and replicated to better understand responsive layouts & designs",
+		"project-link" => "https://alexvong.dev/modules/responsive-layout-collection/",
+		"case-study" => "https://peprojects.dev/alpha-1/alexvong/30day-responsive-layout-challenge/",
+		"image" => "images/layoutgarden.svg",
+		"hot" => true,
+		"demo" => false,
+		"languages" => ['html', 'css', 'php'],
+		"alt-text" => "image for RLG project card"
+	],
 
 	[
 		"name" => "Buy a Home - Super Responsive Layout Challenge",
