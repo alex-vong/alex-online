@@ -19,13 +19,13 @@
 		</section>
 
 
-		<section class="whats-hot">
+		<section class="whats-hot whats-hot-projects">
 			<?php include("modules/wh-projects.php") ?>
 
 		</section>
 
 
-		<section class="whats-hot-blogs">
+		<section class="whats-hot whats-hot-blogs">
 			<?php include("modules/wh-blogs.php") ?>
 			
 		</section>
