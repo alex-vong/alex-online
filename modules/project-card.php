@@ -26,10 +26,9 @@
 			<div class='line'></div>
 
 			<div class="project-card-links">
-				<a href="<?=$project["case-study"]?>" class="quiet-voice read-more" target="_blank">Read More</a>
+				<a href="<?=$project["case-study"]?>" class="quiet-voice read-more" target="_blank">Case Study</a>
 
 				<a href="<?=$project["project-link"]?>" class="body-copy" target="_blank">
-					<!-- <i class="fa-brands fa-github-alt"></i> -->
 					<picture>
 						<img src="../images/github-icon.svg" alt="">
 					</picture>
