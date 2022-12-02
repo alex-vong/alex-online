@@ -52,9 +52,9 @@ projects-grid>* {
 
 project-card {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    gap: 20px;
     background-image: var(--bg-gradient);
-
     padding: 30px 20px;
     border-radius: 0.5rem;
 }
@@ -79,17 +79,23 @@ project-card:hover {
 project-card .card-details {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 12px 0;
     gap: 5px;
+
+    order: -1;
+}
+
+@media (min-width:  768px){
+    project-card .card-details {
+        align-items: flex-start;
+        text-align: left;
+        order:  2;
+    }
 }
 
 
-
-project-card,
-.bits-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
 
 
 
@@ -122,9 +128,10 @@ blog-card {
 }*/
 
 project-card .third-level-heading {
-    margin-top: 10px;
-    font-weight: 500;
-    color: var(--color);
+    /*margin-top: 10px;*/
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--purple);
 
 }
 
@@ -143,6 +150,7 @@ project-card ul {
 project-card .preview-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 15px;
 }
 
@@ -155,10 +163,28 @@ project-card .preview-section a.body-copy {
 project-card .project-card-links {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    gap:  24px;
+    margin-top: 5px;
+}
 
-    /*grid-gap: 10px;*/
-    /*margin-top: 10px;*/
+project-card .project-card-links a.read-more{
+    color: var(--marker);
+    padding: 5px;
+    border: 1px solid var(--orange);
+    border-radius: 0.5rem;
+}
+
+project-card .card-details .project-card-links  a {
+    align-self: center;
+}
+
+project-card .card-details .project-card-links  a.read-more {
+    padding: 6px 12px;
+}
+
+project-card .card-details .project-card-links  a picture img {
+    height: 20px;
+    min-width: auto !important;
 }
 
 blogs-grid {
@@ -209,7 +235,10 @@ projects-grid project-card a picture img {
         display: grid;
         /*     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
     }
-
+    
+    project-card .third-level-heading {
+        font-size: var(--fluid-1);
+    }
 
 
     projects-grid project-card {
