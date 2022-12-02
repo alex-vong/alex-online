@@ -8,30 +8,38 @@
 					<img src="<?=$project["image"]?>" alt="<?=$project["alt-text"]?>">
 				</picture>
 			</a>
-			<div class="project-card-links">
-					<a href="<?=$project["case-study"]?>" class="body-copy animated-line" target="_blank"><span>Case Study</span></a>
 
-					<a href="<?=$project["project-link"]?>" class="body-copy animated-line" target="_blank"><span>View Project</span></a>
-			</div>
 		</div>
 
 		<div class="card-details">
 			<a href="<?=$project["project-link"]?>" target="_blank">
-					<h3 class="fourth-level-heading animated-line">
+					<h3 class="third-level-heading animated-line">
 						<span>
 							<?=$project["name"]?>
 						</span>
 					</h3>
 			</a>
-			<p class="body-copy inside-part"><?=$project["description"]?></p>
+			<p class="quiet-voice inside-part"><?=$project["description"]?>
+				
+			</p>
 
+			<div class='line'></div>
 
-			<!-- <ul>
-				<?php foreach ($project['languages'] as $language) { ?>
-					<li class="quiet-voice <?=$language?>">#<?=strtoupper($language)?></li>
+			<div class="project-card-links">
+				<a href="<?=$project["case-study"]?>" class="quiet-voice read-more" target="_blank">Read More</a>
 
-				<?php } ?>
-			</ul> -->
+				<a href="<?=$project["project-link"]?>" class="body-copy" target="_blank">
+					<!-- <i class="fa-brands fa-github-alt"></i> -->
+					<picture>
+						<img src="../images/github-icon.svg" alt="">
+					</picture>
+				</a>
+				<a href="<?=$project["project-link"]?>" class="body-copy" target="_blank">
+				<picture>
+					<img src="../images/view-project.svg" alt="">
+				</picture>
+				</a>
+			</div>
 
 		</div>
 		
