@@ -51,6 +51,7 @@ $projects = [
 	[
 		"name" => "Weather App",
 		"description" => "Asyncronous JavaScript, Call back functions, and APIs. Oh my...",
+		"description" => "A JavaScript Weather App that shows real time weather data for any inputted city using AccuWeather API",
 		"project-link" =>"https://alexvong.dev/modules/js-weather-app/",
 		"case-study" => "?page=weather-app-cs",
 		"image" => "images/weather-app-img.svg",
@@ -63,6 +64,7 @@ $projects = [
 	[
 		"name" => "Todo App",
 		"description" => "CRUD - If you can make it here, you can make it anywhere. A todo application implementing the CRUD process",
+		"description" => "A Todo List Application implementing the fundamentals of the CRUD operations (Create, Read, Update, and Delete)",
 		"project-link" =>"https://alexvong.dev/modules/js-todo-list/",
 		"case-study" =>"?page=todo-app-cs",
 		"image" => "images/todo-app-img.svg",
@@ -77,6 +79,7 @@ $projects = [
 	[
 		"name" => "Sign Up Page",
 		"description" => "I learned about event handlers, functions, and Regular Expressions so I figured I'd make a responsive sign-up page.",
+		"description" => "An interactive and fully responsive signup form incorporating JS Event Handlers and Regular Expression testing",
 		"project-link" =>"https://alexvong.dev/modules/js-signup-page/",
 		"case-study" =>"?page=signup-cs",
 		"image" => "images/signup.svg",
