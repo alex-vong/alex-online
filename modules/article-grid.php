@@ -11,16 +11,12 @@
 		</ul>
 		<a href="<?=$blog["link"]?>" class="animated-line" target="_blank">
 			<h3 class="third-level-heading"><span class="animated-line"><?=$blog["title"]?></span></h3>
+		<div class="line"></div>
+			
 		</a>
-		<p class="body-copy headline"><?=$blog["headline"]?></p>
+		<p class="body-copy preview"><?=$blog["preview"]?></p>
 		
+		<a href="<?=$blog["link"]?>" class="quiet-voice read-more" target="_blank">Read More</a>
+
 	</div>
-
-	<a href="<?=$blog["link"]?>" target="_blank">
-		<picture>
-			<img src="../images/right-arrow2.svg" alt="right-arrow-icon">
-		</picture>
-	</a>
-
-
 </div>
