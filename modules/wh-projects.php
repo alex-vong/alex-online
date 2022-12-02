@@ -1,12 +1,11 @@
 
 
-<h2 class="second-level-heading">
+<!-- <h2 class="second-level-heading">
 	Featured Projects
-</h2>
- <p class="body-copy"> 
- 	Some projects I built on my web development journey. This will always be a work in progress so be sure to come back to see my latest designs and creations.
+</h2> -->
+ <p class="body-copy for-those"> 
+ 	For those who like to see projects &darr;
 </p>
-	<?php include('head.php') ?>
 
 <div class="wh-projects">
 	<projects-grid>
@@ -22,10 +21,8 @@
 	</projects-grid>
 </div>
 
-<a href="?page=projects" class="animated-line view-all-link">
-	<p class="body-copy">
-		<span >View All Projects</span>
-	</p>
+<a href="?page=projects" class="body-copy view-all-link">
+		View All Projects
 </a>
 
 
