@@ -1,8 +1,8 @@
-.home span {
+/*.home span {
     color: var(--ink);
     font-weight: 900;
 }
-
+*/
 /*span:not(.nav-bar span, .article-card span, .whats-hot span, .whats-hot-blogs span, .contact-me span)*/
 
 .container {
@@ -38,7 +38,7 @@ section:is(.landing, .whats-hot) {
 }
 
 .inter {
-    font-family: 'Inter', sans-serif !important;
+    /*font-family: 'Inter', sans-serif !important;*/
     font-weight: 600;
 }
 
@@ -109,6 +109,23 @@ p.body-copy+p.body-copy {
 a+.body-copy {
     /*margin-top: 8px;*/
 }
+
+
+a.read-more, .view-all-link {
+    padding: 6px 12px;
+    transition: 0.4s ease-in-out;
+    border-radius: 0.5rem;
+
+}
+
+.for-those, .view-all-link {
+    align-self: center;
+}
+
+.view-all-link {
+    padding: 8px 16px;
+}
+
 
 
 @media (min-width: 700px) {

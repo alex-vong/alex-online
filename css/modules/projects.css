@@ -16,12 +16,12 @@
 }
 
 
-.article-grid,
+/*.article-grid,
 projects-grid,
 .bits {
     margin-top: 45px;
 }
-
+*/
 
 
 
@@ -65,8 +65,8 @@ project-card {
     }
 }
 
-project-card:hover {
-    /*outline:  4px solid rebeccapurple;*/
+/*project-card:hover {
+    outline:  4px solid rebeccapurple;
     width: fit-content;
     border-width: 4px;
     border-style: solid;
@@ -74,7 +74,7 @@ project-card:hover {
     transition: .35s ease-in-out;
 
 }
-
+*/
 
 project-card .card-details {
     display: flex;
@@ -164,27 +164,38 @@ project-card .project-card-links {
     display: flex;
     flex-direction: row;
     gap:  24px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
-project-card .project-card-links a.read-more{
+.wh-projects a.read-more{
     color: var(--marker);
-    padding: 5px;
     border: 1px solid var(--orange);
-    border-radius: 0.5rem;
+  
 }
 
 project-card .card-details .project-card-links  a {
     align-self: center;
 }
 
-project-card .card-details .project-card-links  a.read-more {
-    padding: 6px 12px;
+
+
+a.read-more:hover, .view-all-link:hover {
+    background-color: var(--orange);
+    /*color: var(--background) !important;*/
+
+} 
+
+.view-all-link:hover {
+    color: var(--background);
 }
 
 project-card .card-details .project-card-links  a picture img {
     height: 20px;
     min-width: auto !important;
+}
+
+.whats-hot-projects .view-all-link {
+    border: 2px solid var(--orange);
 }
 
 blogs-grid {
@@ -247,15 +258,6 @@ projects-grid project-card a picture img {
 
     }
 
-    projects-grid project-card .card-details {
-        flex-basis: 100%;
-    }
-
-    project-card p.body-copy {
-        /*max-width:  45ch;*/
-
-    }
-
     projects-grid {
         gap: 20px;
     }
@@ -263,10 +265,6 @@ projects-grid project-card a picture img {
 
 }
 
-/*.bits {
-   margin-top: 80px;
-}
-*/
 
 .bits-grid {
     gap: 40px;

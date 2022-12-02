@@ -11,6 +11,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 60px 30px;
+        padding: 5px;
 
 
     }
@@ -34,15 +35,42 @@
     grid-gap: 15px;
 
     width: fit-content;
-    border-width: 4px;
+/*    border-width: 4px;
     border-style: solid none none;
 
-    border-image: var(--reverse-gradient) 1;
+    border-image: var(--reverse-gradient) 1;*/
     background-color: var(--alt-black);
-    padding: 15px 25px 50px;
+    padding: 15px 25px;
     width: 100%;
 
 
+}
+
+.whats-hot-blogs .view-all-link {
+    border: 2px solid var(--blue);
+}
+
+
+.whats-hot-blogs a.read-more {
+    align-self: center;
+    transform: translateY(-10px);
+    padding: 8px 16px;
+
+    border: 1px solid var(--blue);
+    font-weight: 400;
+
+}
+
+.whats-hot-blogs a.read-more:hover, .whats-hot-blogs .view-all-link:hover {
+    background-color: var(--blue);
+    color: var(--background);
+    
+
+}
+
+.whats-hot-blogs .line {
+    margin-top: 6px;
+    width: 75%;
 }
 
 
@@ -52,7 +80,7 @@
 }
 
 .article-grid .article-card .body-copy {
-    line-height: 1.2;
+    line-height: 1.5 ;
 }
 
 .article-content h3 {
@@ -60,9 +88,6 @@
 }
 
 
-.article-content a {
-    width: 100%;
-}
 
 .article-content ul {
     display: flex;
