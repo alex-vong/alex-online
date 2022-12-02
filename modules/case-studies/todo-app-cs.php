@@ -11,9 +11,9 @@
 
 				<h2 class="body-copy inter">Todo List Application Case Study</h2>
 
-				<picture>
+<!-- 				<picture>
 					<img src="../images/crud-main-img.svg" class="main-img"alt="main image for crud case study">
-				</picture>
+				</picture> -->
 					
 			
 			</div>
