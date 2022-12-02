@@ -1,11 +1,11 @@
 
 
 
-<h2 class="second-level-heading">
+<!-- <h2 class="second-level-heading">
 	Featured Articles
-</h2>
-<p class="section-heading body-copy">
-	I like to write sometimes. Here are some of those times.
+</h2> -->
+<p class="section-heading body-copy for-those">
+	For those who like to read &darr;
 </p>
 
 <div class="article-grid">
@@ -21,8 +21,6 @@
 </div>
 
 
-<a href="?page=writing" class="animated-line view-all-link">
-	<p class="body-copy">
-		<span>View All Articles</span>
-	</p>
-</a> 
+<a href="?page=writing" class="body-copy view-all-link">
+		View All Articles
+</a>
