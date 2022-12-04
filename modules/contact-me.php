@@ -1,9 +1,9 @@
 <div class="contact-me">
 
-	<?php include('social-media.php') ?>
+	<a href="?page=about" class="read-more body-copy">About Me</a>
+	<a href="?page=about" class="read-more body-copy resume">
+		<i class="fa-regular fa-file-line"></i>Resume
+	</a>
 
-<!-- 	<div class="email-btn body-copy">
-		<a href="mailto: avong003@gmail.com">Email Me</a>
-	</div> -->
 
 </div>
