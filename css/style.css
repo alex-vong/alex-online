@@ -44,10 +44,21 @@
 
 /* SITE SECTIONS */
 
+.landing {
+   height: 80vh;
 
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+
+}
 
 .landing h1.section-heading {
    margin-bottom:  40px;
+
+   display: flex;
+   flex-direction: column;
 }
 
 .yt-video {
