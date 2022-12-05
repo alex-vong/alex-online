@@ -181,7 +181,7 @@ project-card .card-details .project-card-links  a {
 
 a.read-more:hover, .view-all-link:hover {
     background-color: var(--orange);
-    /*color: var(--background) !important;*/
+
 
 } 
 
