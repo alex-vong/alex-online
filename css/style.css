@@ -44,13 +44,15 @@
 
 /* SITE SECTIONS */
 
-.landing {
+
+.landing-container {
    height: 80vh;
 
    display: flex;
    flex-direction: column;
    text-align: center;
    justify-content: center;
+   align-items: center;
    gap:  20px;
 
 }
@@ -61,7 +63,7 @@
 }
 
 .landing p.body-copy {
-   width: 35ch;
+   max-width: 35ch;
    margin: 0 auto;
 }
 
@@ -136,24 +138,14 @@ span.occupation {
 
 
 @media (min-width:  768px) {
+   .landing inner-column {
+      width:  min(90%, 500px);
 
- /*  .home .container {
-      margin-bottom: 150px;
-   }
-*//*
-   .body-copy:not(project-card .body-copy, 
-   .style-guide li.body-copy, footer .body-copy, .resume li.body-copy), 
-   .quiet-voice, .article-grid, 
-   .about .body-copy,
-   .goals-section .goals goals .body-copy  {
-      width:  clamp(45ch, 85vw, 62ch)
    }
 
-   .goals-section .goals goals .body-copy {
-      width:  clamp(45ch, 85vw, 64ch)
-
-   }*/
-
+   .contact-me {
+      gap:  20px;
+   }
 }
 
 
