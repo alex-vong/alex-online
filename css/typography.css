@@ -33,10 +33,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Inter', sans-serif;
     
-    font-size: var(--fluid-4);
+    font-size: clamp(2.25rem, 4.5vw, 3.125rem);
     color: var(--marker);
     font-weight: 900;
-    line-height: 1.15;
+    line-height: 1.05;
 
     /* background-image: linear-gradient(to bottom left, #e39600, #fd722a, #ff4752, #ff0a7f, #eb02b0, #cd3acf, #a455e8, #6869f9, #487bfd, #268afd, #0896f9, #1da1f2);
   -webkit-background-clip: text;
@@ -81,7 +81,7 @@ body {
     /*font-family: 'Inter', sans-serif;*/
     font-family: 'Hind Madurai', sans-serif;
     font-size: 1.15rem;
-    font-size: clamp(17px, 1.8vw, 18px);
+    font-size: clamp(18px, 2vw, 20px);
     -webkit-font-smoothing: antialiased;
     line-height: 1.4;
     color: var(--pen);

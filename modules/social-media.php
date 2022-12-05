@@ -1,7 +1,7 @@
 <ul class="social-media">
 	<li>
 		<a href="https://www.linkedin.com/in/alex-vong/" target="_blank">
-			<i class="fa-brands fa-linkedin"></i>
+			<i class="fa-brands fa-linkedin-in"></i>
 		</a>
 	</li>
 
