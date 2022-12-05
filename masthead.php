@@ -5,14 +5,14 @@
 			<a href="?page=home">
 				<h1 class="intro-voice desktop"><span>Alex</span> Vong</h1>
 			</a>
-<!-- 
-			<nav class="nav-bar">
+
+			<nav class="nav-bar nav-bar-desktop">
 				<a href="?page=home" class="quiet-voice animated-line <?php if ($page == "home") { echo "active"; } ?>"><span class="<?php if ($page == "home") { echo "active"; } ?>">Home</span></a>
 				<a href="?page=about" class="quiet-voice animated-line <?php if ($page == "about") { echo "active"; } ?>"><span>About</span></a>	
 				<a href="?page=projects" class="quiet-voice animated-line <?php if ($page == "projects") { echo "active"; } ?>"><span>Projects</span></a>
 				<a href="?page=writing" class="quiet-voice animated-line <?php if ($page == "writing") { echo "active"; } ?>"><span>Writing</span></a>
 
-			</nav> -->
+			</nav> 
 
 			<nav class="nav-bar nav-bar-mobile">
 				<a href="?page=home" class="body-copy <?php if ($page == "home") { echo "active"; } ?>">
