@@ -78,23 +78,32 @@ span.bold-italic {
 .contact-me {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    color: var(--marker);
-
-    margin: 50px 0 120px;
-
-
-}
-
-.landing .contact-me {
+    justify-content: center;
+    gap:  15px;
+    
+    /*margin: 50px 0 120px;*/
     margin-top: 15px;
-    width: 100%;
+
 }
 
-footer .contact-me {
-    margin-top: 10px;
-    margin-bottom: 10px;
+.contact-me a.read-more {
+    padding: 10px 20px;
+    background-color: var(--bg-card);
+    color: var(--marker);
+    font-weight: 500;
+
 }
+
+.contact-me a.resume {
+    background: var(--blue);
+    color: var(--bg-card);
+}
+
+
+.contact-me i {
+    padding-right: 5px;
+}
+
 
 h2+p.body-copy:not(.voices h2+p.body-copy, .heading-logo h2+p.body-copy),
 h3+p.body-copy:not(.logos h3+p.body-copy) {
@@ -102,13 +111,6 @@ h3+p.body-copy:not(.logos h3+p.body-copy) {
 }
 
 
-p.body-copy+p.body-copy {
-    margin-top: 25px;
-}
-
-a+.body-copy {
-    /*margin-top: 8px;*/
-}
 
 
 a.read-more, .view-all-link {
@@ -126,17 +128,18 @@ a.read-more, .view-all-link {
     padding: 8px 16px;
 }
 
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:  10px;
+    transform: translateY(-10px);
+}
+
 
 
 @media (min-width: 700px) {
-    .landing .contact-me {
-        width: 577px;
-    }
 
-    .body-copy {
-        /*max-width: 61ch;*/
-
-    }
 
     .inside-part {
         max-width: 42ch;
@@ -176,18 +179,7 @@ a.read-more, .view-all-link {
     }
 }
 
-.contact-me i {
-    font-size: 1.5rem;
-}
 
-.contact-me .email-btn {
-    padding: 0.75rem 1.5rem;
-    background-color: var(--link-bg);
-}
-
-.contact-me .email-btn a {
-    color: var(--ink);
-}
 
 
 
@@ -242,10 +234,6 @@ a.read-more, .view-all-link {
 
 }
 
-.home section inner-column {
-    width: 100%;
-
-}
 
 .body-copy a {
     color: var(--color);
