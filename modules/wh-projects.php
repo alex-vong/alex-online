@@ -19,7 +19,7 @@
 	</projects-grid>
 </div>
 
-<a href="?page=projects" class="body-copy view-all-link">
+<a href="?page=projects" class="body-copy view-all-link" target="_blank">
 		View All Projects
 </a>
 
