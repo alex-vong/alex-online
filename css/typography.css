@@ -1,24 +1,3 @@
-@font-face {
-    font-family: "MonoLisa Black";
-    src: local("MonoLisa Black"), local("MonoLisa-Black"),
-        local("MonoLisa-Black"), url(../fonts/MonoLisa-Black.woff2) format("woff2");
-
-}
-
-@font-face {
-    font-family: "MonoLisa Bold";
-    src: local("MonoLisa Bold"), local("MonoLisa-Bold"),
-        local("MonoLisa-Bold"), url(../fonts/MonoLisa-Bold.woff2) format("woff2");
-
-}
-
-@font-face {
-    font-family: "MonoLisa Medium";
-    src: local("MonoLisa Medium"), local("MonoLisa-Medium"),
-        local("MonoLisa-Medium"), url(../fonts/MonoLisa-Medium.woff2) format("woff2");
-
-}
-
 
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 
@@ -29,8 +8,7 @@ body {
 }
 
 .top-level-heading {
-    /*font-family: "MonoLisa Bold", sans-serif;*/
-    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Inter', sans-serif;
     
     font-size: clamp(2.25rem, 4.5vw, 3.125rem);
@@ -46,22 +24,24 @@ body {
 
 
 .intro-voice {
-    font-family: "MonoLisa Bold";
     /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Inter', sans-serif;
+    
     font-size: 18px;
     line-height: 1.15;
 }
 
 .second-level-heading {
-    font-family: "MonoLisa Medium";
-    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
     font-size: var(--fluid-3);
     font-weight: bold;
 }
 
 .third-level-heading {
-    font-family: "MonoLisa Medium";
-    /*font-family: 'Montserrat', sans-serif;*/
+    
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Inter', sans-serif;*/
+
     font-size: var(--fluid-2);
     line-height: 1.25;
     font-weight: bold;
@@ -69,17 +49,14 @@ body {
 }
 
 .fourth-level-heading {
-    font-family: "MonoLisa Medium";
-    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
     font-size: var(--fluid-1);
     line-height: 1.45;
 
 }
 
 .body-copy {
-    font-family: "MonoLisa Medium";
-    /*font-family: 'Inter', sans-serif;*/
-    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1.15rem;
     font-size: clamp(18px, 2vw, 20px);
     -webkit-font-smoothing: antialiased;
@@ -89,8 +66,8 @@ body {
 }
 
 .quiet-voice {
-    font-family: "MonoLisa Medium";
-    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Inter', sans-serif;
+
 
     font-size: 1.1rem;
     font-size: clamp(16px, 1.8vw, 17px);
@@ -101,12 +78,6 @@ body {
 
 }
 
-
-
-masthead nav a {
-    font-family: "MonoLisa Medium";
-
-}
 
 
 @media (min-width: 768px) {

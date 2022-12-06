@@ -41,9 +41,6 @@
 			</div>
 
 		</div>
-		
-
-
 	</project-card>
 
 </div>
