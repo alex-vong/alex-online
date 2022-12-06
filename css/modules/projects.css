@@ -167,7 +167,7 @@ project-card .project-card-links {
     margin-top: 10px;
 }
 
-.wh-projects a.read-more{
+.wh-projects a.read-more, projects-grid a.read-more {
     color: var(--marker);
     border: 1px solid var(--orange);
   
