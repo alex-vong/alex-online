@@ -34,7 +34,7 @@
 				 ?>
 				
 
-				<div class="theme-switcher">
+<!-- 				<div class="theme-switcher">
 					<button data-scheme='day'>
 						<i class="fa-solid fa-sun"></i>
 					</button>
@@ -42,7 +42,7 @@
 					<button data-scheme='day'>
 						<i class="fa-solid fa-moon"></i>
 					</button>
-				</div>
+				</div> -->
 			</nav> 
 
 
