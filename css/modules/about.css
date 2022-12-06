@@ -40,6 +40,7 @@
 
 .landing-bio a.read-more {
 	margin-top: 20px;
+	padding: 8px 16px;
     border: 2px solid var(--blue);
     color: var(--marker);
 }

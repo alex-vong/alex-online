@@ -37,7 +37,7 @@
 
 				<p class="body-copy">I am open to employment as a <span class="occupation">Junior Front-End Developer</span>.</p>
 
-				<a href="?page=about" class="read-more body-copy" target="_blank"> Read Full Bio</a>
+				<a href="?page=about" class="read-more quiet-voice" target="_blank"> Read Full Bio</a>
 
 			</div>
 		</div>
