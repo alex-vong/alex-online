@@ -20,7 +20,7 @@
 
 	 <section id="about" class="about-landing">
 	 	 <p class="body-copy for-those"> 
- 			For those who want to know more about me &darr;
+ 			For those who want to get to know me &darr;
 		</p>
 
 		<div class="about-landing-container">
