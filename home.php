@@ -3,7 +3,7 @@
 		<inner-column class="landing-column">
 			<div class="landing-container">
 				<h1 class="section-heading top-level-heading">
-					<span class="greeting">&#128075; Good Afternoon</span>
+					<span class="greeting"></span>
 					<span>I'm Alex Vong,</span> 
 					<span class="occupation">Web Developer</span>
 				</h1>

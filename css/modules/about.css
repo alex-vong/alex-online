@@ -12,6 +12,7 @@
     height: 450px;
     width: auto;
     border: 2px solid var(--pen);
+    background-color: var(--pen);
 
     display: flex;
     justify-content: center;
