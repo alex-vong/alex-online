@@ -48,9 +48,11 @@
 	</header>
 
 	<main>
+		<inner-column>
 		<?php 
 			getTemplate($page);
 		?>
+		</inner-column>
 	</main>
 
 	<footer>
