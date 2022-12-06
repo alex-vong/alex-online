@@ -1,5 +1,5 @@
 <section class="experiments">
-	<inner-column>
+
 		<h2 class="section-heading top-level-heading">Random Bits</h2>
 
 		<div class="container">
@@ -30,7 +30,4 @@
 					
 		</div>
 
-	<?php include("contact-me.php") ?>
-
-	</inner-column>
 </section>

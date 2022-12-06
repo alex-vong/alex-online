@@ -1,6 +1,4 @@
 <section class="projects container">
-
-
 	<section>
 
 		<h2 class="section-heading second-level-heading"><?=ucfirst($page)?></h2>
@@ -17,8 +15,6 @@
 
 			} ?>
 		</projects-grid>
-
-		<?php include("contact-me.php") ?> 
 
 	</section>
 

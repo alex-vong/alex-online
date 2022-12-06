@@ -22,8 +22,6 @@
 		} ?>
 	</projects-grid> -->
 
-	
-	 <?php include("contact-me.php") ?> 
 	</inner-column>
 </section>
 
