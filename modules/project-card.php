@@ -1,6 +1,6 @@
 <div class="stuff">
 
-	<project-card class="background">
+	<project-card class="bg-gradient">
 
 		<div class="preview-section">
 			<a href="<?=$project["project-link"]?>" target="_blank">
