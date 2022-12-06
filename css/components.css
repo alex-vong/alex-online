@@ -61,6 +61,8 @@ span.occupation {
 
 h1 span.occupation {
     display: block;
+   font-weight: 900;
+
 }
 
 .second-level-heading {
