@@ -82,7 +82,7 @@ $projects = [
 		"project-link" => "https://alexvong.dev/modules/responsive-layout-collection/",
 		"case-study" => "https://peprojects.dev/alpha-1/alexvong/30day-responsive-layout-challenge/",
 		"image" => "images/layoutgarden.svg",
-		"hot" => true,
+		"hot" => false,
 		"demo" => false,
 		"languages" => ['html', 'css', 'php'],
 		"alt-text" => "image for RLG project card"
@@ -184,7 +184,7 @@ $latestBlog = [
 		"preview" => "Asynchronous JavaScript is a fairly difficult concept to fully grasp, especially for someone as new to JS as I am. I understand that it allows your program to continue running while waiting for for certain task and not having to wait on them. Application Programming Interface (API) is another topic that will take some time for me to fully comprehend and get comfortable with. I can see the benefits of APIs however and the power it holds in allowing programmers to “fetch” large amounts of information they need so they can filter through them and grab what they need and dynamically add those data to the DOM. Mind blown....",
 		"read-time" => 5,
 		"demo" => false,
-		"front-page" => true,
+		"front-page" => false,
 	],
 	[
 		"title" => "SignUp Form Case Study",
@@ -247,7 +247,7 @@ $latestBlog = [
 		"read-time" => 5,
 		"preview" => "A website style guide outlines a comprehensive set of standards for a company for its brand identity and how those identities are expressed on its website. Within those standards are a set of rules or guidelines for how its visual elements should be used throughout its site. These rules or guidelines are typically used as references for anyone who works on the website so that there will be a clear understanding for the page design...",
 		"demo" => false,
-		"front-page" => false,
+		"front-page" => true,
 	],
 
 	[
