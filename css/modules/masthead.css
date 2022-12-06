@@ -3,12 +3,6 @@ masthead .desktop {
 }
 
 
-masthead button {
-    background: transparent;
-    border: none;
-    color: var(--marker);
-}
-
 header {
     background-color: var(--background);
     border: 0px;
@@ -45,6 +39,10 @@ masthead {
 
 masthead .nav-bar-desktop {
     display:  none;
+}
+
+masthead a:first-child {
+    flex-grow: 3;
 }
 
 .blur {
@@ -101,6 +99,12 @@ masthead .nav-bar-mobile {
     margin: auto;
     padding: 1rem 1.25rem;
 
+    background: rgba(25, 25, 25, 0.52);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(25, 25, 25, 0.5);
+
 
 }
 
@@ -112,6 +116,12 @@ masthead .nav-bar-mobile a {
 masthead nav a.active {
     padding-bottom: 2px;
     border-bottom: 2px solid var(--orange);
+}
+
+masthead .read-more {
+    background: var(--orange);
+    color: var(--bg-card);
+    font-weight: 500;
 }
 
 
