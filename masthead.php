@@ -8,12 +8,31 @@
 
 			<nav class="nav-bar nav-bar-desktop">
 
-				<div class="nav-links">
-					<a href="#home" class="quiet-voice animated-line <?php if ($page == "home") { echo "active"; } ?>"><span class="<?php if ($page == "home") { echo "active"; } ?>">Home</span></a>
-					<a href="#about" class="quiet-voice animated-line <?php if ($page == "about") { echo "active"; } ?>"><span>About</span></a>	
-					<a href="#projects" class="quiet-voice animated-line <?php if ($page == "projects") { echo "active"; } ?>"><span>Projects</span></a>
-					<a href="#writing" class="quiet-voice animated-line <?php if ($page == "writing") { echo "active"; } ?>"><span>Writing</span></a>
+				<?php  
+
+					if ($page == "home") { ?>
+						<div class="nav-links">
+							<a href="#home" class="home quiet-voice <?php if ($page == "home") { echo "active"; } ?>">Home</span></a>
+							<a href="#about" class="about quiet-voice"><span>About</span></a>	
+							<a href="#projects" class="projects quiet-voice"><span>Projects</span></a>
+							<a href="#writing" class="writing quiet-voice"><span>Writing</span></a>
+						</div>
+
+					<?php }
+
+				?>
+
+				<?php 
+					if ($page == "about" || $page == "projects" || $page == "writing") { ?>
+						<div class="nav-links">
+						<a href="?page=home" class="home quiet-voice <?php if ($page == "home") { echo "active"; } ?>"><span class="<?php if ($page == "home") { echo "active"; } ?>">Home</span></a>
+					<a href="?page=about" class="about quiet-voice <?php if ($page == "about") { echo "active"; } ?>"><span>About</span></a>	
+					<a href="?page=projects" class="projects quiet-voice <?php if ($page == "projects") { echo "active"; } ?>"><span>Projects</span></a>
+					<a href="?page=writing" class="writing quiet-voice <?php if ($page == "writing") { echo "active"; } ?>"><span>Writing</span></a>
 				</div>
+				<?php }
+				 ?>
+				
 
 				<div class="theme-switcher">
 					<button data-scheme='day'>
@@ -24,34 +43,56 @@
 						<i class="fa-solid fa-moon"></i>
 					</button>
 				</div>
-
 			</nav> 
 
+
 			<nav class="nav-bar nav-bar-mobile">
-				<a href="#home" class="body-copy <?php if ($page == "home") { echo "active"; } ?>">
-					<span class="<?php if ($page == "home") { echo "active"; } ?>">
-						<i class="fa-solid fa-house"></i>
-					</span>
-				</a>
 
-				<a href="#about" class="body-copy <?php if ($page == "about") { echo "active"; } ?>">
-					<span>
-						<i class="fa-regular fa-address-card"></i>
-					</span>
-				</a>	
-				<a href="#projects" class="body-copy <?php if ($page == "projects") { echo "active"; } ?>">
-					<span>
-						<i class="fa-regular fa-folder"></i>
-					</span>
-				</a>
+				<?php 
+					if ($page == "home") { ?>
+						<a href="#" class="home-mobile body-copy <?php if ($page == "home") { echo "active"; } ?>">
+								<i class="fa-solid fa-house"></i>
+						</a>
 
-				<a href="#writing" class="body-copy <?php if ($page == "writing") { echo "active"; } ?>">
-					<span>
-						<!-- <i class="fa-regular fa-newspaper"></i> -->
-						<i class="fa-regular fa-keyboard"></i>
-					</span>
+						<a href="#about" class="about-mobile body-copy">
+								<i class="fa-regular fa-address-card"></i>
+						</a>	
+						<a href="#projects" class="projects-mobile body-copy">
+								<i class="fa-regular fa-folder"></i>
+						</a>
 
-				</a>
+						<a href="#writing" class="writing-mobile body-copy">
+								<!-- <i class="fa-regular fa-newspaper"></i> -->
+								<i class="fa-regular fa-keyboard"></i>
+
+						</a>
+					<?php }
+				 ?>
+
+				<?php 
+					if ($page == "about" || $page == "projects" || $page == "writing") { ?>
+
+						<a href="?page=home" class="home body-copy <?php if ($page == "home") { echo "active"; } ?>">
+							<span class="<?php if ($page == "home") { echo "active"; } ?>">
+								<i class="fa-solid fa-house"></i>
+							</span>
+						</a>
+
+						<a href="?page=about" class="about body-copy <?php if ($page == "about") { echo "active"; } ?>">
+								<i class="fa-regular fa-address-card"></i>
+						</a>	
+						<a href="?page=projects" class="projects body-copy <?php if ($page == "projects") { echo "active"; } ?>">
+								<i class="fa-regular fa-folder"></i>
+						</a>
+
+						<a href="?page=writing" class="writing body-copy <?php if ($page == "writing") { echo "active"; } ?>">
+								<!-- <i class="fa-regular fa-newspaper"></i> -->
+								<i class="fa-regular fa-keyboard"></i>
+
+						</a>
+					<?php }
+				 ?>
+			
 				
 			</nav>
 
