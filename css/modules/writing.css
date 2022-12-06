@@ -35,15 +35,15 @@
     grid-gap: 15px;
 
     width: fit-content;
-/*    border-width: 4px;
-    border-style: solid none none;
-
-    border-image: var(--reverse-gradient) 1;*/
     background-color: var(--alt-black);
     padding: 15px 25px;
     width: 100%;
+}
 
-
+@media (min-width: 768px) {
+    .article-card .article-content {
+        padding: 25px 50px;
+    }
 }
 
 .whats-hot-blogs .view-all-link {
@@ -51,7 +51,7 @@
 }
 
 
-.whats-hot-blogs a.read-more {
+.whats-hot-blogs a.read-more, .writing a.read-more {
     align-self: center;
     transform: translateY(-10px);
     padding: 8px 16px;
@@ -113,11 +113,11 @@
     overflow: hidden;
 }
 
-@media (max-width: 400px) {
+/*@media (max-width: 400px) {
     .article-content .preview {
         width: 36ch;
     }
-}
+}*/
 
 
 .article-card picture img {
