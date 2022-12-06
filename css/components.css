@@ -108,13 +108,13 @@ h1 span.occupation {
 
 }
 
-.contact-me a.resume {
+.contact-me a.contact {
     background: var(--blue);
     color: var(--bg-card);
 }
 
 
-.contact-me i {
+i {
     padding-right: 8px;
 }
 

@@ -32,6 +32,7 @@
 				</div>
 				<?php }
 				 ?>
+
 				
 
 <!-- 				<div class="theme-switcher">
@@ -44,6 +45,10 @@
 					</button>
 				</div> -->
 			</nav> 
+		
+				 	<a href="../images/Alex-Vong-Resume.pdf" class="read-more quiet-voice resume" target="_blank">
+		<i class="fa-regular fa-file-lines"></i>Resume
+	</a>
 
 
 
