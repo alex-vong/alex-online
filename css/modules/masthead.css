@@ -137,11 +137,13 @@ switcher button {
 
     masthead .nav-bar-desktop {
         display: flex;
+        gap: 20px;
     }
 
-    masthead nav {
+    masthead nav .nav-links {
+        display: flex;
         flex-direction: row;
-        gap: 10px;
+        gap: 15px;
         align-items: center;
     }
 
