@@ -46,7 +46,7 @@
 
 
 .landing-container {
-   height: 80vh;
+   height: 90vh;
 
    display: flex;
    flex-direction: column;
@@ -91,20 +91,7 @@ main {
    /*margin-bottom: 150px;*/
 }
 
-span.name {
-   color: var(--orange);
-   font-weight: 700;
-}
 
-span.occupation {
-   color: var(--purple);
-   font-weight: 700;
-   display: block;
-}
-
-.second-level-heading {
-   color: var(--marker);
-}
 
 .third-level-heading {
    color: var(--orange);
@@ -139,7 +126,7 @@ span.occupation {
 
 @media (min-width:  768px) {
    .landing inner-column {
-      width:  min(90%, 500px);
+      width:  50%;
 
    }
 
