@@ -41,7 +41,7 @@ masthead .nav-bar-desktop {
     display:  none;
 }
 
-masthead a:first-child {
+masthead a.logo {
     flex-grow: 3;
 }
 

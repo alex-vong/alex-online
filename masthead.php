@@ -2,11 +2,13 @@
 	<inner-column>
 		<div class="blur"></div>
 		<masthead>
-			<a href="?page=home">
+			<a href="?page=home" class="logo">
 				<h1 class="intro-voice desktop"><span>Alex</span> Vong</h1>
 			</a>
 
 			<nav class="nav-bar nav-bar-desktop">
+
+
 
 				<?php  
 
@@ -45,7 +47,7 @@
 					</button>
 				</div> -->
 			</nav> 
-		
+
 				 	<a href="../images/Alex-Vong-Resume.pdf" class="read-more quiet-voice resume" target="_blank">
 		<i class="fa-regular fa-file-lines"></i>Resume
 	</a>
