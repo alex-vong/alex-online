@@ -1,1 +1,57 @@
+.about section {
+    display: flex;
+}
 
+.landing {
+	height: 80vh;
+}
+
+
+
+.about-landing .profile-pic {
+    height: 450px;
+    width: auto;
+    border: 2px solid var(--pen);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.landing-bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 25px 0;
+}
+
+.landing-bio h2 {
+    color: var(--marker);
+    margin-bottom: 10px;
+}
+
+.landing-bio h2 span {
+    color: var(--orange);
+}
+
+.landing-bio a.read-more {
+    border: 2px solid var(--blue);
+    color: var(--marker);
+}
+
+.landing-bio a.read-more:hover {
+    background: var(--blue);
+    color: var(--bg-card);
+}
+
+@media (min-width: 768px) {
+    .about-landing-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+}
