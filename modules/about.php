@@ -36,6 +36,8 @@
 
 			<p class="body-copy">I am now looking for a junior web developer position to finally kick start my career and learn among professionals.</p>
 
+			<p class="body-copy">I have been mainly building things for myself but I am now looking for a <span class="occupation">Junior Front-End Developer</span> position to finally kick build things for other people.</p>
+
 			<p class="body-copy intro">
 				Outside of development my passions include discovering new coffee shops and restuarants, staying updated with all the new technologies, as well as movie & Disney news, and learning to become a Master Chef using the my air fryer. 
 			</p>
