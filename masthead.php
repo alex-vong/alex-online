@@ -46,55 +46,61 @@
 			</nav> 
 
 
-			<nav class="nav-bar nav-bar-mobile">
 
-				<?php 
-					if ($page == "home") { ?>
-						<a href="#" class="home-mobile body-copy <?php if ($page == "home") { echo "active"; } ?>">
-								<i class="fa-solid fa-house"></i>
-						</a>
+			<?php 
+				if ($page != 'todo-app-cs' && $page != 'weather-app-cs' && $page != 'signup-cs' ) { ?>
+		
+					<nav class="nav-bar nav-bar-mobile">
+						<?php 
+							if ($page == "home") { ?>
+								<a href="#" class="home-mobile body-copy <?php if ($page == "home") { echo "active"; } ?>">
+										<i class="fa-solid fa-house"></i>
+								</a>
 
-						<a href="#about" class="about-mobile body-copy">
-								<i class="fa-regular fa-address-card"></i>
-						</a>	
-						<a href="#projects" class="projects-mobile body-copy">
-								<i class="fa-regular fa-folder"></i>
-						</a>
+								<a href="#about" class="about-mobile body-copy">
+										<i class="fa-regular fa-address-card"></i>
+								</a>	
+								<a href="#projects" class="projects-mobile body-copy">
+										<i class="fa-regular fa-folder"></i>
+								</a>
 
-						<a href="#writing" class="writing-mobile body-copy">
-								<!-- <i class="fa-regular fa-newspaper"></i> -->
-								<i class="fa-regular fa-keyboard"></i>
+								<a href="#writing" class="writing-mobile body-copy">
+										<!-- <i class="fa-regular fa-newspaper"></i> -->
+										<i class="fa-regular fa-keyboard"></i>
 
-						</a>
-					<?php }
-				 ?>
+								</a>
+							<?php }
+						 ?>
 
-				<?php 
-					if ($page == "about" || $page == "projects" || $page == "writing") { ?>
+						<?php 
+							if ($page == "about" || $page == "projects" || $page == "writing") { ?>
 
-						<a href="?page=home" class="home body-copy <?php if ($page == "home") { echo "active"; } ?>">
-							<span class="<?php if ($page == "home") { echo "active"; } ?>">
-								<i class="fa-solid fa-house"></i>
-							</span>
-						</a>
+								<a href="?page=home" class="home body-copy <?php if ($page == "home") { echo "active"; } ?>">
+									<span class="<?php if ($page == "home") { echo "active"; } ?>">
+										<i class="fa-solid fa-house"></i>
+									</span>
+								</a>
 
-						<a href="?page=about" class="about body-copy <?php if ($page == "about") { echo "active"; } ?>">
-								<i class="fa-regular fa-address-card"></i>
-						</a>	
-						<a href="?page=projects" class="projects body-copy <?php if ($page == "projects") { echo "active"; } ?>">
-								<i class="fa-regular fa-folder"></i>
-						</a>
+								<a href="?page=about" class="about body-copy <?php if ($page == "about") { echo "active"; } ?>">
+										<i class="fa-regular fa-address-card"></i>
+								</a>	
+								<a href="?page=projects" class="projects body-copy <?php if ($page == "projects") { echo "active"; } ?>">
+										<i class="fa-regular fa-folder"></i>
+								</a>
 
-						<a href="?page=writing" class="writing body-copy <?php if ($page == "writing") { echo "active"; } ?>">
-								<!-- <i class="fa-regular fa-newspaper"></i> -->
-								<i class="fa-regular fa-keyboard"></i>
+								<a href="?page=writing" class="writing body-copy <?php if ($page == "writing") { echo "active"; } ?>">
+										<i class="fa-regular fa-keyboard"></i>
 
-						</a>
-					<?php }
-				 ?>
-			
-				
-			</nav>
+								</a>
+							<?php }
+						 ?>
+					
+						
+					</nav>
+
+				<?php }
+
+				?>
 
 
 
