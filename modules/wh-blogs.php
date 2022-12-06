@@ -21,6 +21,6 @@
 </div>
 
 
-<a href="?page=writing" class="body-copy view-all-link">
+<a href="?page=writing" class="body-copy view-all-link" target="_blank">
 		View All Articles
 </a>
