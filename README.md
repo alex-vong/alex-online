@@ -26,6 +26,7 @@ The goal of this project is to demostrate the knowledge I have gained throughout
 * FileZilla and Transmit
 * Terminal
 * Git and GitHub
+* Whimsical
 
 
 ### Understanding of
@@ -34,5 +35,7 @@ The goal of this project is to demostrate the knowledge I have gained throughout
 * Responsive Designs
 * APIs
 * Git
+* Mapping through the project (ideation, rough drafts, mock ups, design, deployment)
+
 
 
