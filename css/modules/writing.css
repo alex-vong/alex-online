@@ -1,7 +1,7 @@
 .article-grid {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 40px;
 
 
 }
@@ -36,7 +36,8 @@
 
     width: fit-content;
     background-color: var(--alt-black);
-    padding: 15px 25px;
+    border-radius: 0.5rem;
+    padding: 30px;
     width: 100%;
 }
 
