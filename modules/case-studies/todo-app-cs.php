@@ -144,7 +144,7 @@
 					</p>
 
 				<video controls width="75%">
-				    <source src="../media/create.mp4"
+				    <source src="../images/create.mp4"
 				            type="video/mp4">
 				</video>
 
@@ -195,7 +195,7 @@
 						<p class="body-copy">The <code>EditTask</code> function takes the current <code>taskName</code>, and pends it back to the <code>addTodos</code> input field, when it is submitted the new value is then added to the todos object and rendered onto the DOM. I then used a <code>.slice()</code> method to remove the original task from the list since we no longer need it.</p>
 
 				<video controls width="75%">
-				    <source src="../media/edit.mp4"
+				    <source src="../images/edit.mp4"
 				            type="video/mp4">
 				</video>
 				
@@ -219,7 +219,7 @@
 						<p class="body-copy">By setting an isEdited state on the selected value and grabbing it's ID, I was able to then target it's index based on the ID and change it's value to whatever the new value is.</p>
 
 				<video controls width="75%">
-				    <source src="../media/edit-update.mp4"
+				    <source src="../images/edit-update.mp4"
 				            type="video/mp4">
 				</video>
 				
@@ -243,7 +243,7 @@
 				</p>
 
 				<video controls width="75%">
-				    <source src="../media/delete.mp4"
+				    <source src="../images/delete.mp4"
 				            type="video/mp4">
 				</video>
 
