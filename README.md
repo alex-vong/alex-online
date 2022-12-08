@@ -25,8 +25,11 @@ The goal of this project is to demostrate the knowledge I have gained throughout
 * Tower
 * FileZilla and Transmit
 * Terminal
-* Git and GitHub
 * Whimsical
+* Terminal
+* AWS Server
+* GitHub
+* FileZilla
 
 
 ### Understanding of
