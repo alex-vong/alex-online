@@ -1,5 +1,15 @@
 /*What's Hot Projects*/
 
+
+
+section.projects.container {
+    gap: 60px;
+}
+
+.projects .second-level-heading {
+    color: var(--orange);
+}
+
 .whats-hot {
     display: flex;
     flex-direction: column;
@@ -15,26 +25,13 @@
     margin-bottom: 15px;
 }
 
-
-/*.article-grid,
-projects-grid,
-.bits {
-    margin-top: 45px;
-}
-*/
-
-
-
-
 projects-grid {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 40px;
 
-}
+    margin-top: 30px;
 
-projects-grid>* {
-    flex-basis: 100%;
 }
 
 
@@ -43,13 +40,6 @@ projects-grid>* {
     padding: 5px;
 }
 
-/*.stuff:hover {
-    background: linear-gradient(to right, #E39600, #EA4C89, #8F48EB, #1DA1F2);
-
-
-}
-*/
-
 project-card {
     display: flex;
     flex-direction: column;
@@ -57,18 +47,6 @@ project-card {
 
 }
 
-
-
-/*project-card:hover {
-    outline:  4px solid rebeccapurple;
-    width: fit-content;
-    border-width: 4px;
-    border-style: solid;
-    border-image: var(--reverse-gradient) 1;
-    transition: .35s ease-in-out;
-
-}
-*/
 
 project-card .card-details {
     display: flex;
@@ -81,11 +59,11 @@ project-card .card-details {
     order: -1;
 }
 
-@media (min-width:  768px){
+@media (min-width: 768px) {
     project-card .card-details {
         align-items: flex-start;
         text-align: left;
-        order:  2;
+        order: 2;
     }
 }
 
@@ -157,33 +135,35 @@ project-card .preview-section a.body-copy {
 project-card .project-card-links {
     display: flex;
     flex-direction: row;
-    gap:  24px;
+    gap: 24px;
     margin-top: 10px;
 }
 
-.wh-projects a.read-more, projects-grid a.read-more {
+.wh-projects a.read-more,
+projects-grid a.read-more {
     color: var(--marker);
     border: 1px solid var(--orange);
-  
+
 }
 
-project-card .card-details .project-card-links  a {
+project-card .card-details .project-card-links a {
     align-self: center;
 }
 
 
 
-a.read-more:hover, .view-all-link:hover {
+a.read-more:hover,
+.view-all-link:hover {
     background-color: var(--orange);
 
 
-} 
+}
 
 .view-all-link:hover {
     color: var(--background);
 }
 
-project-card .card-details .project-card-links  a picture img {
+project-card .card-details .project-card-links a picture img {
     height: 20px;
     min-width: auto !important;
 }
@@ -200,37 +180,62 @@ blogs-grid {
 
 }
 
-/*.html,
-.css,
-.php,
-.js {
-    padding: 2px 4px;
-    color: var(--white);
-    font-weight: 700;
-
-}
-*/
-/*.html {
-    background-color: var(--html);
-}
-
-.css {
-    background-color: var(--css);
-}
-
-.php {
-    background-color: var(--php);
-}
-
-.js {
-    background-color: var(--js);
-}*/
 
 projects-grid project-card a picture img {
-    /*max-height:  170px;*/
+
     min-width: 285px;
-    /*width: auto;*/
+
 }
+
+
+
+section.bits-grid {
+    gap: 20px;
+}
+
+section.bits-grid * {
+    display: flex;
+    flex-direction: column;
+}
+
+section.bits-grid bit-card-icons i {
+    color: var(--marker);
+    font-size: 22px;
+}
+
+section.bits-grid bit-card-icons i.fa-flask {
+    color: var(--pen);
+    font-size: 20px;
+}
+
+section.bits-grid .bit-card {
+    gap: 10px;
+
+    background-color: var(--bg-card);
+    padding: 30px;
+
+
+}
+
+section.bits-grid bit-card-icons {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section.bits-grid .bit-card ul {
+    flex-direction: row;
+    gap: 10px;
+
+    margin-top: 15px;
+}
+
+section.bits-grid .bit-card ul li {
+    border: 1px solid var(--pen);
+    border-radius: 2px;
+    padding: 4px 8px;
+}
+
+
 
 
 
@@ -240,7 +245,7 @@ projects-grid project-card a picture img {
         display: grid;
         /*     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
     }
-    
+
     project-card .third-level-heading {
         font-size: var(--fluid-1);
     }
@@ -256,20 +261,25 @@ projects-grid project-card a picture img {
         gap: 40px;
     }
 
+    section.bits-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
 
 }
 
 
-.bits-grid {
-    gap: 40px;
-    margin-top: 10px;
-}
 
 
-.bit-card p.body-copy {
-    margin: 5px 0 10px;
-}
 
-.bit-card .second-level-heading {
-    color: var(--alternate);
-}
+
+
+
+
+
+
+
+
+
+
