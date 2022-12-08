@@ -7,9 +7,6 @@
 			</a>
 
 			<nav class="nav-bar nav-bar-desktop">
-
-
-
 				<?php  
 
 					if ($page == "home") { ?>
@@ -48,14 +45,16 @@
 				</div> -->
 			</nav> 
 
-			<a href="../images/Alex-Vong-Resume.pdf" class="read-more quiet-voice resume" target="_blank">
+			<a href="../images/Alex-Vong-Resume.pdf" 
+			   class="read-more quiet-voice resume <?php if ($page == "signup-cs" || $page == "weather-app-cs" || $page == "todo-app-cs") { echo "hidden"; } ?>" 
+			   target="_blank">
 				<i class="fa-regular fa-file-lines padding-r"></i>Resume
 			</a>
 
 
 
 			<?php 
-				if ($page != 'todo-app-cs' && $page != 'weather-app-cs' && $page != 'signup-cs' ) { ?>
+				if ($page != 'todo-app-cs' && $page != 'weather-app-cs' && $page != 'signup-cs' && $page != 'style-guide' ) { ?>
 		
 					<nav class="nav-bar nav-bar-mobile">
 						<?php 
