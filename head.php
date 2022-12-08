@@ -1,7 +1,7 @@
 <head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Alex Vong || <?=ucfirst($page)?></title>
+		<title>Alex Vong - <?=ucfirst($page)?></title>
 		<meta
 			name="og:description"
 			content="Turning Coffee into Code Since 2021"
