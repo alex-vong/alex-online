@@ -218,9 +218,15 @@ figure figcaption cite,
 /*todo casestudy*/
 
 .case-study .design-section .design-images {
-    flex-direction: row;
     justify-content: center;
-    grid-gap: 30px;
+    gap: 15;
+}
+
+@media (min-width: 768px) {
+    .case-study .design-section .design-images {
+        flex-direction: row;
+        grid-gap: 30px;
+    }   
 }
 
 .case-study .design-images img {

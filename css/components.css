@@ -12,6 +12,12 @@
 
 }
 
+.container section {
+    display: flex;
+    flex-direction: column;
+    gap:  10px;
+}
+
 
 /*section:not(section.landing, section.container, section.bits-grid, section.sg-animations) {
 
@@ -24,7 +30,7 @@
 }*/
 
 
-.home section + section {
+.home section+section {
     padding-top: 100px;
     margin-bottom: 250px;
 
@@ -37,9 +43,11 @@
 }
 
 h2.inter::before {
-     font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f02e";
-     padding-right: 8px;
-     color: var(--orange);
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f02e";
+    padding-right: 8px;
+    color: var(--orange);
 
 }
 
@@ -50,23 +58,23 @@ span.bold-italic {
 }
 
 span.name {
-   color: var(--orange);
-   font-weight: 700;
+    color: var(--orange);
+    font-weight: 700;
 }
 
 span.occupation {
-   color: var(--purple);
-   font-weight: 600;
+    color: var(--purple);
+    font-weight: 600;
 }
 
 h1 span.occupation {
     display: block;
-   font-weight: 900;
+    font-weight: 900;
 
 }
 
 .second-level-heading {
-   color: var(--marker);
+    color: var(--marker);
 }
 
 
@@ -81,7 +89,7 @@ h1 span.occupation {
 
 @media (min-width: 768px) {
     .line {
-      width: 12rem;
+        width: 12rem;
 
     }
 }
@@ -93,8 +101,8 @@ h1 span.occupation {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:  15px;
-    
+    gap: 15px;
+
     /*margin: 50px 0 120px;*/
     margin-top: 20px;
 
@@ -122,7 +130,7 @@ i.padding-r {
     color: var(--orange);
 }
 
-.contact-me .read-more:first-child:hover i  {
+.contact-me .read-more:first-child:hover i {
     color: var(--marker);
 }
 
@@ -133,6 +141,9 @@ h3+p.body-copy:not(.logos h3+p.body-copy) {
 }
 */
 
+video {
+    margin: 0 auto;
+}
 
 .drophead {
     font-weight: 600;
@@ -142,7 +153,25 @@ h3+p.body-copy:not(.logos h3+p.body-copy) {
     display: none;
 }
 
-a.read-more, .view-all-link {
+blockquote {
+    padding: 15px;
+}
+
+blockquote p.body-copy {
+    color: var(--marker);
+    font-style: italic;
+}
+
+blockquote p.body-copy span {
+    display: block;
+    color: var(--pen);
+    margin: 5px 0 0 10px;
+}
+
+
+
+a.read-more,
+.view-all-link {
     padding: 6px 12px;
     transition: 0.5s ease-in-out;
     border-radius: 0.5rem;
@@ -154,7 +183,8 @@ a.read-more, .view-all-link {
     text-align: center;
 }
 
-.for-those, .view-all-link {
+.for-those,
+.view-all-link {
     align-self: center;
 }
 
@@ -166,20 +196,21 @@ a.read-more, .view-all-link {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap:  10px;
+    gap: 10px;
     transform: translateY(-10px);
 }
 
 
 .container {
-    margin:  60px 0 120px;
+    margin: 60px 0 120px;
 }
 
 .bg-gradient {
     background-image: var(--bg-gradient);
-    padding: 30px 20px;
+    padding: 30px;
     border-radius: 0.5rem;
 }
+
 
 @media (min-width: 1000px) {
     .bg-gradient {
@@ -196,6 +227,15 @@ a.read-more, .view-all-link {
         max-width: 42ch;
     }
 
+/*    blockquote {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 67%;
+        margin: 0 auto;
+        padding: 30px;
+    }*/
+
 }
 
 @media (min-width: 1000px) {
@@ -208,9 +248,10 @@ a.read-more, .view-all-link {
         max-width: 50ch;
     }
 
-    .writing .intro, .about .intro {
+    .writing .intro,
+    .about .intro {
         max-width: initial;
-    } 
+    }
 
 
 }
