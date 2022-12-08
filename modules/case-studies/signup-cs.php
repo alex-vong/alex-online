@@ -72,7 +72,7 @@
 				</p>
 
 				<div class="what-we-need-container">
-					<h3 class="fourth-level-heading">##What-We-Need</h3>
+					<h3 class="fourth-level-heading drophead">##What-We-Need</h3>
 					<ul class="list body-copy">
 						<li>Inputs with easy distinctions for:
 							<ul>
@@ -112,7 +112,7 @@
 				</figure>
 
 				<div class="what-we-need-container">
-					<h3 class="fourth-level-heading">##What-We-Need</h3>
+					<h3 class="fourth-level-heading drophead">##What-We-Need</h3>
 					<p class="body-copy">Before starting the code for this project I first wanted to understand how this application even works. I attempted to break down each component to its most simplest form.
 
 					<span class="block">To tackle this, I went onto Whimsical and created a Mind Map breaking down each and every step and the results that I can think of.</span>
@@ -181,7 +181,7 @@
 			</div>
 
 		    <div class="tools-resources">
-				<h4 class="fourth-level-heading">##Tools and Resources Used:</h4>
+				<h4 class="fourth-level-heading drophead">##Tools and Resources Used:</h4>
 				<ul class="tools body-copy"> 
 					<li>HTML</li>
 					<li>CSS</li>
