@@ -5,6 +5,11 @@
 		<p class="body-copy">I love building responsive and intuitive websites and am always working on something. Here is a small collection of some of my recent projects and experiences.</p>
 
 		<projects-grid>
+			
+	    <blockquote>
+	        <p class="body-copy">"I hear and I forget. I see and I remember. I do and I understand" <span>💭 Confucius</span></p>
+
+	    </blockquote>
 
 			<?php include("projects-data.php") ?>
 			<?php foreach ($projects as $project) {
