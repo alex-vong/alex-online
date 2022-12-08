@@ -59,7 +59,7 @@
 			</div>
 
 			<div class="what-we-need-container">
-				<h3 class="fourth-level-heading">##API-Key</h3>
+				<h3 class="fourth-level-heading drophead">##API-Key</h3>
 				<p class="body-copy">
 					I decided to use the AccuWeather API because it was pretty easy to understand. 
 					After perusing through the AccuWeather API reference I found a Locations API where it allowed me to use a city text search which returns information for an array of cities that match the search text. It required the resource URL, API key, and a query.
@@ -80,7 +80,7 @@
 			</div>
 
 			<div class="what-we-need-container">
-				<h3 class="fourth-level-heading">##API-Testing-Hard-Code</h3>
+				<h3 class="fourth-level-heading drophead">##API-Testing-Hard-Code</h3>
 				<p class="body-copy">
 				I first tested this API endpoint request by manually inputting it the URL request, apikey, and the value of “Houston” into <strong>Postman</strong> and seeing what results I would get.
 				</p>
@@ -94,7 +94,7 @@
 			</div>
 
 			<div class="what-we-need-container">
-				<h3 class="fourth-level-heading">##API-TestingCode</h3>
+				<h3 class="fourth-level-heading drophead">##API-TestingCode</h3>
 				<p class="body-copy">
 				I first tested this API endpoint request by manually inputting it the URL request, apikey, and the value of “Houston” into <strong>Postman</strong> and seeing what results I would get.
 
@@ -188,7 +188,7 @@
 			<div class="over-coming-challenges">
 				<h2 class="third-level-heading">#Overcoming-Challenges</h2>
 				<div class="challenge challenge-1">
-					<h3 class="fourth-level-heading">##API-Key-Limits</h3>
+					<h3 class="fourth-level-heading drophead">##API-Key-Limits</h3>
 					<p class="body-copy">During this project I kept running into fetch issues and could not get data from the AccuWeather API. At first I was baffled because everything was working just find prior and I was able to request data and receive a response.After taking a look in the Network tab I saw my url request has a status code of 401 which according to MDN meant “response status code indicates that the client request has not been completed because it lacks valid authentication credentials for the requested resource.”
 					</p>
 					<picture>
@@ -199,7 +199,7 @@
 				</div>
 				
 				<div class="challenge challenge-2">
-					<h3 class="fourth-level-heading">##Secure-Network-Error</h3>
+					<h3 class="fourth-level-heading drophead">##Secure-Network-Error</h3>
 					<p class="body-copy">I came across some issues with the fetch api request after deploying this project on my portfolio site. The error was thrown every time I tried to search a city. Initially I thought I just needed a new API key but after some further digging in the Network tab and console I discovered the error was with the url request link provided by AccuWeather.
 					</p>
 					<picture>
@@ -220,7 +220,7 @@
 			</div>
 
 			<div class="tools-resources">
-						<h4 class="fourth-level-heading">##Tools and Resources Used:</h4>
+						<h4 class="fourth-level-heading drophead">##Tools and Resources Used:</h4>
 						<ul class="tools body-copy"> 
 							<li>HTML</li>
 							<li>CSS</li>

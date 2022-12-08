@@ -134,6 +134,13 @@ h3+p.body-copy:not(.logos h3+p.body-copy) {
 */
 
 
+.drophead {
+    font-weight: 600;
+}
+
+.hidden {
+    display: none;
+}
 
 a.read-more, .view-all-link {
     padding: 6px 12px;
