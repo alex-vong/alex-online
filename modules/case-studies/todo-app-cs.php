@@ -10,11 +10,6 @@
 				<h1 class="second-level-heading">A Todo List Application incorporating the fundamentals of the CRUD operations</h1>
 
 				<h2 class="body-copy inter">Todo List Application Case Study</h2>
-
-<!-- 				<picture>
-					<img src="../images/crud-main-img.svg" class="main-img"alt="main image for crud case study">
-				</picture> -->
-					
 			
 			</div>
 
@@ -64,7 +59,7 @@
 			</div>
 
 			<div class="what-we-need-container">
-				<h3 class="fourth-level-heading">##What-We-Need</h3>
+				<h3 class="fourth-level-heading drophead">##What-We-Need</h3>
 				<p class="body-copy">
 					To make this a real CRUD application we need to implement the 4 principals:
 					
@@ -82,7 +77,7 @@
 			</div>
 				
 			<div class="design-section">
-				<h3 class="fourth-level-heading">##Design</h3>
+				<h3 class="fourth-level-heading drophead">##Design</h3>
 				<p class="body-copy">
 				Like I do with all my projects, I first mock up it up on pen and paper and try to map out the project in my head and sketch it down. 
 
@@ -145,16 +140,18 @@
 						<img src="../images/render-on-dom.jpg" alt="image of rendering task on DOM">
 					</picture>
 
-					<p class="body-copy">The renderOnDom function essentially takes the todos array and created a list item with each item in the array. I added a ul to the HTML and then updated the innerHTML with each li..
+					<p class="body-copy">The <code>renderOnDom</code> function essentially takes the todos array and created a list item with each item in the array. I added a <code>ul</code> to the HTML and then updated the <code>innerHTML</code> with each <code>li</code>.
 					</p>
 
-					<video autoplay loop muted playsinline>
-					    <source src="../images/create.webm" type="video/webm">
-					</video>
+				<video controls width="75%">
+				    <source src="../media/create.mp4"
+				            type="video/mp4">
+				</video>
+
 				</div>
 				
 				<div class="over-coming-challenges">
-					<h3 class="fourth-level-heading">##Overcoming-Challenges</h3>
+					<h3 class="fourth-level-heading drophead">##Overcoming-Challenges</h3>
 					
 						<p class="body-copy">One issue I quickly stumbled upon after being able to render the user’s task inputs was that they would dissapear once the browser refreshes. The reason for this is because inputs were not being saved anywhere. 
 
@@ -185,7 +182,7 @@
 				</p>
 
 				<div class="over-coming-challenges">
-					<h3 class="fourth-level-heading">##Overcoming-Challenges</h3>
+					<h3 class="fourth-level-heading drophead">##Overcoming-Challenges</h3>
 					
 						<p class="body-copy">Now comes the challenging part of allowing the user to edit task that were already submitted and being shown on the DOM. I knew that I would have to somehow target whatever task was clicked on and then call another function to do something. 
 
@@ -195,11 +192,12 @@
 							<img src="../images/edit-task.png" alt="image of edit task code">
 						</picture>
 
-						<p class="body-copy">The editTask function takes the current taskName, and pends it back to the addTodos input field, when it is submitted the new value is then added to the todos object and rendered onto the DOM. I then used a .slice method to remove the original task from the list since we no longer need it.</p>
+						<p class="body-copy">The <code>EditTask</code> function takes the current <code>taskName</code>, and pends it back to the <code>addTodos</code> input field, when it is submitted the new value is then added to the todos object and rendered onto the DOM. I then used a <code>.slice()</code> method to remove the original task from the list since we no longer need it.</p>
 
-					<video autoplay loop muted playsinline>
-					    <source src="../images/edit.webm" type="video/webm">
-					</video>
+				<video controls width="75%">
+				    <source src="../media/edit.mp4"
+				            type="video/mp4">
+				</video>
 				
 				</div>
 
@@ -208,7 +206,7 @@
 				</div>
 
 				<div class="update-from-the-future">
-					<h3 class="fourth-level-heading">##Update-From-The-Future</h3>
+					<h3 class="fourth-level-heading drophead">##Update-From-The-Future</h3>
 					
 						<p class="body-copy">After playing around with the code and looking up possible solutions on <strong>Stack Overflow</strong>, I was able to find another approach to edit task. This new approach changed the selected task rather than just create and push a new one and deleting the old one.
 
@@ -220,9 +218,10 @@
 
 						<p class="body-copy">By setting an isEdited state on the selected value and grabbing it's ID, I was able to then target it's index based on the ID and change it's value to whatever the new value is.</p>
 
-					<video autoplay loop muted playsinline>
-					    <source src="../images/update-edit.webm" type="video/webm">
-					</video>
+				<video controls width="75%">
+				    <source src="../media/edit-update.mp4"
+				            type="video/mp4">
+				</video>
 				
 				</div>
 				
@@ -243,8 +242,9 @@
 				<p class="body-copy">The <code>deleteTask</code> function takes the current task id and removed it from the todo object via <code>.slice()</code>. The <code>todo</code> object is then set to <code>localStorage</code> to be updated and finally <code>renderOnDom</code> is called yet again to show changed on the <code>DOM</code>.
 				</p>
 
-				<video autoplay loop muted playsinline>
-					    <source src="../images/delete.webm" type="video/webm">
+				<video controls width="75%">
+				    <source src="../media/delete.mp4"
+				            type="video/mp4">
 				</video>
 
 								
@@ -274,7 +274,7 @@
 			</div>
 
 			<div class="tools-resources">
-						<h4 class="fourth-level-heading">##Tools and Resources Used:</h4>
+						<h4 class="fourth-level-heading drophead">##Tools and Resources Used:</h4>
 						<ul class="tools body-copy"> 
 							<li>HTML</li>
 							<li>CSS</li>
