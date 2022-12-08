@@ -9,54 +9,20 @@ $projects = [
 		"case-study" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
 		"image" => "https://peprojects.dev/images/square.jpg",
 		"hot" => false,
+		"featured" => true,
 		"demo" => true, 
 	],
 
 	[
-		"name" => "PokeDex",
-		"description" => "I like Pokemon so I created my own PokeDex featuring the original 151 pocket monsters.",
-		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
-		"case-study" => false,
-		"image" => "images/poke.svg",
-		"hot" => false,
-		"demo" => false,
-		"languages" => ['html', 'css', 'php'],
-		"alt-text" => "image for Pokedex project card"
-
-	],
-	
-	[
-		"name" => "Huddle",
-		"description" => "A responsive website challenge from Front End Mentor",
-		"project-link" =>"https://alexvong.dev/modules/huddle/",
-		"case-study" =>false,
-		"image" => "images/huddle.svg",
-		"hot" => false,
-		"demo" => false,
-		"languages" => ['html', 'css', 'php'],
-		"alt-text" => "image for Huddle project card"
-
-	],
-	[
-		"name" => "Weather App",
-		"description" => "A JavaScript Weather App that shows real time weather data for any inputted city using AccuWeather API",
-		"project-link" =>"https://alexvong.dev/modules/js-weather-app/",
-		"case-study" => "?page=weather-app-cs",
-		"image" => "images/weather-app-img.svg",
-		"hot" => true,
-		"demo" => false,
-		"languages" => ['html', 'css', 'php', 'js'],
-		"alt-text" => "image for Weather App project card credit to artist @rawpixel.com via https://www.freepik.com/author/rawpixel-com"
-
-	],
-	[
 		"name" => "Todo App",
 		"description" => "A Todo List Application implementing the fundamentals of the CRUD operations (Create, Read, Update, and Delete)",
 		"project-link" =>"https://alexvong.dev/modules/js-todo-list/",
+		"github-repo" => "https://github.com/c0debrew-sky/js-todo-list",
 		"case-study" =>"?page=todo-app-cs",
 		"image" => "images/todo-app-img.svg",
 		"hot" => true,
-		"demo" => false,
+		"featured" => true,
+		"demo" => false, 
 		"languages" => ['html', 'css', 'php', 'js'],
 		"alt-text" => "image for todo list project"
 
@@ -64,13 +30,31 @@ $projects = [
 	],
 
 	[
+		"name" => "Weather App",
+		"description" => "A JavaScript Weather App that shows real time weather data for any inputted city using AccuWeather API",
+		"project-link" =>"https://alexvong.dev/modules/js-weather-app/",
+		"github-repo" => "https://github.com/c0debrew-sky/js-weather-app",
+		"case-study" => "?page=weather-app-cs",
+		"image" => "images/weather-app-img.svg",
+		"hot" => true,
+		"featured" => true,
+		"demo" => false, 
+		"languages" => ['html', 'css', 'php', 'js'],
+		"alt-text" => "image for Weather App project card credit to artist @rawpixel.com via https://www.freepik.com/author/rawpixel-com"
+
+	],
+
+
+	[
 		"name" => "Sign Up Page",
 		"description" => "An interactive and fully responsive signup form incorporating JS Event Handlers and Regular Expression testing",
 		"project-link" =>"https://alexvong.dev/modules/js-signup-page/",
+		"github-repo" => "https://github.com/c0debrew-sky/js-signup-page",
 		"case-study" =>"?page=signup-cs",
 		"image" => "images/signup.svg",
 		"hot" => true,
-		"demo" => false,
+		"featured" => true,
+		"demo" => false, 
 		"languages" => ['html', 'css', 'php', 'js'],
 		"alt-text" => "image for Sign Up Form project"
 
@@ -80,42 +64,30 @@ $projects = [
 		"name" => "Responsive Layouts Garden",
 		"description" => "A collection of responsive components found on various websites in the wild and replicated to better understand responsive layouts & designs",
 		"project-link" => "https://alexvong.dev/modules/responsive-layout-collection/",
+		"github-repo" => "https://github.com/c0debrew-sky/js-signup-page",
 		"case-study" => "https://peprojects.dev/alpha-1/alexvong/30day-responsive-layout-challenge/",
 		"image" => "images/layoutgarden.svg",
 		"hot" => false,
-		"demo" => false,
+		"featured" => true,
+		"demo" => false, 
 		"languages" => ['html', 'css', 'php'],
 		"alt-text" => "image for RLG project card"
 	],
 
-	[
-		"name" => "Buy a Home - Super Responsive Layout Challenge",
-		"description" => "Created a responsive website template and styled it with a real estate theme",
-		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/tiny-homes",
-		"case-study" =>false,
-		"image" => "images/tiny-homes.svg",
-
+		[
+		"name" => "PokeDex",
+		"description" => "I like Pokemon so I created my own PokeDex featuring the original 151 pocket monsters.",
+		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
+		"github-repo" => false,
+		"case-study" => false,
+		"image" => "images/poke.svg",
 		"hot" => false,
-		"demo" => false,
+		"featured" => true,
+		"demo" => false, 
 		"languages" => ['html', 'css', 'php'],
-		"alt-text" => "image for Home project card"
+		"alt-text" => "image for Pokedex project card"
 
-	],
-
-	[
-		"name" => "MOAA - Museum of Alex Arts",
-		"description" => "A Gallery of skecthes I made on Affinity Designer",
-		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/a-thing-a-day",
-		"case-study" =>false,
-		"image" => "images/thingaday.svg",
-
-		"hot" => false,
-		"demo" => false,
-		"languages" => ['html', 'css', 'php'],
-		"alt-text" => "image for MOAA project card"
-
-	],
-
+	]
 
 	
 ];
@@ -123,9 +95,34 @@ $projects = [
 
 $bits = [
 	[
+		"name" => "Huddle",
+		"description" => "FrontEnd Mentor Challenge - Build a Responsive Business Website",
+		"project-link" => "https://alexvong.dev/modules/huddle/",
+		"languages" => ['html', 'css'],
+		"has-project-site" => true,
+
+	],
+	[
+		"name" => "Museum of Alex Arts",
+		"description" => "Did a daily 30 minute Affinity Designer sketch challenge and put them all together in a gallery style website",
+		"project-link" => "https://peprojects.dev/alpha-1/alexvong/a-thing-a-day",
+		"languages" => ['html', 'css', 'php'],
+		"has-project-site" => true,
+
+	],
+	[
+		"name" => "Real Estate Website",
+		"description" => "Created a responsive website template and styled it with a real estate theme",
+		"project-link" => "https://peprojects.dev/alpha-1/alexvong/tiny-homes",
+		"languages" => ['html', 'css', 'php'],
+		"has-project-site" => true,
+
+	],
+	[
 		"name" => "Intergalactic Plant World",
-		"description" => "Goal was to create a psychedelic and far out website for a local plant shop. Just plain simple fun and",
+		"description" => "Goal was to create a psychedelic and far out website for a local plant shop.",
 		"project-link" => "https://peprojects.dev/alpha-1/alexvong/IPW/",
+		"languages" => ['html', 'css'],
 		"has-project-site" => true,
 
 	],
@@ -133,29 +130,20 @@ $bits = [
 		"name" => "Pet Adoption Site",
 		"description" => "My FIRST ever attempt at building a responsive website. This site will forever be archived and never changed or touched upon but used for personal research purposes.",
 		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/pawsitive-pets/",
+		"languages" => ['html', 'css'],
+
 		"has-project-site" => true,
 	
 	],
 
 	[
-		"name" => "CSS Positioning in Action",
-		"description" => "A quick demo showing all the different CSS positionings.",
-		"project-link" =>"https://codepen.io/Alexv0ng/pen/oNZxOoP",
-		"has-project-site" => false,
-	],
-	[
 		"name" => "Apple Site",
-		"description" => "Challenge was to recreate a website in only one hour. Can I do it?",
+		"description" => "Challenge was to try and recreate as much of the Apple Store website in only one hour. Can I do it?",
 		"project-link" =>"https://codepen.io/Alexv0ng/pen/abpRozV",
-		"has-project-site" => false,
-	],
+		"languages" => ['html', 'css'],
 
-	[
-		"name" => "SVG Creations",
-		"description" => "This Codepen shows the code behing a few SVG images I created on Affinity Designer",
-		"project-link" =>"https://codepen.io/Alexv0ng/pen/LYxKMbO",
 		"has-project-site" => false,
-	],
+	]
 
 
 ];
