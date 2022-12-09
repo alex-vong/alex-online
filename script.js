@@ -1,7 +1,7 @@
 if (history.scrollRestoration) {
     history.scrollRestoration = 'manual';
 } else {
-    window.onbeforeunload = function () {
+    window.onbeforeunload = function() {
         window.scrollTo(0, 0);
     }
 }
@@ -31,76 +31,76 @@ console.log(dark);
 
 
 let newDate = new Date();
-  // newDate.setHours(14);
-  let hour = newDate.getHours();
-  let setGreeting = "";
+// newDate.setHours(14);
+let hour = newDate.getHours();
+let setGreeting = "";
 
-  
+
 window.addEventListener("load", (event) => {
 
-  if (greeting) {
-  if (hour >= 0 && hour <= 3) {
-    setGreeting = `Hello, Night 🦉`;
-    renderGreeting(setGreeting);
-  }
+    if (greeting) {
+        if (hour >= 0 && hour <= 3) {
+            setGreeting = `Hello, Night 🦉`;
+            renderGreeting(setGreeting);
+        }
 
-  if (hour >= 4 && hour <= 7) {
-    setGreeting = `Greetings, Early 🐣`;
-    renderGreeting(setGreeting);
+        if (hour >= 4 && hour <= 7) {
+            setGreeting = `Greetings, Early 🐣`;
+            renderGreeting(setGreeting);
 
-  }
+        }
 
-    if (hour >= 8 && hour <= 11) {
-    setGreeting = `Good Morning ☕`;
-    renderGreeting(setGreeting);
-  }
+        if (hour >= 8 && hour <= 11) {
+            setGreeting = `Good Morning ☕`;
+            renderGreeting(setGreeting);
+        }
 
-  if (hour >= 12 && hour <= 17) {
-    setGreeting = `Good Afternoon 🍔`;
-    renderGreeting(setGreeting);
-  }
+        if (hour >= 12 && hour <= 17) {
+            setGreeting = `Good Afternoon 🍔`;
+            renderGreeting(setGreeting);
+        }
 
-   if (hour >= 17 && hour <= 23) {
-    setGreeting = `Good Evening 🥃`;
-    renderGreeting(setGreeting);
-  }
-}
+        if (hour >= 17 && hour <= 23) {
+            setGreeting = `Good Evening 🥃`;
+            renderGreeting(setGreeting);
+        }
+    }
 
 });
 
 
 
 function renderGreeting(phrase) {
-  greeting.innerText = phrase;
+    greeting.innerText = phrase;
 }
 
-home.addEventListener('click', ()=> {
-  home.classList.add('active');
-  about.classList.remove('active');
-  projects.classList.remove('active');
-  writing.classList.remove('active');
+home.addEventListener('click', () => {
+    home.classList.add('active');
+    about.classList.remove('active');
+    projects.classList.remove('active');
+    writing.classList.remove('active');
 
 });
 
-about.addEventListener('click', ()=> {
-  home.classList.remove('active');
-  about.classList.add('active');
-  projects.classList.remove('active');
-  writing.classList.remove('active');
+about.addEventListener('click', () => {
+    home.classList.remove('active');
+    about.classList.add('active');
+    projects.classList.remove('active');
+    writing.classList.remove('active');
 });
 
-projects.addEventListener('click', ()=> {
-  home.classList.remove('active');
-  about.classList.remove('active');
-  projects.classList.add('active');
-  writing.classList.remove('active');
+projects.addEventListener('click', () => {
+    home.classList.remove('active');
+    about.classList.remove('active');
+    projects.classList.add('active');
+    writing.classList.remove('active');
 });
 
-writing.addEventListener('click', ()=> {
-  home.classList.remove('active');
-  about.classList.remove('active');
-  projects.classList.remove('active');
-  writing.classList.add('active');
+writing.addEventListener('click', () => {
+    home.classList.remove('active');
+    about.classList.remove('active');
+    projects.classList.remove('active');
+    writing.classList.add('active');
 });
 
 
@@ -117,22 +117,22 @@ writing.addEventListener('click', ()=> {
 
 
 function getTheme() {
-  return window.localStorage.getItem('chosenTheme');
+    return window.localStorage.getItem('chosenTheme');
 }
 
 function setTheme(name) {
-  window.localStorage.setItem('chosenTheme', name);
-  document.body.dataset.theme = name;
-  var theme = document.body.dataset.theme;
-  document.cookie = "theme=" + theme;
+    window.localStorage.setItem('chosenTheme', name);
+    document.body.dataset.theme = name;
+    var theme = document.body.dataset.theme;
+    document.cookie = "theme=" + theme;
 
-  console.log(theme);
+    console.log(theme);
 
-  console.log(light);
-  console.log(dark);
+    console.log(light);
+    console.log(dark);
 
-  if (theme === 'light') {
-      light.classList.add('hidden');
+    if (theme === 'light') {
+        light.classList.add('hidden');
         dark.classList.remove('hidden');
 
         if (lightMobile) {
@@ -140,52 +140,38 @@ function setTheme(name) {
 
         }
 
-        if(darkMobile) {
-          darkMobile.classList.remove('hidden');
-       }
-  }
+        if (darkMobile) {
+            darkMobile.classList.remove('hidden');
+        }
+    }
 
-  if (theme == 'dark') {
+    if (theme == 'dark') {
         light.classList.remove('hidden');
         dark.classList.add('hidden');
         if (lightMobile) {
             lightMobile.classList.remove('hidden');
         }
 
-        if(darkMobile) {
-          darkMobile.classList.add('hidden');
-       }
-  }
+        if (darkMobile) {
+            darkMobile.classList.add('hidden');
+        }
+    }
 
 }
 
 
 /* set chosen theme on page load */
-if ( getTheme() ) {
-  setTheme( getTheme() );
+if (getTheme()) {
+    setTheme(getTheme());
 }
 
 
 window.addEventListener('click', function(selected) {
 
-  if ( selected.target.matches('switcher button svg') ) {
-    console.clear();
-    var selectedScheme = selected.target.dataset.scheme;
-    setTheme(selectedScheme);
-  }
+    if (selected.target.matches('switcher button i')) {
+        console.clear();
+        var selectedScheme = selected.target.dataset.scheme;
+        setTheme(selectedScheme);
+    }
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
