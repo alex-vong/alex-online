@@ -56,13 +56,13 @@
 					<nav class="nav-bar nav-bar-mobile">
 						<?php 
 							if ($page == "home") { ?>
-								<a href="#home" class=" body-copy <?php if ($page == "home") { echo "active"; } ?>">
+								<a href="#home" class=" home-mobile body-copy <?php if ($page == "home") { echo "active"; } ?>">
 									<i class="fa-solid fa-house"></i>
 								</a>
 
 								<a href="#about" class="about-mobile body-copy">
 										<!-- <i class="fa-regular fa-address-card"></i> -->
-									<i class="fa-regular fa-user padding-r"></i>
+									<i class="fa-regular fa-user"></i>
 								</a>	
 								<a href="#projects" class="projects-mobile body-copy">
 									<i class="fa-regular fa-folder"></i>

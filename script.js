@@ -14,6 +14,12 @@ const about = document.querySelector('.about');
 const projects = document.querySelector('.projects');
 const writing = document.querySelector('.writing');
 
+const homeMobile = document.querySelector('.home-mobile');
+
+const aboutMobile = document.querySelector('.about-mobile');
+const projectsMobile = document.querySelector('.projects-mobile');
+const writingMobile = document.querySelector('.writing-mobile');
+
 const mobileNav = document.querySelector('.nav-bar-mobile');
 
 const greeting = document.querySelector('.greeting');
@@ -30,31 +36,6 @@ console.log(dark);
 let theme = localStorage.getItem("chosenTheme");
 console.log(theme)
 
-if (theme === 'light') {
-        light.classList.add('hidden');
-        dark.classList.remove('hidden');
-
-        if (lightMobile) {
-            lightMobile.classList.add('hidden');
-
-        }
-
-        if (darkMobile) {
-            darkMobile.classList.remove('hidden');
-        }
-    }
-
-    if (theme == 'dark') {
-        light.classList.remove('hidden');
-        dark.classList.add('hidden');
-        if (lightMobile) {
-            lightMobile.classList.remove('hidden');
-        }
-
-        if (darkMobile) {
-            darkMobile.classList.add('hidden');
-        }
-    }
 
 
 
@@ -91,6 +72,33 @@ window.addEventListener("load", (event) => {
         if (hour >= 17 && hour <= 23) {
             setGreeting = `Good Evening 🥃`;
             renderGreeting(setGreeting);
+        }
+    }
+
+    if (theme === 'light') {
+        light.classList.add('hidden');
+        dark.classList.remove('hidden');
+
+        if (lightMobile) {
+            lightMobile.classList.add('hidden');
+
+        }
+
+        if (darkMobile) {
+            darkMobile.classList.remove('hidden');
+        }
+    }
+
+    if (theme == 'dark') {
+        light.classList.remove('hidden');
+        dark.classList.add('hidden');
+
+        if (lightMobile) {
+            lightMobile.classList.remove('hidden');
+        }
+
+        if (darkMobile) {
+            darkMobile.classList.add('hidden');
         }
     }
 
@@ -131,6 +139,47 @@ writing.addEventListener('click', () => {
     writing.classList.add('active');
 });
 
+
+if (homeMobile) {
+    homeMobile.addEventListener('click', () => {
+    homeMobile.classList.add('active');
+    aboutMobile.classList.remove('active');
+    projectsMobile.classList.remove('active');
+    writingMobile.classList.remove('active');
+    });
+
+}
+
+if (aboutMobile) {
+    aboutMobile.addEventListener('click', () => {
+    homeMobile.classList.remove('active');
+    aboutMobile.classList.add('active');
+    projectsMobile.classList.remove('active');
+    writingMobile.classList.remove('active');
+    });
+
+}
+
+if (projectsMobile) {
+    projectsMobile.addEventListener('click', () => {
+    homeMobile.classList.remove('active');
+    aboutMobile.classList.remove('active');
+    projectsMobile.classList.add('active');
+    writingMobile.classList.remove('active');
+    });
+
+}
+
+
+if (writingMobile) {
+    writingMobile.addEventListener('click', () => {
+    homeMobile.classList.remove('active');
+    aboutMobile.classList.remove('active');
+    projectsMobile.classList.remove('active');
+    writingMobile.classList.add('active');
+    });
+
+}
 
 
 
