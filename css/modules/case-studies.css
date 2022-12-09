@@ -25,9 +25,9 @@
 }
 
 .case-study .container code {
-    background-color: var(--pen);
+    background-color: var(--code-block);
     color: var(--black);
-    padding: 2px;
+    padding: 2px 4px;
 }
 
 .case-study .container .mobile {
@@ -73,30 +73,21 @@
 
 
 :is(.project-goals, .psa, .update-from-the-future) {
-    padding: 20px 40px;
     margin: 10px 0;
-    background-color: var(--black);
     border-left: 2px solid var(--blue);
     color: var(--marker);
     gap: 5px;
 }
 
+.project-goals, .psa {
+    border-radius: 0;
+    padding: 20px 40px;
+}
+
 .case-study .container .update-from-the-future {
     gap: 15px;
     border-left: none;
-
-
 }
-
-/*.case-study .container .project-goals, .case-study .container .psa, .case-study .container .update-from-the-future {
-	padding: 20px 40px;
-	margin: 10px 0;
-	background-color: var(--black);
-	border-left: 2px solid var(--blue);
-	color: var(--marker);
-	gap:  5px;
-}*/
-
 
 
 .case-study .container .project-goals h2.third-level-heading {
@@ -164,14 +155,17 @@
     margin: 15px 0;
 }
 
+.case-study .container p span.red, .case-study .container p span.green {
+    color: var(--marker);
+    padding: 2px 4px;
+}
+
 .case-study .container p span.red {
     background: red;
-    color: var(--marker);
 }
 
 .case-study .container p span.green {
     background: green;
-    color: var(--marker);
 }
 
 
@@ -179,11 +173,8 @@ figure {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    background-color: var(--black);
     color: var(--marker);
-    margin: 15px;
-    padding: 30px;
-    border-radius: 0.5rem;
+   
 }
 
 figure figcaption {
