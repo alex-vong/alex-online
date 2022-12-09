@@ -90,6 +90,11 @@ $projects = [
 	]
 
 	
+		"name" => "Tip Calculator",
+		"description" => "Don't let the nightmare of calculating tip ruin what was suppose to be a wonderful dinner. This revolutionary tip calculator is a dream come true by taking the calculations out of your hands so you can enjoy the rest of your meal AND evening!",
+		"project-link" => "https://peprojects.dev/alpha-1/alexvong/php-tip-calculator/",
+		"languages" => ['php'],
+		"has-project-site" => true,
 ];
 
 
