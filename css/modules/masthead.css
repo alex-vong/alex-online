@@ -6,7 +6,7 @@ masthead .desktop {
 header {
     background-color: var(--background);
     border: 0px;
-    border-bottom: 2px solid;
+    border-bottom: 3px solid;
 
     border-image: var(--gradient);
     border-image-slice: 1;
@@ -103,7 +103,7 @@ masthead .nav-bar-mobile {
     box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
     backdrop-filter: blur(10.5px);
     -webkit-backdrop-filter: blur(10.5px);
-    border: 1px solid rgba(25, 25, 25, 0.5);
+    
 
 
 }
@@ -126,15 +126,18 @@ masthead .read-more {
 
 
 switcher {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
 
 }
 
 switcher button {
-    padding: 5px 8px;
+    padding: 0;
     border: none;
+    background: transparent;
+}
+
+switcher button i {
+    font-size: 24px;
+    color: var(--marker);
 }
 
 
