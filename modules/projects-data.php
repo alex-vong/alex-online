@@ -90,16 +90,28 @@ $projects = [
 	]
 
 	
+];
+
+$efp = [
+
+	[
 		"name" => "Tip Calculator",
 		"description" => "Don't let the nightmare of calculating tip ruin what was suppose to be a wonderful dinner. This revolutionary tip calculator is a dream come true by taking the calculations out of your hands so you can enjoy the rest of your meal AND evening!",
 		"project-link" => "https://peprojects.dev/alpha-1/alexvong/php-tip-calculator/",
 		"languages" => ['php'],
 		"has-project-site" => true,
+
+	],
+
+	[
 		"name" => "Number Guessing Game",
 		"description" => "A non-stop, action packed number guessing game that challenges users to try and guess the number locked away in the riddling mind of the game master. This game will surely have you holding your head and keeps everyone on the edge of their seats!",
 		"project-link" => "https://codepen.io/Alexv0ng/details/MWQeNgX",
 		"languages" => ['js'],
 		"has-project-site" => false,
+
+	],
+	[
 		"name" => "Retirement Calculator",
 		"description" => "Are you tired of working? Are you counting down the days until you can walk out of that office once in for all and enjoy sweet, sweet retirement? Well let this app bring that reality closer and do the calculating for you.",
 		"project-link" => "https://codepen.io/Alexv0ng/details/bGaXqgo",
@@ -142,6 +154,8 @@ $bits = [
 		"has-project-site" => true,
 
 	],
+		
+
 	[
 		"name" => "Museum of Alex Arts",
 		"description" => "Did a daily 30 minute Affinity Designer sketch challenge and put them all together in a gallery style website",
@@ -150,6 +164,7 @@ $bits = [
 		"has-project-site" => true,
 
 	],
+
 	[
 		"name" => "Real Estate Website",
 		"description" => "Created a responsive website template and styled it with a real estate theme",
