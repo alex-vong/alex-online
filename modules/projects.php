@@ -29,6 +29,25 @@
 
 	</section>
 
+	<section class="efp">
+		<h3 class="section-heading third-level-heading">Exercises for Programmers</h3>
+		
+		<p class="body-copy">Some challenges I've done from "Exercises for Programmers" by Brain P. Hogan. </p>	
+
+
+		 <section class="bits-grid">
+		 	<?php include("projects-data.php") ?> 
+
+			<?php foreach ($efp as $bit) { 
+				include("experiments-grid.php");
+		 	 } ?>
+		 	
+		 </section>
+		</a>
+
+		
+	</section>
+
 	<section class="bits">
 		<h3 class="section-heading third-level-heading">Experiments</h3>
 		
