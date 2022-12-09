@@ -6,7 +6,7 @@ if (history.scrollRestoration) {
     }
 }
 
-console.clear();
+
 
 
 const home = document.querySelector('.home');
@@ -27,6 +27,34 @@ const darkMobile = document.querySelector('.nav-bar-mobile .dark');
 console.log(light);
 console.log(dark);
 
+let theme = localStorage.getItem("chosenTheme");
+console.log(theme)
+
+if (theme === 'light') {
+        light.classList.add('hidden');
+        dark.classList.remove('hidden');
+
+        if (lightMobile) {
+            lightMobile.classList.add('hidden');
+
+        }
+
+        if (darkMobile) {
+            darkMobile.classList.remove('hidden');
+        }
+    }
+
+    if (theme == 'dark') {
+        light.classList.remove('hidden');
+        dark.classList.add('hidden');
+        if (lightMobile) {
+            lightMobile.classList.remove('hidden');
+        }
+
+        if (darkMobile) {
+            darkMobile.classList.add('hidden');
+        }
+    }
 
 
 
@@ -105,15 +133,6 @@ writing.addEventListener('click', () => {
 
 
 
-// light.addEventListener('click', ()=>{
-//   light.classList.add('hidden');
-//   dark.classList.remove('hidden');
-// });
-
-// dark.addEventListener('click', ()=>{
-//   dark.classList.add('hidden');
-//   light.classList.remove('hidden');
-// })
 
 
 function getTheme() {
