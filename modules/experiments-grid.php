@@ -9,7 +9,7 @@
 			if ($bit["has-project-site"]) { ?>
 				<a href="<?=$bit["project-link"]?>" target="_blank">
 					<picture>
-						<svg width="100%" height="100%" viewBox="0 0 537 522" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+						<svg width="100%" height="100%" viewBox="0 0 537 522" preserveAspectRatio="xMidYMid meet" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
 						    <g transform="matrix(1,0,0,1,-7873.9,-3088.05)">
 						        <g id="up-right-arrow" transform="matrix(1.23164,0,0,1.06984,-299.036,-231.554)">
 						            <rect x="6635.84" y="3102.91" width="435.283" height="487.639" style="fill:none;"/>
