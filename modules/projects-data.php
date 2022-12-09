@@ -95,6 +95,11 @@ $projects = [
 		"project-link" => "https://peprojects.dev/alpha-1/alexvong/php-tip-calculator/",
 		"languages" => ['php'],
 		"has-project-site" => true,
+		"name" => "Number Guessing Game",
+		"description" => "A non-stop, action packed number guessing game that challenges users to try and guess the number locked away in the riddling mind of the game master. This game will surely have you holding your head and keeps everyone on the edge of their seats!",
+		"project-link" => "https://codepen.io/Alexv0ng/details/MWQeNgX",
+		"languages" => ['js'],
+		"has-project-site" => false,
 ];
 
 
