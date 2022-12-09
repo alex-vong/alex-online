@@ -100,6 +100,18 @@ $projects = [
 		"project-link" => "https://codepen.io/Alexv0ng/details/MWQeNgX",
 		"languages" => ['js'],
 		"has-project-site" => false,
+		"name" => "Retirement Calculator",
+		"description" => "Are you tired of working? Are you counting down the days until you can walk out of that office once in for all and enjoy sweet, sweet retirement? Well let this app bring that reality closer and do the calculating for you.",
+		"project-link" => "https://codepen.io/Alexv0ng/details/bGaXqgo",
+		"languages" => ['js'],
+		"has-project-site" => false,
+	],
+	[
+		"name" => "Madlib Generator",
+		"description" => "Want to be the life of your next sleep over? This Madlib Generator will have all your guest rolling on the floor with laughter and guarentee that it will be what everyone is talking about come recess Monday morning!",
+		"project-link" => "https://codepen.io/Alexv0ng/details/LYeKgyz",
+		"languages" => ['js'],
+		"has-project-site" => false,
 ];
 
 
