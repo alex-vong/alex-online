@@ -112,6 +112,24 @@ $projects = [
 		"project-link" => "https://codepen.io/Alexv0ng/details/LYeKgyz",
 		"languages" => ['js'],
 		"has-project-site" => false,
+	],
+
+	[
+		"name" => "Counting Characters",
+		"description" => "For people who like programs that can tell you the number of characters in a word or sentence!",
+		"project-link" => "https://codepen.io/Alexv0ng/details/dyJBqZX",
+		"languages" => ['js'],
+		"has-project-site" => false,
+	],
+	[
+		"name" => "Saying Hello",
+		"description" => "Life moves pretty fast. if you don't stop and [say hello] once in a while, you could miss it. But you won't with this nifty greeting app!",
+		"project-link" => "https://codepen.io/Alexv0ng/full/jOYjpLm",
+		"languages" => ['js'],
+		"has-project-site" => false,
+	],
+
+
 ];
 
 
