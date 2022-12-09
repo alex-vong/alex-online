@@ -247,6 +247,10 @@ section.bits-grid .bit-card ul li {
     padding: 4px 8px;
 }
 
+section.efp h3 {
+    color: var(--purple);
+}
+
 
 
 
