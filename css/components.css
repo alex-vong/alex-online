@@ -37,18 +37,13 @@
 }
 
 
-.inter {
-    /*font-family: 'Inter', sans-serif !important;*/
-    font-weight: 600;
-}
 
-h2.inter::before {
+.case-study h2.cs-sub-heading::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f02e";
     padding-right: 8px;
     color: var(--orange);
-
 }
 
 span.bold-italic {
@@ -87,12 +82,6 @@ h1 span.occupation {
     margin-top: 10px;
 }
 
-@media (min-width: 768px) {
-    .line {
-        width: 12rem;
-
-    }
-}
 
 
 
@@ -110,8 +99,8 @@ h1 span.occupation {
 
 .contact-me a.read-more {
     padding: 10px 20px;
-    background-color: var(--bg-card);
-    color: var(--marker);
+    background-color: var(--about-btn);
+    color: var(--marker-secondary);
     font-weight: 500;
 
 }
@@ -168,6 +157,9 @@ blockquote p.body-copy span {
     margin: 5px 0 0 10px;
 }
 
+picture svg {
+    max-height: 22px;
+}
 
 
 a.read-more,
@@ -205,10 +197,12 @@ a.read-more,
     margin: 60px 0 120px;
 }
 
-.bg-gradient {
-    background-image: var(--bg-gradient);
+.box-shadow {
     padding: 30px;
     border-radius: 0.5rem;
+    border: 1px solid var(--card-border);
+    background: var(--bg-gradient);
+    box-shadow: var(--box-shadow-primary), var(--box-shadow-secondary);
 }
 
 
@@ -222,21 +216,23 @@ a.read-more,
 
 @media (min-width: 700px) {
 
-
     .inside-part {
         max-width: 42ch;
     }
 
-/*    blockquote {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        width: 67%;
-        margin: 0 auto;
-        padding: 30px;
-    }*/
-
 }
+
+@media (min-width: 768px) {
+    .line {
+        width: 12.7rem;
+
+    }
+
+    project-card.box-shadow {
+        padding: 40px 30px;
+    }
+}
+
 
 @media (min-width: 1000px) {
 
