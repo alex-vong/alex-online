@@ -1,22 +1,19 @@
  <section class="weather-app case-study">
 		<section class="container">
 			<div class="cs-heading">
-				<ul class="body-copy languages inter">
-					<li class='html'>HTML</li>
-					<li class='css'>CSS</li>
-					<li class='js'>JavaScript</li>
-				</ul>
+				<?php include('language-tags.php') ?>
+
 		
 				<h1 class="second-level-heading">A JavaScript Weather App that shows real time weather data for any inputted city.</h1>
 
-				<h2 class="body-copy inter">Weather App Case Study</h2>
+				<h2 class="body-copy cs-sub-heading">Weather App Case Study</h2>
 					
 			
 			</div>
 
 			<div class="cs-intro">
 
-				<div class="project-goals">
+				<div class="project-goals box-shadow">
 					<h2 class="third-level-heading">#Project-Goals</h2>
 					<p class="body-copy">Enhance my knowledge of fetch APIs, call back functions, and Asynchronous JavaScript by utilizing AccuWeather's API to get weather information on a city that the user types in.</p>
 
@@ -185,7 +182,7 @@
 				
 			</div>
 
-			<div class="over-coming-challenges">
+			<div class="over-coming-challenges box-shadow">
 				<h2 class="third-level-heading">#Overcoming-Challenges</h2>
 				<div class="challenge challenge-1">
 					<h3 class="fourth-level-heading drophead">##API-Key-Limits</h3>
@@ -219,7 +216,7 @@
 				
 			</div>
 
-			<div class="tools-resources">
+			<div class="tools-resources box-shadow">
 						<h4 class="fourth-level-heading drophead">##Tools and Resources Used:</h4>
 						<ul class="tools body-copy"> 
 							<li>HTML</li>

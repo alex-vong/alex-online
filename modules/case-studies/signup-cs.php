@@ -1,19 +1,15 @@
  <section class="signup-cs case-study">
 		<section class="container">
 			<div class="cs-heading">
-				<ul class="body-copy languages inter">
-					<li class='html'>HTML</li>
-					<li class='css'>CSS</li>
-					<li class='js'>JavaScript</li>
-				</ul>
+				<?php include('language-tags.php') ?>
 		
 				<h1 class="second-level-heading">An interactive and fully responsive signup form incorporating JS Event Handlers and RegEx testing </h1>
-				<h2 class="body-copy inter">JS Signup Form Case Study</h2>
+				<h2 class="body-copy cs-sub-heading">JS Signup Form Case Study</h2>
 			</div>
 
 			<div class="cs-intro">
 
-				<div class="project-goals">
+				<div class="project-goals box-shadow">
 					<h2 class="third-level-heading">#Project-Goals</h2>
 					<p class="body-copy">Create a sign up form to better understand how forms work after user clicks submit, the use of Javascript event handler’s role with them, and implementing Regular Expressions and functions to test form inputs.</p>
 
@@ -60,7 +56,7 @@
 				<h2 class="third-level-heading">
 					#Design
 				</h2>
-				<figure>
+				<figure class="box-shadow">
 				    <blockquote>
 				        <p class="body-copy">"Making every page or screen self-evident is like having good lighting in a store: it just makes everything seem better."</p>
 				    </blockquote>
@@ -104,7 +100,7 @@
 
 			<div class="functionality">
 				<h2 class="third-level-heading"> #Functionality </h2>
-				<figure>
+				<figure class="box-shadow">
 				    <blockquote>
 				        <p class="body-copy">"If something requires a large investment of time — or looks like it will — it’s less likely to be used."</p>
 				    </blockquote>
@@ -180,7 +176,7 @@
 				
 			</div>
 
-		    <div class="tools-resources">
+		    <div class="tools-resources box-shadow">
 				<h4 class="fourth-level-heading drophead">##Tools and Resources Used:</h4>
 				<ul class="tools body-copy"> 
 					<li>HTML</li>

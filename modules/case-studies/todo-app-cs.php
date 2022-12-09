@@ -1,21 +1,18 @@
  <section class="todo-app case-study">
 		<section class="container">
 			<div class="cs-heading">
-				<ul class="body-copy languages inter">
-					<li class='html'>HTML</li>
-					<li class='css'>CSS</li>
-					<li class='js'>JavaScript</li>
-				</ul>
+				<?php include('language-tags.php') ?>
+
 		
 				<h1 class="second-level-heading">A Todo List Application incorporating the fundamentals of the CRUD operations</h1>
 
-				<h2 class="body-copy inter">Todo List Application Case Study</h2>
+				<h2 class="body-copy cs-sub-heading">Todo List Application Case Study</h2>
 			
 			</div>
 
 			<div class="cs-intro">
 
-				<div class="project-goals">
+				<div class="project-goals box-shadow">
 					<h2 class="third-level-heading">#Project-Goals</h2>
 					<p class="body-copy">Build a todo list application that follows the 4 principal CRUD operations: Create, Read, Update, and Delete. And learn a thing or two about CRUD along the way to be able to think more like a programmer</p>
 
@@ -201,11 +198,11 @@
 				
 				</div>
 
-				<div class="psa">
+				<div class="psa box-shadow">
 					<p class="body-copy">I do realize that the approach I used to edit the task is not the best. First off, I am not truly editing the task but instead just creating a new one and deleting the old one. The way I am doing it is not true editing. At the time of writing this case study and working in this application, I do not have another solution. I do not want to get fixated on trying to solve this issue but rather try and finish the applicastion and this case tudy. I will be sure to come back at a later time to find a better solution and update this case study.</p>
 				</div>
 
-				<div class="update-from-the-future">
+				<div class="update-from-the-future box-shadow">
 					<h3 class="fourth-level-heading drophead">##Update-From-The-Future</h3>
 					
 						<p class="body-copy">After playing around with the code and looking up possible solutions on <strong>Stack Overflow</strong>, I was able to find another approach to edit task. This new approach changed the selected task rather than just create and push a new one and deleting the old one.
@@ -273,7 +270,7 @@
 
 			</div>
 
-			<div class="tools-resources">
+			<div class="tools-resources box-shadow">
 						<h4 class="fourth-level-heading drophead">##Tools and Resources Used:</h4>
 						<ul class="tools body-copy"> 
 							<li>HTML</li>
