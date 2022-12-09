@@ -19,9 +19,15 @@ const homeMobile = document.querySelector('.home-mobile');
 const aboutMobile = document.querySelector('.about-mobile');
 const projectsMobile = document.querySelector('.projects-mobile');
 const writingMobile = document.querySelector('.writing-mobile');
+const mobileNav = document.querySelector('.nav-bar-mobile');
 
 const greeting = document.querySelector('.greeting');
 
+const light = document.querySelector('.light');
+const dark = document.querySelector('.dark');
+
+const lightMobile = document.querySelector('.nav-bar-mobile .light');
+const darkMobile = document.querySelector('.nav-bar-mobile .dark');
 let newDate = new Date();
   // newDate.setHours(14);
   let hour = newDate.getHours();
@@ -35,8 +41,7 @@ window.addEventListener("load", (event) => {
   }
 
   if (hour >= 4 && hour <= 7) {
-    setGreeting = `Greetings, Early 🐣`;
-    renderGreeting(setGreeting);
+    setGreeting = `Greetings, Early 🐣`;    renderGreeting(setGreeting);
 
   }
 
