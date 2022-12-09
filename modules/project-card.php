@@ -31,7 +31,7 @@
 
 						<a href="<?=$project["github-repo"]?>" class="body-copy" target="_blank">
 							<picture>
-									<svg width="100%" height="100%" preserveAspectRatio="xMidYMin"viewBox="0 0 537 522" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;">
+									<svg width="22px" height="22px" preserveAspectRatio="xMidYMin"viewBox="0 0 537 522" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;">
 									    <g transform="matrix(1,0,0,1,-7889.86,-3674.99)">
 									        <g id="github-logo" transform="matrix(1.23164,0,0,1.06984,-283.074,355.385)">
 									            <rect x="6635.84" y="3102.91" width="435.283" height="487.639" preserveAspectRatio="none" style="fill:none; "/>
@@ -47,7 +47,7 @@
 
 						<a href="<?=$project["project-link"]?>" class="body-copy" target="_blank">
 							<picture>
-								<svg width="100%" height="100%" viewBox="0 0 537 522" preserveAspectRatio="xMidYMid meet" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+								<svg width="22px" height="22px" viewBox="0 0 537 522" preserveAspectRatio="xMidYMid meet" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
 								    <g transform="matrix(1,0,0,1,-7873.9,-3088.05)">
 								        <g id="up-right-arrow" transform="matrix(1.23164,0,0,1.06984,-299.036,-231.554)">
 								            <rect x="6635.84" y="3102.91" width="435.283" height="487.639"  preserveAspectRatio="none" style="fill:none;"/>
