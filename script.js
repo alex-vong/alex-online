@@ -14,11 +14,6 @@ const about = document.querySelector('.about');
 const projects = document.querySelector('.projects');
 const writing = document.querySelector('.writing');
 
-
-const homeMobile = document.querySelector('.home-mobile');
-const aboutMobile = document.querySelector('.about-mobile');
-const projectsMobile = document.querySelector('.projects-mobile');
-const writingMobile = document.querySelector('.writing-mobile');
 const mobileNav = document.querySelector('.nav-bar-mobile');
 
 const greeting = document.querySelector('.greeting');
@@ -28,6 +23,13 @@ const dark = document.querySelector('.dark');
 
 const lightMobile = document.querySelector('.nav-bar-mobile .light');
 const darkMobile = document.querySelector('.nav-bar-mobile .dark');
+
+console.log(light);
+console.log(dark);
+
+
+
+
 let newDate = new Date();
   // newDate.setHours(14);
   let hour = newDate.getHours();
@@ -35,13 +37,16 @@ let newDate = new Date();
 
   
 window.addEventListener("load", (event) => {
+
+  if (greeting) {
   if (hour >= 0 && hour <= 3) {
     setGreeting = `Hello, Night 🦉`;
     renderGreeting(setGreeting);
   }
 
   if (hour >= 4 && hour <= 7) {
-    setGreeting = `Greetings, Early 🐣`;    renderGreeting(setGreeting);
+    setGreeting = `Greetings, Early 🐣`;
+    renderGreeting(setGreeting);
 
   }
 
@@ -59,6 +64,7 @@ window.addEventListener("load", (event) => {
     setGreeting = `Good Evening 🥃`;
     renderGreeting(setGreeting);
   }
+}
 
 });
 
@@ -99,7 +105,15 @@ writing.addEventListener('click', ()=> {
 
 
 
+// light.addEventListener('click', ()=>{
+//   light.classList.add('hidden');
+//   dark.classList.remove('hidden');
+// });
 
+// dark.addEventListener('click', ()=>{
+//   dark.classList.add('hidden');
+//   light.classList.remove('hidden');
+// })
 
 
 function getTheme() {
@@ -109,14 +123,42 @@ function getTheme() {
 function setTheme(name) {
   window.localStorage.setItem('chosenTheme', name);
   document.body.dataset.theme = name;
+  var theme = document.body.dataset.theme;
+  document.cookie = "theme=" + theme;
 
+  console.log(theme);
 
+  console.log(light);
+  console.log(dark);
 
+  if (theme === 'light') {
+      light.classList.add('hidden');
+        dark.classList.remove('hidden');
 
+        if (lightMobile) {
+            lightMobile.classList.add('hidden');
 
+        }
 
+        if(darkMobile) {
+          darkMobile.classList.remove('hidden');
+       }
+  }
+
+  if (theme == 'dark') {
+        light.classList.remove('hidden');
+        dark.classList.add('hidden');
+        if (lightMobile) {
+            lightMobile.classList.remove('hidden');
+        }
+
+        if(darkMobile) {
+          darkMobile.classList.add('hidden');
+       }
+  }
 
 }
+
 
 /* set chosen theme on page load */
 if ( getTheme() ) {
@@ -126,7 +168,24 @@ if ( getTheme() ) {
 
 window.addEventListener('click', function(selected) {
 
+  if ( selected.target.matches('switcher button svg') ) {
     console.clear();
     var selectedScheme = selected.target.dataset.scheme;
     setTheme(selectedScheme);
   }
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
