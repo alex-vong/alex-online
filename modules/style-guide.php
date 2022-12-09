@@ -1,13 +1,13 @@
 
 
-<section class="style-guide">
-	<inner-column>
+<section class="style-guide case-study">
+	
 
 		<section class="headline">
 			<h1 class="section-heading top-level-heading"> Style Guide</h1>
 			<div>
 				<p class="sg-intro body-copy">
-				This style guide page will serve as a resource template for all the design elements, choices, and rules for <a href="https://alexvong.dev" target="_blank">alexvong.dev</a>
+				This style guide page will serve as a resource template for all the design elements, choices, and rules for <span><a href="https://alexvong.dev" target="_blank">alexvong.dev</a></span>
 				</p>
 			</div>
 
@@ -136,7 +136,7 @@
 		</section>
 		
 
-	</inner-column>
+	
 </section>
 
 
