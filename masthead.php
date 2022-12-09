@@ -22,7 +22,7 @@
 				?>
 
 				<?php 
-					if ($page == "about" || $page == "projects" || $page == "writing") { ?>
+					if ($page && $page != "home") { ?>
 						<div class="nav-links">
 						<a href="?page=home" class="home quiet-voice <?php if ($page == "home") { echo "active"; } ?>"><span class="<?php if ($page == "home") { echo "active"; } ?>">Home</span></a>
 					<a href="?page=about" class="about quiet-voice <?php if ($page == "about") { echo "active"; } ?>"><span>About</span></a>	
@@ -32,18 +32,13 @@
 				<?php }
 				 ?>
 
-				
+				 <?php include('modules/switcher.php') ?>
 
-<!-- 				<div class="theme-switcher">
-					<button data-scheme='day'>
-						<i class="fa-solid fa-sun"></i>
-					</button>
-
-					<button data-scheme='day'>
-						<i class="fa-solid fa-moon"></i>
-					</button>
-				</div> -->
 			</nav> 
+
+
+
+				
 
 			<a href="../images/Alex-Vong-Resume.pdf" 
 			   class="read-more quiet-voice resume <?php if ($page == "signup-cs" || $page == "weather-app-cs" || $page == "todo-app-cs") { echo "hidden"; } ?>" 
@@ -53,28 +48,31 @@
 
 
 
+
+
 			<?php 
 				if ($page != 'todo-app-cs' && $page != 'weather-app-cs' && $page != 'signup-cs' && $page != 'style-guide' ) { ?>
 		
 					<nav class="nav-bar nav-bar-mobile">
 						<?php 
 							if ($page == "home") { ?>
-								<a href="#" class="home-mobile body-copy <?php if ($page == "home") { echo "active"; } ?>">
-										<i class="fa-solid fa-house"></i>
+								<a href="#home" class=" body-copy <?php if ($page == "home") { echo "active"; } ?>">
+									<i class="fa-solid fa-house"></i>
 								</a>
 
 								<a href="#about" class="about-mobile body-copy">
-										<i class="fa-regular fa-address-card"></i>
+										<!-- <i class="fa-regular fa-address-card"></i> -->
+									<i class="fa-regular fa-user padding-r"></i>
 								</a>	
 								<a href="#projects" class="projects-mobile body-copy">
-										<i class="fa-regular fa-folder"></i>
+									<i class="fa-regular fa-folder"></i>
 								</a>
 
 								<a href="#writing" class="writing-mobile body-copy">
-										<!-- <i class="fa-regular fa-newspaper"></i> -->
-										<i class="fa-regular fa-keyboard"></i>
-
+									
+									<i class="fa-regular fa-pen-to-square"></i>
 								</a>
+
 							<?php }
 						 ?>
 
@@ -95,12 +93,15 @@
 								</a>
 
 								<a href="?page=writing" class="writing body-copy <?php if ($page == "writing") { echo "active"; } ?>">
-										<i class="fa-regular fa-keyboard"></i>
+										<i class="fa-regular fa-pen-to-square"></i>
+
 
 								</a>
 							<?php }
 						 ?>
-					
+
+
+						<?php include('modules/switcher.php') ?>
 						
 					</nav>
 
