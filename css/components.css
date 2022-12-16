@@ -104,14 +104,13 @@ a.read-more {
 .contact-me a.read-more {
     padding: 10px 20px;
     background-color: var(--about-btn);
-    color: var(--marker-secondary);
-    font-weight: 500;
+    color: var(--alt-marker);
 
 }
 
 .contact-me a.contact {
-    background: var(--blue);
-    color: var(--bg-card);
+    background: var(--contact-bg);
+    color: var(--marker-secondary);
 }
 
 
