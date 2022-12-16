@@ -32,19 +32,18 @@
 				<?php }
 				 ?>
 
-				 <?php include('modules/switcher.php') ?>
 
 			</nav> 
-
-
-
-				
 
 			<a href="../images/Alex-Vong-Resume.pdf" 
 			   class="read-more quiet-voice resume <?php if ($page == "signup-cs" || $page == "weather-app-cs" || $page == "todo-app-cs") { echo "hidden"; } ?>" 
 			   target="_blank">
 				<i class="fa-regular fa-file-lines padding-r"></i>Resume
 			</a>
+
+				 <?php include('modules/switcher.php') ?>
+				
+
 
 
 
@@ -101,7 +100,7 @@
 						 ?>
 
 
-						<?php include('modules/switcher.php') ?>
+						
 						
 					</nav>
 
