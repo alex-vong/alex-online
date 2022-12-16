@@ -93,13 +93,12 @@ masthead .nav-bar-mobile {
     transform: translate(-50%, 50%);
     z-index: 1000;
 
-    background: var(--bg-card);
     border-radius: 0.75rem;
     width: 70%;
     margin: auto;
     padding: 1rem 1.25rem;
 
-    background: var(--masthead-bg);
+    background: var(--black);
     box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
     backdrop-filter: blur(10.5px);
     -webkit-backdrop-filter: blur(10.5px);
@@ -109,7 +108,7 @@ masthead .nav-bar-mobile {
 }
 
 masthead .nav-bar-mobile a {
-    color: var(--marker);
+    color: var(--alt-marker);
     font-size: 20px;
 }
 
@@ -125,7 +124,6 @@ masthead .read-more {
 }
 
 
-switcher {}
 
 switcher button {
     padding: 0;
