@@ -1,24 +1,32 @@
 <div class="bit-card">
 
-
 		<bit-card-icons>
-			<i class="fa-solid fa-flask"></i>
+
+			<?php 
+				if ($bit["efp"]) { ?>
+					<i class="fa-solid fa-person-walking"></i>
+
+
+				<?php } else { ?>
+					<i class="fa-solid fa-flask"></i>
+				<?php } ?>
+
 
 			<?php 
 
-			if ($bit["has-project-site"]) { ?>
-				<a href="<?=$bit["project-link"]?>" target="_blank">
-					<i class="fa-solid fa-arrow-up-right-from-square"></i>
-					
-				</a>
-			 <?php }
+				if ($bit["has-project-site"]) { ?>
+					<a href="<?=$bit["project-link"]?>" target="_blank">
+						<i class="fa-solid fa-arrow-up-right-from-square"></i>
+						
+					</a>
+				 <?php }
 
-			 else { ?>
-				<a href="<?=$bit["project-link"]?>" target="_blank">
-					<i class="fa-brands fa-codepen"></i>
-				</a>
+				 else { ?>
+					<a href="<?=$bit["project-link"]?>" target="_blank">
+						<i class="fa-brands fa-codepen"></i>
+					</a>
 
-			 <?php 
+				 <?php 
 
 			} ?>
 

@@ -100,6 +100,7 @@ $efp = [
 		"project-link" => "https://peprojects.dev/alpha-1/alexvong/php-tip-calculator/",
 		"languages" => ['php'],
 		"has-project-site" => true,
+		"efp" => true,
 
 	],
 
@@ -109,6 +110,8 @@ $efp = [
 		"project-link" => "https://codepen.io/Alexv0ng/details/MWQeNgX",
 		"languages" => ['js'],
 		"has-project-site" => false,
+		"efp" => true,
+
 
 	],
 	[
@@ -117,6 +120,8 @@ $efp = [
 		"project-link" => "https://codepen.io/Alexv0ng/details/bGaXqgo",
 		"languages" => ['js'],
 		"has-project-site" => false,
+		"efp" => true,
+
 	],
 	[
 		"name" => "Madlib Generator",
@@ -124,6 +129,8 @@ $efp = [
 		"project-link" => "https://codepen.io/Alexv0ng/details/LYeKgyz",
 		"languages" => ['js'],
 		"has-project-site" => false,
+		"efp" => true,
+
 	],
 
 	[
@@ -132,6 +139,8 @@ $efp = [
 		"project-link" => "https://codepen.io/Alexv0ng/details/dyJBqZX",
 		"languages" => ['js'],
 		"has-project-site" => false,
+		"efp" => true,
+
 	],
 	[
 		"name" => "Saying Hello",
@@ -139,6 +148,8 @@ $efp = [
 		"project-link" => "https://codepen.io/Alexv0ng/full/jOYjpLm",
 		"languages" => ['js'],
 		"has-project-site" => false,
+		"efp" => true,
+		
 	],
 
 
