@@ -37,7 +37,7 @@ masthead {
     padding: 20px 0 10px;
 }
 
-masthead .nav-bar-desktop {
+masthead .nav-bar-desktop .nav-links {
     display:  none;
 }
 
@@ -138,8 +138,22 @@ switcher button {
 switcher button i {
     font-size: 24px;
     color: var(--marker);
+    position: relative;
 }
 
+switcher button.dark i:after {
+ position: absolute;
+    content: '';
+    left: -4px;
+    top: 45%;
+    right: -4px;
+    border-top: 3px solid;
+    border-color: inherit;
+    -webkit-transform: skewY(-10deg);
+    -moz-transform: skewY(-10deg);
+    transform: skewY(-40deg);
+
+}
 
 
 @media (min-width: 768px) {
