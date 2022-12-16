@@ -97,6 +97,10 @@ h1 span.occupation {
 
 }
 
+a.read-more {
+    font-weight: 600;
+}
+
 .contact-me a.read-more {
     padding: 10px 20px;
     background-color: var(--about-btn);
