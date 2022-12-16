@@ -38,7 +38,7 @@ masthead {
 }
 
 masthead .nav-bar-desktop .nav-links {
-    display:  none;
+    display: none;
 }
 
 masthead a.logo {
@@ -46,7 +46,7 @@ masthead a.logo {
 }
 
 .blur {
-   background: inherit;
+    background: inherit;
 }
 
 .blur:before {
@@ -57,13 +57,13 @@ masthead a.logo {
     right: 0;
     bottom: 1px;
     /*background-color: rgba(17, 17, 17, .35);*/
-   background-color: rgba(var(--bg-rgb), .35);
+    background-color: rgba(var(--bg-rgb), .35);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(3px);
     filter: blur(3px);
     z-index: -1;
 
-  
+
 }
 
 masthead .intro-voice {
@@ -85,7 +85,7 @@ masthead nav {
 masthead .nav-bar-mobile {
 
     justify-content: space-around;
-    gap:  10px;
+    gap: 10px;
     position: fixed;
     bottom: 50px;
     left: 50%;
@@ -99,11 +99,11 @@ masthead .nav-bar-mobile {
     margin: auto;
     padding: 1rem 1.25rem;
 
-    background: rgba(25, 25, 25, 0.52);
+    background: var(--masthead-bg);
     box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
     backdrop-filter: blur(10.5px);
     -webkit-backdrop-filter: blur(10.5px);
-    
+
 
 
 }
@@ -125,9 +125,7 @@ masthead .read-more {
 }
 
 
-switcher {
-
-}
+switcher {}
 
 switcher button {
     padding: 0;
@@ -142,7 +140,7 @@ switcher button i {
 }
 
 switcher button.dark i:after {
- position: absolute;
+    position: absolute;
     content: '';
     left: -4px;
     top: 45%;

@@ -51,6 +51,7 @@ body {
         --alt-marker: #191919;
         --alt-pen: #2e2e2e;
         --alt-link-bg: #b1b1b1;
+        --masthead-bg:  rgba(25, 25, 25, 0.52);
 
     }
 
@@ -97,6 +98,8 @@ body {
         --pen: #292929;
         --code-block:  #ddd;
 
+        --masthead-bg: rgba(177 177 177 / 0.82);
+
     }
 
     .style-guide li {
@@ -137,6 +140,8 @@ body {
         --alt-marker: #191919;
         --alt-pen: #2e2e2e;
         --alt-link-bg: #b1b1b1;
+        --masthead-bg:  rgba(25, 25, 25, 0.52);
+        
 
 }
 
@@ -175,6 +180,8 @@ body {
 
         --pen: #292929;
         --code-block:  #ddd;
+        --masthead-bg: rgba(177 177 177 / 0.82);
+
 }
 
 
