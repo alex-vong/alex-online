@@ -32,7 +32,7 @@
 	<section class="efp">
 		<h3 class="section-heading third-level-heading">Exercises for Programmers</h3>
 		
-		<p class="body-copy">Some challenges I've done from "Exercises for Programmers" by Brain P. Hogan. </p>	
+		<p class="body-copy">Some challenges I've done from "Exercises for Programmers" by Brian P. Hogan. </p>	
 
 
 		 <section class="bits-grid">
