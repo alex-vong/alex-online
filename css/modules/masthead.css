@@ -121,7 +121,7 @@ masthead nav a.active {
 masthead .read-more {
     background: var(--orange);
     color: var(--bg-card);
-    font-weight: 500;
+    
 }
 
 

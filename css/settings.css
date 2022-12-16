@@ -24,7 +24,7 @@ body {
         --white: #f2f2f2;
         --bg-card: #191919;
         --marker: #eaeaea;
-        --marker-secondary: #eaeaea;
+        --marker-secondary: #191919;
         --card-border: #191919;
         --about-btn: #191919;
         --code-block:  #ddd;
@@ -52,6 +52,8 @@ body {
         --alt-pen: #2e2e2e;
         --alt-link-bg: #b1b1b1;
         --masthead-bg:  rgba(25, 25, 25, 0.52);
+        --contact-bg: #1DA1F2;
+
 
     }
 
@@ -99,6 +101,8 @@ body {
         --code-block:  #ddd;
 
         --masthead-bg: rgba(177 177 177 / 0.82);
+        --contact-bg: #8F48EB;
+
 
     }
 
@@ -113,7 +117,8 @@ body {
         --white: #f2f2f2;
         --bg-card: #191919;
         --marker: #eaeaea;
-        --marker-secondary: #eaeaea;
+        --alt-marker: #eaeaea;
+        --marker-secondary: #191919;
         --card-border: #191919;
         --about-btn: #191919;
         --code-block:  #ddd;
@@ -137,11 +142,12 @@ body {
         --alt-black: #191919;
         --alt-white: #f2f2f2;
         --alt-bg-card: #F3F3F3;
-        --alt-marker: #191919;
+    
         --alt-pen: #2e2e2e;
         --alt-link-bg: #b1b1b1;
         --masthead-bg:  rgba(25, 25, 25, 0.52);
-        
+        --contact-bg: #1DA1F2;
+
 
 }
 
@@ -150,7 +156,6 @@ body {
         --alt-black: #191919;
         --alt-white: #f2f2f2;
         --alt-bg-card: #191919;
-        --alt-marker: #eaeaea;
         --alt-pen: #b1b1b1;
         --alt-link-bg: #242424;
         --gradient: linear-gradient(to right, #E39600, #EA4C89, #8F48EB, #1DA1F2);
@@ -176,11 +181,13 @@ body {
         --about-btn: #191919;
     
         --marker:  #191919;
+        --alt-marker: #fff;
         --marker-secondary: #ffff;
 
         --pen: #292929;
         --code-block:  #ddd;
         --masthead-bg: rgba(177 177 177 / 0.82);
+        --contact-bg: #8F48EB;
 
 }
 
