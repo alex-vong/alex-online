@@ -148,12 +148,14 @@ masthead .read-more {
 switcher button {
     padding: 0;
     border: none;
-    background: transparent;
+    background-color: transparent;
+    padding-right: 5px;
+
 }
 
 switcher button i {
     font-size: 24px;
-    color: var(--marker);
+    color: var(--alt-marker);
     position: relative;
 }
 
@@ -178,7 +180,7 @@ switcher button.dark i:after {
         display: none;
     }
 
-    masthead .nav-bar-desktop {
+    masthead .nav-bar-desktop .nav-links {
         display: flex;
         gap: 20px;
     }
