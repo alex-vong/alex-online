@@ -124,6 +124,26 @@ masthead .read-more {
 }
 
 
+@media (max-width:  400px) {
+
+     switcher {
+        display: flex;
+        background-color: var(--black);
+        padding: 8px 16px;
+        border-radius: 0.5rem 0 0 0.5rem;
+
+        position: fixed;
+        right: 0;
+        top: 5rem;
+    }   
+
+    switcher button {
+    padding-right: 5px;
+
+}
+}
+
+
 
 switcher button {
     padding: 0;
