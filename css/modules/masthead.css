@@ -114,7 +114,6 @@ masthead .nav-bar-mobile a {
 
 masthead nav a.active {
     padding-bottom: 2px;
-    border-bottom: 2px solid var(--orange);
     border-bottom: 3px solid var(--orange);
 }
 
@@ -123,27 +122,6 @@ masthead .read-more {
     color: var(--bg-card);
     
 }
-
-
-@media (max-width:  400px) {
-
-     switcher {
-        display: flex;
-        background-color: var(--black);
-        padding: 8px 16px;
-        border-radius: 0.5rem 0 0 0.5rem;
-
-        position: fixed;
-        right: 0;
-        top: 5rem;
-    }   
-
-    switcher button {
-    padding-right: 5px;
-
-}
-}
-
 
 
 switcher button {
@@ -156,7 +134,7 @@ switcher button {
 
 switcher button i {
     font-size: 24px;
-    color: var(--alt-marker);
+    color: var(--marker);
     position: relative;
 }
 
@@ -172,6 +150,32 @@ switcher button.dark i:after {
     -moz-transform: skewY(-10deg);
     transform: skewY(-40deg);
 
+}
+
+
+
+@media (max-width: 400px) {
+
+     switcher {
+        display: flex;
+        background-color: var(--black);
+        padding: 8px 16px;
+        border-radius: 0.5rem 0 0 0.5rem;
+
+        position: fixed;
+        right: 0;
+        top: 5rem;
+    }   
+
+    switcher button {
+        padding-right: 5px;
+
+    }
+
+    switcher button i{
+        color: var(--alt-marker);
+
+    }
 }
 
 
