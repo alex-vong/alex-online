@@ -51,7 +51,7 @@
 	<section class="bits">
 		<h3 class="section-heading third-level-heading">Experiments</h3>
 		
-		<p class="body-copy">Random Snippets of Code and Experimental Bits. </p>	
+		<p class="body-copy">Random snippets of code and experimental bits</p>	
 
 
 		 <section class="bits-grid background">
