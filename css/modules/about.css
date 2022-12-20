@@ -6,6 +6,10 @@
 	height: 80vh;
 }
 
+.about {
+    grid-gap: 20px;
+}
+
 
 
 .about-landing .profile-pic {
@@ -62,12 +66,13 @@
 
 .about-me {
     flex-direction: column;
+    grid-gap: 20px;
 }
 
 
 .my-bg {
     flex-direction: column;
-    grid-gap: 15px;
+    grid-gap: 10px;
 
 }
 
