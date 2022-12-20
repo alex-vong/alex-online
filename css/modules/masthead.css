@@ -92,7 +92,7 @@ masthead .nav-bar-mobile {
     justify-content: space-around;
     gap: 10px;
     position: fixed;
-    bottom: 50px;
+    bottom: 5%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, 50%);
@@ -101,7 +101,7 @@ masthead .nav-bar-mobile {
     border-radius: 0.75rem;
     width: 70%;
     margin: auto;
-    padding: 1rem 1.25rem;
+    padding: 1.25rem;
 
     background: var(--black);
     box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
