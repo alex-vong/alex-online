@@ -65,7 +65,7 @@ $projects = [
 		"description" => "A collection of responsive components found on various websites in the wild and replicated to better understand responsive layouts & designs",
 		"project-link" => "https://alexvong.dev/modules/responsive-layout-collection/",
 		"github-repo" => "https://github.com/c0debrew-sky/js-signup-page",
-		"case-study" => "https://peprojects.dev/alpha-1/alexvong/30day-responsive-layout-challenge/",
+		"case-study" => false,
 		"image" => "images/layoutgarden.svg",
 		"hot" => false,
 		"featured" => true,
@@ -76,7 +76,7 @@ $projects = [
 
 		[
 		"name" => "PokeDex",
-		"description" => "I like Pokemon so I created my own PokeDex featuring the original 151 pocket monsters.",
+		"description" => "A Pokedex of the original 151 pokemon complete with their own details page. Goal was to import and filter through a JSON file and render it's contents onto the DOM.",
 		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
 		"github-repo" => false,
 		"case-study" => false,
@@ -216,6 +216,19 @@ $bits = [
 
 $latestBlog = [
 		[
+		"title" => "Making a Styles-Guide",
+		"month" => "Sep",
+		"day" => "27th",
+		"year" => 2022,
+		"link" => "https://alextalk.substack.com/p/style-guide-101",
+		"headline" => "On today's episode we talk about Web Style Guides, what they are, why they are important, and just how to make our own. Stay tuned!",
+		"read-time" => 5,
+		"preview" => "A website style guide outlines a comprehensive set of standards for a company for its brand identity and how those identities are expressed on its website. Within those standards are a set of rules or guidelines for how its visual elements should be used throughout its site. These rules or guidelines are typically used as references for anyone who works on the website so that there will be a clear understanding for the page design...",
+		"demo" => false,
+		"front-page" => true,
+	],
+	
+		[
 		"title" => "Todo List App Case Study",
 		"month" => "Nov",
 		"day" => "25th",
@@ -289,19 +302,6 @@ $latestBlog = [
 		"read-time" => 4,
 		"demo" => false,
 		"front-page" => false,
-	],
-
-	[
-		"title" => "Making a Styles-Guide",
-		"month" => "Sep",
-		"day" => "27th",
-		"year" => 2022,
-		"link" => "https://alextalk.substack.com/p/style-guide-101",
-		"headline" => "On today's episode we talk about Web Style Guides, what they are, why they are important, and just how to make our own. Stay tuned!",
-		"read-time" => 5,
-		"preview" => "A website style guide outlines a comprehensive set of standards for a company for its brand identity and how those identities are expressed on its website. Within those standards are a set of rules or guidelines for how its visual elements should be used throughout its site. These rules or guidelines are typically used as references for anyone who works on the website so that there will be a clear understanding for the page design...",
-		"demo" => false,
-		"front-page" => true,
 	],
 
 	[
