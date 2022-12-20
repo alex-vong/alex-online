@@ -27,7 +27,12 @@
 					<div class='line'></div>
 					<div class="project-card-links">
 						
-					    <a href="<?=$project["case-study"]?>" class="quiet-voice read-more" target="_blank">Case Study</a>
+						<?php 
+							if ($project["case-study"]) { ?>
+					    		<a href="<?=$project["case-study"]?>" class="quiet-voice read-more" target="_blank">Case Study</a>
+							<?php };
+
+						 ?>
 
 						<a href="<?=$project["github-repo"]?>" class="body-copy" target="_blank">
 							<picture>
