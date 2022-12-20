@@ -1,6 +1,6 @@
-masthead .desktop {
-    /*display:  none;*/
-}
+masthead * {
+    display:  flex;
+    }
 
 
 header {
@@ -43,6 +43,11 @@ masthead .nav-bar-desktop .nav-links {
 
 masthead a.logo {
     flex-grow: 3;
+}
+
+.other-stuff {
+    grid-gap: 15px;
+    align-items: center;
 }
 
 .blur {
@@ -156,7 +161,7 @@ switcher button.dark i:after {
 
 @media (max-width: 500px) {
 
-     switcher {
+/*     switcher {
         display: flex;
         background-color: var(--black);
         padding: 8px 16px;
@@ -164,18 +169,14 @@ switcher button.dark i:after {
 
         position: fixed;
         right: 0;
-        top: 4.1rem;
+        top: 4.45rem;
     }   
-
-    switcher button {
+*/
+/*    switcher button {
         padding-right: 5px;
 
-    }
+    }*/
 
-    switcher button i{
-        color: var(--alt-marker);
-
-    }
 }
 
 
