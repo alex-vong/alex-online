@@ -113,6 +113,10 @@ a.read-more {
     color: var(--marker-secondary);
 }
 
+span.emphasis {
+    font-weight: 600;
+}
+
 
 i.padding-r {
     padding-right: 8px;
@@ -206,6 +210,12 @@ a.read-more,
     border: 2px solid var(--card-border);
     background: var(--bg-gradient);
     box-shadow: var(--box-shadow-primary), var(--box-shadow-secondary);
+}
+
+
+p span.block {
+    display: block;
+    margin: 15px 0;
 }
 
 
