@@ -10,7 +10,7 @@
 			
 
 				<p class="body-copy intro">
-					I am Front-End Web Developer passionate about creating intuitive and responsive websites. Welcome to my small corner of the internet. Hope you enjoy your visit.
+					I am <span class="emphasis">Front-End Web Developer</span> passionate about creating intuitive and responsive websites. Welcome to my small corner of the internet. Hope you enjoy your visit.
 				</p>
 
 				<?php include("modules/contact-me.php") ?> 
@@ -35,7 +35,7 @@
 					I specialize in creating websites and applications that focus on simplicity, usability, and responsiveness. I have an affinity for design and technology and the infinite ways the two can converge to create online experiences.   
 				</p>
 
-				<p class="body-copy">I am open to employment as a <span class="occupation">Junior Front-End Developer</span>.</p>
+				<p class="body-copy">I have been mainly building things for myself, but I am now looking for a <span class="occupation">Junior Front-End Developer</span> position to kickstart my web development career and build things for other people while continuing to learn among professionals.</p>
 
 				<a href="?page=about" class="read-more quiet-voice" target="_blank"> Read Full Bio</a>
 
