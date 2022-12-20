@@ -8,11 +8,9 @@
 		</div>
 
 		<div class="landing-bio">
-			<h2 class="second-level-heading">"Hello, World!"</h2>
-
-
+			<h1 class="second-level-heading">"Hello, World!"</h1>
 			<p class="body-copy">
-				Hello there and thank you for visiting my little corner of the internet. My name is Alex Vong and I am Front-End Web Developer passionate about building things for the web. I have an affinity for design and technology and the infinite ways the two can converge to create online experiences. I specialize in creating websites and applications that focus on simplicity, usability, and responsiveness.  
+				Hello there and thank you for visiting my little corner of the internet. My name is <span class="emphasis">Alex Vong</span> and I am <span class="occupation">Front-End Web Developer</span> passionate about building things for the web.  
 			</p>
 		</div>
  		
@@ -20,26 +18,32 @@
  	
 	<div class="about-me">
 
-
 		<div class="my-bg">
-
+			<h2 class="third-level-heading">The Beginning</h2>
 
 			<p class="body-copy intro">
-				My journey into web development began during the pandemic where in the midst of navigating a career change I stumbled upon Kevin Powell's <a href="https://www.youtube.com/@KevinPowell">YouTube</a> channel. And althought I did not understand anything the manw as doing, I spent the next hour watching him build a website from scratching using HTML and CSS. I was completely blown away and mesmerized and what he was able to create and in that short hour, a whole new world opened before my eyes.
+				My journey into web development began during the height of the pandemic. I was in the midst of navigating a career change when, by sheer happenstance, I stumbled upon a YouTube tutorial by <a href="https://www.youtube.com/@KevinPowell">Kevin Powell</a>.
+
+				<span class="block">
+				And although I did not understand anything he as doing, I spent the next hour watching him build a website from scratching using HTML and CSS. I was completely blown away and mesmerized and what he was able to create and in that short hour, a whole new world opened before my eyes. I then remember going from thinking to myself "I wish I could build webpages, it looks extremely fun" to "wait a minute, there is no reason why I can't build webpages!" And thus, my life as a web developer began. 
+				</span> 
 			</p>
+		</div>
+
+		<div class="my-bg">
+			<h2 class="third-level-heading">The Journey</h2>
 
 			<p class="body-copy">
 				In the year and a half following that eventful day, I've spent hundred of hours cultivating my passion for web development and have turned them into this personal portfolio site where I designed, mocked up, incorporated projects into, and deployed using resources and mentors I have gathered on the internet.
-			</p>
 
-			<p class="body-copy">I am truly proud of this personal site as it is a testament to all the time and effort I put into this journey and it repreents myself as a developer</p>
+				<span class="block">
+					I am truly proud of this personal site and the projects I have done over the year as they are a testament to all the time and effort I put into this journey and it represents myself as a developer
+				</span>
 
-			<p class="body-copy">I am now looking for a junior web developer position to finally kick start my career and learn among professionals.</p>
-
-			<p class="body-copy">I have been mainly building things for myself but I am now looking for a <span class="occupation">Junior Front-End Developer</span> position to finally kick build things for other people.</p>
-
-			<p class="body-copy intro">
-				Outside of development my passions include discovering new coffee shops and restuarants, staying updated with all the new technologies, as well as movie & Disney news, and learning to become a Master Chef using the my air fryer. 
+				<span class="block">
+					I have been mainly building things for myself, but I am now looking for a <span class="occupation">Junior Front-End Developer</span> position to kickstart my web development career and build things for other people while continuing to learn among professionals..
+					
+				</span>
 			</p>
 		</div>
 
