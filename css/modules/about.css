@@ -83,6 +83,8 @@
 
     .about-landing .about-landing-container .landing-bio h2.second-level-heading {
         font-size: var(--fluid-2);
+        line-height: 1.1;
+        width: 32ch;
     }
 
 
