@@ -36,6 +36,19 @@ console.log(dark);
 let theme = localStorage.getItem("chosenTheme");
 console.log(theme)
 
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    light.classList.remove('hidden');
+    dark.classList.add('hidden');
+} else {
+    light.classList.add('hidden');
+    dark.classList.remove('hidden');
+
+}
+
+// if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+//     light.classList.add('hidden');
+//     dark.classList.remove('hidden');
+// }
 
 
 
@@ -81,9 +94,7 @@ window.addEventListener("load", (event) => {
 
         if (lightMobile) {
             lightMobile.classList.add('hidden');
-
         }
-
         if (darkMobile) {
             darkMobile.classList.remove('hidden');
         }
