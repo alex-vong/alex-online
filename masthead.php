@@ -36,7 +36,7 @@
 			</nav> 
 
 			<div class="other-stuff">
-							<a href="../images/Alex-Vong-Resume.pdf" 
+							<a href="../images/Alex_Vong_Resume.pdf" 
 			   class="read-more quiet-voice resume <?php if ($page == "signup-cs" || $page == "weather-app-cs" || $page == "todo-app-cs") { echo "hidden"; } ?>" 
 			   target="_blank">
 				<i class="fa-regular fa-file-lines padding-r"></i>Resume
