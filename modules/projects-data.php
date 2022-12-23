@@ -149,32 +149,44 @@ $efp = [
 		"languages" => ['js'],
 		"has-project-site" => false,
 		"efp" => true,
-		
 	],
 
 
 ];
 
+$smallerProjects = [
+	[
+		"name" => "CSS Quiz",
+		"description" => "A CSS quiz containing multiple choice questions and calculates a final score upon submit.",
+		"project-link" => "https://alexvong.dev/modules/huddle/",
+		"languages" => ['html', 'css', 'js', 'php'],
+		"has-project-site" => true,
+		"smallerProject" => true,
+	],
 
-$bits = [
 	[
 		"name" => "Huddle",
 		"description" => "FrontEnd Mentor Challenge - Build a Responsive Business Website",
 		"project-link" => "https://alexvong.dev/modules/huddle/",
 		"languages" => ['html', 'css'],
 		"has-project-site" => true,
+		"smallerProject" => true,
 
 	],
-		
-
 	[
 		"name" => "Museum of Alex Arts",
-		"description" => "Did a daily 30 minute Affinity Designer sketch challenge and put them all together in a gallery style website",
+		"description" => "A responsive art gallery containing a series of Affinity Designer daily challenges.",
 		"project-link" => "https://peprojects.dev/alpha-1/alexvong/a-thing-a-day",
 		"languages" => ['html', 'css', 'php'],
 		"has-project-site" => true,
+		"smallerProject" => true,
 
 	],
+
+];
+
+
+$bits = [
 
 	[
 		"name" => "Real Estate Website",
@@ -227,7 +239,7 @@ $latestBlog = [
 		"demo" => false,
 		"front-page" => true,
 	],
-	
+
 		[
 		"title" => "Todo List App Case Study",
 		"month" => "Nov",
