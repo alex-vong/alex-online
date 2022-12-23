@@ -25,7 +25,23 @@
 				}
 
 			} ?>
+
+
 		</projects-grid>
+
+		<div class="smaller-projects">
+			<section class="bits-grid">
+			 	<?php include("projects-data.php") ?> 
+
+				<?php foreach ($smallerProjects as $bit) { 
+					include("experiments-grid.php");
+			 	 } ?>
+		 	
+		 </section>
+
+
+			
+		</div>
 
 	</section>
 
@@ -43,7 +59,7 @@
 		 	 } ?>
 		 	
 		 </section>
-		</a>
+	
 
 		
 	</section>
@@ -62,7 +78,7 @@
 		 	 } ?>
 		 	
 		 </section>
-		</a>
+		
 
 	</section>
 	
