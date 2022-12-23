@@ -5,10 +5,11 @@
 			<?php 
 				if ($bit["efp"]) { ?>
 					<i class="fa-solid fa-person-walking"></i>
-
-
-				<?php } else { ?>
+				<?php } else if ($bit["smallerProject"]) { ?>
+					<i class="fa-solid fa-gear"></i>
+				<?php }  else { ?>
 					<i class="fa-solid fa-flask"></i>
+
 				<?php } ?>
 
 
