@@ -3,7 +3,7 @@
 
 
 section.projects.container {
-    gap: 60px;
+    gap: 100px;
 }
 
 .projects .second-level-heading {
@@ -226,7 +226,7 @@ section.bits-grid .bit-card {
 }
 
 section.bits-grid .bit-card h3 {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 section.bits-grid bit-card-icons {
