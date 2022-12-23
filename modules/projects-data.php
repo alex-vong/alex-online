@@ -158,7 +158,7 @@ $smallerProjects = [
 	[
 		"name" => "CSS Quiz",
 		"description" => "A CSS quiz containing multiple choice questions and calculates a final score upon submit.",
-		"project-link" => "https://alexvong.dev/modules/huddle/",
+		"project-link" => "https://alexvong.dev/modules/css-quiz/",
 		"languages" => ['html', 'css', 'js', 'php'],
 		"has-project-site" => true,
 		"smallerProject" => true,
