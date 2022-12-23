@@ -173,20 +173,19 @@ $smallerProjects = [
 		"smallerProject" => true,
 
 	],
-	[
-		"name" => "Museum of Alex Arts",
-		"description" => "A responsive art gallery containing a series of Affinity Designer daily challenges.",
-		"project-link" => "https://peprojects.dev/alpha-1/alexvong/a-thing-a-day",
-		"languages" => ['html', 'css', 'php'],
-		"has-project-site" => true,
-		"smallerProject" => true,
-
-	],
 
 ];
 
 
 $bits = [
+		[
+		"name" => "Museum of Alex Arts",
+		"description" => "A responsive art gallery containing a series of Affinity Designer daily challenges.",
+		"project-link" => "https://peprojects.dev/alpha-1/alexvong/a-thing-a-day",
+		"languages" => ['html', 'css', 'php'],
+		"has-project-site" => true,
+
+	],
 
 	[
 		"name" => "Real Estate Website",
