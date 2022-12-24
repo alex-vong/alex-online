@@ -33,6 +33,16 @@
 
 		</bit-card-icons>
 
+		<?php 
+
+		if ($bit["image"]) { ?>
+
+			<picture>
+				<img src="<?=$bit["image"]?>" alt="">
+			</picture>
+		<?php }
+		?>
+
 		<h3 class="third-level-heading"><?=$bit["name"]?></h3>
 		<p class="body-copy"><?=$bit["description"]?></p>
 		
