@@ -157,7 +157,7 @@ $efp = [
 $smallerProjects = [
 	[
 		"name" => "CSS Quiz",
-		"image" => "images/huddle-img.svg",
+		"image" => "images/huddle.svg",
 		"description" => "A CSS quiz containing multiple choice questions and calculates a final score upon submit.",
 		"project-link" => "https://alexvong.dev/modules/css-quiz/",
 		"languages" => ['html', 'css', 'js', 'php'],
