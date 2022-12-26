@@ -59,7 +59,7 @@
 		<?php include('footer.php') ?>
 	</footer>
 
-	<script src="script.js"></script>
+	
 
 </body>
 
