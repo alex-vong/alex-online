@@ -2,9 +2,6 @@
     display: flex;
 }
 
-.landing {
-	height: 80vh;
-}
 
 .about {
     grid-gap: 20px;
