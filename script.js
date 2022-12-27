@@ -14,6 +14,7 @@ const about = document.querySelector('.about');
 const projects = document.querySelector('.projects');
 const writing = document.querySelector('.writing');
 
+
 const homeMobile = document.querySelector('.home-mobile');
 
 const aboutMobile = document.querySelector('.about-mobile');
@@ -30,11 +31,11 @@ const dark = document.querySelector('.dark');
 const lightMobile = document.querySelector('.nav-bar-mobile .light');
 const darkMobile = document.querySelector('.nav-bar-mobile .dark');
 
-console.log(light);
-console.log(dark);
+// console.log(light);
+// console.log(dark);
 
 let theme = localStorage.getItem("chosenTheme");
-console.log(theme)
+// console.log(theme)
 
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     light.classList.remove('hidden');
@@ -49,6 +50,101 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
 //     light.classList.add('hidden');
 //     dark.classList.remove('hidden');
 // }
+
+
+const section1 = document.querySelector('section#home');
+const sections = document.querySelectorAll('section .main');
+console.log(sections);
+
+const options = {
+    root : null,
+    threshold: 0,
+    rootMargin: "-190px"
+};
+
+const observer = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(entry => {
+
+          if (!entry.isIntersecting) {
+            return;
+        };
+
+        console.log(entry.target, entry.isIntersecting);
+
+        if (entry.target.id === "home") {
+                home.classList.add('active');
+                about.classList.remove('active');
+                projects.classList.remove('active');
+                writing.classList.remove('active');
+
+                homeMobile.classList.add('active');
+                aboutMobile.classList.remove('active');
+                projectsMobile.classList.remove('active');
+                writingMobile.classList.remove('active');
+        }
+
+        if (entry.target.id === "about"){
+                home.classList.remove('active');
+                about.classList.add('active');
+                projects.classList.remove('active');
+                writing.classList.remove('active');
+
+                homeMobile.classList.remove('active');
+                aboutMobile.classList.add('active');
+                projectsMobile.classList.remove('active');
+                writingMobile.classList.remove('active');
+        }
+
+        if (entry.target.id === "projects"){
+                home.classList.remove('active');
+                about.classList.remove('active');
+                projects.classList.add('active');
+                writing.classList.remove('active');
+
+                homeMobile.classList.remove('active');
+                aboutMobile.classList.remove('active');
+                projectsMobile.classList.add('active');
+                writingMobile.classList.remove('active');
+        }
+        if (entry.target.id === "writing"){
+                home.classList.remove('active');
+                about.classList.remove('active');
+                projects.classList.remove('active');
+                writing.classList.add('active');
+
+                homeMobile.classList.remove('active');
+                aboutMobile.classList.remove('active');
+                projectsMobile.classList.remove('active');
+                writingMobile.classList.add('active');
+        }
+
+
+    });
+}, options);
+
+
+sections.forEach(section => {
+observer.observe(section);
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -205,10 +301,10 @@ function setTheme(name) {
     var theme = document.body.dataset.theme;
     document.cookie = "theme=" + theme;
 
-    console.log(theme);
+    // console.log(theme);
 
-    console.log(light);
-    console.log(dark);
+    // console.log(light);
+    // console.log(dark);
 
     if (theme === 'light') {
         light.classList.add('hidden');
