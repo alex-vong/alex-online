@@ -1,5 +1,3 @@
-
-
 <section class="writing container">
 			
 
