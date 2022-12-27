@@ -162,6 +162,9 @@ project-card .card-details .project-card-links a {
     align-self: center;
 }
 
+.wh-projects .card-details p.inside-part {
+    margin-top: 5px;
+}
 
 
 a.read-more:hover,
