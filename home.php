@@ -32,7 +32,7 @@
 				</div>
 
 				<div class="landing-bio">
-					<h2 class="second-level-heading">I <span>design</span> and <span>build</span> things and put them on the web.</h2>
+					<h2 class="second-level-heading">I <span>design</span> & <span>build</span> things and put them on the web.</h2>
 
 					<p class="body-copy">
 						I specialize in creating websites and applications that focus on simplicity, usability, and responsiveness. I have an affinity for design and technology and the infinite ways the two can converge to create online experiences.   
