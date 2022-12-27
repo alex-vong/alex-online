@@ -12,9 +12,9 @@
 					if ($page == "home") { ?>
 						<div class="nav-links">
 							<a href="#home" class="home quiet-voice <?php if ($page == "home") { echo "active"; } ?>">Home</span></a>
-							<a href="#about" class="about quiet-voice"><span>About</span></a>	
-							<a href="#projects" class="projects quiet-voice"><span>Projects</span></a>
-							<a href="#writing" class="writing quiet-voice"><span>Writing</span></a>
+							<a href="#about" class="about quiet-voice "><span>About</span></a>	
+							<a href="#projects" class="projects quiet-voice "><span>Projects</span></a>
+							<a href="#writing" class="writing quiet-voice "><span>Writing</span></a>
 						</div>
 
 					<?php }
