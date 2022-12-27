@@ -1,14 +1,16 @@
-<section id="home" class="home">
-	<section class="landing">
+<section class="home container">
+	<section id="home" class="landing main">
 		<inner-column class="landing-column">
 			<div class="landing-container">
-				<h1 class="section-heading top-level-heading">
-					<span class="greeting"></span>
-					<span>I'm Alex Vong,</span> 
-					<span class="occupation">Web Developer</span>
-				</h1>
+		
+					<h1 class="section-heading top-level-heading">
+						<span class="greeting"></span>
+						<span class="title"> I'm Alex Vong,</span> 
+						<span class="occupation">Web Developer</span>
+					</h1>
 			
 
+							
 				<p class="body-copy intro">
 					I am <span class="emphasis">Front-End Web Developer</span> passionate about creating intuitive and responsive websites. Welcome to my small corner of the internet. Hope you enjoy your visit.
 				</p>
@@ -18,7 +20,7 @@
 		</inner-column>
 	</section>
 
-	 <section id="about" class="about-landing">
+	 <section id="about" class="about-landing main">
 	 	 <p class="body-copy for-those"> 
  			For those who want to get to know me &darr;
 		</p>
@@ -45,12 +47,12 @@
  		
  	</section>
 
-	<section id="projects" class="whats-hot whats-hot-projects">
+	<section id="projects" class="whats-hot whats-hot-projects main">
 		<?php include("modules/wh-projects.php") ?>
 
 	</section>
 
-	<section id="writing" class="whats-hot whats-hot-blogs">
+	<section id="writing" class="whats-hot whats-hot-blogs main">
 		<?php include("modules/wh-blogs.php") ?>
 		
 	</section>
