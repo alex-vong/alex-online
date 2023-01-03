@@ -157,7 +157,7 @@ $efp = [
 $smallerProjects = [
 	[
 		"name" => "CSS Quiz",
-		"image" => "images/huddle.svg",
+		// "image" => "images/huddle.svg",
 		"description" => "A CSS quiz containing multiple choice questions and calculates a final score upon submit.",
 		"project-link" => "https://alexvong.dev/modules/css-quiz/",
 		"languages" => ['html', 'css', 'js', 'php'],
@@ -167,7 +167,7 @@ $smallerProjects = [
 
 	[
 		"name" => "Huddle",
-		"image" => "images/huddle-img.svg",
+		// "image" => "images/huddle-img.svg",
 		"description" => "FrontEnd Mentor Challenge - Build a Responsive Business Website",
 		"project-link" => "https://alexvong.dev/modules/huddle/",
 		"languages" => ['html', 'css'],
@@ -180,6 +180,14 @@ $smallerProjects = [
 
 
 $bits = [
+	[
+		"name" => "Random BG Color Changer",
+		"description" => "Change the Background of this website with just a click of a buttone!",
+		"project-link" => "https://codepen.io/Alexv0ng/pen/abjZPJV?editors=1111",
+		"languages" => ['html', 'js'],
+		"has-project-site" => false,
+
+	],
 		[
 		"name" => "Museum of Alex Arts",
 		"description" => "A responsive art gallery containing a series of Affinity Designer daily challenges.",
