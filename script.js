@@ -123,10 +123,10 @@ const observer = new IntersectionObserver(function(entries, observer) {
 }, options);
 
 
-sections.forEach(section => {
-observer.observe(section);
+for (let section of sections) {
+   observer.observe(section); 
+}
 
-})
 
 
 
