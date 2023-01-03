@@ -209,8 +209,8 @@ a.read-more,
 }
 
 
-.container {
-    /*margin: 60px 0 120px;*/
+.container:not(section.home.container) {
+    margin: 60px 0 120px;
 }
 
 .box-shadow {
@@ -368,7 +368,7 @@ p span.block {
 
 .animated-line:hover span {
     background-size: 100% 2px;
-    
+
 }
 
 body section a {
