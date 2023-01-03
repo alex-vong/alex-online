@@ -30,9 +30,12 @@
     justify-content: center;
     align-content: center;
     gap: 15px;
-    padding: 25px 0;
 }
+.about-landing-container .landing-bio {
+    padding: 25px 0;
+    
 
+}
 .about .landing-bio {
     padding-bottom: 15px;
 }
@@ -40,6 +43,7 @@
 .landing-bio h2 {
     color: var(--marker);
 }
+
 
 .about-landing-container .landing-bio h2 {
     margin-bottom: 10px;
