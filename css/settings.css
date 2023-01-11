@@ -36,7 +36,7 @@ body {
 
         --purple-gradient:  linear-gradient(to right, #a065ec, #9d60ec, #9a5bec, #9655eb, #9350eb, #904beb, #8e47eb, #8b42eb, #883deb, #8538ea, #8233ea, #7f2ee9);;
 
-        --bg-gradient: linear-gradient(35deg, var(--bg-card), var(--background));
+        --bg-gradient: linear-gradient(to bottom, #111111, #101010, #0f0f10, #0e0e0f, #0c0d0e, #0d0e0f, #0e0e10, #0f0f11, #121213, #151415, #171717, #191919);
         --button-gradient:  linear-gradient(to right, #191919, #171717, #151515, #131313, #111111);
 
         --orange: #E39600;
@@ -80,7 +80,7 @@ body {
         --bg-gradient: linear-gradient(35deg, var(--bg-card), var(--background));
      
     
-        --purple-gradient:  linear-gradient(35deg, #a065ec, #9d60ec, #9a5bec, #9655eb, #9350eb, #904beb, #8e47eb, #8b42eb, #883deb, #8538ea, #8233ea, #7f2ee9);;
+        --purple-gradient:  linear-gradient(35deg, #a065ec, #9d60ec, #9a5bec, #9655eb, #9350eb, #904beb, #8e47eb, #8b42eb, #883deb, #8538ea, #8233ea, #7f2ee9);
         --button-gradient:  linear-gradient(to right, #f2f2f2, #f0f0f0, #eeeeee, #ececec, #eaeaea);
 
         --orange: #E39600;
@@ -128,9 +128,9 @@ body {
         --gradient: linear-gradient(to right, #E39600, #EA4C89, #8F48EB, #1DA1F2);
         --reverse-gradient: linear-gradient(180deg, #1DA1F2, #8F48EB, #EA4C89, #E39600);
 
-        --purple-gradient:  linear-gradient(to right, #a065ec, #9d60ec, #9a5bec, #9655eb, #9350eb, #904beb, #8e47eb, #8b42eb, #883deb, #8538ea, #8233ea, #7f2ee9);;
+        --purple-gradient:  linear-gradient(to right, #a065ec, #9d60ec, #9a5bec, #9655eb, #9350eb, #904beb, #8e47eb, #8b42eb, #883deb, #8538ea, #8233ea, #7f2ee9);
 
-        --bg-gradient: linear-gradient(35deg, var(--bg-card), var(--background));
+        --bg-gradient: linear-gradient(to bottom, #111111, #101010, #0f0f10, #0e0e0f, #0c0d0e, #0d0e0f, #0e0e10, #0f0f11, #121213, #151415, #171717, #191919);
         --button-gradient:  linear-gradient(to right, #191919, #171717, #151515, #131313, #111111);
 
         --orange: #E39600;
