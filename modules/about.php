@@ -1,6 +1,4 @@
  <section class="about container">
-
-
  	<section class="about-landing">
 
 		<div class="profile-pic">

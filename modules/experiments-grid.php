@@ -42,11 +42,12 @@
 			</picture>
 		<?php }
 		?>
-
-		<h3 class="third-level-heading"><?=$bit["name"]?></h3>
-		<p class="body-copy"><?=$bit["description"]?></p>
+		<a href="<?=$bit["project-link"]?>" target='_blank'>
+			<h3 class="third-level-heading"><?=$bit["name"]?></h3>
+		</a>
+		<p class="quiet-voice"><?=$bit["description"]?></p>
 		
-		<ul class="quiet-voice bit-language">
+		<ul class="whisper-voice bit-language">
 		 	<?php
 		 		foreach($bit["languages"] as $language) { ?>
 		 				<li><?=strtoupper($language)?></li>

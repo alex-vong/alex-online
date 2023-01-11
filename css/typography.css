@@ -65,17 +65,17 @@ body {
 
 }
 
-.quiet-voice {
+.quiet-voice, .whisper-voice {
     font-family: 'Inter', sans-serif;
 
-
-    font-size: 1.1rem;
     font-size: clamp(16px, 1.8vw, 17px);
     line-height: 1.35;
     color: var(--pen);
 
+}
 
-
+.whisper-voice {
+    font-size: 14px;
 }
 
 
