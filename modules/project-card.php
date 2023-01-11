@@ -18,7 +18,7 @@
 						</span>
 					</h3>
 			</a>
-			<p class="quiet-voice inside-part"><?=$project["description"]?>
+			<p class="body-copy inside-part"><?=$project["description"]?>
 				
 			</p>
 

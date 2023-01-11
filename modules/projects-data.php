@@ -61,6 +61,22 @@ $projects = [
 
 	],
 	[
+		"name" => "TVdb",
+		"image" => "images/tv-db-project-card.svg",
+		"description" => "A responsive television program search engine site incorporating the TV Maze API",
+		"project-link" => "https://alexvong.dev/modules/tvdb/",
+		"github-repo" => "https://github.com/c0debrew-sky/tvdb",
+		"case-study" => false,
+		"languages" => ['html', 'css', 'js'],
+		"has-project-site" => true,
+		"featured" => true,
+		"demo" => false, 
+		"alt-text" => "image for TVDB project card"
+
+
+	],
+
+	[
 		"name" => "Responsive Layouts Garden",
 		"description" => "A collection of responsive components found on various websites in the wild and replicated to better understand responsive layouts & designs",
 		"project-link" => "https://alexvong.dev/modules/responsive-layout-collection/",
@@ -157,8 +173,8 @@ $efp = [
 $smallerProjects = [
 	[
 		"name" => "CSS Quiz",
-		// "image" => "images/huddle.svg",
-		"description" => "A CSS quiz containing multiple choice questions and calculates a final score upon submit.",
+		"image" => "images/css-quiz-project-img.svg",
+		"description" => "A CSS quiz featuring multiple choice questions and calculates a final score upon submission.",
 		"project-link" => "https://alexvong.dev/modules/css-quiz/",
 		"languages" => ['html', 'css', 'js', 'php'],
 		"has-project-site" => true,
@@ -167,8 +183,8 @@ $smallerProjects = [
 
 	[
 		"name" => "Huddle",
-		// "image" => "images/huddle-img.svg",
-		"description" => "FrontEnd Mentor Challenge - Build a Responsive Business Website",
+		"image" => "images/huddle-img.svg",
+		"description" => "A Front-End Mentor Challenge - Building a fully responsive business website using the wireframe and instructions provided",
 		"project-link" => "https://alexvong.dev/modules/huddle/",
 		"languages" => ['html', 'css'],
 		"has-project-site" => true,
