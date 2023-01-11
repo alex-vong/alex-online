@@ -7,7 +7,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh; /* for the footer */
-   background-color: var(--background);
+   background:  var(--orange);
+   background-image: var(--bg-gradient);
    color:  var(--color);
    overflow-x: hidden;
 
