@@ -201,15 +201,16 @@ blogs-grid {
 
 
 projects-grid project-card a picture img {
-
     min-width: 285px;
-
 }
 
 
+section.bits-grid bit-card-icons {
+    display: none;
+}
 
 section.bits-grid {
-    gap: 20px;
+    grid-gap: 40px 20px;
 }
 
 section.bits-grid * {
@@ -236,7 +237,24 @@ section.bits-grid .bit-card {
 
 }
 
-section.bits-grid .bit-card h3 {
+.smaller-projects {
+    text-align: center;
+}
+
+.smaller-projects section.bits-grid .bit-card {
+    padding: 40px 30px;
+    align-items: center;
+}
+
+.smaller-projects p.quiet-voice {
+    width: 32ch;
+}
+
+.smaller-projects .bit-card a h3 {
+    margin-top: 10px;
+}
+
+section.bits-grid .bit-card h3:not( .smaller-projects section.bits-grid .bit-card h3 ) {
     margin-top: 20px;
 }
 
