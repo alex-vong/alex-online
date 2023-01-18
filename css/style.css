@@ -43,7 +43,10 @@
 
 
 /* SITE SECTIONS */
-
+body section a {
+   width: fit-content;
+ }
+ 
 
 .landing-container {
    /*height: 90vh;*/
@@ -60,6 +63,7 @@
 .landing h1.section-heading {
    display: flex;
    flex-direction: column;
+
 }
 
 .landing p.body-copy {
@@ -88,9 +92,6 @@ main {
 
 }
 
-.home div {
-   /*margin-bottom: 150px;*/
-}
 
 
 
@@ -138,8 +139,3 @@ main {
       gap:  20px;
    }
 }
-
-
-
-
-
