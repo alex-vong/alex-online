@@ -250,10 +250,6 @@ p span.block {
 }
 
 /* GSAP */
-
-
-
-.resume-link, .landing h1.section-heading, .intro, .contact-me {
 .resume-link, .landing h1.section-heading, .intro, .contact-me, .nav-links {
   opacity: 0;
   transform: translateY(75px);
