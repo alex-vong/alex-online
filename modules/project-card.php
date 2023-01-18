@@ -1,4 +1,4 @@
-<div class="stuff ">
+<div class="project-card">
 
 	<project-card class="box-shadow">
 
