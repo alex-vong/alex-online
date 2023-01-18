@@ -303,9 +303,12 @@ window.addEventListener("click", function (selected) {
 
 // Gsap
 
-let tl = gsap.timeline({ defaults: { ease: "power4.inOut", duration: 2 } });
+let tl = gsap.timeline({
+  defaults: { ease: "power4.inOut", duration: 2 },
+});
 
-tl.to(".resume-link", {
+
+tl.to(".nav-links", {
   opacity: 1,
   y: 0,
   duration: 1.5,
@@ -335,3 +338,21 @@ tl.to(
   },
   "-=1.8"
 );
+tl.from(".about-landing-container", {
+  x: -200,
+  opacity: 0,
+  duration: 2,
+});
+tl.from(".project-card", {
+  x: -200,
+  opacity: 0,
+  duration: 2,
+  stagger: .5,
+});
+tl.from(".article-card", {
+    y: 75,
+    opacity: 0,
+    duration: 2,
+    stagger: .5,
+  });
+
