@@ -309,16 +309,24 @@ tl.to(".resume-link", {
   opacity: 1,
   y: 0,
   duration: 1.5,
-})
+});
 tl.to(
-    "h1",
-    {
+  ".resume-link",
+  {
+    opacity: 1,
+    y: 0,
+  },
+  "-=1.8"
+);
+tl.to(
+  "h1",
+  {
     //   "clip-path": "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
-      opacity: 1,
-      y: 0,
-    },
-    "-=1.8"
-  );
+    opacity: 1,
+    y: 0,
+  },
+  "-=1.8"
+);
 tl.to(
   ".intro, .contact-me",
   {
