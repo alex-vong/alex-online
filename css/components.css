@@ -254,16 +254,17 @@ p span.block {
 
 
 .resume-link, .landing h1.section-heading, .intro, .contact-me {
+.resume-link, .landing h1.section-heading, .intro, .contact-me, .nav-links {
   opacity: 0;
   transform: translateY(75px);
 
 }
+.resume-link {
+  transform: translateY(-105px)
 
-.landing h1.section-heading {
-  /* clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%); */
 }
 
-.resume-link {
+.nav-links {
   transform: translateY(-50px)
 }
 
