@@ -1,9 +1,12 @@
+console.log(window.scrollY);
+
+
 if (history.scrollRestoration) {
-  history.scrollRestoration = "manual";
+    history.scrollRestoration = 'manual';
 } else {
-  window.onbeforeunload = function () {
-    window.scrollTo(0, 0);
-  };
+    window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+    }
 }
 
 const home = document.querySelector(".home");
@@ -51,7 +54,6 @@ if (
 
 const section1 = document.querySelector("section#home");
 const sections = document.querySelectorAll("section .main");
-console.log(sections);
 
 const options = {
   root: null,
@@ -64,8 +66,6 @@ const observer = new IntersectionObserver(function (entries, observer) {
     if (!entry.isIntersecting) {
       return;
     }
-
-    console.log(entry.target, entry.isIntersecting);
 
     if (entry.target.id === "home") {
       home.classList.add("active");
@@ -302,6 +302,7 @@ window.addEventListener("click", function (selected) {
 });
 
 // Gsap
+gsap.registerPlugin(ScrollTrigger);
 
 let tl = gsap.timeline({
   defaults: { ease: "power4.inOut", duration: 2 },
@@ -323,7 +324,6 @@ tl.to(
 tl.to(
   "h1",
   {
-    //   "clip-path": "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)",
     opacity: 1,
     y: 0,
   },
@@ -337,25 +337,55 @@ tl.to(
   },
   "-=1.8"
 );
-tl.from(".about-landing-container", {
-  x: -200,
-  //   start: 'top 100px',
-  opacity: 0,
-  duration: 2,
-});
-tl.from(".project-card", {
-  x: -200,
-  opacity: 0,
-  duration: 2,
-  stagger: 1,
-});
-tl.from(
-  ".article-card",
-  {
-    y: 75,
-    opacity: 0,
-    duration: 2,
-    stagger: 1,
-  },
-  "-=1"
-);
+
+
+
+
+
+// tl.from(".about-landing-container", {
+//         start: "top center", // when the top of the trigger hits the top of the viewport
+//         x: -200,
+//         opacity: 0,
+//         duration: 2,
+      
+//     })
+// tl.from(".project-card", {
+//   x: -200,
+//   opacity: 0,
+//   duration: 2.5,
+//   stagger: 1,
+// });
+// tl.from(
+//   ".article-card",
+//   {
+//     y: 75,
+//     opacity: 0,
+//     duration: 1.5,
+//     stagger: 1,
+//   }
+//   //   "-=1"
+// );
+
+
+const newOptions = {
+    root: null,
+    threshold: 0,
+    rootMargin: "100px",
+  };
+  
+  const newObserver = new IntersectionObserver(function (entries, observer) {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate');
+      } 
+
+    });
+  }, options);
+  
+
+  let hiddenElements = document.querySelectorAll('.stagnant');
+
+  console.log(hiddenElements);
+  for (let element of hiddenElements) {
+    newObserver.observe(element);
+  }
