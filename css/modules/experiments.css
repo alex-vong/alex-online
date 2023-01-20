@@ -1,42 +1,18 @@
-
-
 .sml-second-level-heading {
-   color:  var(--foreground);
-
+  color: var(--foreground);
 }
 
 .blog-grid {
-   display: flex;
+  display: flex;
   flex-direction: column;
-  margin:  15px 0;
+  margin: 15px 0;
 }
 
 .blogs {
-margin-top:  15px;
-
+  margin-top: 15px;
 }
-
 
 .article-card {
-   display: flex;
-
-
+  display: flex;
+  background-image: none !important;
 }
-
-
-
-/*.article-content {
-   display: grid;
-   grid-template-columns: repeat(12, 1fr);
-}
-
-.article-content a:nth-of-type(1){
-   grid-column: 1 / span 10;
-
-}
-
-.article-content a:nth-of-type(2) {
-   grid-column: 12;
-   align-self: end;
-}
-*/
