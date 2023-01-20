@@ -307,7 +307,6 @@ let tl = gsap.timeline({
   defaults: { ease: "power4.inOut", duration: 2 },
 });
 
-
 tl.to(".nav-links", {
   opacity: 1,
   y: 0,
@@ -340,6 +339,7 @@ tl.to(
 );
 tl.from(".about-landing-container", {
   x: -200,
+  //   start: 'top 100px',
   opacity: 0,
   duration: 2,
 });
@@ -347,12 +347,15 @@ tl.from(".project-card", {
   x: -200,
   opacity: 0,
   duration: 2,
-  stagger: .5,
+  stagger: 1,
 });
-tl.from(".article-card", {
+tl.from(
+  ".article-card",
+  {
     y: 75,
     opacity: 0,
     duration: 2,
-    stagger: .5,
-  });
-
+    stagger: 1,
+  },
+  "-=1"
+);
