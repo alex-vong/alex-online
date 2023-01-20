@@ -23,7 +23,7 @@
 			For those who want to get to know me &darr;
 		</p>
 
-		<div class="about-landing-container bg-gradient box-shadow">
+		<div class="about-landing-container bg-gradient box-shadow stagnant">
 			<div class="profile-pic">
 				<h2 class="fourth-level-heading">Profile Image Coming Soon</h2>
 			</div>

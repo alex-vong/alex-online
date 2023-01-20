@@ -1,6 +1,6 @@
 <div class="project-card">
 
-	<project-card class="box-shadow">
+	<project-card class="box-shadow stagnant">
 
 		<div class="preview-section">
 			<a href="<?=$project["project-link"]?>" target="_blank">
