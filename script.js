@@ -338,10 +338,6 @@ tl.to(
   "-=1.8"
 );
 
-
-
-
-
 // tl.from(".about-landing-container", {
 //         start: "top center", // when the top of the trigger hits the top of the viewport
 //         x: -200,
