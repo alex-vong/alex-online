@@ -1,6 +1,6 @@
 <div class="project-card">
 
-	<project-card class="box-shadow stagnant">
+	<project-card class="box-shadow <?php if ($page === "home") {echo "stagnant";}?>">
 
 		<div class="preview-section">
 			<a href="<?=$project["project-link"]?>" target="_blank">

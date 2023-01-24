@@ -1,5 +1,5 @@
 
-<div class="article-card box-shadow stagnant">
+<div class="article-card box-shadow <?php if ($page === "home") {echo "stagnant";}?>">
 	<div class="article-content">
 		<ul class="card-meta">
 			<li class="article-date quiet-voice">
