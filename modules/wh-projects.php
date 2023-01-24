@@ -1,8 +1,4 @@
 
-
-<!-- <h2 class="second-level-heading">
-	Featured Projects
-</h2> -->
  <p class="body-copy for-those"> 
  	For those who like to see projects &darr;
 </p>
