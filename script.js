@@ -330,7 +330,7 @@ tl.to(
   "-=1.8"
 );
 tl.to(
-  ".intro, .contact-me",
+  ".home .intro, .home .contact-me",
   {
     opacity: 1,
     y: 0,
@@ -379,7 +379,7 @@ const newOptions = {
   }, options);
   
 
-  let hiddenElements = document.querySelectorAll('.stagnant');
+  let hiddenElements = document.querySelectorAll('.home .stagnant');
 
   console.log(hiddenElements);
   for (let element of hiddenElements) {
