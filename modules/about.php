@@ -19,7 +19,7 @@
 		<div class="my-bg">
 			<h2 class="third-level-heading">The Beginning</h2>
 
-			<p class="body-copy intro">
+			<p class="body-copy">
 				My journey into web development began during the height of the pandemic. I was in the midst of navigating a career change when, by sheer happenstance, I stumbled upon a YouTube tutorial by <a href="https://www.youtube.com/@KevinPowell">Kevin Powell</a>.
 
 				<span class="block">

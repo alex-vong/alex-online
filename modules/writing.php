@@ -9,10 +9,10 @@
 
 	    	</blockquote>
 
-			<p class="body-copy intro">I try and write as often as possible on my web developer journey. Writing has never been my strong suite and I've always felt self-conscious about talking about myself. However, over the last year I've realize that writing is such a powerful tool and asset in my goal of becoming a developer.
+			<p class="body-copy">I try and write as often as possible on my web developer journey. Writing has never been my strong suite and I've always felt self-conscious about talking about myself. However, over the last year I've realize that writing is such a powerful tool and asset in my goal of becoming a developer.
 			</p>
 
-			<p class="body-copy intro">I wrote these articles to talk about things I work on, past and present, and all the emotions and experience that come with it to better my understanding of the process. I hope that these articles can help others on their journey as well.
+			<p class="body-copy">I wrote these articles to talk about things I work on, past and present, and all the emotions and experience that come with it to better my understanding of the process. I hope that these articles can help others on their journey as well.
 			</p>
 
 		</section>
