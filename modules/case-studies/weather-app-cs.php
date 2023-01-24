@@ -45,7 +45,7 @@
 
 
 
-			<div class="intro">
+			<div class="project-intro">
 				<h2 class="third-level-heading">
 					#Intro-to-APIs
 				</h2>

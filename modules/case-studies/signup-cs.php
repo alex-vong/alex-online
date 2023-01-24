@@ -38,7 +38,7 @@
 
 
 
-			<div class="intro">
+			<div class="project-intro">
 				<h2 class="third-level-heading">
 					#Everyones-Got-One
 				</h2>
