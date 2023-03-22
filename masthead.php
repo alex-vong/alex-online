@@ -28,8 +28,8 @@
 					<a href="?page=home" class="home quiet-voice <?php if ($page == "home") {
 																		echo "active";
 																	} ?>"><span class="<?php if ($page == "home") {
-																																	echo "active";
-																																} ?>">Home</span></a>
+																							echo "active";
+																						} ?>">Home</span></a>
 					<a href="?page=about" class="about quiet-voice <?php if ($page == "about") {
 																		echo "active";
 																	} ?>"><span>About</span></a>
@@ -47,7 +47,7 @@
 		</nav>
 
 		<div class="resume-link">
-			<a href="../images/Alex_Vong_Resume.pdf" class="read-more quiet-voice resume <?php if ($page == "signup-cs" || $page == "weather-app-cs" || $page == "todo-app-cs") {
+			<a href="../images/alex-vong-resume.pdf" class="read-more quiet-voice resume <?php if ($page == "signup-cs" || $page == "weather-app-cs" || $page == "todo-app-cs") {
 																								echo "hidden";
 																							} ?>" target="_blank">
 				<i class="fa-regular fa-file-lines padding-r"></i>Resume
@@ -133,17 +133,3 @@
 
 
 </inner-column>
-
-
-
-
-
-
-<!-- 					<a href="?page=resume" class="animated-line <?php if ($page == "resume") {
-																			echo "active";
-																		} ?>"><span>Resume</span></a>  -->
-<!--  				<switcher>
-					<button data-scheme='day'>Light 🌕</button>
-					<button data-scheme='dark'>Dark 🌑</button>
-
-				</switcher>	  -->
