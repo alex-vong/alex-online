@@ -5,24 +5,25 @@ $projects = [
 	[
 		"name" => "Title of Project",
 		"description" => "Description of the project, what it is and what was the goal",
-		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
-		"case-study" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
+		"project-link" => "https://peprojects.dev/alpha-1/alexvong/poke-dex/",
+		"case-study" => "https://peprojects.dev/alpha-1/alexvong/poke-dex/",
 		"image" => "https://peprojects.dev/images/square.jpg",
 		"hot" => false,
 		"featured" => true,
-		"demo" => true, 
+		"demo" => true,
 	],
 
 	[
-		"name" => "Todo App",
-		"description" => "A Todo List Application implementing the fundamentals of the CRUD operations (Create, Read, Update, and Delete)",
-		"project-link" =>"https://alexvong.dev/modules/js-todo-list/",
-		"github-repo" => "https://github.com/c0debrew-sky/js-todo-list",
-		"case-study" =>"?page=todo-app-cs",
+		"name" => "PomTodo",
+		"description" => "PomTodo is a web application that integrates two
+		essential productivity tools - a pomodoro timer and a todo list.",
+		"project-link" => "https://alexvong.dev/modules/pomtodo/",
+		"github-repo" => "https://github.com/c0debrew-sky/pomtodo",
+		"case-study" => false,
 		"image" => "images/todo-app-img.svg",
 		"hot" => true,
 		"featured" => true,
-		"demo" => false, 
+		"demo" => false,
 		"languages" => ['html', 'css', 'php', 'js'],
 		"alt-text" => "image for todo list project"
 
@@ -32,13 +33,13 @@ $projects = [
 	[
 		"name" => "Weather App",
 		"description" => "A JavaScript Weather App that shows real time weather data for any inputted city using AccuWeather API",
-		"project-link" =>"https://alexvong.dev/modules/js-weather-app/",
+		"project-link" => "https://alexvong.dev/modules/js-weather-app/",
 		"github-repo" => "https://github.com/c0debrew-sky/js-weather-app",
 		"case-study" => "?page=weather-app-cs",
 		"image" => "images/weather-app-img.svg",
 		"hot" => true,
 		"featured" => true,
-		"demo" => false, 
+		"demo" => false,
 		"languages" => ['html', 'css', 'php', 'js'],
 		"alt-text" => "image for Weather App project card credit to artist @rawpixel.com via https://www.freepik.com/author/rawpixel-com"
 
@@ -48,13 +49,13 @@ $projects = [
 	[
 		"name" => "Sign Up Page",
 		"description" => "An interactive and fully responsive signup form incorporating JS Event Handlers and Regular Expression testing",
-		"project-link" =>"https://alexvong.dev/modules/js-signup-page/",
+		"project-link" => "https://alexvong.dev/modules/js-signup-page/",
 		"github-repo" => "https://github.com/c0debrew-sky/js-signup-page",
-		"case-study" =>"?page=signup-cs",
+		"case-study" => "?page=signup-cs",
 		"image" => "images/signup.svg",
 		"hot" => true,
 		"featured" => true,
-		"demo" => false, 
+		"demo" => false,
 		"languages" => ['html', 'css', 'php', 'js'],
 		"alt-text" => "image for Sign Up Form project"
 
@@ -70,7 +71,7 @@ $projects = [
 		"languages" => ['html', 'css', 'js'],
 		"has-project-site" => true,
 		"featured" => true,
-		"demo" => false, 
+		"demo" => false,
 		"alt-text" => "image for TVDB project card"
 
 
@@ -85,27 +86,27 @@ $projects = [
 		"image" => "images/layoutgarden.svg",
 		"hot" => false,
 		"featured" => true,
-		"demo" => false, 
+		"demo" => false,
 		"languages" => ['html', 'css', 'php'],
 		"alt-text" => "image for RLG project card"
 	],
 
-		[
+	[
 		"name" => "PokeDex",
 		"description" => "A Pokedex of the original 151 pokemon complete with their own details page. Goal was to import and filter through a JSON file and render it's contents onto the DOM.",
-		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/poke-dex/",
+		"project-link" => "https://peprojects.dev/alpha-1/alexvong/poke-dex/",
 		"github-repo" => false,
 		"case-study" => false,
 		"image" => "images/poke.svg",
 		"hot" => false,
 		"featured" => true,
-		"demo" => false, 
+		"demo" => false,
 		"languages" => ['html', 'css', 'php'],
 		"alt-text" => "image for Pokedex project card"
 
 	]
 
-	
+
 ];
 
 $efp = [
@@ -204,7 +205,7 @@ $bits = [
 		"has-project-site" => false,
 
 	],
-		[
+	[
 		"name" => "Museum of Alex Arts",
 		"description" => "A responsive art gallery containing a series of Affinity Designer daily challenges.",
 		"project-link" => "https://peprojects.dev/alpha-1/alexvong/a-thing-a-day",
@@ -232,17 +233,17 @@ $bits = [
 	[
 		"name" => "Pet Adoption Site",
 		"description" => "My FIRST ever attempt at building a responsive website. This site will forever be archived and never changed or touched upon but used for personal research purposes.",
-		"project-link" =>"https://peprojects.dev/alpha-1/alexvong/pawsitive-pets/",
+		"project-link" => "https://peprojects.dev/alpha-1/alexvong/pawsitive-pets/",
 		"languages" => ['html', 'css'],
 
 		"has-project-site" => true,
-	
+
 	],
 
 	[
 		"name" => "Apple Site",
 		"description" => "Challenge was to try and recreate as much of the Apple Store website in only one hour. Can I do it?",
-		"project-link" =>"https://codepen.io/Alexv0ng/pen/abpRozV",
+		"project-link" => "https://codepen.io/Alexv0ng/pen/abpRozV",
 		"languages" => ['html', 'css'],
 
 		"has-project-site" => false,
@@ -252,7 +253,7 @@ $bits = [
 ];
 
 $latestBlog = [
-		[
+	[
 		"title" => "Making a Styles-Guide",
 		"month" => "Sep",
 		"day" => "27th",
@@ -265,7 +266,7 @@ $latestBlog = [
 		"front-page" => true,
 	],
 
-		[
+	[
 		"title" => "Todo List App Case Study",
 		"month" => "Nov",
 		"day" => "25th",
@@ -413,20 +414,20 @@ $latestBlog = [
 
 
 
-$longTermGoals = [ 
+$longTermGoals = [
 	"Get a full-time Front End Developer job at an entertainment/movie company such as Disney/ESPN, Dreamworks, PXL, or NBC",
-	"Having a starting salary of at least $70k" 
-	];
+	"Having a starting salary of at least $70k"
+];
 
 
 $shortTermGoals = [
-	"Clean up personal site, fix any loose ends, and get it up and running by end of week 3/5/22", 
+	"Clean up personal site, fix any loose ends, and get it up and running by end of week 3/5/22",
 	"Continue adding new responsive components to responsive layout collection (min 3 a week)",
 	"Flesh out PHP Pokedex Project",
 	"Repeat with next showcase project (4 projects total)",
 	"Write case study for each (2 days per project)",
 
-	];
+];
 
 
 
@@ -455,10 +456,11 @@ $myGoals = [
 
 	[
 		"goalHeading" => "End of Week Goal (April 23rd)",
-		"goals" => ["Finish mock up and style-tile of personal site on Figma/Affinity Designer", "Begin code for new personal site", "Begin working on first featured project", "Continue adding to \"A Thing a Day\" and 
+		"goals" => [
+			"Finish mock up and style-tile of personal site on Figma/Affinity Designer", "Begin code for new personal site", "Begin working on first featured project", "Continue adding to \"A Thing a Day\" and 
 							\"Responsive Layout Garden\""
-						], 
-							
+		],
+
 		"salary" => false,
 		"targetDate" => false,
 	],
@@ -527,20 +529,3 @@ $education = [
 	],
 
 ];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
