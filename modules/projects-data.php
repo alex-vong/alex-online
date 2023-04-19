@@ -76,6 +76,20 @@ $projects = [
 
 
 	],
+	[
+		"name" => "PokeDex",
+		"description" => "A responsive Pokédex web application utilizes the Pokémon API to provide users with detailed information about all Pokémon species, accessible on any device.",
+		"project-link" => "https://alexvong.dev/modules/pokedex/",
+		"github-repo" => "https://github.com/c0debrew-sky/pokedex",
+		"case-study" => false,
+		"image" => "images/poke.svg",
+		"hot" => false,
+		"featured" => true,
+		"demo" => false,
+		"languages" => ['html', 'css', 'js'],
+		"alt-text" => "image for Pokedex project card"
+
+	],
 
 	[
 		"name" => "Responsive Layouts Garden",
@@ -91,20 +105,6 @@ $projects = [
 		"alt-text" => "image for RLG project card"
 	],
 
-	[
-		"name" => "PokeDex",
-		"description" => "A Pokedex of the original 151 pokemon complete with their own details page. Goal was to import and filter through a JSON file and render it's contents onto the DOM.",
-		"project-link" => "https://peprojects.dev/alpha-1/alexvong/poke-dex/",
-		"github-repo" => false,
-		"case-study" => false,
-		"image" => "images/poke.svg",
-		"hot" => false,
-		"featured" => true,
-		"demo" => false,
-		"languages" => ['html', 'css', 'php'],
-		"alt-text" => "image for Pokedex project card"
-
-	]
 
 
 ];
