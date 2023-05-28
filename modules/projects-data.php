@@ -18,7 +18,7 @@ $projects = [
 		"description" => "PomTodo is a web application that integrates two
 		essential productivity tools - a pomodoro timer and a todo list.",
 		"project-link" => "https://alexvong.dev/modules/pomtodo/",
-		"github-repo" => "https://github.com/c0debrew-sky/pomtodo",
+		"github-repo" => "https://github.com/alex-vong/pomtodo",
 		"case-study" => false,
 		"image" => "images/todo-app-img.svg",
 		"hot" => true,
